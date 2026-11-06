@@ -1,0 +1,10 @@
+# Blessed baseline per tier: the distinguished "A" the gate diffs
+# against (README: the model, layer 3).  Git owns this pointer —
+# bless.py rewrites it, and committing the change IS the re-bless
+# event: delete the waivers that re-bless absorbs in the same
+# commit.  `contract` is the project.py VERSION the baselines were
+# projected under; the gate refuses a mismatch (re-bless instead).
+
+[smoke]
+sha = "2b9bdc5"
+contract = 2

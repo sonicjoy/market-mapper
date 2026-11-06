@@ -1,0 +1,15 @@
+---
+description: New feature flags ship ON; never default off unless Joe explicitly asks
+alwaysApply: true
+---
+
+# Feature flags default ON
+
+Never ship a new kill switch / env flag **off** unless Joe explicitly asks for default-off (or a named exception).
+
+- Code `bool_env(..., default=True)` (or equivalent).
+- CronJob / Deployment overlays and base manifests set `1` (test **and** prod).
+- Docs and skills describe disable as `=0`, not as the shipped default.
+- Pytest may force `0` to keep unit tests offline from paid APIs. That is not the product default.
+
+`MAPPING_PIPELINE_GAP_SUGGEST` is the canonical example: it stays on by default. Do not re-introduce default `False` / overlay `0` without an explicit ask.

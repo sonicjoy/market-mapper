@@ -1,0 +1,23 @@
+pydantic>=2.0
+fastapi>=0.115
+uvicorn>=0.30
+tabulate
+requests
+cryptography>=50.0.0
+google-cloud-bigquery
+google-cloud-bigquery-datatransfer
+google-cloud-pubsub
+# Gemini client for BigQuery/ai_validation.py (imported lazily, only that job needs it).
+google-genai
+google-cloud-secret-manager
+pg8000
+# goalscorer/ (own image: goalscorer/requirements.txt) — Slack Socket Mode bot + PnL PDF.
+slack-bolt>=1.30
+fpdf2>=2.8
+# Transitive via google-auth / pyasn1-modules; pin for pip-audit
+# (PYSEC-2026-3455/3456/3457 fixed in 0.6.4).
+pyasn1>=0.6.4
+# Transitive via fpdf2; pin for pip-audit (CVE-2026-112395..112899 fixed in 13.0.0).
+pillow>=13.0.0
+# STX (Ontario exchange) SDK: fetch/stx.py reads the signed catalogue; pinned exact (pre-1.0, as mm-stxrfq).
+stx-python==0.8.0

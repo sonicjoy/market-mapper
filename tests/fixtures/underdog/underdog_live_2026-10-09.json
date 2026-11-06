@@ -1,0 +1,2664 @@
+{
+"nba": {
+"fixture_id": "20261010D6209DAE",
+"rows": [
+{
+"description": "Alperen Sengun to record over 2.5 assists in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_assists",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAASSTS_HOUDAL26OCT090800ALPERENSENGU_2.5"
+},
+{
+"description": "Alperen Sengun to record over 3.5 assists in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_assists",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAASSTS_HOUDAL26OCT090800ALPERENSENGU_3.5"
+},
+{
+"description": "Alperen Sengun to record over 4.5 assists in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_assists",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAASSTS_HOUDAL26OCT090800ALPERENSENGU_4.5"
+},
+{
+"description": "Resolves Yes if the Dallas Mavericks win the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "moneyline",
+"team_id": "7165DAB9CAE4"
+}
+},
+"status": "open",
+"ticker": "UDXNBAGAMEWIN_HOUDAL26OCT090800_DAL"
+},
+{
+"description": "Resolves Yes if the Houston Rockets win the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "moneyline",
+"team_id": "DF2D9E9E8E20"
+}
+},
+"status": "open",
+"ticker": "UDXNBAGAMEWIN_HOUDAL26OCT090800_HOU"
+},
+{
+"description": "Alperen Sengun to record over 11.5 points in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_points",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAPTS_HOUDAL26OCT090800ALPERENSENGU_11.5"
+},
+{
+"description": "Alperen Sengun to record over 14.5 points in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_points",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAPTS_HOUDAL26OCT090800ALPERENSENGU_14.5"
+},
+{
+"description": "Alperen Sengun to record over 17.5 points in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_points",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAPTS_HOUDAL26OCT090800ALPERENSENGU_17.5"
+},
+{
+"description": "Alperen Sengun to record over 10.5 rebounds in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_rebounds",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAREBS_HOUDAL26OCT090800ALPERENSENGU_10.5"
+},
+{
+"description": "Alperen Sengun to record over 11.5 rebounds in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_rebounds",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAREBS_HOUDAL26OCT090800ALPERENSENGU_11.5"
+},
+{
+"description": "Alperen Sengun to record over 12.5 rebounds in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_rebounds",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBAREBS_HOUDAL26OCT090800ALPERENSENGU_12.5"
+},
+{
+"description": "Resolves Yes if the Dallas Mavericks beat the Houston Rockets by at least 1.5 points in the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "point_spread",
+"team_id": "7165DAB9CAE4"
+}
+},
+"status": "open",
+"ticker": "UDXNBASPREAD_HOUDAL26OCT090800_DAL1.5"
+},
+{
+"description": "Resolves Yes if the Dallas Mavericks beat the Houston Rockets by at least 10.5 points in the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "point_spread",
+"team_id": "7165DAB9CAE4"
+}
+},
+"status": "open",
+"ticker": "UDXNBASPREAD_HOUDAL26OCT090800_DAL10.5"
+},
+{
+"description": "Resolves Yes if the Dallas Mavericks beat the Houston Rockets by at least 12.5 points in the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "point_spread",
+"team_id": "7165DAB9CAE4"
+}
+},
+"status": "open",
+"ticker": "UDXNBASPREAD_HOUDAL26OCT090800_DAL12.5"
+},
+{
+"description": "Alperen Sengun to record over 0.5 made three-pointers in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_made_threes",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBATHREES_HOUDAL26OCT090800ALPERENSENGU_0.5"
+},
+{
+"description": "Alperen Sengun to record over 1.5 made three-pointers in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_made_threes",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBATHREES_HOUDAL26OCT090800ALPERENSENGU_1.5"
+},
+{
+"description": "Alperen Sengun to record over 2.5 made three-pointers in the Houston Rockets (away) vs the Dallas Mavericks (home) game.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "player_made_threes",
+"player_id": "C4ABEA8F1F92"
+}
+},
+"status": "open",
+"ticker": "UDXNBATHREES_HOUDAL26OCT090800ALPERENSENGU_2.5"
+},
+{
+"description": "Resolves Yes if there are above 200.5 points in the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNBATOTAL_HOUDAL26OCT090800_200.5"
+},
+{
+"description": "Resolves Yes if there are above 202.5 points in the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNBATOTAL_HOUDAL26OCT090800_202.5"
+},
+{
+"description": "Resolves Yes if there are above 204.5 points in the National Basketball Association game between the Houston Rockets and the Dallas Mavericks originally scheduled for 8:00am ET on October 9, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261010D6209DAE",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNBATOTAL_HOUDAL26OCT090800_204.5"
+}
+]
+},
+"ncaaf": {
+"fixture_id": "2026101037CF0B8B",
+"rows": [
+{
+"description": "Resolves Yes if Air Force score more points than their opponent during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_moneyline_3-way",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN1H_AFANIU26OCT101930_AFA"
+},
+{
+"description": "Resolves Yes if both teams score the same number of points during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN1H_AFANIU26OCT101930_DRAW"
+},
+{
+"description": "Resolves Yes if Northern Illinois score more points than their opponent during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_moneyline_3-way",
+"team_id": "593D1EFBB01D"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN1H_AFANIU26OCT101930_NIU"
+},
+{
+"description": "Resolves Yes if Air Force score more points than their opponent during the second half and overtime of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_half_moneyline_3-way",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN2H_AFANIU26OCT101930_AFA"
+},
+{
+"description": "Resolves Yes if both teams score the same number of points during the second half and overtime of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_half_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN2H_AFANIU26OCT101930_DRAW"
+},
+{
+"description": "Resolves Yes if Northern Illinois score more points than their opponent during the second half and overtime of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_half_moneyline_3-way",
+"team_id": "593D1EFBB01D"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN2H_AFANIU26OCT101930_NIU"
+},
+{
+"description": "Resolves Yes if Air Force win the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "moneyline",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN_AFANIU26OCT101930_AFA"
+},
+{
+"description": "Resolves Yes if Northern Illinois win the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "moneyline",
+"team_id": "593D1EFBB01D"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBGAMEWIN_AFANIU26OCT101930_NIU"
+},
+{
+"description": "Resolves Yes if any participating team records at least 1 kickoffs during overtime only of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "will_there_be_overtime"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBOVERTIME_AFANIU26OCT101930_OT"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 10.5 points during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD1H_AFANIU26OCT101930_AFA10.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 13.5 points during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD1H_AFANIU26OCT101930_AFA13.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 14.5 points during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD1H_AFANIU26OCT101930_AFA14.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 0.5 points during the first quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD1Q_AFANIU26OCT101930_AFA0.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 1.5 points during the first quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD1Q_AFANIU26OCT101930_AFA1.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 2.5 points during the first quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD1Q_AFANIU26OCT101930_AFA2.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 3.5 points during the second half and overtime of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_half_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD2H_AFANIU26OCT101930_AFA3.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 4.5 points during the second half and overtime of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_half_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD2H_AFANIU26OCT101930_AFA4.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 2.5 points during the second quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD2Q_AFANIU26OCT101930_AFA2.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 3.5 points during the second quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD2Q_AFANIU26OCT101930_AFA3.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 0.5 points during the third quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "3rd_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD3Q_AFANIU26OCT101930_AFA0.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 1.5 points during the third quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "3rd_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD3Q_AFANIU26OCT101930_AFA1.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 2.5 points during the third quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "3rd_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD3Q_AFANIU26OCT101930_AFA2.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 1.5 points during the fourth quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "4th_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD4Q_AFANIU26OCT101930_AFA1.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 2.5 points during the fourth quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "4th_quarter_point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD4Q_AFANIU26OCT101930_AFA2.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 1.5 points in the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD_AFANIU26OCT101930_AFA1.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 10.5 points in the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD_AFANIU26OCT101930_AFA10.5"
+},
+{
+"description": "Resolves Yes if Air Force beat the Northern Illinois by at least 11.5 points in the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "point_spread",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBSPREAD_AFANIU26OCT101930_AFA11.5"
+},
+{
+"description": "Resolves Yes if the Air Force records above 13.5 points during the entire game, including regulation time and any officially designated overtime periods of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "team_total",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTEAMTOTAL_AFANIU26OCT101930_A13.5"
+},
+{
+"description": "Resolves Yes if the Air Force records above 16.5 points during the entire game, including regulation time and any officially designated overtime periods of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "team_total",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTEAMTOTAL_AFANIU26OCT101930_A16.5"
+},
+{
+"description": "Resolves Yes if the Air Force records above 17.5 points during the entire game, including regulation time and any officially designated overtime periods of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "team_total",
+"team_id": "7AE905D8467A"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTEAMTOTAL_AFANIU26OCT101930_A17.5"
+},
+{
+"description": "Resolves Yes if there are above 13.5 points during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL1H_AFANIU26OCT101930_13.5"
+},
+{
+"description": "Resolves Yes if there are above 16.5 points during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL1H_AFANIU26OCT101930_16.5"
+},
+{
+"description": "Resolves Yes if there are above 19.5 points during the first half of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL1H_AFANIU26OCT101930_19.5"
+},
+{
+"description": "Resolves Yes if there are above 10.5 points during the first quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL1Q_AFANIU26OCT101930_10.5"
+},
+{
+"description": "Resolves Yes if there are above 11.5 points during the first quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL1Q_AFANIU26OCT101930_11.5"
+},
+{
+"description": "Resolves Yes if there are above 12.5 points during the first quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "1st_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL1Q_AFANIU26OCT101930_12.5"
+},
+{
+"description": "Resolves Yes if there are above 23.5 points during the second half and overtime of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL2H_AFANIU26OCT101930_23.5"
+},
+{
+"description": "Resolves Yes if there are above 13.5 points during the second quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "2nd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL2Q_AFANIU26OCT101930_13.5"
+},
+{
+"description": "Resolves Yes if there are above 9.5 points during the third quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "3rd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL3Q_AFANIU26OCT101930_9.5"
+},
+{
+"description": "Resolves Yes if there are above 12.5 points during the fourth quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "4th_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL4Q_AFANIU26OCT101930_12.5"
+},
+{
+"description": "Resolves Yes if there are above 13.5 points during the fourth quarter of the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "4th_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL4Q_AFANIU26OCT101930_13.5"
+},
+{
+"description": "Resolves Yes if there are above 27.5 points in the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL_AFANIU26OCT101930_27.5"
+},
+{
+"description": "Resolves Yes if there are above 30.5 points in the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL_AFANIU26OCT101930_30.5"
+},
+{
+"description": "Resolves Yes if there are above 33.5 points in the NCAA Football game between the Air Force and the Northern Illinois originally scheduled for 7:30pm ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101037CF0B8B",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNCAAMFBTOTAL_AFANIU26OCT101930_33.5"
+}
+]
+},
+"nfl": {
+"fixture_id": "2026101240603BF9",
+"rows": [
+{
+"description": "Resolves Yes if Nick Folk records above 0.5 field goals made during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_field_goals_made",
+"player_id": "194672B0A0A5"
+}
+},
+"status": "open",
+"ticker": "UDXNFLFGM_BALATL26OCT112020NICKFOLK_0.5"
+},
+{
+"description": "Resolves Yes if Nick Folk records above 1.5 field goals made during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_field_goals_made",
+"player_id": "194672B0A0A5"
+}
+},
+"status": "open",
+"ticker": "UDXNFLFGM_BALATL26OCT112020NICKFOLK_1.5"
+},
+{
+"description": "Resolves Yes if Nick Folk records above 2.5 field goals made during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_field_goals_made",
+"player_id": "194672B0A0A5"
+}
+},
+"status": "open",
+"ticker": "UDXNFLFGM_BALATL26OCT112020NICKFOLK_2.5"
+},
+{
+"description": "Resolves Yes if Atlanta Falcons D/ST records above 0.5 first touchdown during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "first_touchdown_scorer",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLFIRSTTD_BALATL26OCT112020ATLANTAFALCO_0.5"
+},
+{
+"description": "Resolves Yes if Austin Hooper records above 0.5 first touchdown during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "first_touchdown_scorer",
+"player_id": "9D777F662D0A"
+}
+},
+"status": "open",
+"ticker": "UDXNFLFIRSTTD_BALATL26OCT112020AUSTINHOOPER_0.5"
+},
+{
+"description": "Resolves Yes if Baltimore Ravens D/ST records above 0.5 first touchdown during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "first_touchdown_scorer",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLFIRSTTD_BALATL26OCT112020BALTIMORERAV_0.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons score more points than their opponent during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_moneyline_3-way",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN1H_BALATL26OCT112020_ATL"
+},
+{
+"description": "Resolves Yes if the Baltimore Ravens score more points than their opponent during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_moneyline_3-way",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN1H_BALATL26OCT112020_BAL"
+},
+{
+"description": "Resolves Yes if the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026 is level at the end of the first half.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN1H_BALATL26OCT112020_DRAW"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons score more points than their opponent during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_moneyline_3-way",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN1Q_BALATL26OCT112020_ATL"
+},
+{
+"description": "Resolves Yes if the Baltimore Ravens score more points than their opponent during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_moneyline_3-way",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN1Q_BALATL26OCT112020_BAL"
+},
+{
+"description": "Resolves Yes if the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026 is level at the end of the first quarter.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN1Q_BALATL26OCT112020_DRAW"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons score more points than their opponent during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_moneyline_3-way",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN2H_BALATL26OCT112020_ATL"
+},
+{
+"description": "Resolves Yes if the Baltimore Ravens score more points than their opponent during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_moneyline_3-way",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN2H_BALATL26OCT112020_BAL"
+},
+{
+"description": "Resolves Yes if the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026 is level at the end of the second half and overtime.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN2H_BALATL26OCT112020_DRAW"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons score more points than their opponent during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_moneyline_3-way",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN2Q_BALATL26OCT112020_ATL"
+},
+{
+"description": "Resolves Yes if the Baltimore Ravens score more points than their opponent during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_moneyline_3-way",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN2Q_BALATL26OCT112020_BAL"
+},
+{
+"description": "Resolves Yes if the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026 is level at the end of the second quarter.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN2Q_BALATL26OCT112020_DRAW"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons score more points than their opponent during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_moneyline_3-way",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN3Q_BALATL26OCT112020_ATL"
+},
+{
+"description": "Resolves Yes if the Baltimore Ravens score more points than their opponent during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_moneyline_3-way",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN3Q_BALATL26OCT112020_BAL"
+},
+{
+"description": "Resolves Yes if the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026 is level at the end of the third quarter.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN3Q_BALATL26OCT112020_DRAW"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons score more points than their opponent during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_moneyline_3-way",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN4Q_BALATL26OCT112020_ATL"
+},
+{
+"description": "Resolves Yes if the Baltimore Ravens score more points than their opponent during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_moneyline_3-way",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN4Q_BALATL26OCT112020_BAL"
+},
+{
+"description": "Resolves Yes if the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026 is level at the end of the fourth quarter.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN4Q_BALATL26OCT112020_DRAW"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons score more points than their opponent during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "moneyline",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN_BALATL26OCT112020_ATL"
+},
+{
+"description": "Resolves Yes if the Baltimore Ravens score more points than their opponent during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "moneyline",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLGAMEWIN_BALATL26OCT112020_BAL"
+},
+{
+"description": "Resolves Yes if any participating team records at least 1 kickoffs during overtime only of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "will_there_be_overtime"
+}
+},
+"status": "open",
+"ticker": "UDXNFLOVERTIME_BALATL26OCT112020_OT"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 21.5 passing attempts during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_attempts",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSATT_BALATL26OCT112020MICHAELPENIX_21.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 23.5 passing attempts during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_attempts",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSATT_BALATL26OCT112020MICHAELPENIX_23.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 24.5 passing attempts during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_attempts",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSATT_BALATL26OCT112020MICHAELPENIX_24.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 13.5 passing completions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_completions",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSCOM_BALATL26OCT112020MICHAELPENIX_13.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 15.5 passing completions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_completions",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSCOM_BALATL26OCT112020MICHAELPENIX_15.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 17.5 passing completions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_completions",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSCOM_BALATL26OCT112020MICHAELPENIX_17.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 0.5 passing interceptions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_interceptions",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSINT_BALATL26OCT112020MICHAELPENIX_0.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 1.5 passing interceptions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_interceptions",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSINT_BALATL26OCT112020MICHAELPENIX_1.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 2.5 passing interceptions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_interceptions",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSINT_BALATL26OCT112020MICHAELPENIX_2.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 29.5 longest passing completion yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_passing_completion",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSLNG_BALATL26OCT112020MICHAELPENIX_29.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 34.5 longest passing completion yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_passing_completion",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSLNG_BALATL26OCT112020MICHAELPENIX_34.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 36.5 longest passing completion yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_passing_completion",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSLNG_BALATL26OCT112020MICHAELPENIX_36.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 0.5 passing touchdowns during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_touchdowns",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSTD_BALATL26OCT112020MICHAELPENIX_0.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 1.5 passing touchdowns during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_touchdowns",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSTD_BALATL26OCT112020MICHAELPENIX_1.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 2.5 passing touchdowns during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_touchdowns",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSTD_BALATL26OCT112020MICHAELPENIX_2.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 149.5 passing yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_yards",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSYDS_BALATL26OCT112020MICHAELPENIX_149.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 174.5 passing yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_yards",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSYDS_BALATL26OCT112020MICHAELPENIX_174.5"
+},
+{
+"description": "Resolves Yes if Michael Penix Jr. records above 199.5 passing yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_passing_yards",
+"player_id": "4CC573CF0E13"
+}
+},
+"status": "open",
+"ticker": "UDXNFLPASSYDS_BALATL26OCT112020MICHAELPENIX_199.5"
+},
+{
+"description": "Resolves Yes if Drake London records above 19.5 longest reception yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_reception",
+"player_id": "F0721E946355"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRECLNG_BALATL26OCT112020DRAKELONDON_19.5"
+},
+{
+"description": "Resolves Yes if Drake London records above 24.5 longest reception yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_reception",
+"player_id": "F0721E946355"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRECLNG_BALATL26OCT112020DRAKELONDON_24.5"
+},
+{
+"description": "Resolves Yes if Drake London records above 25.5 longest reception yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_reception",
+"player_id": "F0721E946355"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRECLNG_BALATL26OCT112020DRAKELONDON_25.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 14.5 receiving yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_receiving_yards",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRECYDS_BALATL26OCT112020BIJANROBINSO_14.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 19.5 receiving yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_receiving_yards",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRECYDS_BALATL26OCT112020BIJANROBINSO_19.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 24.5 receiving yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_receiving_yards",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRECYDS_BALATL26OCT112020BIJANROBINSO_24.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 1.5 receptions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_receptions",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLREC_BALATL26OCT112020BIJANROBINSO_1.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 2.5 receptions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_receptions",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLREC_BALATL26OCT112020BIJANROBINSO_2.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 3.5 receptions during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_receptions",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLREC_BALATL26OCT112020BIJANROBINSO_3.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 11.5 rushing attempts during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_rushing_attempts",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHATT_BALATL26OCT112020BIJANROBINSO_11.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 13.5 rushing attempts during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_rushing_attempts",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHATT_BALATL26OCT112020BIJANROBINSO_13.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 15.5 rushing attempts during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_rushing_attempts",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHATT_BALATL26OCT112020BIJANROBINSO_15.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 14.5 longest rush yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_rush",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHLNG_BALATL26OCT112020BIJANROBINSO_14.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 17.5 longest rush yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_rush",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHLNG_BALATL26OCT112020BIJANROBINSO_17.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 19.5 longest rush yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_longest_rush",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHLNG_BALATL26OCT112020BIJANROBINSO_19.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 109.5 rushing yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_rushing_yards",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHYDS_BALATL26OCT112020BIJANROBINSO_109.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 119.5 rushing yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_rushing_yards",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHYDS_BALATL26OCT112020BIJANROBINSO_119.5"
+},
+{
+"description": "Resolves Yes if Bijan Robinson records above 124.5 rushing yards during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_rushing_yards",
+"player_id": "61B0E77E8EAA"
+}
+},
+"status": "open",
+"ticker": "UDXNFLRUSHYDS_BALATL26OCT112020BIJANROBINSO_124.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 0.5 points during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD1H_BALATL26OCT112020_ATL0.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 1.5 points during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD1H_BALATL26OCT112020_ATL1.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 10.5 points during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD1H_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 1.5 points during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD1Q_BALATL26OCT112020_ATL1.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 10.5 points during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD1Q_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 2.5 points during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD1Q_BALATL26OCT112020_ATL2.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 1.5 points during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD2H_BALATL26OCT112020_ATL1.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 10.5 points during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD2H_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 13.5 points during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD2H_BALATL26OCT112020_ATL13.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 1.5 points during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD2Q_BALATL26OCT112020_ATL1.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 10.5 points during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD2Q_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 2.5 points during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD2Q_BALATL26OCT112020_ATL2.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 1.5 points during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD3Q_BALATL26OCT112020_ATL1.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 10.5 points during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD3Q_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 2.5 points during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD3Q_BALATL26OCT112020_ATL2.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 1.5 points during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD4Q_BALATL26OCT112020_ATL1.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 10.5 points during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD4Q_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 2.5 points during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD4Q_BALATL26OCT112020_ATL2.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 1.5 points in the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD_BALATL26OCT112020_ATL1.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 10.5 points in the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons beat the Baltimore Ravens by at least 13.5 points in the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "point_spread",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLSPREAD_BALATL26OCT112020_ATL13.5"
+},
+{
+"description": "Resolves Yes if Atlanta Falcons D/ST records above 0.5 touchdowns during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "anytime_touchdown_scorer",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTD_BALATL26OCT112020ATLANTAFALCO_0.5"
+},
+{
+"description": "Resolves Yes if Austin Hooper records above 0.5 touchdowns during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "anytime_touchdown_scorer",
+"player_id": "9D777F662D0A"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTD_BALATL26OCT112020AUSTINHOOPER_0.5"
+},
+{
+"description": "Resolves Yes if Baltimore Ravens D/ST records above 0.5 touchdowns during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "anytime_touchdown_scorer",
+"team_id": "766A226BC204"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTD_BALATL26OCT112020BALTIMORERAV_0.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons records above 10.5 points during the entire game, including regulation time and any officially designated overtime periods of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "team_total",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTEAMTOTAL_BALATL26OCT112020_ATL10.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons records above 11.5 points during the entire game, including regulation time and any officially designated overtime periods of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "team_total",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTEAMTOTAL_BALATL26OCT112020_ATL11.5"
+},
+{
+"description": "Resolves Yes if the Atlanta Falcons records above 12.5 points during the entire game, including regulation time and any officially designated overtime periods of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "team_total",
+"team_id": "348C1EE88C42"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTEAMTOTAL_BALATL26OCT112020_ATL12.5"
+},
+{
+"description": "Resolves Yes if there are above 10.5 points during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL1H_BALATL26OCT112020_10.5"
+},
+{
+"description": "Resolves Yes if there are above 12.5 points during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL1H_BALATL26OCT112020_12.5"
+},
+{
+"description": "Resolves Yes if there are above 13.5 points during the first half of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL1H_BALATL26OCT112020_13.5"
+},
+{
+"description": "Resolves Yes if there are above 10.5 points during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL1Q_BALATL26OCT112020_10.5"
+},
+{
+"description": "Resolves Yes if there are above 13.5 points during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL1Q_BALATL26OCT112020_13.5"
+},
+{
+"description": "Resolves Yes if there are above 14.5 points during the first quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "1st_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL1Q_BALATL26OCT112020_14.5"
+},
+{
+"description": "Resolves Yes if there are above 10.5 points during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL2H_BALATL26OCT112020_10.5"
+},
+{
+"description": "Resolves Yes if there are above 14.5 points during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL2H_BALATL26OCT112020_14.5"
+},
+{
+"description": "Resolves Yes if there are above 16.5 points during the second half and overtime of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_half_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL2H_BALATL26OCT112020_16.5"
+},
+{
+"description": "Resolves Yes if there are above 10.5 points during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL2Q_BALATL26OCT112020_10.5"
+},
+{
+"description": "Resolves Yes if there are above 13.5 points during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL2Q_BALATL26OCT112020_13.5"
+},
+{
+"description": "Resolves Yes if there are above 14.5 points during the second quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "2nd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL2Q_BALATL26OCT112020_14.5"
+},
+{
+"description": "Resolves Yes if there are above 10.5 points during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL3Q_BALATL26OCT112020_10.5"
+},
+{
+"description": "Resolves Yes if there are above 13.5 points during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL3Q_BALATL26OCT112020_13.5"
+},
+{
+"description": "Resolves Yes if there are above 14.5 points during the third quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "3rd_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL3Q_BALATL26OCT112020_14.5"
+},
+{
+"description": "Resolves Yes if there are above 10.5 points during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL4Q_BALATL26OCT112020_10.5"
+},
+{
+"description": "Resolves Yes if there are above 11.5 points during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL4Q_BALATL26OCT112020_11.5"
+},
+{
+"description": "Resolves Yes if there are above 12.5 points during the fourth quarter of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "4th_quarter_total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL4Q_BALATL26OCT112020_12.5"
+},
+{
+"description": "Resolves Yes if there are above 25.5 points in the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL_BALATL26OCT112020_25.5"
+},
+{
+"description": "Resolves Yes if there are above 28.5 points in the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL_BALATL26OCT112020_28.5"
+},
+{
+"description": "Resolves Yes if there are above 31.5 points in the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "total_points"
+}
+},
+"status": "open",
+"ticker": "UDXNFLTOTAL_BALATL26OCT112020_31.5"
+},
+{
+"description": "Resolves Yes if Nick Folk records above 0.5 extra points made during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_extra_points_made",
+"player_id": "194672B0A0A5"
+}
+},
+"status": "open",
+"ticker": "UDXNFLXPM_BALATL26OCT112020NICKFOLK_0.5"
+},
+{
+"description": "Resolves Yes if Nick Folk records above 1.5 extra points made during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_extra_points_made",
+"player_id": "194672B0A0A5"
+}
+},
+"status": "open",
+"ticker": "UDXNFLXPM_BALATL26OCT112020NICKFOLK_1.5"
+},
+{
+"description": "Resolves Yes if Nick Folk records above 2.5 extra points made during the full duration of the National Football League game between the Baltimore Ravens and the Atlanta Falcons originally scheduled for 8:20pm ET on October 11, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101240603BF9",
+"market_id": "player_extra_points_made",
+"player_id": "194672B0A0A5"
+}
+},
+"status": "open",
+"ticker": "UDXNFLXPM_BALATL26OCT112020NICKFOLK_2.5"
+}
+]
+},
+"nhl": {
+"fixture_id": "202610102A9E0F01",
+"rows": [
+{
+"description": "Will NHL Anaheim Ducks score more goals during the first regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "1st_period_moneyline_3-way",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN1P_ANAWPG26OCT092000_ANA"
+},
+{
+"description": "Will NHL Draw score more goals during the first regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "1st_period_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN1P_ANAWPG26OCT092000_DRAW"
+},
+{
+"description": "Will NHL Winnipeg Jets score more goals during the first regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "1st_period_moneyline_3-way",
+"team_id": "BACAD4FFEF91"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN1P_ANAWPG26OCT092000_WPG"
+},
+{
+"description": "Will NHL Anaheim Ducks score more goals during the second regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "2nd_period_moneyline_3-way",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN2P_ANAWPG26OCT092000_ANA"
+},
+{
+"description": "Will NHL Draw score more goals during the second regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "2nd_period_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN2P_ANAWPG26OCT092000_DRAW"
+},
+{
+"description": "Will NHL Winnipeg Jets score more goals during the second regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "2nd_period_moneyline_3-way",
+"team_id": "BACAD4FFEF91"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN2P_ANAWPG26OCT092000_WPG"
+},
+{
+"description": "Will NHL Anaheim Ducks score more goals during the third regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "3rd_period_moneyline_3-way",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN3P_ANAWPG26OCT092000_ANA"
+},
+{
+"description": "Will NHL Draw score more goals during the third regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "3rd_period_moneyline_3-way"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN3P_ANAWPG26OCT092000_DRAW"
+},
+{
+"description": "Will NHL Winnipeg Jets score more goals during the third regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "3rd_period_moneyline_3-way",
+"team_id": "BACAD4FFEF91"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN3P_ANAWPG26OCT092000_WPG"
+},
+{
+"description": "Will NHL Anaheim Ducks score more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "moneyline",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN_ANAWPG26OCT092000_ANA"
+},
+{
+"description": "Will NHL Winnipeg Jets score more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "moneyline",
+"team_id": "BACAD4FFEF91"
+}
+},
+"status": "open",
+"ticker": "UDXNHLGAMEWIN_ANAWPG26OCT092000_WPG"
+},
+{
+"description": "Resolves Yes if the game between the Anaheim Ducks and Winnipeg Jets, originally scheduled for October 9, 2026 at 8:00 PM ET, actually enters an overtime period.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "will_there_be_overtime"
+}
+},
+"status": "open",
+"ticker": "UDXNHLOVERTIME_ANAWPG26OCT092000_OT"
+},
+{
+"description": "Will NHL Winnipeg Jets score above 0.5 more goals during the first regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "1st_period_puck_line",
+"team_id": "BACAD4FFEF91"
+}
+},
+"status": "open",
+"ticker": "UDXNHLSPREAD1P_ANAWPG26OCT092000_WPG0.5"
+},
+{
+"description": "Will NHL Winnipeg Jets score above 0.5 more goals during the second regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "2nd_period_puck_line",
+"team_id": "BACAD4FFEF91"
+}
+},
+"status": "open",
+"ticker": "UDXNHLSPREAD2P_ANAWPG26OCT092000_WPG0.5"
+},
+{
+"description": "Will NHL Winnipeg Jets score above 0.5 more goals during the third regulation period of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "3rd_period_puck_line",
+"team_id": "BACAD4FFEF91"
+}
+},
+"status": "open",
+"ticker": "UDXNHLSPREAD3P_ANAWPG26OCT092000_WPG0.5"
+},
+{
+"description": "Will NHL Anaheim Ducks score above 1.5 more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "puck_line",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLSPREAD_ANAWPG26OCT092000_ANA1.5"
+},
+{
+"description": "Will NHL Anaheim Ducks score above 2.5 more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "puck_line",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLSPREAD_ANAWPG26OCT092000_ANA2.5"
+},
+{
+"description": "Will NHL Anaheim Ducks score above 3.5 more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "puck_line",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLSPREAD_ANAWPG26OCT092000_ANA3.5"
+},
+{
+"description": "Will NHL Anaheim Ducks record above 0.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "team_total",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTEAMGOALS_ANAWPG26OCT092000_ANA0.5"
+},
+{
+"description": "Will NHL Anaheim Ducks record above 1.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "team_total",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTEAMGOALS_ANAWPG26OCT092000_ANA1.5"
+},
+{
+"description": "Will NHL Anaheim Ducks record above 2.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "team_total",
+"team_id": "013ABB6C1301"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTEAMGOALS_ANAWPG26OCT092000_ANA2.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 0.5 goals during the first regulation period?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "1st_period_total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL1P_ANAWPG26OCT092000_0.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 1.5 goals during the first regulation period?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "1st_period_total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL1P_ANAWPG26OCT092000_1.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 2.5 goals during the first regulation period?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "1st_period_total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL1P_ANAWPG26OCT092000_2.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 1.5 goals during the second regulation period?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "2nd_period_total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL2P_ANAWPG26OCT092000_1.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 2.5 goals during the third regulation period?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "3rd_period_total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL3P_ANAWPG26OCT092000_2.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 3.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL_ANAWPG26OCT092000_3.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 4.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL_ANAWPG26OCT092000_4.5"
+},
+{
+"description": "Will NHL Anaheim Ducks (away) at Winnipeg Jets (home), originally scheduled for October 9, 2026 at 8:00pm ET have above 5.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result?",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610102A9E0F01",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXNHLTOTAL_ANAWPG26OCT092000_5.5"
+}
+]
+},
+"ucl": {
+"fixture_id": "202610140D70F013",
+"rows": [
+{
+"description": "Resolves Yes if both teams score in UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "both_teams_to_score"
+}
+},
+"status": "open",
+"ticker": "UDXUCLBTTS_AEKSHK26OCT141500_BTTS"
+},
+{
+"description": "Resolves Yes if AEK Athens FC win UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "moneyline",
+"team_id": "3CE247FFBB48"
+}
+},
+"status": "open",
+"ticker": "UDXUCLGAMEWIN_AEKSHK26OCT141500_AEK"
+},
+{
+"description": "Resolves Yes if UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026 ends in a draw.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "moneyline"
+}
+},
+"status": "open",
+"ticker": "UDXUCLGAMEWIN_AEKSHK26OCT141500_DRAW"
+},
+{
+"description": "Resolves Yes if FC Shakhtar Donetsk win UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "moneyline",
+"team_id": "6BA6A9585BCD"
+}
+},
+"status": "open",
+"ticker": "UDXUCLGAMEWIN_AEKSHK26OCT141500_SHK"
+},
+{
+"description": "Resolves Yes if AEK Athens FC beat FC Shakhtar Donetsk by at least 1.5 goals in UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "asian_handicap",
+"team_id": "3CE247FFBB48"
+}
+},
+"status": "open",
+"ticker": "UDXUCLSPREAD_AEKSHK26OCT141500_AEK1.5"
+},
+{
+"description": "Resolves Yes if AEK Athens FC beat FC Shakhtar Donetsk by at least 2.5 goals in UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "asian_handicap",
+"team_id": "3CE247FFBB48"
+}
+},
+"status": "open",
+"ticker": "UDXUCLSPREAD_AEKSHK26OCT141500_AEK2.5"
+},
+{
+"description": "Resolves Yes if AEK Athens FC beat FC Shakhtar Donetsk by at least 3.5 goals in UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "asian_handicap",
+"team_id": "3CE247FFBB48"
+}
+},
+"status": "open",
+"ticker": "UDXUCLSPREAD_AEKSHK26OCT141500_AEK3.5"
+},
+{
+"description": "Resolves Yes if there are above 0.5 goals in UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXUCLTOTAL_AEKSHK26OCT141500_0.5"
+},
+{
+"description": "Resolves Yes if there are above 1.5 goals in UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXUCLTOTAL_AEKSHK26OCT141500_1.5"
+},
+{
+"description": "Resolves Yes if there are above 2.5 goals in UEFA Champions League match between FC Shakhtar Donetsk and AEK Athens FC originally scheduled for 3:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610140D70F013",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXUCLTOTAL_AEKSHK26OCT141500_2.5"
+}
+]
+},
+"wta": {
+"fixture_id": "202610103CE26BC4",
+"rows": [
+{
+"description": "Resolves Yes if Mirra Andreeva wins the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "moneyline",
+"player_id": "13E3E6490697"
+}
+},
+"status": "open",
+"ticker": "UDXWTAMATCHWIN_BARAND26OCT100200_MANDREE"
+},
+{
+"description": "Resolves Yes if Nikola Bartunkova wins the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "moneyline",
+"player_id": "1995797E08F82379"
+}
+},
+"status": "open",
+"ticker": "UDXWTAMATCHWIN_BARAND26OCT100200_NBARTUN"
+},
+{
+"description": "Resolves Yes if Mirra Andreeva wins at least 0.5 more games than their opponent in the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "game_spread",
+"player_id": "13E3E6490697"
+}
+},
+"status": "open",
+"ticker": "UDXWTASPREAD_BARAND26OCT100200_MANDREE0.5"
+},
+{
+"description": "Resolves Yes if Mirra Andreeva wins at least 1.5 more games than their opponent in the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "game_spread",
+"player_id": "13E3E6490697"
+}
+},
+"status": "open",
+"ticker": "UDXWTASPREAD_BARAND26OCT100200_MANDREE1.5"
+},
+{
+"description": "Resolves Yes if Mirra Andreeva wins at least 2.5 more games than their opponent in the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "game_spread",
+"player_id": "13E3E6490697"
+}
+},
+"status": "open",
+"ticker": "UDXWTASPREAD_BARAND26OCT100200_MANDREE2.5"
+},
+{
+"description": "Resolves Yes if there are above 15.5 games in the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "total_games"
+}
+},
+"status": "open",
+"ticker": "UDXWTATOTAL_BARAND26OCT100200_15.5"
+},
+{
+"description": "Resolves Yes if there are above 16.5 games in the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "total_games"
+}
+},
+"status": "open",
+"ticker": "UDXWTATOTAL_BARAND26OCT100200_16.5"
+},
+{
+"description": "Resolves Yes if there are above 17.5 games in the WTA Tour match between Nikola Bartunkova and Mirra Andreeva originally scheduled for 2:00am ET on October 10, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610103CE26BC4",
+"market_id": "total_games"
+}
+},
+"status": "open",
+"ticker": "UDXWTATOTAL_BARAND26OCT100200_17.5"
+}
+]
+}
+}

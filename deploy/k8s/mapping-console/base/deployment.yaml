@@ -1,0 +1,44 @@
+# Mapping control-plane console — API + SPA in one image.
+# Deployed via the shared mm-ci-templates deploy.sh — the placeholder tag below
+# fails loud if applied unpinned.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mapping-console
+  labels:
+    app: mapping-console
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mapping-console
+  template:
+    metadata:
+      labels:
+        app: mapping-console
+    spec:
+      serviceAccountName: mapping-control-plane
+      containers:
+        - name: app
+          image: mapping-console-app:DEPLOY-VIA-DEPLOY-SH
+          ports:
+            - containerPort: 8000
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 100m
+              memory: 1Gi
+            limits:
+              cpu: "1"
+              memory: 2Gi

@@ -1,0 +1,43 @@
+# PROD gap-propose CronJob — mirror mapping-console Deployment env.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: gap-propose
+spec:
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: gap-propose
+              env:
+                - name: GCP_PROJECT
+                  value: "rs-marketmaking"
+                - name: MAPPING_SOT
+                  value: "bq"
+                - name: MAPPING_PIPELINE_GAP_PROPOSE
+                  value: "1"
+                - name: MAPPING_PIPELINE_GAP_SUGGEST
+                  value: "1"
+                - name: MAPPING_CP_ALLOW_ACTIVATE
+                  value: "0"
+                - name: MAPPING_CP_REQUIRE_MAKER_CHECKER
+                  value: "0"
+                - name: MAPPING_CP_CHAT
+                  value: "0"
+                - name: MAPPING_CP_CHAT_PROVIDER
+                  value: "gemini"
+                - name: MAPPING_CP_CHAT_MODEL
+                  value: "gemini-3.8-flash"
+                - name: MAPPING_CP_CHAT_API_KEY_SECRET
+                  value: "mm-mapping-bot-gemini-key"
+                - name: ALERT_PUBSUB_ENABLED
+                  value: "true"
+                # Route this CronJob's alerts to the mapping channel instead of
+                # the relay default (#marketmaking-alerts-rfqs). The VM cron reads
+                # this from /home/gtod/mmmapper/.env; a GKE pod has no .env, which
+                # is why gap-propose kept posting to the shared channel after the
+                # rest of mmmapper moved. The relay honours it via chat.postMessage;
+                # @mmalertmanager must be a member of the channel.
+                - name: ALERT_SLACK_CHANNEL
+                  value: "#marketmaking-mapping-alerts"

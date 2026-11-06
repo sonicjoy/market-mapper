@@ -1,0 +1,53 @@
+# Map today's + tomorrow's fixtures from each team's previous games.
+# Idempotent (skips covered selections), so it runs every 8 h to pick up late
+# Kalshi moneyline mappings, and a retry is safe. goalscorer-listing corrects
+# the tickers near kick-off.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: goalscorer-pregame
+  labels:
+    app: goalscorer-pregame
+spec:
+  schedule: "0 5,13,21 * * *"
+  timeZone: "Etc/UTC"
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 600
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      activeDeadlineSeconds: 1800
+      backoffLimit: 1
+      template:
+        metadata:
+          labels:
+            app: goalscorer-pregame
+        spec:
+          serviceAccountName: goalscorer-mapper
+          restartPolicy: Never
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 10001
+          containers:
+            - name: pregame
+              image: goalscorer-mapper:DEPLOY-VIA-DEPLOY-SH
+              args: ["pregame"]
+              envFrom:
+                - configMapRef:
+                    name: goalscorer-mapper-config
+              # Slack tokens: prod ExternalSecret goalscorer-slack (absent in test).
+              env:
+                - name: SLACK_BOT_TOKEN
+                  valueFrom:
+                    secretKeyRef:
+                      name: goalscorer-slack
+                      key: SLACK_BOT_TOKEN
+                      optional: true
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 512Mi

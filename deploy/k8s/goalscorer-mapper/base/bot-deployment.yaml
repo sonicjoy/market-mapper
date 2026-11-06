@@ -1,0 +1,51 @@
+# Slack Socket Mode listener: review-card buttons + channel commands.
+# Outbound websocket only — no Service or ingress. Slack delivers each event to
+# one open connection, so a rolling update never double-handles a click.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goalscorer-slack-bot
+  labels:
+    app: goalscorer-slack-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: goalscorer-slack-bot
+  template:
+    metadata:
+      labels:
+        app: goalscorer-slack-bot
+    spec:
+      serviceAccountName: goalscorer-mapper
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+      containers:
+        - name: bot
+          image: goalscorer-mapper:DEPLOY-VIA-DEPLOY-SH
+          args: ["bot"]
+          envFrom:
+            - configMapRef:
+                name: goalscorer-mapper-config
+          # Slack tokens: prod ExternalSecret goalscorer-slack (absent in test).
+          env:
+            - name: SLACK_BOT_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: goalscorer-slack
+                  key: SLACK_BOT_TOKEN
+                  optional: true
+            - name: SLACK_APP_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: goalscorer-slack
+                  key: SLACK_APP_TOKEN
+                  optional: true
+          resources:
+            requests:
+              cpu: 50m
+              memory: 256Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi

@@ -1,0 +1,28 @@
+---
+description: After fixing an unmapped market or mapping failure, fix the class in code, not the one instance
+alwaysApply: true
+---
+
+# Fix the class, not the instance
+
+Policy: `CLAUDE.md`. The old "teach all four surfaces" rule (gap sweeper,
+console, Mapper Chat, pin kernel) is retired with the console and the tip.
+
+When you fix an unmapped market or a mapping failure:
+
+1. Find the class of miss, not the one ticker. Ask which typed venue field
+   or code table would have mapped every instance.
+2. Fix it in the module that owns it (`CLAUDE.md` table: vocab, profile,
+   venue league catalogue, venue matcher, code-owned alias table).
+3. Add a test under `tests/mappers/` that fails without the fix.
+4. Make the mapper fail safe for that class: skip or drop the event, do not
+   raise and zero the league.
+5. Run `GCP_PROJECT=rs-marketmaking .venv/bin/pytest -q`, open the MR, read
+   the `regression:mapping-gate` delta.
+
+Never loosen `names_close` / `names_fit` (`mappers/canonical_codes.py`) to
+bind a venue id. A wrong bind is worse than an unmapped market. Never parse a
+ticker, slug or symbol to decide identity.
+
+`gap-propose` harvest output, if you read it, is a list of code changes to
+make. Do not approve its cards.

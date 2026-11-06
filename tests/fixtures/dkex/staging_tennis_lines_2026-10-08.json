@@ -1,0 +1,624 @@
+[
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T13:21:04.459Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-GMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T13:36:04.469Z",
+  "marketProductTypeId": "8ea7e944-9021-5293-9144-8634487d306c",
+  "marketProductTypeName": "ATP-GTE-GMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "03KIME801O12KCS5",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_0247S1DDVO6NC",
+     "name": "Cameron Norrie",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Cameron Norrie -1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0247S1DDVO6NC",
+   "statAchievement": "GMAR",
+   "strikePrice": "1.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the games handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -4.5 games must win at least five more games than the opponent; a player at +4.5 games covers unless they lose by five or more games. A tiebreak counts as one game; a match tiebreak also counts as one game.\n\nIf the match does not reach its natural end, the selection resolves to the last fair market price, as determined by the Exchange, unless its outcome had already been determined by the completed play. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-GMAR-MTH-00O7JAN9QT72NG8-CAIE002-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T13:21:04.459Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-GMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T13:36:04.469Z",
+  "marketProductTypeId": "8ea7e944-9021-5293-9144-8634487d306c",
+  "marketProductTypeName": "ATP-GTE-GMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "03KIME801O12KCS5",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_0247S1DDVO6NC",
+     "name": "Cameron Norrie",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Cameron Norrie -2.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0247S1DDVO6NC",
+   "statAchievement": "GMAR",
+   "strikePrice": "2.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the games handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -4.5 games must win at least five more games than the opponent; a player at +4.5 games covers unless they lose by five or more games. A tiebreak counts as one game; a match tiebreak also counts as one game.\n\nIf the match does not reach its natural end, the selection resolves to the last fair market price, as determined by the Exchange, unless its outcome had already been determined by the completed play. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-GMAR-MTH-00O7JAN9QT72NG8-CAIE002-GTE-P00025",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T13:21:04.459Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-GMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T13:36:04.469Z",
+  "marketProductTypeId": "8ea7e944-9021-5293-9144-8634487d306c",
+  "marketProductTypeName": "ATP-GTE-GMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "03KIME801O12KCS5",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_00RAES9GDKV6S",
+     "name": "Dalibor Svrcina",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Dalibor Svrcina -1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_00RAES9GDKV6S",
+   "statAchievement": "GMAR",
+   "strikePrice": "1.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the games handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -4.5 games must win at least five more games than the opponent; a player at +4.5 games covers unless they lose by five or more games. A tiebreak counts as one game; a match tiebreak also counts as one game.\n\nIf the match does not reach its natural end, the selection resolves to the last fair market price, as determined by the Exchange, unless its outcome had already been determined by the completed play. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-GMAR-MTH-00O7JAN9QT72NG8-DANA015-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T13:21:04.459Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-GMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T13:36:04.469Z",
+  "marketProductTypeId": "8ea7e944-9021-5293-9144-8634487d306c",
+  "marketProductTypeName": "ATP-GTE-GMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "03KIME801O12KCS5",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_00RAES9GDKV6S",
+     "name": "Dalibor Svrcina",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Dalibor Svrcina -2.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_00RAES9GDKV6S",
+   "statAchievement": "GMAR",
+   "strikePrice": "2.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the games handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -4.5 games must win at least five more games than the opponent; a player at +4.5 games covers unless they lose by five or more games. A tiebreak counts as one game; a match tiebreak also counts as one game.\n\nIf the match does not reach its natural end, the selection resolves to the last fair market price, as determined by the Exchange, unless its outcome had already been determined by the completed play. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-GMAR-MTH-00O7JAN9QT72NG8-DANA015-GTE-P00025",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:33.539Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-SMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:33.54Z",
+  "marketProductTypeId": "298bff56-6450-5459-a86a-0476fd580db1",
+  "marketProductTypeName": "ATP-GTE-SMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02L4EFS2VE62NPB17K",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_0247S1DDVO6NC",
+     "name": "Cameron Norrie",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Cameron Norrie -1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0247S1DDVO6NC",
+   "statAchievement": "SMAR",
+   "strikePrice": "1.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the sets handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -1.5 sets must win the match by two or more sets; a player at +1.5 sets covers by winning the match or by losing by only one set. A match tiebreak counts as one set.\n\nIf the match does not reach its natural end, only completed sets count: the selection resolves Yes or No where those sets already decide it, and otherwise resolves to the last fair market price, as determined by the Exchange. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-SMAR-MTH-00O7JAN9QT72NG8-CAIE002-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:33.539Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-SMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:33.54Z",
+  "marketProductTypeId": "298bff56-6450-5459-a86a-0476fd580db1",
+  "marketProductTypeName": "ATP-GTE-SMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02L4EFS2VE62NPB17K",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_0247S1DDVO6NC",
+     "name": "Cameron Norrie",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Cameron Norrie -2.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0247S1DDVO6NC",
+   "statAchievement": "SMAR",
+   "strikePrice": "2.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the sets handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -1.5 sets must win the match by two or more sets; a player at +1.5 sets covers by winning the match or by losing by only one set. A match tiebreak counts as one set.\n\nIf the match does not reach its natural end, only completed sets count: the selection resolves Yes or No where those sets already decide it, and otherwise resolves to the last fair market price, as determined by the Exchange. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-SMAR-MTH-00O7JAN9QT72NG8-CAIE002-GTE-P00025",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:33.539Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-SMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:33.54Z",
+  "marketProductTypeId": "298bff56-6450-5459-a86a-0476fd580db1",
+  "marketProductTypeName": "ATP-GTE-SMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02L4EFS2VE62NPB17K",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_00RAES9GDKV6S",
+     "name": "Dalibor Svrcina",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Dalibor Svrcina -1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_00RAES9GDKV6S",
+   "statAchievement": "SMAR",
+   "strikePrice": "1.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the sets handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -1.5 sets must win the match by two or more sets; a player at +1.5 sets covers by winning the match or by losing by only one set. A match tiebreak counts as one set.\n\nIf the match does not reach its natural end, only completed sets count: the selection resolves Yes or No where those sets already decide it, and otherwise resolves to the last fair market price, as determined by the Exchange. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-SMAR-MTH-00O7JAN9QT72NG8-DANA015-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:33.539Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-SMAR-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:33.54Z",
+  "marketProductTypeId": "298bff56-6450-5459-a86a-0476fd580db1",
+  "marketProductTypeName": "ATP-GTE-SMAR",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02L4EFS2VE62NPB17K",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_00RAES9GDKV6S",
+     "name": "Dalibor Svrcina",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Dalibor Svrcina -2.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_00RAES9GDKV6S",
+   "statAchievement": "SMAR",
+   "strikePrice": "2.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "rules": {
+   "description": "This selection refers to the sets handicap in this tennis match. It resolves Yes if the player beats the stated handicap, and No otherwise: a player at -1.5 sets must win the match by two or more sets; a player at +1.5 sets covers by winning the match or by losing by only one set. A match tiebreak counts as one set.\n\nIf the match does not reach its natural end, only completed sets count: the selection resolves Yes or No where those sets already decide it, and otherwise resolves to the last fair market price, as determined by the Exchange. If the match does not start or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-SMAR-MTH-00O7JAN9QT72NG8-DANA015-GTE-P00025",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T13:16:45.849Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-TGMS-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T13:31:45.859Z",
+  "marketProductTypeId": "f3ee1fc3-0d37-5ea4-b1d9-664425259656",
+  "marketProductTypeName": "ATP-GTE-TGMS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "03KIME8N9012KCQF",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": []
+  },
+  "name": "11.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGMS",
+   "strikePrice": "11.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the total number of games played in this tennis match, counting a tiebreak, including a 10-point match tiebreak, as one game. It resolves Yes if the combined games won by both players exceeds the stated total; otherwise No.\n\nIf a player retires or is defaulted after at least one point and a winner is declared, the selection settles on the games completed at the stoppage. If the match does not start, is cancelled, is not completed within the tournament with no winner declared, or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange, unless the total had already been exceeded."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-TGMS-MTH-00O7JAN9QT72NG8-GTE-P00115",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T13:16:45.849Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-TGMS-MTH-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T13:31:45.859Z",
+  "marketProductTypeId": "f3ee1fc3-0d37-5ea4-b1d9-664425259656",
+  "marketProductTypeName": "ATP-GTE-TGMS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "03KIME8N9012KCQF",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": []
+  },
+  "name": "12.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGMS",
+   "strikePrice": "12.5",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the total number of games played in this tennis match, counting a tiebreak, including a 10-point match tiebreak, as one game. It resolves Yes if the combined games won by both players exceeds the stated total; otherwise No.\n\nIf a player retires or is defaulted after at least one point and a winner is declared, the selection settles on the games completed at the stoppage. If the match does not start, is cancelled, is not completed within the tournament with no winner declared, or the format is changed, the selection resolves to the last fair market price, as determined by the Exchange, unless the total had already been exceeded."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-TGMS-MTH-00O7JAN9QT72NG8-GTE-P00125",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:40.717Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-S1-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:40.717Z",
+  "marketProductTypeId": "04189812-1c48-5ca8-b841-d2efcfa3583b",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02HOQPM0MHVC84CK2K",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_0247S1DDVO6NC",
+     "name": "Cameron Norrie",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Cameron Norrie",
+  "parameters": {
+   "participant": "DKT_0247S1DDVO6NC",
+   "statAchievement": "WIN",
+   "timePeriod": "S1"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "rules": {
+   "description": "This selection refers to which player wins the 1st set of this tennis match. The 1st set winner's selection resolves Yes; the other resolves No. Once the 1st set is complete the selection settles on that result regardless of what happens in the remainder of the match.\n\nIf the 1st set does not reach its natural conclusion for any reason, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-WIN-S1-00O7JAN9QT72NG8-CAIE002",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:40.717Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-S1-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:40.717Z",
+  "marketProductTypeId": "04189812-1c48-5ca8-b841-d2efcfa3583b",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02HOQPM0MHVC84CK2K",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_00RAES9GDKV6S",
+     "name": "Dalibor Svrcina",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Dalibor Svrcina",
+  "parameters": {
+   "participant": "DKT_00RAES9GDKV6S",
+   "statAchievement": "WIN",
+   "timePeriod": "S1"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "rules": {
+   "description": "This selection refers to which player wins the 1st set of this tennis match. The 1st set winner's selection resolves Yes; the other resolves No. Once the 1st set is complete the selection settles on that result regardless of what happens in the remainder of the match.\n\nIf the 1st set does not reach its natural conclusion for any reason, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-WIN-S1-00O7JAN9QT72NG8-DANA015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:40.292Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-S2-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:40.293Z",
+  "marketProductTypeId": "e45e5f29-c998-52b0-a39f-36bf04a1190b",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02HOQPM09LVC84CK08",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_0247S1DDVO6NC",
+     "name": "Cameron Norrie",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Cameron Norrie",
+  "parameters": {
+   "participant": "DKT_0247S1DDVO6NC",
+   "statAchievement": "WIN",
+   "timePeriod": "S2"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "rules": {
+   "description": "This selection refers to which player wins the 2nd set of this tennis match. The 2nd set winner's selection resolves Yes; the other resolves No. Once the 2nd set is complete the selection settles on that result regardless of what happens in the remainder of the match.\n\nIf the 2nd set does not reach its natural conclusion for any reason, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-WIN-S2-00O7JAN9QT72NG8-CAIE002",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T12:31:40.292Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-S2-00O7JAN9QT72NG8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-07T11:10:00Z",
+  "marketOpenTimestamp": "2026-10-07T12:46:40.293Z",
+  "marketProductTypeId": "e45e5f29-c998-52b0-a39f-36bf04a1190b",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O7JAN9QT72NG8",
+   "competitionName": "Cameron Norrie vs Dalibor Svrcina",
+   "competitionStartTime": "2026-10-08T12:07:07Z",
+   "intakeEventId": "02HOQPM09LVC84CK08",
+   "leagueId": "024KQOQIS8",
+   "leagueName": "ATP Shanghai",
+   "participants": [
+    {
+     "id": "DKT_00RAES9GDKV6S",
+     "name": "Dalibor Svrcina",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Dalibor Svrcina",
+  "parameters": {
+   "participant": "DKT_00RAES9GDKV6S",
+   "statAchievement": "WIN",
+   "timePeriod": "S2"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "rules": {
+   "description": "This selection refers to which player wins the 2nd set of this tennis match. The 2nd set winner's selection resolves Yes; the other resolves No. Once the 2nd set is complete the selection settles on that result regardless of what happens in the remainder of the match.\n\nIf the 2nd set does not reach its natural conclusion for any reason, the selection resolves to the last fair market price, as determined by the Exchange."
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Shanghai",
+  "ticker": "ATP-WIN-S2-00O7JAN9QT72NG8-DANA015",
+  "topic": "Sports"
+ }
+]

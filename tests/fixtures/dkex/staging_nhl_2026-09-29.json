@@ -1,0 +1,225 @@
+[
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T01:00:53.628Z",
+  "domainId": "00P0",
+  "eventTicker": "NHL-DWIN-GNO-00O3K51DQT31ALG",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-31T23:10:00Z",
+  "marketOpenTimestamp": "2026-09-16T01:15:53.628Z",
+  "marketProductTypeId": "eff2dd6d-8ade-4c86-81d4-407e317782bd",
+  "marketProductTypeName": "NHL-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O3K51DQT31ALG",
+   "competitionName": "BUF Sabres @ CBJ Blue Jackets",
+   "competitionStartTime": "2026-10-01T23:10:00Z",
+   "intakeEventId": "01C4G17BNLLH68J6TC",
+   "leagueId": "03L47MKVD4",
+   "leagueName": "NHL",
+   "participants": [
+    {
+     "id": "DKT_006I8BL5VHC8K",
+     "name": "BUF Sabres",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "BUF Sabres",
+  "parameters": {
+   "participant": "DKT_006I8BL5VHC8K",
+   "statAchievement": "DWIN",
+   "timePeriod": "GNO"
+  },
+  "payoutType": "binary",
+  "productTicker": "NHLWIN",
+  "rules": {
+   "description": "This selection refers to the result of this NHL game at the end of the three regulation periods. Overtime and the shootout are excluded. The team leading after regulation resolves Yes; the other team resolves No. The Tie selection resolves Yes if the teams are level at the end of regulation. If the game cannot be completed, the selection resolves to the last fair market price, as determined by the Exchange.",
+   "settlementSources": "Sources are consulted pursuant to the following order of priority: the governing body of the event, major media organizations (e.g., ESPN, AP, etc.), and official broadcasters. The Exchange will rely on the result reported by the highest-priority Source Agency that has issued an authoritative result at the time of settlement (the \"Official Result\"), unless the Exchange, in its sole and absolute discretion, for any reason or no reason, determines that such result is clearly erroneous. If the Official Result is corrected or revised by a Source Agency prior to Expiration, the corrected result shall be used for settlement. Any corrections or revisions made after Expiration shall not be considered. If an Official Result is not available or cannot be determined at Expiration, the Exchange may determine the outcome pursuant to Rule 7.1 (Market Outcome Review).",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NHL",
+  "ticker": "NHL-DWIN-GNO-00O3K51DQT31ALG-BUES012",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T01:00:53.628Z",
+  "domainId": "00P0",
+  "eventTicker": "NHL-DWIN-GNO-00O3K51DQT31ALG",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-31T23:10:00Z",
+  "marketOpenTimestamp": "2026-09-16T01:15:53.628Z",
+  "marketProductTypeId": "eff2dd6d-8ade-4c86-81d4-407e317782bd",
+  "marketProductTypeName": "NHL-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O3K51DQT31ALG",
+   "competitionName": "BUF Sabres @ CBJ Blue Jackets",
+   "competitionStartTime": "2026-10-01T23:10:00Z",
+   "intakeEventId": "01C4G17BNLLH68J6TC",
+   "leagueId": "03L47MKVD4",
+   "leagueName": "NHL",
+   "participants": [
+    {
+     "id": "DKT_01SOG5HQQ2Q1U",
+     "name": "CBJ Blue Jackets",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CBJ Blue Jackets",
+  "parameters": {
+   "participant": "DKT_01SOG5HQQ2Q1U",
+   "statAchievement": "DWIN",
+   "timePeriod": "GNO"
+  },
+  "payoutType": "binary",
+  "productTicker": "NHLWIN",
+  "rules": {
+   "description": "This selection refers to the result of this NHL game at the end of the three regulation periods. Overtime and the shootout are excluded. The team leading after regulation resolves Yes; the other team resolves No. The Tie selection resolves Yes if the teams are level at the end of regulation. If the game cannot be completed, the selection resolves to the last fair market price, as determined by the Exchange.",
+   "settlementSources": "Sources are consulted pursuant to the following order of priority: the governing body of the event, major media organizations (e.g., ESPN, AP, etc.), and official broadcasters. The Exchange will rely on the result reported by the highest-priority Source Agency that has issued an authoritative result at the time of settlement (the \"Official Result\"), unless the Exchange, in its sole and absolute discretion, for any reason or no reason, determines that such result is clearly erroneous. If the Official Result is corrected or revised by a Source Agency prior to Expiration, the corrected result shall be used for settlement. Any corrections or revisions made after Expiration shall not be considered. If an Official Result is not available or cannot be determined at Expiration, the Exchange may determine the outcome pursuant to Rule 7.1 (Market Outcome Review).",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NHL",
+  "ticker": "NHL-DWIN-GNO-00O3K51DQT31ALG-CBTS000",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T01:00:53.628Z",
+  "domainId": "00P0",
+  "eventTicker": "NHL-DWIN-GNO-00O3K51DQT31ALG",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-31T23:10:00Z",
+  "marketOpenTimestamp": "2026-09-16T01:15:53.628Z",
+  "marketProductTypeId": "eff2dd6d-8ade-4c86-81d4-407e317782bd",
+  "marketProductTypeName": "NHL-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O3K51DQT31ALG",
+   "competitionName": "BUF Sabres @ CBJ Blue Jackets",
+   "competitionStartTime": "2026-10-01T23:10:00Z",
+   "intakeEventId": "01C4G17BNLLH68J6TC",
+   "leagueId": "03L47MKVD4",
+   "leagueName": "NHL",
+   "participants": []
+  },
+  "name": "Draw",
+  "parameters": {
+   "statAchievement": "DWIN",
+   "timePeriod": "GNO"
+  },
+  "payoutType": "binary",
+  "productTicker": "NHLWIN",
+  "rules": {
+   "description": "This selection refers to the result of this NHL game at the end of the three regulation periods. Overtime and the shootout are excluded. The team leading after regulation resolves Yes; the other team resolves No. The Tie selection resolves Yes if the teams are level at the end of regulation. If the game cannot be completed, the selection resolves to the last fair market price, as determined by the Exchange.",
+   "settlementSources": "Sources are consulted pursuant to the following order of priority: the governing body of the event, major media organizations (e.g., ESPN, AP, etc.), and official broadcasters. The Exchange will rely on the result reported by the highest-priority Source Agency that has issued an authoritative result at the time of settlement (the \"Official Result\"), unless the Exchange, in its sole and absolute discretion, for any reason or no reason, determines that such result is clearly erroneous. If the Official Result is corrected or revised by a Source Agency prior to Expiration, the corrected result shall be used for settlement. Any corrections or revisions made after Expiration shall not be considered. If an Official Result is not available or cannot be determined at Expiration, the Exchange may determine the outcome pursuant to Rule 7.1 (Market Outcome Review).",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NHL",
+  "ticker": "NHL-DWIN-GNO-00O3K51DQT31ALG-DRAW",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T01:00:51.745Z",
+  "domainId": "00P0",
+  "eventTicker": "NHL-WIN-FG-00O3K51DQT31ALG",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-31T23:10:00Z",
+  "marketOpenTimestamp": "2026-09-16T01:15:51.745Z",
+  "marketProductTypeId": "8c96f7c0-ac1c-40ec-adf5-2091ccd0f88e",
+  "marketProductTypeName": "NHL-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O3K51DQT31ALG",
+   "competitionName": "BUF Sabres @ CBJ Blue Jackets",
+   "competitionStartTime": "2026-10-01T23:10:00Z",
+   "intakeEventId": "01C4G17BI5LH68J6JC",
+   "leagueId": "03L47MKVD4",
+   "leagueName": "NHL",
+   "participants": [
+    {
+     "id": "DKT_006I8BL5VHC8K",
+     "name": "BUF Sabres",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "BUF Sabres",
+  "parameters": {
+   "participant": "DKT_006I8BL5VHC8K",
+   "statAchievement": "WIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "NHLWIN",
+  "rules": {
+   "description": "This selection refers to which team wins this NHL game, including any overtime and shootout. The winning team's selection resolves Yes; the losing team's selection resolves No.\n\nIf the game cannot be completed, the selection resolves to the last fair market price, as determined by the Exchange \u2014 specifically if a playoff game is not completed within 90 days, or a non-playoff game is not completed within 48 hours.",
+   "settlementSources": "Sources are consulted pursuant to the following order of priority: the governing body of the event, major media organizations (e.g., ESPN, AP, etc.), and official broadcasters. The Exchange will rely on the result reported by the highest-priority Source Agency that has issued an authoritative result at the time of settlement (the \"Official Result\"), unless the Exchange, in its sole and absolute discretion, for any reason or no reason, determines that such result is clearly erroneous. If the Official Result is corrected or revised by a Source Agency prior to Expiration, the corrected result shall be used for settlement. Any corrections or revisions made after Expiration shall not be considered. If an Official Result is not available or cannot be determined at Expiration, the Exchange may determine the outcome pursuant to Rule 7.1 (Market Outcome Review).",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NHL",
+  "ticker": "NHL-WIN-FG-00O3K51DQT31ALG-BUES012",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T01:00:51.745Z",
+  "domainId": "00P0",
+  "eventTicker": "NHL-WIN-FG-00O3K51DQT31ALG",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-31T23:10:00Z",
+  "marketOpenTimestamp": "2026-09-16T01:15:51.745Z",
+  "marketProductTypeId": "8c96f7c0-ac1c-40ec-adf5-2091ccd0f88e",
+  "marketProductTypeName": "NHL-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O3K51DQT31ALG",
+   "competitionName": "BUF Sabres @ CBJ Blue Jackets",
+   "competitionStartTime": "2026-10-01T23:10:00Z",
+   "intakeEventId": "01C4G17BI5LH68J6JC",
+   "leagueId": "03L47MKVD4",
+   "leagueName": "NHL",
+   "participants": [
+    {
+     "id": "DKT_01SOG5HQQ2Q1U",
+     "name": "CBJ Blue Jackets",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CBJ Blue Jackets",
+  "parameters": {
+   "participant": "DKT_01SOG5HQQ2Q1U",
+   "statAchievement": "WIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "NHLWIN",
+  "rules": {
+   "description": "This selection refers to which team wins this NHL game, including any overtime and shootout. The winning team's selection resolves Yes; the losing team's selection resolves No.\n\nIf the game cannot be completed, the selection resolves to the last fair market price, as determined by the Exchange \u2014 specifically if a playoff game is not completed within 90 days, or a non-playoff game is not completed within 48 hours.",
+   "settlementSources": "Sources are consulted pursuant to the following order of priority: the governing body of the event, major media organizations (e.g., ESPN, AP, etc.), and official broadcasters. The Exchange will rely on the result reported by the highest-priority Source Agency that has issued an authoritative result at the time of settlement (the \"Official Result\"), unless the Exchange, in its sole and absolute discretion, for any reason or no reason, determines that such result is clearly erroneous. If the Official Result is corrected or revised by a Source Agency prior to Expiration, the corrected result shall be used for settlement. Any corrections or revisions made after Expiration shall not be considered. If an Official Result is not available or cannot be determined at Expiration, the Exchange may determine the outcome pursuant to Rule 7.1 (Market Outcome Review).",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NHL",
+  "ticker": "NHL-WIN-FG-00O3K51DQT31ALG-CBTS000",
+  "topic": "Sports"
+ }
+]

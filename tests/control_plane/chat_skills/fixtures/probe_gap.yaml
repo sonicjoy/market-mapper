@@ -1,0 +1,312 @@
+# Suite A/B goldens for probe_gap. Probes are stubbed so CI stays offline.
+- id: probe_maker_lag
+  message: NX.F.OPT.TENNIS-0011-260824-M.O.1.1.20261231
+  page: {}
+  stubs:
+    crypto_probe:
+      ok: true
+      symbol: NX.F.OPT.TENNIS-0011-260824-M.O.1.1.20261231
+      league: atp
+      sportsbook: crypto.com
+      title: Sinner vs Alcaraz
+      crypto_ids: ["11", "12"]
+      tip: []
+      kind: already_mapped
+      mapped_rows: []
+      optic: {fixture_id: fx-sin-alc, start_date: "2026-08-24T10:00:00Z"}
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: maker_lag
+    ui_action_types: [navigate]
+
+- id: probe_crypto_maker_lag
+  message: NX.F.OPT.TENNIS-0015-260902-M.O.1.1.20261231
+  page: {}
+  stubs:
+    crypto_probe:
+      ok: true
+      symbol: NX.F.OPT.TENNIS-0015-260902-M.O.1.1.20261231
+      league: wta
+      sportsbook: crypto.com
+      title: Kamilla Rakhimova @ Oksana Selekhmeteva
+      meta_league: WTA
+      contract_type: Moneyline
+      codes: ["942505", "847110"]
+      crypto_ids: ["942505", "847110"]
+      tip:
+        - {crypto_id: "942505", owners: ["OSK8"]}
+        - {crypto_id: "847110", owners: ["RAK"]}
+      kind: unmapped
+      mapped_rows: []
+      optic:
+        fixture_id: "20260902A98210F7"
+        start_date: "2026-09-02T18:40:00Z"
+        home: Oksana Selekhmeteva
+        away: Kamilla Rakhimova
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+    ui_action_types: [navigate]
+
+- id: probe_expected_residual
+  message: why is KXMLBGAME-26AUG24NYYBOS unmapped
+  page: {}
+  stubs:
+    mapping_probe:
+      ok: true
+      kind: unmapped
+      sportsbook: kalshi
+      symbol: KXMLBGAME-26AUG24NYYBOS
+      market_ticker: KXMLBGAME-26AUG24NYYBOS
+      league: mlb
+      title: No optic counterpart
+      mapped_rows: []
+      codes: []
+      tip: []
+      optic: {}
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+    ui_action_types: [navigate]
+
+- id: probe_mapped_in_market_mapping
+  message: KXUEFASCGAME-26AUG12PSGAVL-TIE
+  page: {}
+  stubs:
+    mapping_probe:
+      ok: true
+      event_ticker: KXUEFASCGAME-26AUG12PSGAVL
+      market_ticker: KXUEFASCGAME-26AUG12PSGAVL-TIE
+      league: uefa_super_cup
+      title: PSG vs Aston Villa
+      codes: []
+      tip: []
+      kind: already_mapped
+      mapped_rows:
+        - sportsbook: Kalshi
+          market_ticker: KXUEFASCGAME-26AUG12PSGAVL-TIE
+          market_type: moneyline_3way
+          entity: game
+          line: ""
+          side: _TIE
+          selection: Draw
+          home: PSG
+          away: Aston Villa
+          start_date: "2026-08-12T19:00:00Z"
+          fixture_id: fx-usc
+          game_id: game-usc
+      optic:
+        fixture_id: fx-usc
+        start_date: "2026-08-12T19:00:00Z"
+        home: PSG
+        away: Aston Villa
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: mapped
+    ui_action_types: []
+
+- id: probe_crypto_actionable
+  message: why is NX.F.OPT.FIFA.ARSCHE unmapped
+  page: {}
+  stubs:
+    crypto_probe:
+      ok: true
+      symbol: NX.F.OPT.FIFA.ARSCHE
+      league: epl
+      meta_name: Arsenal vs Chelsea
+      meta_event_date: "2026-08-25"
+      crypto_ids: ["12345", "67890"]
+      tip: []
+      kind: unknown_crypto_id
+      optic:
+        fixture_id: fx-ars-che
+        start_date: "2026-08-25T14:00:00Z"
+        home: Arsenal
+        away: Chelsea
+        home_id: OPTIC_ARS
+        away_id: OPTIC_CHE
+      evidence_refs: ["crypto:NX.F.OPT.FIFA.ARSCHE"]
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: actionable
+    prefill_tab: alias
+
+- id: probe_crypto_catalogue_miss
+  message: why is NX.F.OPT.FIFA.NOPE unmapped
+  page: {}
+  stubs:
+    crypto_probe:
+      ok: true
+      symbol: NX.F.OPT.FIFA.NOPE
+      league: ""
+      meta_name: ""
+      crypto_ids: []
+      tip: []
+      kind: catalogue_miss
+      optic: {}
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+
+- id: probe_crypto_mapped_in_market_mapping
+  message: NX.F.OPT.UFC-00011-260822-M.O.1.1.20260822
+  page: {}
+  stubs:
+    crypto_probe:
+      ok: true
+      symbol: NX.F.OPT.UFC-00011-260822-M.O.1.1.20260822
+      league: ufc
+      sportsbook: crypto.com
+      meta_name: Schultz vs McVey
+      title: Schultz vs McVey
+      crypto_ids: []
+      tip: []
+      kind: already_mapped
+      mapped_rows:
+        - sportsbook: crypto.com
+          symbol: NX.F.OPT.UFC-00011-260822-M.O.1.1.20260822
+          market_type: moneyline
+          entity: game
+          line: ""
+          side: SCH
+          selection: Schultz
+          home: Wesley Schultz
+          away: Jackson McVey
+          start_date: "2026-08-22T00:00:00Z"
+          fixture_id: fx-sch
+          game_id: game-sch
+      optic:
+        fixture_id: fx-sch
+        start_date: "2026-08-22T00:00:00Z"
+        home: Wesley Schultz
+        away: Jackson McVey
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: mapped
+    ui_action_types: []
+
+- id: probe_poly_unmapped
+  message: "0xabababababababababababababababababababababababababababababababab"
+  page: {}
+  stubs:
+    mapping_probe:
+      ok: true
+      kind: unmapped
+      sportsbook: polymarket
+      id_kind: condition_id
+      symbol: 0xabababababababababababababababababababababababababababababababab
+      norm_id: 0xabababababababababababababababababababababababababababababababab
+      title: Will Arsenal win?
+      slug: epl-ars-che
+      outcomes: [Yes, No]
+      mapped_rows: []
+      codes: []
+      optic: {}
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+
+- id: probe_px_unmapped
+  message: "730003207"
+  page: {}
+  stubs:
+    mapping_probe:
+      ok: true
+      kind: unmapped
+      sportsbook: px
+      id_kind: px_id
+      symbol: "730003207"
+      title: Lakers vs Celtics
+      tournament: NBA
+      mapped_rows: []
+      codes: []
+      optic:
+        home: Lakers
+        away: Celtics
+        start_date: "2026-08-28T19:00:00Z"
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+
+- id: probe_novig_unmapped
+  message: 01a03c33-d23f-7040-90cb-d64c165ae185
+  page: {}
+  stubs:
+    mapping_probe:
+      ok: true
+      kind: unmapped
+      sportsbook: novig
+      id_kind: novig_event
+      symbol: 01a03c33-d23f-7040-90cb-d64c165ae185
+      title: Lakers vs Celtics
+      league: NBA
+      novig_type: GAME
+      mapped_rows: []
+      codes: []
+      optic:
+        fixture_id: 20260828ABC
+        home: Lakers
+        away: Celtics
+        start_date: "2026-08-28T19:00:00Z"
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+
+- id: probe_poly_usa_unmapped
+  message: map aec-atp-benbon-botzan-2026-08-27
+  page: {}
+  stubs:
+    mapping_probe:
+      ok: true
+      kind: unmapped
+      sportsbook: polymarket_usa
+      id_kind: us_symbol
+      symbol: aec-atp-benbon-botzan-2026-08-27
+      title: benbon vs botzan
+      league: atp
+      sports_market_type: tennis_match_winner
+      mapped_rows: []
+      codes: []
+      optic:
+        home: benbon
+        away: botzan
+        start_date: "2026-08-27"
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+
+- id: probe_poly_official_exact_score
+  message: "do we map this ticker: `bun-stu-koe-2026-09-04-exact-score-0-0`"
+  page: {}
+  stubs:
+    mapping_probe:
+      ok: true
+      kind: exact_score
+      sportsbook: polymarket
+      id_kind: poly_slug
+      symbol: bun-stu-koe-2026-09-04-exact-score-0-0
+      title: stu vs koe
+      league: bun
+      suffix: exact-score-0-0
+      mapped_rows: []
+      codes: []
+      optic:
+        home: stu
+        away: koe
+        start_date: "2026-09-04"
+  expect:
+    path: skill:probe_gap
+    outcome: ok
+    verdict: expected_residual
+    ui_action_types: [navigate]

@@ -1,0 +1,19 @@
+---
+description: After finishing any mmmapper code task, always run the full quality gate
+alwaysApply: true
+---
+
+# Quality gate on task finish
+
+When a code task is finished (implementation, bugfix, or edits from review), **always** run the quality gate before reporting done. Do not wait for the user to ask.
+
+## Required checks
+
+1. **pyright** — `python -m pyright` on changed paths (or `.` before commit)
+2. **ruff** — `python -m ruff check` on changed paths
+3. **mypy** — if configured/installed; otherwise report Skipped (mmmapper uses pyright today)
+4. **bandit** — via `bash scripts/run-quality.sh` or scoped bandit
+
+Prefer launching the `quality-checker` subagent, or mirroring pre-commit: `bash scripts/run-quality.sh` then `python -m pyright .`.
+
+A ruff+pytest-only pass is **not** enough. Fix failures before calling the task complete.

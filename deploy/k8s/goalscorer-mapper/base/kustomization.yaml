@@ -1,0 +1,19 @@
+# goalscorer-mapper — own namespace, image, SA and deploy jobs (separate from mapping-console).
+# Runbook: docs/goalscorer-mapper.md
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - serviceaccount.yaml
+  - bot-deployment.yaml
+  - pregame-cronjob.yaml
+  - listing-cronjob.yaml
+  - reconcile-cronjob.yaml
+  - pnl-cronjob.yaml
+configMapGenerator:
+  # Overlays merge GCP_PROJECT and the Slack channel in. The hash suffix rolls
+  # the bot Deployment whenever a value changes.
+  - name: goalscorer-mapper-config
+    literals:
+      - GOALSCORER_MAPPER_ENABLED=1
+      - GOALSCORER_LOOKBACK_DAYS=60
+      - GOALSCORER_PREGAME_DAYS_AHEAD=1

@@ -1,0 +1,8 @@
+# Prod WI GSA — table-scoped BQ access (mm-infrastructure mapping_control_plane IAM).
+# Activation stays disabled: GCP_PROJECT=rs-marketmaking → allow_activate=false.
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: mapping-control-plane
+  annotations:
+    iam.gke.io/gcp-service-account: mapping-control-plane@rs-marketmaking.iam.gserviceaccount.com

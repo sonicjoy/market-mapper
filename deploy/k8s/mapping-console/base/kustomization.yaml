@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - serviceaccount.yaml
+  - deployment.yaml
+  - service.yaml
+  - gap-propose-role.yaml
+  - gap-propose-cronjob.yaml
+  - mismap-alert-cronjob.yaml
+  - oom-fold-rank-cronjob.yaml

@@ -1,0 +1,14 @@
+# NodePort — fronted by the WSD consoles gateway (IAP), not exposed directly.
+apiVersion: v1
+kind: Service
+metadata:
+  name: mapping-console
+  labels:
+    app: mapping-console
+spec:
+  type: NodePort
+  selector:
+    app: mapping-console
+  ports:
+    - port: 80
+      targetPort: 8000

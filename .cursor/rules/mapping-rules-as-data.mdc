@@ -1,0 +1,27 @@
+---
+description: Mapping rules are code — leagues, vocab, venue league ids and aliases ship by MR through the regression gate
+alwaysApply: true
+---
+
+# Mapping rules are code
+
+Canonical statement: `CLAUDE.md`. Read it before changing how any venue
+market maps.
+
+- Leagues, market types, selection vocab, venue league ids and aliases
+  live in Python under `mappers/` (table of locations in `CLAUDE.md`).
+- A mapping change is a code edit plus a test next to it, then
+  `GCP_PROJECT=rs-marketmaking .venv/bin/pytest -q`, then an MR. The
+  `regression:mapping-gate` CI job (`regression/live_gate.py`) shows the
+  row delta. Removed rows need a waiver in `regression/waivers.toml`.
+- The BigQuery rule-set tip (`mappers/seed/sot.py`, `mapping_*` tables,
+  `P_*` / `S0_*` rule sets) is legacy. Parts of the mapper still load it.
+  Do not add leagues, rules, aliases or pins to it, and do not make new
+  code read it.
+- The mapping console, `mappers/control_plane/` and Mapper Chat are not a
+  way to ship mapping. Do not stage pins, approve cards or extend them.
+- No ticker, slug or symbol parsing. Sides and identity come from typed
+  venue fields.
+- Unit tests read a frozen tip from `tests/fixtures/sot/tip.json`
+  (`MAPPING_SOT_FIXTURE`, set in `tests/conftest.py`). Do not edit that
+  fixture to make a mapping change pass.

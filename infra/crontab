@@ -1,0 +1,78 @@
+# Repo-managed crontab for the mmmapper VM (user: gtod).
+#
+# Applied idempotently by infra/deploy.sh on every deploy - this file is
+# the single source of truth for the VM schedule.  Do NOT edit with
+# `crontab -e` on the VM; those changes are overwritten on the next
+# deploy.  Change the schedule here and deploy instead.
+#
+# cron runs each command via `/bin/sh -c`, so $HOME expands to the
+# invoking user's home directory.
+#
+# m h dom mon dow  command
+#
+# Mapping pipeline every 15 min (fetch -> map -> load to BigQuery).
+*/15 * * * * $HOME/mmmapper/infra/cron_pipeline.sh
+# BQ-optic mapping pipeline (cron_pipeline_bq.sh) — DELIBERATELY UNSCHEDULED as
+# of 2026-08-14, on an explicit call to stop paying for it.  It previously ran
+# at 5,20,35,50 (96 ticks/day).
+#
+# WHAT IT COST.  Its first step, BigQuery.optic_from_bq, scans
+# opticodds_us.opticodds_prices filtered on sport='soccer' and a 204h
+# publish_time window with NO league or fixture predicate.  Measured on
+# rs-marketmaking 2026-08-14: 148,893,135 rows scanned per tick, of which
+# 9,409,021 (6.3%) belong to a league this pipeline actually maps — 795 soccer
+# fixtures pulled to serve 109.  At 96 ticks/day that is the single largest
+# recurring BQ read in this repo.
+#
+# BQ_OPTIC_LEAGUES was removed 2026-08-25. Every former member has a live
+# /fixtures/active book on the standard key and is on the main 15-min API
+# fetch (same graduation as Europa Conference / korea_k1). Tip fixture_source
+# must be api or the main tick still skips the league.
+#
+# Do NOT restore the line below unscoped — that restores the cost. A one-off
+# emergency BQ pull is `BQ_LEAGUES='…' GCP_PROJECT=… infra/run_pipeline_bq.sh`.
+# The 5-minute offset and the private staging table (MAPPING_STAGE_TABLE ->
+# market_mapping_stage_bq) exist because a SHARED stage was not safe: two
+# overlapping WRITE_TRUNCATE loads clobbered each other's batch and both
+# MERGEs INSERTed the same key (no unique constraint on market_mapping),
+# producing the 2026-08-14 Polymarket duplicate-key FATAL. Keep both if it
+# is ever rescheduled — see BigQuery/docs/staging-isolation.md.
+#   5,20,35,50 * * * * $HOME/mmmapper/infra/cron_pipeline_bq.sh
+# Kalshi raw-stash every 6 hours, at :07 to avoid the pipeline ticks.
+7 */6 * * * $HOME/mmmapper/infra/cron_kalshi_raw.sh
+# Novig raw-stash every 15 minutes, at :02/:17/:32/:47 — clear of the pipeline
+# ticks, the bridge (:08/:23/…), synthetic (:10/:25/…) and the Kalshi stash.
+# This takes Novig's WHOLE book (--all-leagues), including leagues we do not
+# map yet, so raw_ingestion_us.novig_raw keeps history from before a league
+# is wired.  The 15-min mapping tick fetches only the wired leagues, into its
+# own timestamped data dir.  flock -n: a slow stash skips the next slot
+# instead of stacking a second run on top of it.
+2,17,32,47 * * * * flock -n /tmp/mmmapper_novig_raw.lock $HOME/mmmapper/infra/cron_novig_raw.sh
+# Synthetic fixtures/mappings for un-covered Kalshi series (ITF doubles +
+# singles gaps), every 15 min at :10/:25/:40/:55 — clear of both the :00/:15/:30/:45
+# (cron_pipeline) and :05/:20/:35/:50 slots.  The latter is free now that
+# cron_pipeline_bq is unscheduled (see above); leave it free so a manual or
+# restored BQ run still lands clear of this one.  Overlap of this job with
+# itself is guarded by logs/synthetic.lock (non-blocking flock in
+# run_itf_synth.sh); a slow Kalshi fetch must not stack a second
+# delete-then-append into market_mapping.
+10-59/15 * * * * $HOME/mmmapper/infra/cron_itf_synth.sh
+# Prune data/ + data_raw/ older than 1 day (BQ holds raw history; local
+# staging is audit-only) and oversized logs, nightly at 02:15 UTC — before
+# compress so deletion frees the space bzip2 needs.
+15 2 * * * $HOME/mmmapper/infra/cron_disk_cleanup.sh
+# Compress jsonl older than 1 day within the retained window, nightly at
+# 03:30 UTC.
+30 3 * * * $HOME/mmmapper/infra/cron_compress_old_jsonl.sh
+# Polymarket position bridge (combos-rfq catalog → Gamma → BQ MERGE).
+# Independent of the mapping tick: paging the catalog is ~6 min and used
+# to hold pipeline.lock so every other :15 skipped. fetch.polymarket reads
+# the last MERGE; a new combo leg waits until the next successful bridge
+# run (own lock logs/polymarket_bridge.lock). Offset +8 min from */15 so
+# it is not the same second as cron_pipeline; :10/:25/:40/:55 is itf synth.
+8,23,38,53 * * * * $HOME/mmmapper/infra/cron_polymarket_bridge.sh
+# Polymarket token resolutions daily at 04:30 UTC.
+30 4 * * * $HOME/mmmapper/infra/cron_polymarket_token_resolutions.sh
+# Coverage gap alerts (Kalshi, Polymarket, crypto.com) are not scheduled.
+# gap-propose drafts those repairs. The crypto.com scan was ~50 TiB/day on
+# the mapping tick and ~0.23 TiB/day on a 2-hour cron. Do not add it back.

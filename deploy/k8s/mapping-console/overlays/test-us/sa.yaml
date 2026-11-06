@@ -1,0 +1,7 @@
+# Test WI GSA — table-scoped BQ access for the mapping control plane.
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: mapping-control-plane
+  annotations:
+    iam.gke.io/gcp-service-account: mapping-control-plane@marketmaking-test.iam.gserviceaccount.com

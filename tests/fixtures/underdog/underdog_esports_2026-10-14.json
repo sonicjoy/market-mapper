@@ -1,0 +1,326 @@
+{
+"cs2": {
+"optic": [
+{
+"away_id": "A1674961D8A4",
+"away_name": "Legacy",
+"fixture_id": "20261014C06D4609",
+"home_id": "0D7ED664687C",
+"home_name": "PARIVISION",
+"start_date": "2026-10-14T15:35:00Z"
+},
+{
+"away_id": "3DEA9C267EDE",
+"away_name": "FURIA",
+"fixture_id": "20261014E4D1B8C3",
+"home_id": "525D82DE6154",
+"home_name": "BetBoom Team",
+"start_date": "2026-10-14T16:00:00Z"
+},
+{
+"away_id": "5D5B7D6F959C",
+"away_name": "Team Falcons",
+"fixture_id": "20261014FEB87BF5",
+"home_id": "9243393FF4B3",
+"home_name": "NIP",
+"start_date": "2026-10-14T12:20:00Z"
+}
+],
+"rows": [
+{
+"description": "Resolves Yes if Team Falcons wins the entire series, including overtime of Thunderpick World Championship 2026 CS2 group a series between NIP and Team Falcons originally scheduled for October 14, 2026.",
+"expires_at": "2026-10-17T12:20:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014FEB87BF5",
+"market_id": "moneyline",
+"team_id": "5D5B7D6F959C"
+}
+},
+"status": "open",
+"ticker": "UDXCS2GAMEWIN_FALNIP26OCT140700_FAL"
+},
+{
+"description": "Resolves Yes if NIP wins the entire series, including overtime of Thunderpick World Championship 2026 CS2 group a series between NIP and Team Falcons originally scheduled for October 14, 2026.",
+"expires_at": "2026-10-17T12:20:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014FEB87BF5",
+"market_id": "moneyline",
+"team_id": "9243393FF4B3"
+}
+},
+"status": "open",
+"ticker": "UDXCS2GAMEWIN_FALNIP26OCT140700_NIP"
+},
+{
+"description": "Resolves Yes if BetBoom Team wins the entire series, including overtime of Thunderpick World Championship 2026 CS2 group b series between BetBoom Team and FURIA originally scheduled for October 14, 2026.",
+"expires_at": "2026-10-17T16:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014E4D1B8C3",
+"market_id": "moneyline",
+"team_id": "525D82DE6154"
+}
+},
+"status": "open",
+"ticker": "UDXCS2GAMEWIN_FURIABB26OCT141200_BB"
+},
+{
+"description": "Resolves Yes if FURIA wins the entire series, including overtime of Thunderpick World Championship 2026 CS2 group b series between BetBoom Team and FURIA originally scheduled for October 14, 2026.",
+"expires_at": "2026-10-17T16:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014E4D1B8C3",
+"market_id": "moneyline",
+"team_id": "3DEA9C267EDE"
+}
+},
+"status": "open",
+"ticker": "UDXCS2GAMEWIN_FURIABB26OCT141200_FURIA"
+},
+{
+"description": "Resolves Yes if Legacy wins the entire series, including overtime of Thunderpick World Championship 2026 CS2 group b series between PARIVISION and Legacy originally scheduled for October 14, 2026.",
+"expires_at": "2026-10-17T14:45:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014C06D4609",
+"market_id": "moneyline",
+"team_id": "A1674961D8A4"
+}
+},
+"status": "open",
+"ticker": "UDXCS2GAMEWIN_LGCPRV26OCT140930_LGC"
+},
+{
+"description": "Resolves Yes if PARIVISION wins the entire series, including overtime of Thunderpick World Championship 2026 CS2 group b series between PARIVISION and Legacy originally scheduled for October 14, 2026.",
+"expires_at": "2026-10-17T14:45:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014C06D4609",
+"market_id": "moneyline",
+"team_id": "0D7ED664687C"
+}
+},
+"status": "open",
+"ticker": "UDXCS2GAMEWIN_LGCPRV26OCT140930_PRV"
+},
+{
+"description": "Resolves Yes if Thunderpick World Championship 2026 CS2 group a series between NIP and Team Falcons originally scheduled for October 14, 2026 has above 2.5 maps during the entire series, including overtime.",
+"expires_at": "2026-10-17T12:20:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014FEB87BF5",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXCS2TOTAL_FALNIP26OCT140700_2.5"
+},
+{
+"description": "Resolves Yes if Thunderpick World Championship 2026 CS2 group b series between BetBoom Team and FURIA originally scheduled for October 14, 2026 has above 2.5 maps during the entire series, including overtime.",
+"expires_at": "2026-10-17T16:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014E4D1B8C3",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXCS2TOTAL_FURIABB26OCT141200_2.5"
+},
+{
+"description": "Resolves Yes if Thunderpick World Championship 2026 CS2 group b series between PARIVISION and Legacy originally scheduled for October 14, 2026 has above 2.5 maps during the entire series, including overtime.",
+"expires_at": "2026-10-17T14:45:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014C06D4609",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXCS2TOTAL_LGCPRV26OCT140930_2.5"
+}
+]
+},
+"lol": {
+"optic": [
+{
+"away_id": "235AA062E637",
+"away_name": "Cloud9",
+"fixture_id": "202610159D465D70",
+"home_id": "298702742E35",
+"home_name": "Karmine Corp",
+"start_date": "2026-10-15T18:00:00Z"
+},
+{
+"away_id": "714E65EA2496",
+"away_name": "Team WE",
+"fixture_id": "20261015B137B4FB",
+"home_id": "E78C770DB486",
+"home_name": "OKSavingsBank BRION",
+"start_date": "2026-10-15T09:00:00Z"
+},
+{
+"away_id": "630CED0841C9",
+"away_name": "FURIA Esports",
+"fixture_id": "20261015F369BCDE",
+"home_id": "4091178EE29CB9BC",
+"home_name": "MVK Esports",
+"start_date": "2026-10-15T23:00:00Z"
+}
+],
+"rows": [
+{
+"description": "Resolves Yes if Cloud9 wins the entire series of Worlds 2026 League of Legends play-in series between Karmine Corp and Cloud9 originally scheduled for October 15, 2026.",
+"expires_at": "2026-10-18T18:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610159D465D70",
+"market_id": "moneyline",
+"team_id": "235AA062E637"
+}
+},
+"status": "open",
+"ticker": "UDXLOLGAMEWIN_C9KC26OCT151400_C9"
+},
+{
+"description": "Resolves Yes if Karmine Corp wins the entire series of Worlds 2026 League of Legends play-in series between Karmine Corp and Cloud9 originally scheduled for October 15, 2026.",
+"expires_at": "2026-10-18T18:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610159D465D70",
+"market_id": "moneyline",
+"team_id": "298702742E35"
+}
+},
+"status": "open",
+"ticker": "UDXLOLGAMEWIN_C9KC26OCT151400_KC"
+},
+{
+"description": "Resolves Yes if FURIA Esports wins the entire series of Worlds 2026 League of Legends play-in series between MVK Esports and FURIA Esports originally scheduled for October 15, 2026.",
+"expires_at": "2026-10-18T23:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015F369BCDE",
+"market_id": "moneyline",
+"team_id": "630CED0841C9"
+}
+},
+"status": "open",
+"ticker": "UDXLOLGAMEWIN_FURMVK26OCT151900_FUR"
+},
+{
+"description": "Resolves Yes if MVK Esports wins the entire series of Worlds 2026 League of Legends play-in series between MVK Esports and FURIA Esports originally scheduled for October 15, 2026.",
+"expires_at": "2026-10-18T23:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015F369BCDE",
+"market_id": "moneyline",
+"team_id": "4091178EE29CB9BC"
+}
+},
+"status": "open",
+"ticker": "UDXLOLGAMEWIN_FURMVK26OCT151900_MVK"
+},
+{
+"description": "Resolves Yes if OKSavingsBank BRION wins the entire series of Demacia Cup Global Invitational 2026 League of Legends playoffs series between OKSavingsBank BRION and Team WE originally scheduled for October 15, 2026.",
+"expires_at": "2026-10-18T09:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015B137B4FB",
+"market_id": "moneyline",
+"team_id": "E78C770DB486"
+}
+},
+"status": "open",
+"ticker": "UDXLOLGAMEWIN_WEBRO26OCT150500_BRO"
+},
+{
+"description": "Resolves Yes if Team WE wins the entire series of Demacia Cup Global Invitational 2026 League of Legends playoffs series between OKSavingsBank BRION and Team WE originally scheduled for October 15, 2026.",
+"expires_at": "2026-10-18T09:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015B137B4FB",
+"market_id": "moneyline",
+"team_id": "714E65EA2496"
+}
+},
+"status": "open",
+"ticker": "UDXLOLGAMEWIN_WEBRO26OCT150500_WE"
+},
+{
+"description": "Resolves Yes if Worlds 2026 League of Legends play-in series between Karmine Corp and Cloud9 originally scheduled for October 15, 2026 has above 3.5 maps during the entire series.",
+"expires_at": "2026-10-18T18:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610159D465D70",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXLOLTOTAL_C9KC26OCT151400_3.5"
+},
+{
+"description": "Resolves Yes if Worlds 2026 League of Legends play-in series between Karmine Corp and Cloud9 originally scheduled for October 15, 2026 has above 4.5 maps during the entire series.",
+"expires_at": "2026-10-18T18:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610159D465D70",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXLOLTOTAL_C9KC26OCT151400_4.5"
+},
+{
+"description": "Resolves Yes if Worlds 2026 League of Legends play-in series between MVK Esports and FURIA Esports originally scheduled for October 15, 2026 has above 3.5 maps during the entire series.",
+"expires_at": "2026-10-18T23:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015F369BCDE",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXLOLTOTAL_FURMVK26OCT151900_3.5"
+},
+{
+"description": "Resolves Yes if Worlds 2026 League of Legends play-in series between MVK Esports and FURIA Esports originally scheduled for October 15, 2026 has above 4.5 maps during the entire series.",
+"expires_at": "2026-10-18T23:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015F369BCDE",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXLOLTOTAL_FURMVK26OCT151900_4.5"
+},
+{
+"description": "Resolves Yes if Demacia Cup Global Invitational 2026 League of Legends playoffs series between OKSavingsBank BRION and Team WE originally scheduled for October 15, 2026 has above 3.5 maps during the entire series.",
+"expires_at": "2026-10-18T09:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015B137B4FB",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXLOLTOTAL_WEBRO26OCT150500_3.5"
+},
+{
+"description": "Resolves Yes if Demacia Cup Global Invitational 2026 League of Legends playoffs series between OKSavingsBank BRION and Team WE originally scheduled for October 15, 2026 has above 4.5 maps during the entire series.",
+"expires_at": "2026-10-18T09:00:00.000000Z",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261015B137B4FB",
+"market_id": "total_maps"
+}
+},
+"status": "open",
+"ticker": "UDXLOLTOTAL_WEBRO26OCT150500_4.5"
+}
+]
+}
+}

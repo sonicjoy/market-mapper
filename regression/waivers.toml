@@ -1,0 +1,82 @@
+# Reviewed excuses for expected gate deltas.  Empty file = strict
+# gate (zero deltas or fail).  Policy: README "Gate policy";
+# mechanics: waivers.py.  A waiver is born in the MR whose change it
+# excuses and dies in the re-bless commit that absorbs it.
+#
+# Shape (all fields required; unknown keys are rejected):
+#
+# [[waiver]]
+# id = "mlb-poly-f5-enablement"
+# reason = "MLB F5 game lines enabled for Polymarket (MM-231, e5666a5)"
+# match = { direction = "added", league = "mlb", sportsbook = "polymarket", market_type_prefix = "f5_" }
+# max_rows = 300
+# expires = 2026-09-11
+
+[[waiver]]
+id = "polyus-nba-2h-team-total-incl-ot"
+reason = "PolyUS NBA 2H team totals count overtime; they move from Optic 2nd_half_team_total (Optic passthrough, now stripped) to 2nd_half_team_total_incl_ot"
+match = { direction = "removed", league = "nba", sportsbook = "polymarket_usa", market_type = "2h_team_total" }
+max_rows = 60
+expires = 2026-11-20
+
+[[waiver]]
+id = "polyus-nba-2h-winner-held"
+reason = "PolyUS NBA 2H winner counts overtime; Optic grades 2nd_half_moneyline_3-way on regulation, so its passthrough is stripped (mmmapper#113)"
+match = { direction = "removed", league = "nba", sportsbook = "polymarket_usa", market_type = "2h_winner_3way" }
+max_rows = 80
+expires = 2026-11-20
+
+[[waiver]]
+id = "polyus-nba-2h-spread-held"
+reason = "PolyUS NBA 2H counts overtime; Optic grades its 2nd_half_* lines on regulation (mmmapper#113)"
+match = { direction = "removed", league = "nba", sportsbook = "polymarket_usa", market_type = "2h_point_spread" }
+max_rows = 900
+expires = 2026-11-20
+
+[[waiver]]
+id = "polyus-nba-2h-total-held"
+reason = "PolyUS NBA 2H counts overtime; Optic grades its 2nd_half_* lines on regulation (mmmapper#113)"
+match = { direction = "removed", league = "nba", sportsbook = "polymarket_usa", market_type = "2h_total" }
+max_rows = 450
+expires = 2026-11-20
+
+[[waiver]]
+id = "kalshi-nba-2h-spread-held"
+reason = "Kalshi NBA 2nd half counts overtime; Optic grades its 2nd_half_* lines on regulation (mmmapper#113)"
+match = { direction = "removed", league = "nba", sportsbook = "kalshi", market_type = "2h_point_spread" }
+max_rows = 1200
+expires = 2026-11-20
+
+[[waiver]]
+id = "kalshi-nba-2h-total-held"
+reason = "Kalshi NBA 2nd half counts overtime; Optic grades its 2nd_half_* lines on regulation (mmmapper#113)"
+match = { direction = "removed", league = "nba", sportsbook = "kalshi", market_type = "2h_total" }
+max_rows = 1200
+expires = 2026-11-20
+
+[[waiver]]
+id = "kalshi-nba-2h-winner-held"
+reason = "Kalshi NBA 2nd half counts overtime; Optic grades its 2nd_half_* lines on regulation (mmmapper#113)"
+match = { direction = "removed", league = "nba", sportsbook = "kalshi", market_type = "2h_winner_3way" }
+max_rows = 60
+expires = 2026-11-20
+[[waiver]]
+id = "kalshi-ncaab-2h-point-spread-held"
+reason = "Kalshi NCAAB 2nd half counts overtime (rules: \"wins the 2nd half (including overtime)\"); Optic grades 2nd_half_* on regulation (mmmapper#113)"
+match = { direction = "removed", league = "ncaab", sportsbook = "kalshi", market_type = "2h_point_spread" }
+max_rows = 600
+expires = 2026-11-20
+
+[[waiver]]
+id = "kalshi-ncaab-2h-total-held"
+reason = "Kalshi NCAAB 2nd half counts overtime (rules: \"wins the 2nd half (including overtime)\"); Optic grades 2nd_half_* on regulation (mmmapper#113)"
+match = { direction = "removed", league = "ncaab", sportsbook = "kalshi", market_type = "2h_total" }
+max_rows = 600
+expires = 2026-11-20
+
+[[waiver]]
+id = "kalshi-ncaab-2h-winner-3way-held"
+reason = "Kalshi NCAAB 2nd half counts overtime (rules: \"wins the 2nd half (including overtime)\"); Optic grades 2nd_half_* on regulation (mmmapper#113)"
+match = { direction = "removed", league = "ncaab", sportsbook = "kalshi", market_type = "2h_winner_3way" }
+max_rows = 80
+expires = 2026-11-20

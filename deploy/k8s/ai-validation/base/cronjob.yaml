@@ -1,0 +1,54 @@
+# AI validation of the published mappings -> markets_us.market_mapping_ai_validation,
+# every 2 hours (moved off the mapping VM's crontab).
+#
+# Cost is bounded by the anti-join on (row_fingerprint, prompt_version): a mapping
+# is judged once ever, so a normal run only spends on mappings that appeared since
+# the last one.  AI_MAX_ROWS caps a run when a backlog is being drained.
+#
+# Runs as mapping-control-plane via Workload Identity.  The GSA needs table-scoped
+# dataEditor on market_mapping_ai_validation and its _stage table, secretAccessor
+# on mm-mapping-bot-gemini-key (mm-infrastructure mapping_control_plane module,
+# ai_validation_iam.tf) and bigquery.jobUser.
+# GCP_PROJECT is set per env in the overlay.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: ai-validation
+  labels:
+    app: ai-validation
+spec:
+  schedule: "17 */2 * * *"
+  timeZone: "Etc/UTC"
+  # Paused 2026-11-04: too expensive for now. Set false to resume.
+  suspend: true
+  # A slow run must never overlap the next: both would see the same rows as
+  # unjudged and double-spend.  Skip the tick instead.
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 600
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      # The next tick is the retry.
+      backoffLimit: 0
+      activeDeadlineSeconds: 6600
+      ttlSecondsAfterFinished: 86400
+      template:
+        metadata:
+          labels:
+            app: ai-validation
+        spec:
+          serviceAccountName: mapping-control-plane
+          restartPolicy: Never
+          terminationGracePeriodSeconds: 30
+          containers:
+            - name: ai-validation
+              image: ai-validation:DEPLOY-VIA-DEPLOY-SH
+              command: ["python", "-u", "-m", "BigQuery.ai_validation"]
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 512Mi
+                limits:
+                  cpu: "1"
+                  memory: 1Gi

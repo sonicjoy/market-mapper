@@ -1,0 +1,1665 @@
+{
+ "63c2c44a-5f92-4e56-8b3e-08447f695ba3": {
+  "event_id": "63c2c44a-5f92-4e56-8b3e-08447f695ba3",
+  "teams": [
+   {
+    "team": "Carolina Panthers",
+    "players": [
+     {
+      "player_id": "4239934",
+      "name": "AJ Dillon",
+      "jersey": "28",
+      "position": "RB"
+     },
+     {
+      "player_id": "4602967",
+      "name": "Aaron Hall",
+      "jersey": "94",
+      "position": "DT"
+     },
+     {
+      "player_id": "4432374",
+      "name": "Ahmani Marshall",
+      "jersey": null,
+      "position": "RB"
+     },
+     {
+      "player_id": "4244607",
+      "name": "Akayleb Evans",
+      "jersey": "29",
+      "position": "CB"
+     },
+     {
+      "player_id": "4709392",
+      "name": "Anthony Tyus III",
+      "jersey": "34",
+      "position": "RB"
+     },
+     {
+      "player_id": "4880613",
+      "name": "Bam Martin-Scott",
+      "jersey": "54",
+      "position": "LB"
+     },
+     {
+      "player_id": "4372518",
+      "name": "Bobby Brown III",
+      "jersey": "97",
+      "position": "DT"
+     },
+     {
+      "player_id": "3117253",
+      "name": "Bobby Okereke",
+      "jersey": "58",
+      "position": "LB"
+     },
+     {
+      "player_id": "4256062",
+      "name": "Brady Christensen",
+      "jersey": "70",
+      "position": "G"
+     },
+     {
+      "player_id": "4685720",
+      "name": "Bryce Young",
+      "jersey": "9",
+      "position": "QB"
+     },
+     {
+      "player_id": "4360763",
+      "name": "Brycen Tremayne",
+      "jersey": "87",
+      "position": "WR"
+     },
+     {
+      "player_id": "4687513",
+      "name": "Cam Jackson",
+      "jersey": "99",
+      "position": "DT"
+     },
+     {
+      "player_id": "4428796",
+      "name": "Casey Washington",
+      "jersey": "88",
+      "position": "WR"
+     },
+     {
+      "player_id": "4697636",
+      "name": "Chau Smith-Wade",
+      "jersey": "26",
+      "position": "CB"
+     },
+     {
+      "player_id": "5091739",
+      "name": "Chris Brazzell II",
+      "jersey": "19",
+      "position": "WR"
+     },
+     {
+      "player_id": "4241416",
+      "name": "Chuba Hubbard",
+      "jersey": "30",
+      "position": "RB"
+     },
+     {
+      "player_id": "4576075",
+      "name": "Corey Bullock",
+      "jersey": "67",
+      "position": "C"
+     },
+     {
+      "player_id": "4431426",
+      "name": "Corey Thornton",
+      "jersey": "31",
+      "position": "CB"
+     },
+     {
+      "player_id": "4362647",
+      "name": "Damien Lewis",
+      "jersey": "68",
+      "position": "G"
+     },
+     {
+      "player_id": "2576925",
+      "name": "Darren Waller",
+      "jersey": "88",
+      "position": "TE"
+     },
+     {
+      "player_id": "4212909",
+      "name": "David Moore",
+      "jersey": "83",
+      "position": "WR"
+     },
+     {
+      "player_id": "4594449",
+      "name": "DeVonta Smith",
+      "jersey": "43",
+      "position": "CB"
+     },
+     {
+      "player_id": "4035495",
+      "name": "Derrick Brown",
+      "jersey": "95",
+      "position": "DT"
+     },
+     {
+      "player_id": "4243256",
+      "name": "Devin Lloyd",
+      "jersey": "55",
+      "position": "LB"
+     },
+     {
+      "player_id": "4034948",
+      "name": "Feleipe Franks",
+      "jersey": "81",
+      "position": "TE"
+     },
+     {
+      "player_id": "4428993",
+      "name": "Haynes King",
+      "jersey": "16",
+      "position": "QB"
+     },
+     {
+      "player_id": "4240573",
+      "name": "Ihmir Smith-Marsette",
+      "jersey": null,
+      "position": "WR"
+     },
+     {
+      "player_id": "4427132",
+      "name": "Ikem Ekwonu",
+      "jersey": "79",
+      "position": "OT"
+     },
+     {
+      "player_id": "4035462",
+      "name": "Isaiah Simmons",
+      "jersey": "27",
+      "position": "S"
+     },
+     {
+      "player_id": "11759",
+      "name": "JJ Jansen",
+      "jersey": "44",
+      "position": "LS"
+     },
+     {
+      "player_id": "4567416",
+      "name": "Ja'Markis Weston",
+      "jersey": null,
+      "position": "LB"
+     },
+     {
+      "player_id": "4431588",
+      "name": "Ja'Tavion Sanders",
+      "jersey": "0",
+      "position": "TE"
+     },
+     {
+      "player_id": "4876995",
+      "name": "Ja'seem Reed",
+      "jersey": "86",
+      "position": "WR"
+     },
+     {
+      "player_id": "4875592",
+      "name": "Jackson Kuwatch",
+      "jersey": "46",
+      "position": "LB"
+     },
+     {
+      "player_id": "4242975",
+      "name": "Jaelan Phillips",
+      "jersey": "5",
+      "position": "LB"
+     },
+     {
+      "player_id": "4035870",
+      "name": "Jake Curhan",
+      "jersey": "71",
+      "position": "OT"
+     },
+     {
+      "player_id": "4695883",
+      "name": "Jalen Coker",
+      "jersey": "18",
+      "position": "WR"
+     },
+     {
+      "player_id": "4362847",
+      "name": "Jaycee Horn",
+      "jersey": "8",
+      "position": "CB"
+     },
+     {
+      "player_id": "4034959",
+      "name": "Jeremiah Moon",
+      "jersey": "56",
+      "position": "LB"
+     },
+     {
+      "player_id": "4567096",
+      "name": "John Metchie III",
+      "jersey": "13",
+      "position": "WR"
+     },
+     {
+      "player_id": "4678008",
+      "name": "Jonathon Brooks",
+      "jersey": "25",
+      "position": "RB"
+     },
+     {
+      "player_id": "4712462",
+      "name": "Keith Cooper Jr.",
+      "jersey": null,
+      "position": "DT"
+     },
+     {
+      "player_id": "4240703",
+      "name": "Kenny Pickett",
+      "jersey": "12",
+      "position": "QB"
+     },
+     {
+      "player_id": "4429110",
+      "name": "Lathan Ransom",
+      "jersey": "22",
+      "position": "S"
+     },
+     {
+      "player_id": "4431551",
+      "name": "Lee Hunter",
+      "jersey": "92",
+      "position": "DT"
+     },
+     {
+      "player_id": "4035048",
+      "name": "Luke Fortner",
+      "jersey": "77",
+      "position": "C"
+     },
+     {
+      "player_id": "4428125",
+      "name": "Maema Njongmeta",
+      "jersey": "45",
+      "position": "LB"
+     },
+     {
+      "player_id": "5225251",
+      "name": "Malcolm DeWalt IV",
+      "jersey": "36",
+      "position": "DB"
+     },
+     {
+      "player_id": "5279357",
+      "name": "Mapalo Mwansa",
+      "jersey": "58",
+      "position": "LB"
+     },
+     {
+      "player_id": "3917853",
+      "name": "Mike Jackson",
+      "jersey": "2",
+      "position": "CB"
+     },
+     {
+      "player_id": "4683243",
+      "name": "Mitchell Evans",
+      "jersey": "84",
+      "position": "TE"
+     },
+     {
+      "player_id": "4870694",
+      "name": "Monroe Freeling",
+      "jersey": "57",
+      "position": "OT"
+     },
+     {
+      "player_id": "4833355",
+      "name": "Nic Scourton",
+      "jersey": "11",
+      "position": "LB"
+     },
+     {
+      "player_id": "4360773",
+      "name": "Nick Hampton",
+      "jersey": "39",
+      "position": "LB"
+     },
+     {
+      "player_id": "3116179",
+      "name": "Nick Scott",
+      "jersey": "21",
+      "position": "S"
+     },
+     {
+      "player_id": "4875848",
+      "name": "Parker Petersen",
+      "jersey": "69",
+      "position": "DT"
+     },
+     {
+      "player_id": "4036063",
+      "name": "Patrick Jones II",
+      "jersey": "91",
+      "position": "LB"
+     },
+     {
+      "player_id": "4429166",
+      "name": "Princely Umanmielen",
+      "jersey": "3",
+      "position": "LB"
+     },
+     {
+      "player_id": "4361429",
+      "name": "Rasheed Walker",
+      "jersey": "63",
+      "position": "OT"
+     },
+     {
+      "player_id": "3917592",
+      "name": "Robert Hunt",
+      "jersey": "50",
+      "position": "G"
+     },
+     {
+      "player_id": "4032200",
+      "name": "Robert Rochell",
+      "jersey": "38",
+      "position": "CB"
+     },
+     {
+      "player_id": "4568263",
+      "name": "Ryan Fitzgerald",
+      "jersey": "10",
+      "position": "PK"
+     },
+     {
+      "player_id": "4242230",
+      "name": "Saahdiq Charles",
+      "jersey": "78",
+      "position": "G"
+     },
+     {
+      "player_id": "4874515",
+      "name": "Sam Hecht",
+      "jersey": "75",
+      "position": "C"
+     },
+     {
+      "player_id": "15928",
+      "name": "Sam Martin",
+      "jersey": "6",
+      "position": "P"
+     },
+     {
+      "player_id": "4034962",
+      "name": "Stone Forsythe",
+      "jersey": "73",
+      "position": "OT"
+     },
+     {
+      "player_id": "2973051",
+      "name": "Taylor Moton",
+      "jersey": "72",
+      "position": "OT"
+     },
+     {
+      "player_id": "4431077",
+      "name": "TeRah Edwards",
+      "jersey": "93",
+      "position": "DT"
+     },
+     {
+      "player_id": "4058925",
+      "name": "Tershawn Wharton",
+      "jersey": "98",
+      "position": "DT"
+     },
+     {
+      "player_id": "4685472",
+      "name": "Tetairoa McMillan",
+      "jersey": "4",
+      "position": "WR"
+     },
+     {
+      "player_id": "4714157",
+      "name": "Thomas Incoom",
+      "jersey": "48",
+      "position": "LB"
+     },
+     {
+      "player_id": "4372780",
+      "name": "Tommy Tremble",
+      "jersey": "82",
+      "position": "TE"
+     },
+     {
+      "player_id": "4696902",
+      "name": "Torricelli Simpkins III",
+      "jersey": "65",
+      "position": "G"
+     },
+     {
+      "player_id": "4362487",
+      "name": "Tre'von Moehrig",
+      "jersey": "7",
+      "position": "S"
+     },
+     {
+      "player_id": "3917016",
+      "name": "Trevis Gipson",
+      "jersey": "52",
+      "position": "LB"
+     },
+     {
+      "player_id": "4685350",
+      "name": "Trevor Etienne",
+      "jersey": "23",
+      "position": "RB"
+     },
+     {
+      "player_id": "4035232",
+      "name": "Tyrel Dodson",
+      "jersey": "33",
+      "position": "LB"
+     },
+     {
+      "player_id": "5151083",
+      "name": "Will Lee III",
+      "jersey": "24",
+      "position": "CB"
+     },
+     {
+      "player_id": "4430034",
+      "name": "Xavier Legette",
+      "jersey": "17",
+      "position": "WR"
+     },
+     {
+      "player_id": "4566384",
+      "name": "Zakee Wheatley",
+      "jersey": "38",
+      "position": "S"
+     },
+     {
+      "player_id": "4685841",
+      "name": "Zion Childress",
+      "jersey": null,
+      "position": "CB"
+     }
+    ]
+   },
+   {
+    "team": "Green Bay Packers",
+    "players": [
+     {
+      "player_id": "4242390",
+      "name": "Aaron Banks",
+      "jersey": "65",
+      "position": "G"
+     },
+     {
+      "player_id": "4873706",
+      "name": "Anthony Belton",
+      "jersey": "71",
+      "position": "OT"
+     },
+     {
+      "player_id": "4887255",
+      "name": "Anthony Campbell",
+      "jersey": "93",
+      "position": "DT"
+     },
+     {
+      "player_id": "4242996",
+      "name": "Arron Mosby",
+      "jersey": "53",
+      "position": "DE"
+     },
+     {
+      "player_id": "4683643",
+      "name": "Barryn Sorrell",
+      "jersey": "99",
+      "position": "DE"
+     },
+     {
+      "player_id": "4258206",
+      "name": "Benjamin St-Juste",
+      "jersey": "21",
+      "position": "CB"
+     },
+     {
+      "player_id": "4259305",
+      "name": "Bo Melton",
+      "jersey": "16",
+      "position": "WR"
+     },
+     {
+      "player_id": "5076652",
+      "name": "Brandon Cisse",
+      "jersey": "2",
+      "position": "CB"
+     },
+     {
+      "player_id": "4361776",
+      "name": "Brenton Cox Jr.",
+      "jersey": "57",
+      "position": "DE"
+     },
+     {
+      "player_id": "4430965",
+      "name": "Carrington Valentine",
+      "jersey": "24",
+      "position": "CB"
+     },
+     {
+      "player_id": "3149687",
+      "name": "Chris Brooks",
+      "jersey": "30",
+      "position": "RB"
+     },
+     {
+      "player_id": "4820574",
+      "name": "Chris McClellan",
+      "jersey": "55",
+      "position": "DT"
+     },
+     {
+      "player_id": "4248528",
+      "name": "Christian Watson",
+      "jersey": "9",
+      "position": "WR"
+     },
+     {
+      "player_id": "4578436",
+      "name": "Coleman Owen",
+      "jersey": "13",
+      "position": "WR"
+     },
+     {
+      "player_id": "4683059",
+      "name": "Collin Oliver",
+      "jersey": "45",
+      "position": "DE"
+     },
+     {
+      "player_id": "4426972",
+      "name": "Dalton Cooper",
+      "jersey": "78",
+      "position": "OT"
+     },
+     {
+      "player_id": "4685315",
+      "name": "Dani Dennis-Sutton",
+      "jersey": "51",
+      "position": "DE"
+     },
+     {
+      "player_id": "4248789",
+      "name": "Daniel Whelan",
+      "jersey": "19",
+      "position": "P"
+     },
+     {
+      "player_id": "5150999",
+      "name": "David Blay Jr.",
+      "jersey": "61",
+      "position": "DT"
+     },
+     {
+      "player_id": "4361791",
+      "name": "Devonte Wyatt",
+      "jersey": "95",
+      "position": "DT"
+     },
+     {
+      "player_id": "4581189",
+      "name": "Dillon Wade",
+      "jersey": "68",
+      "position": "G"
+     },
+     {
+      "player_id": "4685402",
+      "name": "Domani Jackson",
+      "jersey": "20",
+      "position": "CB"
+     },
+     {
+      "player_id": "4360887",
+      "name": "Donovan Jennings",
+      "jersey": "67",
+      "position": "G"
+     },
+     {
+      "player_id": "4429466",
+      "name": "Drake Dabney",
+      "jersey": "49",
+      "position": "TE"
+     },
+     {
+      "player_id": "4430438",
+      "name": "Edgerrin Cooper",
+      "jersey": "56",
+      "position": "LB"
+     },
+     {
+      "player_id": "4572261",
+      "name": "Elijah Culp",
+      "jersey": null,
+      "position": "CB"
+     },
+     {
+      "player_id": "4428863",
+      "name": "Evan Williams",
+      "jersey": "33",
+      "position": "S"
+     },
+     {
+      "player_id": "4239947",
+      "name": "Isaiah McDuffie",
+      "jersey": "58",
+      "position": "LB"
+     },
+     {
+      "player_id": "4428116",
+      "name": "Isaiah Neyor",
+      "jersey": "80",
+      "position": "WR"
+     },
+     {
+      "player_id": "4635009",
+      "name": "J. Michael Sturdivant",
+      "jersey": "87",
+      "position": "WR"
+     },
+     {
+      "player_id": "4428037",
+      "name": "Jacob Monk",
+      "jersey": "62",
+      "position": "C"
+     },
+     {
+      "player_id": "4569661",
+      "name": "Jager Burton",
+      "jersey": "52",
+      "position": "C"
+     },
+     {
+      "player_id": "4688930",
+      "name": "Javon Bullard",
+      "jersey": "7",
+      "position": "S"
+     },
+     {
+      "player_id": "2983055",
+      "name": "Javon Hargrave",
+      "jersey": "98",
+      "position": "DT"
+     },
+     {
+      "player_id": "4362249",
+      "name": "Jayden Reed",
+      "jersey": "11",
+      "position": "WR"
+     },
+     {
+      "player_id": "2312707",
+      "name": "John Williams",
+      "jersey": "73",
+      "position": "G"
+     },
+     {
+      "player_id": "4709980",
+      "name": "Johnathan Baldwin II",
+      "jersey": "37",
+      "position": "S"
+     },
+     {
+      "player_id": "4259762",
+      "name": "Jonathan Ford",
+      "jersey": "96",
+      "position": "DT"
+     },
+     {
+      "player_id": "3054212",
+      "name": "Jonnu Smith",
+      "jersey": "18",
+      "position": "TE"
+     },
+     {
+      "player_id": "4036378",
+      "name": "Jordan Love",
+      "jersey": "10",
+      "position": "QB"
+     },
+     {
+      "player_id": "3821571",
+      "name": "Jordan Morgan",
+      "jersey": "77",
+      "position": "G"
+     },
+     {
+      "player_id": "4240677",
+      "name": "Jordon Riley",
+      "jersey": "97",
+      "position": "DT"
+     },
+     {
+      "player_id": "4047365",
+      "name": "Josh Jacobs",
+      "jersey": "8",
+      "position": "RB"
+     },
+     {
+      "player_id": "4360086",
+      "name": "Josh Whyle",
+      "jersey": "81",
+      "position": "TE"
+     },
+     {
+      "player_id": "4373814",
+      "name": "Kahlef Hailassie",
+      "jersey": null,
+      "position": "DB"
+     },
+     {
+      "player_id": "4819231",
+      "name": "Kaleb Johnson",
+      "jersey": "26",
+      "position": "RB"
+     },
+     {
+      "player_id": "4427356",
+      "name": "Kamal Hadden",
+      "jersey": "36",
+      "position": "CB"
+     },
+     {
+      "player_id": "4373423",
+      "name": "Karl Brooks",
+      "jersey": "94",
+      "position": "DT"
+     },
+     {
+      "player_id": "4428512",
+      "name": "Kedon Slovis",
+      "jersey": null,
+      "position": "QB"
+     },
+     {
+      "player_id": "4259493",
+      "name": "Keisean Nixon",
+      "jersey": "25",
+      "position": "CB"
+     },
+     {
+      "player_id": "14931",
+      "name": "Kevin Zeitler",
+      "jersey": "70",
+      "position": "G"
+     },
+     {
+      "player_id": "4374037",
+      "name": "Kitan Oladapo",
+      "jersey": "27",
+      "position": "S"
+     },
+     {
+      "player_id": "4036153",
+      "name": "Kristian Welch",
+      "jersey": "54",
+      "position": "LB"
+     },
+     {
+      "player_id": "2512477",
+      "name": "Laken Tomlinson",
+      "jersey": "72",
+      "position": "G"
+     },
+     {
+      "player_id": "5277116",
+      "name": "Lenny Krieg",
+      "jersey": "38",
+      "position": "PK"
+     },
+     {
+      "player_id": "4686906",
+      "name": "Lukas Van Ness",
+      "jersey": "90",
+      "position": "DE"
+     },
+     {
+      "player_id": "4428085",
+      "name": "Luke Musgrave",
+      "jersey": "88",
+      "position": "TE"
+     },
+     {
+      "player_id": "4429023",
+      "name": "MarShawn Lloyd",
+      "jersey": "32",
+      "position": "RB"
+     },
+     {
+      "player_id": "4431346",
+      "name": "Mark Redman",
+      "jersey": "86",
+      "position": "TE"
+     },
+     {
+      "player_id": "4422336",
+      "name": "Matt Orzech",
+      "jersey": "42",
+      "position": "LS"
+     },
+     {
+      "player_id": "4701936",
+      "name": "Matthew Golden",
+      "jersey": "0",
+      "position": "WR"
+     },
+     {
+      "player_id": "4426347",
+      "name": "Mazi Smith",
+      "jersey": null,
+      "position": "DT"
+     },
+     {
+      "player_id": "4240090",
+      "name": "Mekhi Becton",
+      "jersey": "74",
+      "position": "G"
+     },
+     {
+      "player_id": "4361423",
+      "name": "Micah Parsons",
+      "jersey": "1",
+      "position": "DE"
+     },
+     {
+      "player_id": "4036141",
+      "name": "Nick Niemann",
+      "jersey": "31",
+      "position": "LB"
+     },
+     {
+      "player_id": "4726151",
+      "name": "Nyjalik Kelly",
+      "jersey": "47",
+      "position": "DE"
+     },
+     {
+      "player_id": "4249836",
+      "name": "Pierre Strong Jr.",
+      "jersey": "22",
+      "position": "RB"
+     },
+     {
+      "player_id": "4572380",
+      "name": "Quincy Skinner Jr.",
+      "jersey": null,
+      "position": "WR"
+     },
+     {
+      "player_id": "4431487",
+      "name": "Savion Williams",
+      "jersey": "83",
+      "position": "WR"
+     },
+     {
+      "player_id": "4426411",
+      "name": "Sean Rhyan",
+      "jersey": "75",
+      "position": "G"
+     },
+     {
+      "player_id": "4430191",
+      "name": "Skyy Moore",
+      "jersey": "23",
+      "position": "WR"
+     },
+     {
+      "player_id": "4361027",
+      "name": "Thomas Yassmin",
+      "jersey": "84",
+      "position": "TE"
+     },
+     {
+      "player_id": "4361904",
+      "name": "Travis Glover",
+      "jersey": "79",
+      "position": "OT"
+     },
+     {
+      "player_id": "4869461",
+      "name": "Trey Smack",
+      "jersey": "28",
+      "position": "PK"
+     },
+     {
+      "player_id": "4572680",
+      "name": "Tucker Kraft",
+      "jersey": "85",
+      "position": "TE"
+     },
+     {
+      "player_id": "4567406",
+      "name": "Ty'Ron Hopper",
+      "jersey": "59",
+      "position": "LB"
+     },
+     {
+      "player_id": "14163",
+      "name": "Tyrod Taylor",
+      "jersey": "6",
+      "position": "QB"
+     },
+     {
+      "player_id": "4429136",
+      "name": "Warren Brinson",
+      "jersey": "91",
+      "position": "DT"
+     },
+     {
+      "player_id": "4241470",
+      "name": "Xavier McKinney",
+      "jersey": "29",
+      "position": "S"
+     },
+     {
+      "player_id": "4240435",
+      "name": "Zach Bako-Bewele",
+      "jersey": "50",
+      "position": "OT"
+     },
+     {
+      "player_id": "3124005",
+      "name": "Zaire Franklin",
+      "jersey": "44",
+      "position": "LB"
+     }
+    ]
+   }
+  ],
+  "stats": [
+   {
+    "stat": "PASS_TD",
+    "name": "Passing Touchdowns"
+   },
+   {
+    "stat": "PASS_YDS",
+    "name": "Passing Yards"
+   },
+   {
+    "stat": "REC",
+    "name": "Receptions"
+   },
+   {
+    "stat": "RECV_YDS",
+    "name": "Receiving Yards"
+   },
+   {
+    "stat": "RUSH_YDS",
+    "name": "Rushing Yards"
+   },
+   {
+    "stat": "TD_SCORE",
+    "name": "Touchdowns Scored"
+   }
+  ]
+ },
+ "cafcaf26-2773-4ad0-a931-a849cb904ae6": {
+  "event_id": "cafcaf26-2773-4ad0-a931-a849cb904ae6",
+  "teams": [
+   {
+    "team": "Philadelphia Flyers",
+    "players": [
+     {
+      "player_id": "5188356",
+      "name": "Alex Bump",
+      "jersey": "20",
+      "position": "LW"
+     },
+     {
+      "player_id": "4565235",
+      "name": "Cam York",
+      "jersey": "8",
+      "position": "D"
+     },
+     {
+      "player_id": "3115035",
+      "name": "Christian Dvorak",
+      "jersey": "22",
+      "position": "C"
+     },
+     {
+      "player_id": "5188341",
+      "name": "Cole Knuble",
+      "jersey": "54",
+      "position": "RW"
+     },
+     {
+      "player_id": "3942459",
+      "name": "Dan Vladar",
+      "jersey": "80",
+      "position": "G"
+     },
+     {
+      "player_id": "5080147",
+      "name": "David Jiricek",
+      "jersey": "5",
+      "position": "D"
+     },
+     {
+      "player_id": "5173105",
+      "name": "Denver Barkey",
+      "jersey": "86",
+      "position": "C"
+     },
+     {
+      "player_id": "4697440",
+      "name": "Helge Grans",
+      "jersey": "3",
+      "position": "D"
+     },
+     {
+      "player_id": "5103725",
+      "name": "Hunter McDonald",
+      "jersey": "75",
+      "position": "D"
+     },
+     {
+      "player_id": "5104158",
+      "name": "Jacob Gaucher",
+      "jersey": "78",
+      "position": "C"
+     },
+     {
+      "player_id": "4697387",
+      "name": "Jamie Drysdale",
+      "jersey": "9",
+      "position": "D"
+     },
+     {
+      "player_id": "5216881",
+      "name": "Jett Luchanko",
+      "jersey": "17",
+      "position": "C"
+     },
+     {
+      "player_id": "4271575",
+      "name": "Joseph Woll",
+      "jersey": "53",
+      "position": "G"
+     },
+     {
+      "player_id": "5149170",
+      "name": "Matvei Michkov",
+      "jersey": "39",
+      "position": "RW"
+     },
+     {
+      "player_id": "3149603",
+      "name": "Michael Bunting",
+      "jersey": "58",
+      "position": "LW"
+     },
+     {
+      "player_id": "2564164",
+      "name": "Nick Seeler",
+      "jersey": "24",
+      "position": "D"
+     },
+     {
+      "player_id": "4419682",
+      "name": "Noah Cates",
+      "jersey": "27",
+      "position": "LW"
+     },
+     {
+      "player_id": "3096237",
+      "name": "Noel Acciari",
+      "jersey": "52",
+      "position": "C"
+     },
+     {
+      "player_id": "5149199",
+      "name": "Oliver Bonk",
+      "jersey": "59",
+      "position": "D"
+     },
+     {
+      "player_id": "4392072",
+      "name": "Owen Tippett",
+      "jersey": "74",
+      "position": "RW"
+     },
+     {
+      "player_id": "5291941",
+      "name": "Porter Martone",
+      "jersey": "94",
+      "position": "RW"
+     },
+     {
+      "player_id": "3041999",
+      "name": "Rasmus Ristolainen",
+      "jersey": "55",
+      "position": "D"
+     },
+     {
+      "player_id": "2562601",
+      "name": "Sean Couturier",
+      "jersey": "14",
+      "position": "C"
+     },
+     {
+      "player_id": "4392642",
+      "name": "Simon Benoit",
+      "jersey": "44",
+      "position": "D"
+     },
+     {
+      "player_id": "3900169",
+      "name": "Travis Konecny",
+      "jersey": "11",
+      "position": "RW"
+     },
+     {
+      "player_id": "3114757",
+      "name": "Travis Sanheim",
+      "jersey": "6",
+      "position": "D"
+     },
+     {
+      "player_id": "4565230",
+      "name": "Trevor Zegras",
+      "jersey": "46",
+      "position": "C"
+     },
+     {
+      "player_id": "4697406",
+      "name": "Tyson Foerster",
+      "jersey": "71",
+      "position": "RW"
+     }
+    ]
+   },
+   {
+    "team": "Washington Capitals",
+    "players": [
+     {
+      "player_id": "3101",
+      "name": "Alex Ovechkin",
+      "jersey": "8",
+      "position": "LW"
+     },
+     {
+      "player_id": "3114766",
+      "name": "Alex Tuch",
+      "jersey": "89",
+      "position": "RW"
+     },
+     {
+      "player_id": "4587943",
+      "name": "Aliaksei Protas",
+      "jersey": "21",
+      "position": "C"
+     },
+     {
+      "player_id": "3904107",
+      "name": "Anthony Beauvillier",
+      "jersey": "72",
+      "position": "LW"
+     },
+     {
+      "player_id": "2563054",
+      "name": "Boone Jenner",
+      "jersey": "22",
+      "position": "C"
+     },
+     {
+      "player_id": "3095975",
+      "name": "Charlie Lindgren",
+      "jersey": "79",
+      "position": "G"
+     },
+     {
+      "player_id": "5216918",
+      "name": "Cole Hutson",
+      "jersey": "44",
+      "position": "D"
+     },
+     {
+      "player_id": "2529256",
+      "name": "Dylan McIlrath",
+      "jersey": "52",
+      "position": "D"
+     },
+     {
+      "player_id": "3899933",
+      "name": "Dylan Strome",
+      "jersey": "17",
+      "position": "C"
+     },
+     {
+      "player_id": "4996093",
+      "name": "Ethen Frank",
+      "jersey": "53",
+      "position": "C"
+     },
+     {
+      "player_id": "5229146",
+      "name": "Ilya Protas",
+      "jersey": "62",
+      "position": "LW"
+     },
+     {
+      "player_id": "5080168",
+      "name": "Ivan Miroshnichenko",
+      "jersey": "63",
+      "position": "LW"
+     },
+     {
+      "player_id": "4755690",
+      "name": "Jack St. Ivany",
+      "jersey": "6",
+      "position": "D"
+     },
+     {
+      "player_id": "4024950",
+      "name": "Jakob Chychrun",
+      "jersey": "6",
+      "position": "D"
+     },
+     {
+      "player_id": "4062251",
+      "name": "Jordan Kyrou",
+      "jersey": "25",
+      "position": "RW"
+     },
+     {
+      "player_id": "4697783",
+      "name": "Justin Sourdif",
+      "jersey": "34",
+      "position": "RW"
+     },
+     {
+      "player_id": "4272888",
+      "name": "Logan Thompson",
+      "jersey": "48",
+      "position": "G"
+     },
+     {
+      "player_id": "4378677",
+      "name": "Martin Fehervary",
+      "jersey": "42",
+      "position": "D"
+     },
+     {
+      "player_id": "3942924",
+      "name": "Matt Roy",
+      "jersey": "3",
+      "position": "D"
+     },
+     {
+      "player_id": "4587862",
+      "name": "Mitchell Gibson",
+      "jersey": "78",
+      "position": "G"
+     },
+     {
+      "player_id": "4024833",
+      "name": "Pierre-Luc Dubois",
+      "jersey": "80",
+      "position": "LW"
+     },
+     {
+      "player_id": "4352803",
+      "name": "Rasmus Sandin",
+      "jersey": "38",
+      "position": "D"
+     },
+     {
+      "player_id": "5149172",
+      "name": "Ryan Leonard",
+      "jersey": "9",
+      "position": "RW"
+     },
+     {
+      "player_id": "4233618",
+      "name": "Timothy Liljegren",
+      "jersey": "27",
+      "position": "D"
+     },
+     {
+      "player_id": "2970615",
+      "name": "Tom Wilson",
+      "jersey": "43",
+      "position": "RW"
+     },
+     {
+      "player_id": "4392260",
+      "name": "Vincent Desharnais",
+      "jersey": "73",
+      "position": "D"
+     }
+    ]
+   }
+  ],
+  "stats": [
+   {
+    "stat": "ASSISTS",
+    "name": "Total Assists"
+   },
+   {
+    "stat": "GOALS",
+    "name": "Goals"
+   },
+   {
+    "stat": "GOAL_SO",
+    "name": "Shots on Goal"
+   },
+   {
+    "stat": "POINTS",
+    "name": "Total Points"
+   },
+   {
+    "stat": "SAVES",
+    "name": "Total Saves"
+   }
+  ]
+ },
+ "35a1d5c4-331b-430a-99a7-ac56cb2649b8": {
+  "event_id": "35a1d5c4-331b-430a-99a7-ac56cb2649b8",
+  "teams": [
+   {
+    "team": "Miami Heat",
+    "players": [
+     {
+      "player_id": "3059319",
+      "name": "Andrew Wiggins",
+      "jersey": "22",
+      "position": "F"
+     },
+     {
+      "player_id": "4066261",
+      "name": "Bam Adebayo",
+      "jersey": "13",
+      "position": "C"
+     },
+     {
+      "player_id": "3064482",
+      "name": "Bobby Portis",
+      "jersey": "95",
+      "position": "F"
+     },
+     {
+      "player_id": "4278053",
+      "name": "Davion Mitchell",
+      "jersey": "2",
+      "position": "G"
+     },
+     {
+      "player_id": "4066993",
+      "name": "Dru Smith",
+      "jersey": "12",
+      "position": "G"
+     },
+     {
+      "player_id": "3032977",
+      "name": "Giannis Antetokounmpo",
+      "jersey": "7",
+      "position": "F"
+     },
+     {
+      "player_id": "4431786",
+      "name": "Keshad Johnson",
+      "jersey": "16",
+      "position": "F"
+     },
+     {
+      "player_id": "6475",
+      "name": "Klay Thompson",
+      "jersey": "11",
+      "position": "G"
+     },
+     {
+      "player_id": "4431772",
+      "name": "Myron Gardner",
+      "jersey": "15",
+      "position": "F"
+     },
+     {
+      "player_id": "4278076",
+      "name": "Nick Richards",
+      "jersey": "8",
+      "position": "C"
+     },
+     {
+      "player_id": "4997528",
+      "name": "Nikola Jovic",
+      "jersey": "5",
+      "position": "F"
+     },
+     {
+      "player_id": "4601025",
+      "name": "Pelle Larsson",
+      "jersey": "9",
+      "position": "G"
+     },
+     {
+      "player_id": "5107157",
+      "name": "Ryan Conwell",
+      "jersey": "4",
+      "position": "G"
+     },
+     {
+      "player_id": "3899664",
+      "name": "Simone Fontecchio",
+      "jersey": "0",
+      "position": "F"
+     },
+     {
+      "player_id": "2528210",
+      "name": "Tim Hardaway Jr.",
+      "jersey": "10",
+      "position": "G"
+     },
+     {
+      "player_id": "4837356",
+      "name": "Tre Donaldson",
+      "jersey": "24",
+      "position": "G"
+     },
+     {
+      "player_id": "4700818",
+      "name": "Vladislav Goldin",
+      "jersey": "50",
+      "position": "C"
+     }
+    ]
+   },
+   {
+    "team": "Atlanta Hawks",
+    "players": [
+     {
+      "player_id": "4397183",
+      "name": "Aaron Wiggins",
+      "jersey": "2",
+      "position": "G"
+     },
+     {
+      "player_id": "4873201",
+      "name": "Asa Newell",
+      "jersey": "14",
+      "position": "F"
+     },
+     {
+      "player_id": "2490149",
+      "name": "CJ McCollum",
+      "jersey": "3",
+      "position": "G"
+     },
+     {
+      "player_id": "4280151",
+      "name": "Corey Kispert",
+      "jersey": "24",
+      "position": "F"
+     },
+     {
+      "player_id": "2578185",
+      "name": "Dorian Finney-Smith",
+      "jersey": "8",
+      "position": "F"
+     },
+     {
+      "player_id": "4869342",
+      "name": "Dyson Daniels",
+      "jersey": "5",
+      "position": "G"
+     },
+     {
+      "player_id": "5105571",
+      "name": "Henri Veesaar",
+      "jersey": "13",
+      "position": "C"
+     },
+     {
+      "player_id": "4701230",
+      "name": "Jalen Johnson",
+      "jersey": "1",
+      "position": "F"
+     },
+     {
+      "player_id": "4431714",
+      "name": "Jalen Wilson",
+      "jersey": "22",
+      "position": "F"
+     },
+     {
+      "player_id": "3146557",
+      "name": "Jock Landale",
+      "jersey": "31",
+      "position": "C"
+     },
+     {
+      "player_id": "4585618",
+      "name": "Keshon Gilbert",
+      "jersey": "00",
+      "position": "G"
+     },
+     {
+      "player_id": "5149077",
+      "name": "Kingston Flemings",
+      "jersey": "4",
+      "position": "G"
+     },
+     {
+      "player_id": "4397020",
+      "name": "Luguentz Dort",
+      "jersey": "0",
+      "position": "G"
+     },
+     {
+      "player_id": "4712863",
+      "name": "Mouhamed Gueye",
+      "jersey": "18",
+      "position": "F"
+     },
+     {
+      "player_id": "4278039",
+      "name": "Nickeil Alexander-Walker",
+      "jersey": "7",
+      "position": "G"
+     },
+     {
+      "player_id": "4431680",
+      "name": "Onyeka Okongwu",
+      "jersey": "17",
+      "position": "F"
+     },
+     {
+      "player_id": "4431941",
+      "name": "RayJ Dennis",
+      "jersey": "10",
+      "position": "G"
+     },
+     {
+      "player_id": "5106262",
+      "name": "Zuby Ejiofor",
+      "jersey": "20",
+      "position": "F"
+     }
+    ]
+   }
+  ],
+  "stats": [
+   {
+    "stat": "ASSISTS",
+    "name": "Assists"
+   },
+   {
+    "stat": "POINTS",
+    "name": "Points"
+   },
+   {
+    "stat": "POINTS_ASSISTS",
+    "name": "Points + Assists"
+   },
+   {
+    "stat": "POINTS_REBOUNDS",
+    "name": "Points + Rebounds"
+   },
+   {
+    "stat": "POINTS_REBOUNDS_ASSISTS",
+    "name": "Points + Rebounds + Assists"
+   },
+   {
+    "stat": "REBOUNDS",
+    "name": "Rebounds"
+   },
+   {
+    "stat": "STEALS_BLOCKS",
+    "name": "Steals + Blocks"
+   },
+   {
+    "stat": "THREE_POINTS",
+    "name": "Three Pointers Made"
+   }
+  ]
+ },
+ "77a25efc-f7b3-4c7d-b5b0-af7cdc414ec3": {
+  "event_id": "77a25efc-f7b3-4c7d-b5b0-af7cdc414ec3",
+  "teams": [],
+  "stats": [
+   {
+    "stat": "PASS_TD",
+    "name": "Passing Touchdowns"
+   },
+   {
+    "stat": "PASS_YDS",
+    "name": "Passing Yards"
+   },
+   {
+    "stat": "REC",
+    "name": "Receptions"
+   },
+   {
+    "stat": "RECV_YDS",
+    "name": "Receiving Yards"
+   },
+   {
+    "stat": "RUSH_YDS",
+    "name": "Rushing Yards"
+   },
+   {
+    "stat": "TD_SCORE",
+    "name": "Touchdowns Scored"
+   }
+  ]
+ }
+}

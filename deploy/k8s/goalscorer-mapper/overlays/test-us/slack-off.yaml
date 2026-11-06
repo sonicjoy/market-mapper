@@ -1,0 +1,21 @@
+# Test has no Slack app: no bot, and the Slack-facing jobs only run on demand.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goalscorer-slack-bot
+spec:
+  replicas: 0
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: goalscorer-reconcile
+spec:
+  suspend: true
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: goalscorer-pnl
+spec:
+  suspend: true

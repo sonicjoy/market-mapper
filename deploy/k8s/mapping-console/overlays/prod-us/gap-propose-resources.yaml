@@ -1,0 +1,20 @@
+# Prod RFQ + empty-harvest (NFL Sunday crypto_missing ~50 pins) exceeds 2Gi before propose.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: gap-propose
+spec:
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: gap-propose
+              env:
+                - name: GAP_PROPOSE_MEMORY_LIMIT
+                  value: "4Gi"
+              resources:
+                requests:
+                  memory: 256Mi
+                limits:
+                  memory: 256Mi

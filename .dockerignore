@@ -1,0 +1,26 @@
+# Keep the build context lean while retaining mapping-console runtime sources.
+# config/ and synthetic/ are copied into the image for Parity re-seed.
+.git
+.venv
+venv
+data
+.cache
+.ruff_cache
+.pytest_cache
+docs/*
+!docs/adding-underdog.md
+!docs/underdog/
+docs/underdog/*
+!docs/underdog/udx_markets_golden_2026-09-23.json
+!docs/mapping-rules/
+docs/mapping-rules/*
+!docs/mapping-rules/optic_spine.csv
+tests
+scripts
+console/.vite
+console/dist
+console/node_modules
+**/__pycache__
+*.pyc
+*.log
+bandit_*.json

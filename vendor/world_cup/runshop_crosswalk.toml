@@ -1,0 +1,86 @@
+# Optic canonical row → Runshop market dictionary key.
+# A rule is active only when runshop_market exists in runshop_markets.toml
+# and optic_market_type appears in the current upstream rows.
+#
+# selection:
+#   over_under — side over/under → Over/Under
+#   home_away  — side home/away abbrev → Home/Away
+#   three_way  — home/away/tie → Home/Away/Draw (Euro Handicap)
+#
+# entity (optional): home | away — match row.entity to home/away abbrev
+
+[[crosswalk]]
+runshop_market = "OU Goals"
+optic_market_type = "game_total"
+selection = "over_under"
+
+[[crosswalk]]
+runshop_market = "OU Goals - HT"
+optic_market_type = "1h_total"
+selection = "over_under"
+
+[[crosswalk]]
+runshop_market = "Asian Handicap"
+optic_market_type = "point_spread"
+selection = "home_away"
+
+[[crosswalk]]
+runshop_market = "Asian Handicap - HT"
+optic_market_type = "1h_point_spread"
+selection = "home_away"
+
+[[crosswalk]]
+runshop_market = "Home Team Goals - FT"
+optic_market_type = "team_total"
+entity = "home"
+selection = "over_under"
+
+[[crosswalk]]
+runshop_market = "Away Team Goals - FT"
+optic_market_type = "team_total"
+entity = "away"
+selection = "over_under"
+
+[[crosswalk]]
+runshop_market = "Total Corners - FT"
+optic_market_type = "total_corners"
+selection = "over_under"
+
+[[crosswalk]]
+runshop_market = "Home Team Corners - FT"
+optic_market_type = "team_total_corners"
+entity = "home"
+selection = "over_under"
+
+[[crosswalk]]
+runshop_market = "Away Team Corners - FT"
+optic_market_type = "team_total_corners"
+entity = "away"
+selection = "over_under"
+
+# Corner spread handicaps — enable when Optic maps asian_handicap_corners.
+[[crosswalk]]
+runshop_market = "Handicap Team Corners - FT"
+optic_market_type = "asian_handicap_corners"
+selection = "home_away"
+
+[[crosswalk]]
+runshop_market = "Handicap Team Corners - HT"
+optic_market_type = "1h_asian_handicap_corners"
+selection = "home_away"
+
+# Euro Handicap (3-way) — enable when upstream carries a matching type.
+[[crosswalk]]
+runshop_market = "Euro Handicap"
+optic_market_type = "point_spread_yn"
+selection = "three_way"
+
+[[crosswalk]]
+runshop_market = "Euro Handicap Team Corners - FT"
+optic_market_type = "asian_handicap_corners_3way"
+selection = "three_way"
+
+[[crosswalk]]
+runshop_market = "Euro Handicap Team Corners - HT"
+optic_market_type = "1h_asian_handicap_corners_3way"
+selection = "three_way"

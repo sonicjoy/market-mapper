@@ -1,0 +1,22 @@
+# PROD — rs-marketmaking, #goalscorer-alerts, Slack tokens from GSM via ESO.
+# The overlay owns the namespace and its ESO store, so the deploy job is the only
+# step on this side; GCP-side IAM is mm-infrastructure goalscorer_mapper.tf + eso.tf.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: goalscorer-mapper
+resources:
+  - namespace.yaml
+  - secretstore.yaml
+  - externalsecret.yaml
+  - ../../base
+patches:
+  - path: sa.yaml
+configMapGenerator:
+  - name: goalscorer-mapper-config
+    behavior: merge
+    literals:
+      - GCP_PROJECT=rs-marketmaking
+      # #goalscorer-alerts
+      - GOALSCORER_SLACK_CHANNEL_ID=C0C2N8SF9U3
+      # Comma-separated Slack user ids allowed to resolve cards / run commands; empty = anyone in the channel.
+      - GOALSCORER_SLACK_APPROVER_IDS=

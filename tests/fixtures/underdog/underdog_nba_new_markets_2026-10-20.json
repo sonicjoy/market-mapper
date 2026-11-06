@@ -1,0 +1,355 @@
+{
+ "captured": "2026-10-20 api.underdogexchange.com /markets (open, single_leg) + Optic /fixtures/odds, BOS @ DET",
+ "events": [
+  {
+   "fixture_id": "20261020D42F1161",
+   "start_date": "2026-10-20T19:00:00Z",
+   "home_competitors": [
+    {
+     "id": "5988658C6B9B",
+     "name": "Detroit Pistons",
+     "abbreviation": "DET"
+    }
+   ],
+   "away_competitors": [
+    {
+     "id": "BE2A4976ABA4",
+     "name": "Boston Celtics",
+     "abbreviation": "BOS"
+    }
+   ],
+   "odds": [
+    {
+     "id": "77646-25236-2026-10-20:draftkings:player_points_+_rebounds_+_assists:paul_george_over_14_5",
+     "market": "Player Points + Rebounds + Assists",
+     "market_id": "player_points_+_rebounds_+_assists",
+     "name": "Paul George Over 14.5",
+     "selection": "Paul George",
+     "normalized_selection": "paul_george",
+     "selection_line": "over",
+     "points": 14.5,
+     "team_id": null,
+     "player_id": "0C07D14CC5DC",
+     "grouping_key": "paul_george:14.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:player_points_+_rebounds_+_assists:paul_george_over_19_5",
+     "market": "Player Points + Rebounds + Assists",
+     "market_id": "player_points_+_rebounds_+_assists",
+     "name": "Paul George Over 19.5",
+     "selection": "Paul George",
+     "normalized_selection": "paul_george",
+     "selection_line": "over",
+     "points": 19.5,
+     "team_id": null,
+     "player_id": "0C07D14CC5DC",
+     "grouping_key": "paul_george:19.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:player_steals:paul_george_over_0_5",
+     "market": "Player Steals",
+     "market_id": "player_steals",
+     "name": "Paul George Over 0.5",
+     "selection": "Paul George",
+     "normalized_selection": "paul_george",
+     "selection_line": "over",
+     "points": 0.5,
+     "team_id": null,
+     "player_id": "0C07D14CC5DC",
+     "grouping_key": "paul_george:0.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:player_blocks:mitchell_robinson_over_0_5",
+     "market": "Player Blocks",
+     "market_id": "player_blocks",
+     "name": "Mitchell Robinson Over 0.5",
+     "selection": "Mitchell Robinson",
+     "normalized_selection": "mitchell_robinson",
+     "selection_line": "over",
+     "points": 0.5,
+     "team_id": null,
+     "player_id": "16C71BA69D30",
+     "grouping_key": "mitchell_robinson:0.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:prophet_x:player_double_double:ausar_thompson_over_0_5",
+     "market": "Player Double Double",
+     "market_id": "player_double_double",
+     "name": "Ausar Thompson Over 0.5",
+     "selection": "Ausar Thompson",
+     "normalized_selection": "ausar_thompson",
+     "selection_line": "over",
+     "points": 0.5,
+     "team_id": null,
+     "player_id": "547F0B60B699",
+     "grouping_key": "ausar_thompson:0.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:betano:player_double_double:ausar_thompson_under_0_5",
+     "market": "Player Double Double",
+     "market_id": "player_double_double",
+     "name": "Ausar Thompson Under 0.5",
+     "selection": "Ausar Thompson",
+     "normalized_selection": "ausar_thompson",
+     "selection_line": "under",
+     "points": 0.5,
+     "team_id": null,
+     "player_id": "547F0B60B699",
+     "grouping_key": "ausar_thompson:0.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:player_triple_double:ausar_thompson_over_0_5",
+     "market": "Player Triple Double",
+     "market_id": "player_triple_double",
+     "name": "Ausar Thompson Over 0.5",
+     "selection": "Ausar Thompson",
+     "normalized_selection": "ausar_thompson",
+     "selection_line": "over",
+     "points": 0.5,
+     "team_id": null,
+     "player_id": "547F0B60B699",
+     "grouping_key": "ausar_thompson:0.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:betmgm:team_total:detroit_pistons_over_100_5",
+     "market": "Team Total",
+     "market_id": "team_total",
+     "name": "Detroit Pistons Over 100.5",
+     "selection": "Detroit Pistons",
+     "normalized_selection": "detroit_pistons",
+     "selection_line": "over",
+     "points": 100.5,
+     "team_id": "5988658C6B9B",
+     "player_id": null,
+     "grouping_key": "detroit_pistons:100.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:team_total:detroit_pistons_under_100_5",
+     "market": "Team Total",
+     "market_id": "team_total",
+     "name": "Detroit Pistons Under 100.5",
+     "selection": "Detroit Pistons",
+     "normalized_selection": "detroit_pistons",
+     "selection_line": "under",
+     "points": 100.5,
+     "team_id": "5988658C6B9B",
+     "player_id": null,
+     "grouping_key": "detroit_pistons:100.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:team_total:boston_celtics_under_100_5",
+     "market": "Team Total",
+     "market_id": "team_total",
+     "name": "Boston Celtics Under 100.5",
+     "selection": "Boston Celtics",
+     "normalized_selection": "boston_celtics",
+     "selection_line": "under",
+     "points": 100.5,
+     "team_id": "BE2A4976ABA4",
+     "player_id": null,
+     "grouping_key": "boston_celtics:100.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:team_total:boston_celtics_over_100_5",
+     "market": "Team Total",
+     "market_id": "team_total",
+     "name": "Boston Celtics Over 100.5",
+     "selection": "Boston Celtics",
+     "normalized_selection": "boston_celtics",
+     "selection_line": "over",
+     "points": 100.5,
+     "team_id": "BE2A4976ABA4",
+     "player_id": null,
+     "grouping_key": "boston_celtics:100.5"
+    },
+    {
+     "id": "77646-25236-2026-10-20:betmgm:will_there_be_overtime:yes",
+     "market": "Will There Be Overtime",
+     "market_id": "will_there_be_overtime",
+     "name": "Yes",
+     "selection": "Yes",
+     "normalized_selection": "yes",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "77646-25236-2026-10-20:draftkings:will_there_be_overtime:no",
+     "market": "Will There Be Overtime",
+     "market_id": "will_there_be_overtime",
+     "name": "No",
+     "selection": "No",
+     "normalized_selection": "no",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": null,
+     "grouping_key": "default"
+    }
+   ],
+   "rows": [
+    {
+     "description": "Resolves Yes if Paul George records above 14.5 points AND total rebounds AND assists during the entire game including overtime of Boston Celtics (away) at Detroit Pistons (home), originally scheduled for October 20, 2026 at 3:00pm ET.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "player_points_+_rebounds_+_assists",
+       "player_id": "0C07D14CC5DC"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAPRA_26102015000C07D14CC5DC_14.5"
+    },
+    {
+     "description": "Resolves Yes if Paul George records above 19.5 points AND total rebounds AND assists during the entire game including overtime of Boston Celtics (away) at Detroit Pistons (home), originally scheduled for October 20, 2026 at 3:00pm ET.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "player_points_+_rebounds_+_assists",
+       "player_id": "0C07D14CC5DC"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAPRA_26102015000C07D14CC5DC_19.5"
+    },
+    {
+     "description": "Resolves Yes if Ausar Thompson records above 11.5 points AND total rebounds AND assists during the entire game including overtime of Boston Celtics (away) at Detroit Pistons (home), originally scheduled for October 20, 2026 at 3:00pm ET.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "player_points_+_rebounds_+_assists",
+       "player_id": "547F0B60B699"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAPRA_2610201500547F0B60B699_11.5"
+    },
+    {
+     "description": "Resolves Yes if Paul George records above 0.5 steals during the entire game including overtime of Boston Celtics (away) at Detroit Pistons (home), originally scheduled for October 20, 2026 at 3:00pm ET.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "player_steals",
+       "player_id": "0C07D14CC5DC"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBASTEALS_26102015000C07D14CC5DC_0.5"
+    },
+    {
+     "description": "Resolves Yes if Mitchell Robinson records above 0.5 blocks during the entire game including overtime of Boston Celtics (away) at Detroit Pistons (home), originally scheduled for October 20, 2026 at 3:00pm ET.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "player_blocks",
+       "player_id": "16C71BA69D30"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBABLOCKS_261020150016C71BA69D30_0.5"
+    },
+    {
+     "description": "Ausar Thompson to record over 0.5 double-doubles in the Boston Celtics (away) vs the Detroit Pistons (home) game.",
+     "expires_at": "2026-10-23T19:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "player_double_double",
+       "player_id": "547F0B60B699"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBADBLDBL_BOSDET26OCT201500AUSARTHOMPSO_0.5"
+    },
+    {
+     "description": "Ausar Thompson to record over 0.5 triple-doubles in the Boston Celtics (away) vs the Detroit Pistons (home) game.",
+     "expires_at": "2026-10-23T19:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "player_triple_double",
+       "player_id": "547F0B60B699"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBATRIPDBL_BOSDET26OCT201500AUSARTHOMPSO_0.5"
+    },
+    {
+     "description": "Resolves Yes if Detroit Pistons records above 100.5 points during the entire game including overtime of the National Basketball Association game between the Boston Celtics and the Detroit Pistons originally scheduled for 3:00pm ET on October 20, 2026.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "team_total",
+       "team_id": "5988658C6B9B"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMPOINTS_BOSDET26OCT201500_DETOVER100.5"
+    },
+    {
+     "description": "Resolves Yes if Boston Celtics records above 100.5 points during the entire game including overtime of the National Basketball Association game between the Boston Celtics and the Detroit Pistons originally scheduled for 3:00pm ET on October 20, 2026.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "team_total",
+       "team_id": "BE2A4976ABA4"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMPOINTS_BOSDET26OCT201500_BOSOVER100.5"
+    },
+    {
+     "description": "Resolves Yes if any participating player records at least 1 jump balls participated in during overtime only of the National Basketball Association game between the Boston Celtics and the Detroit Pistons originally scheduled for 3:00pm ET on October 20, 2026.",
+     "expires_at": "2026-10-23T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261020D42F1161",
+       "market_id": "will_there_be_overtime"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAOVERTIME_BOSDET26OCT201500_OT"
+    }
+   ]
+  }
+ ]
+}

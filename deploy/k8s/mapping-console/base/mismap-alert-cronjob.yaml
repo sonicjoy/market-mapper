@@ -1,0 +1,46 @@
+# Hourly Mapping-risk alert (mmmapper#23): high-tier, served, unflagged mappings ->
+# one Slack rollup (application-alerts relay) + one central alert-engine alert each.
+# Same image + Workload-Identity SA as the mapping-console Deployment (needs BQ read,
+# mapping_work_items insert, Pub/Sub publish). OFF unless MAPPING_MISMAP_ALERT=1 (overlay).
+# Hourly to match the Mapping risk page's 1h cache: one ~1.8 GB scan per run.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: mismap-alert
+  labels:
+    app: mismap-alert
+spec:
+  schedule: "7 * * * *"
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 600
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      activeDeadlineSeconds: 1200
+      backoffLimit: 0
+      template:
+        metadata:
+          labels:
+            app: mismap-alert
+        spec:
+          serviceAccountName: mapping-control-plane
+          restartPolicy: Never
+          terminationGracePeriodSeconds: 30
+          containers:
+            - name: mismap-alert
+              image: mapping-console-app:DEPLOY-VIA-DEPLOY-SH
+              env:
+                - name: MAPPING_MISMAP_ALERT
+                  value: "0"
+              command:
+                - python
+                - -m
+                - mappers.control_plane.mismap_alert
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 1Gi

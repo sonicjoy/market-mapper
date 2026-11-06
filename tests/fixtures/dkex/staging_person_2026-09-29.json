@@ -1,0 +1,494 @@
+[
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T10:31:16.787Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-MTH-0120EHAA0VJHP2O",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T10:46:16.789Z",
+  "marketProductTypeId": "3fef4b51-9f7f-5797-89bc-ea5f84fc3777",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "0120EHAA0VJHP2O",
+   "competitionName": "Gille / Vliegen vs P. Martinez / Munar",
+   "competitionStartTime": "2026-10-02T00:00:00Z",
+   "intakeEventId": "00H8THGSQK11G0GEE0",
+   "leagueId": "02T3V5HD00",
+   "leagueName": "ATP Sofia, Doubles",
+   "participants": [
+    {
+     "id": "DKT_02489CUTVPC2C",
+     "name": "Gille / Vliegen",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Gille / Vliegen",
+  "parameters": {
+   "participant": "DKT_02489CUTVPC2C",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP",
+  "ticker": "ATP-WIN-MTH-0120EHAA0VJHP2O-GIEN003",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T10:31:16.787Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-MTH-0120EHAA0VJHP2O",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T10:46:16.789Z",
+  "marketProductTypeId": "3fef4b51-9f7f-5797-89bc-ea5f84fc3777",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "0120EHAA0VJHP2O",
+   "competitionName": "Gille / Vliegen vs P. Martinez / Munar",
+   "competitionStartTime": "2026-10-02T00:00:00Z",
+   "intakeEventId": "00H8THGSQK11G0GEE0",
+   "leagueId": "02T3V5HD00",
+   "leagueName": "ATP Sofia, Doubles",
+   "participants": [
+    {
+     "id": "DKT_02DRRTQ0N473I",
+     "name": "P. Martinez / Munar",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "P. Martinez / Munar",
+  "parameters": {
+   "participant": "DKT_02DRRTQ0N473I",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP",
+  "ticker": "ATP-WIN-MTH-0120EHAA0VJHP2O-PMAR000",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T14:29:36.348Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-MTH-036IQJBCJMDDAUO",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-10-29T11:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T14:44:36.369Z",
+  "marketProductTypeId": "94a56490-67ba-4e41-97a8-62b6ef05c6ed",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "036IQJBCJMDDAUO",
+   "competitionName": "Hubert Hurkacz vs Alejandro Davidovich Fokina",
+   "competitionStartTime": "2026-09-29T11:04:27Z",
+   "intakeEventId": "00H9HCBGMC15JK5HV0",
+   "leagueId": "026ART0EP8",
+   "leagueName": "ATP Chengdu",
+   "participants": [
+    {
+     "id": "DKT_00R9K5F3DK7N2",
+     "name": "Alejandro Davidovich Fokina",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Alejandro Davidovich Fokina",
+  "parameters": {
+   "participant": "DKT_00R9K5F3DK7N2",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Chengdu",
+  "ticker": "ATP-WIN-MTH-036IQJBCJMDDAUO-ALNA015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T14:29:36.348Z",
+  "domainId": "00U0",
+  "eventTicker": "ATP-WIN-MTH-036IQJBCJMDDAUO",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-10-29T11:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T14:44:36.369Z",
+  "marketProductTypeId": "94a56490-67ba-4e41-97a8-62b6ef05c6ed",
+  "marketProductTypeName": "ATP-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "036IQJBCJMDDAUO",
+   "competitionName": "Hubert Hurkacz vs Alejandro Davidovich Fokina",
+   "competitionStartTime": "2026-09-29T11:04:27Z",
+   "intakeEventId": "00H9HCBGMC15JK5HV0",
+   "leagueId": "026ART0EP8",
+   "leagueName": "ATP Chengdu",
+   "participants": [
+    {
+     "id": "DKT_01L2JV05KEBPI",
+     "name": "Hubert Hurkacz",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Hubert Hurkacz",
+  "parameters": {
+   "participant": "DKT_01L2JV05KEBPI",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "ATP Chengdu",
+  "ticker": "ATP-WIN-MTH-036IQJBCJMDDAUO-HUCZ000",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T18:39:27.93Z",
+  "domainId": "00S0",
+  "eventTicker": "NBAPRE-WIN-FG-00O99FQ0QTVB3F0",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T23:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T18:54:27.966Z",
+  "marketProductTypeId": "07804c05-4340-4be8-a84b-8fed66f0bbb8",
+  "marketProductTypeName": "NBAPRE-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O99FQ0QTVB3F0",
+   "competitionName": "MIA Heat @ TOR Raptors",
+   "competitionStartTime": "2026-10-03T23:00:00Z",
+   "intakeEventId": "01M7BGHQSRFLO0N1S8",
+   "leagueId": "03QF4IRRUK",
+   "leagueName": "NBA Preseason",
+   "participants": [
+    {
+     "id": "DKT_02M8MSLKQVIA0",
+     "name": "MIA Heat",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "MIA Heat",
+  "parameters": {
+   "participant": "DKT_02M8MSLKQVIA0",
+   "statAchievement": "WIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "NBAWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA Preseason",
+  "ticker": "NBAPRE-WIN-FG-00O99FQ0QTVB3F0-MIAT004",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T18:39:27.93Z",
+  "domainId": "00S0",
+  "eventTicker": "NBAPRE-WIN-FG-00O99FQ0QTVB3F0",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T23:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T18:54:27.966Z",
+  "marketProductTypeId": "07804c05-4340-4be8-a84b-8fed66f0bbb8",
+  "marketProductTypeName": "NBAPRE-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O99FQ0QTVB3F0",
+   "competitionName": "MIA Heat @ TOR Raptors",
+   "competitionStartTime": "2026-10-03T23:00:00Z",
+   "intakeEventId": "01M7BGHQSRFLO0N1S8",
+   "leagueId": "03QF4IRRUK",
+   "leagueName": "NBA Preseason",
+   "participants": [
+    {
+     "id": "DKT_00R4URP1DMP1C",
+     "name": "TOR Raptors",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "TOR Raptors",
+  "parameters": {
+   "participant": "DKT_00R4URP1DMP1C",
+   "statAchievement": "WIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "NBAWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA Preseason",
+  "ticker": "NBAPRE-WIN-FG-00O99FQ0QTVB3F0-TORS011",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T14:54:32.387Z",
+  "domainId": "03O7U",
+  "eventTicker": "UFC-WIN-FT-01S9BQSFIUQSKNO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T04:30:00Z",
+  "marketOpenTimestamp": "2026-09-28T15:09:32.39Z",
+  "marketProductTypeId": "a68453f7-5c4c-41ec-9acc-c258fada171b",
+  "marketProductTypeName": "UFC-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S9BQSFIUQSKNO",
+   "competitionName": "Natalia Silva vs Cong Wang",
+   "competitionStartTime": "2026-10-04T02:15:00Z",
+   "intakeEventId": "02HOQT81IPVC9APNR4",
+   "leagueId": "03Q9C5JR5K",
+   "leagueName": "UFC",
+   "participants": [
+    {
+     "id": "DKT_01LB5DSCKCGHE",
+     "name": "Cong Wang",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Cong Wang",
+  "parameters": {
+   "participant": "DKT_01LB5DSCKCGHE",
+   "statAchievement": "WIN",
+   "timePeriod": "FT"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "UFC",
+  "ticker": "UFC-WIN-FT-01S9BQSFIUQSKNO-CONG049",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T14:54:32.387Z",
+  "domainId": "03O7U",
+  "eventTicker": "UFC-WIN-FT-01S9BQSFIUQSKNO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T04:30:00Z",
+  "marketOpenTimestamp": "2026-09-28T15:09:32.39Z",
+  "marketProductTypeId": "a68453f7-5c4c-41ec-9acc-c258fada171b",
+  "marketProductTypeName": "UFC-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S9BQSFIUQSKNO",
+   "competitionName": "Natalia Silva vs Cong Wang",
+   "competitionStartTime": "2026-10-04T02:15:00Z",
+   "intakeEventId": "02HOQT81IPVC9APNR4",
+   "leagueId": "03Q9C5JR5K",
+   "leagueName": "UFC",
+   "participants": [
+    {
+     "id": "DKT_006J4V4DVJBBG",
+     "name": "Natalia Silva",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Natalia Silva",
+  "parameters": {
+   "participant": "DKT_006J4V4DVJBBG",
+   "statAchievement": "WIN",
+   "timePeriod": "FT"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "UFC",
+  "ticker": "UFC-WIN-FT-01S9BQSFIUQSKNO-NAVA027",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T17:31:11.225Z",
+  "domainId": "00U0",
+  "eventTicker": "WTA-WIN-MTH-02FLOK2NTU3MD7G",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-29T12:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T17:46:11.226Z",
+  "marketProductTypeId": "0462a302-86f8-5f07-886a-3e7e9a3c31a4",
+  "marketProductTypeName": "WTA-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02FLOK2NTU3MD7G",
+   "competitionName": "Carole Monnet vs Cagla Buyukakcay",
+   "competitionStartTime": "2026-09-29T12:00:00Z",
+   "intakeEventId": "00H98D89NS1DT2E350",
+   "leagueId": "02RKD9TR98",
+   "leagueName": "WTA Adana 125",
+   "participants": [
+    {
+     "id": "DKT_03S4EROTM5NUM",
+     "name": "Cagla Buyukakcay",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Cagla Buyukakcay",
+  "parameters": {
+   "participant": "DKT_03S4EROTM5NUM",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "WTA Adana 125",
+  "ticker": "WTA-WIN-MTH-02FLOK2NTU3MD7G-CAAY005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T17:31:11.225Z",
+  "domainId": "00U0",
+  "eventTicker": "WTA-WIN-MTH-02FLOK2NTU3MD7G",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-29T12:00:00Z",
+  "marketOpenTimestamp": "2026-09-28T17:46:11.226Z",
+  "marketProductTypeId": "0462a302-86f8-5f07-886a-3e7e9a3c31a4",
+  "marketProductTypeName": "WTA-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02FLOK2NTU3MD7G",
+   "competitionName": "Carole Monnet vs Cagla Buyukakcay",
+   "competitionStartTime": "2026-09-29T12:00:00Z",
+   "intakeEventId": "00H98D89NS1DT2E350",
+   "leagueId": "02RKD9TR98",
+   "leagueName": "WTA Adana 125",
+   "participants": [
+    {
+     "id": "DKT_006T7CGMVJ2V6",
+     "name": "Carole Monnet",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Carole Monnet",
+  "parameters": {
+   "participant": "DKT_006T7CGMVJ2V6",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "WTA Adana 125",
+  "ticker": "WTA-WIN-MTH-02FLOK2NTU3MD7G-CAET007",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T14:47:59.333Z",
+  "domainId": "00U0",
+  "eventTicker": "WTA-WIN-MTH-036GQ71AJN4U1J8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-29T18:30:00Z",
+  "marketOpenTimestamp": "2026-09-28T15:02:59.335Z",
+  "marketProductTypeId": "0462a302-86f8-5f07-886a-3e7e9a3c31a4",
+  "marketProductTypeName": "WTA-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "036GQ71AJN4U1J8",
+   "competitionName": "Anna Siskova vs Fiona Crawley",
+   "competitionStartTime": "2026-09-29T18:30:00Z",
+   "intakeEventId": "00H9HAA6BO15IU42Q8",
+   "leagueId": "02RKD9TR98",
+   "leagueName": "WTA Adana 125",
+   "participants": [
+    {
+     "id": "DKT_01L245SMKFDQ4",
+     "name": "Anna Siskova",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Anna Siskova",
+  "parameters": {
+   "participant": "DKT_01L245SMKFDQ4",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "WTA Adana 125",
+  "ticker": "WTA-WIN-MTH-036GQ71AJN4U1J8-ANVA035",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T14:47:59.333Z",
+  "domainId": "00U0",
+  "eventTicker": "WTA-WIN-MTH-036GQ71AJN4U1J8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-29T18:30:00Z",
+  "marketOpenTimestamp": "2026-09-28T15:02:59.335Z",
+  "marketProductTypeId": "0462a302-86f8-5f07-886a-3e7e9a3c31a4",
+  "marketProductTypeName": "WTA-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "036GQ71AJN4U1J8",
+   "competitionName": "Anna Siskova vs Fiona Crawley",
+   "competitionStartTime": "2026-09-29T18:30:00Z",
+   "intakeEventId": "00H9HAA6BO15IU42Q8",
+   "leagueId": "02RKD9TR98",
+   "leagueName": "WTA Adana 125",
+   "participants": [
+    {
+     "id": "DKT_01L69D4FKFAU0",
+     "name": "Fiona Crawley",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Fiona Crawley",
+  "parameters": {
+   "participant": "DKT_01L69D4FKFAU0",
+   "statAchievement": "WIN",
+   "timePeriod": "MTH"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "WTA Adana 125",
+  "ticker": "WTA-WIN-MTH-036GQ71AJN4U1J8-FIEY000",
+  "topic": "Sports"
+ }
+]

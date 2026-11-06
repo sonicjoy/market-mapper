@@ -1,0 +1,7 @@
+[
+  {"name": "snapshot_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "fetch_time", "type": "TIMESTAMP", "mode": "REQUIRED"},
+  {"name": "kind", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "league", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "data", "type": "STRING", "mode": "REQUIRED"}
+]

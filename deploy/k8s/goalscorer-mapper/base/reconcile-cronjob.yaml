@@ -1,0 +1,51 @@
+# Yesterday's games: record known player codes, post review cards for the rest.
+# No retry — a rerun would post every card twice.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: goalscorer-reconcile
+  labels:
+    app: goalscorer-reconcile
+spec:
+  schedule: "30 6 * * *"
+  timeZone: "Etc/UTC"
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 1800
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      activeDeadlineSeconds: 1800
+      backoffLimit: 0
+      template:
+        metadata:
+          labels:
+            app: goalscorer-reconcile
+        spec:
+          serviceAccountName: goalscorer-mapper
+          restartPolicy: Never
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 10001
+          containers:
+            - name: reconcile
+              image: goalscorer-mapper:DEPLOY-VIA-DEPLOY-SH
+              args: ["reconcile"]
+              envFrom:
+                - configMapRef:
+                    name: goalscorer-mapper-config
+              # Slack tokens: prod ExternalSecret goalscorer-slack (absent in test).
+              env:
+                - name: SLACK_BOT_TOKEN
+                  valueFrom:
+                    secretKeyRef:
+                      name: goalscorer-slack
+                      key: SLACK_BOT_TOKEN
+                      optional: true
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 512Mi

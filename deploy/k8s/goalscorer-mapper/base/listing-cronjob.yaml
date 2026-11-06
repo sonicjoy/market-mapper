@@ -1,0 +1,51 @@
+# Every 10 min: move pre-game guesses onto the tickers Kalshi actually lists
+# (markets appear ~35 min before kick-off). Idempotent, so a retry is safe.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: goalscorer-listing
+  labels:
+    app: goalscorer-listing
+spec:
+  schedule: "*/10 * * * *"
+  timeZone: "Etc/UTC"
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 300
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      activeDeadlineSeconds: 540
+      backoffLimit: 1
+      template:
+        metadata:
+          labels:
+            app: goalscorer-listing
+        spec:
+          serviceAccountName: goalscorer-mapper
+          restartPolicy: Never
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 10001
+          containers:
+            - name: listing
+              image: goalscorer-mapper:DEPLOY-VIA-DEPLOY-SH
+              args: ["listing"]
+              envFrom:
+                - configMapRef:
+                    name: goalscorer-mapper-config
+              # Slack tokens: prod ExternalSecret goalscorer-slack (absent in test).
+              env:
+                - name: SLACK_BOT_TOKEN
+                  valueFrom:
+                    secretKeyRef:
+                      name: goalscorer-slack
+                      key: SLACK_BOT_TOKEN
+                      optional: true
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 512Mi

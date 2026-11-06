@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Pre-commit: CI quality gate + pyright (pytest runs inside quality.sh).
+# Install: bash scripts/install-git-hooks.sh  (or: mise run hooks-install)
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+cd "$REPO_ROOT"
+
+export GCP_PROJECT="${GCP_PROJECT:-marketmaking-test}"
+
+PYTHON=""
+for candidate in \
+  "$REPO_ROOT/.venv/bin/python" \
+  "$REPO_ROOT/.venv/Scripts/python.exe"; do
+  if [ -x "$candidate" ]; then
+    PYTHON="$candidate"
+    break
+  fi
+done
+if [ -z "$PYTHON" ] && command -v python >/dev/null 2>&1; then
+  PYTHON=python
+fi
+if [ -z "$PYTHON" ]; then
+  echo "pre-commit: python not found (create .venv or install Python 3.13)" >&2
+  exit 1
+fi
+
+echo "pre-commit: quality gate (size/bandit/pip-audit/interrogate/pytest+cov)"
+bash "$REPO_ROOT/scripts/run-quality.sh"
+
+echo "pre-commit: pyright"
+"$PYTHON" -m pyright .

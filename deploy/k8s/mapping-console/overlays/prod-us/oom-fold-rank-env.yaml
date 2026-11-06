@@ -1,0 +1,26 @@
+# PROD oom-fold-rank CronJob — R_068 G2 lifted 2026-09-21 (G1 schema live on prod).
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: oom-fold-rank
+spec:
+  suspend: false
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: oom-fold-rank
+              env:
+                - name: GCP_PROJECT
+                  value: "rs-marketmaking"
+                - name: MAPPING_PIPELINE_OOM_FOLD_RANK
+                  value: "1"
+                - name: MAPPING_PIPELINE_OOM_FOLD_RANK_SOAK
+                  value: "1"
+                - name: OOM_FOLD_RANK_SOAK_ALERT_HOURLY_ONLY
+                  value: "1"
+                - name: ALERT_PUBSUB_ENABLED
+                  value: "true"
+                - name: ALERT_SLACK_CHANNEL
+                  value: "#marketmaking-mapping-alerts"

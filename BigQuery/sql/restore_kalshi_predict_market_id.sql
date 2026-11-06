@@ -1,0 +1,205 @@
+-- One-off: restore Kalshi market_mapping.market_id after crypto-only base leak.
+--
+-- Bug (fixed in load_mappings.flatten_rows): when optic_odds was null and
+-- crypto_com was set, Kalshi rows inherited _crypto_only_base and got
+-- crypto PREDICT_MARKET_ID (long numeric snowflake) in the Optic
+-- market_id column. MERGE then overwrote previously correct semantic
+-- ids (moneyline, total_points, …). Rows are sticky.
+--
+-- Project placeholder {project} — substitute from GCP_PROJECT
+-- (e.g. marketmaking-test / marketmaking-prod).
+--
+-- Run order:
+--   1) Detect (this file's first SELECT)
+--   2) Preview sibling restores
+--   3) UPDATE from sibling
+--   4) Preview prices restores for leftovers
+--   5) UPDATE from prices_dedup_state
+--   6) Re-run detect — expect n_contaminated = 0 (or only unrestorable)
+
+-- ---------------------------------------------------------------------------
+-- 1) Detect contaminated Kalshi rows
+-- ---------------------------------------------------------------------------
+-- select
+--   count(*) as n_contaminated,
+--   count(distinct game_id) as n_games,
+--   count(distinct league) as n_leagues
+-- from `{project}.markets_us.market_mapping`
+-- where sportsbook = 'Kalshi'
+--   and regexp_contains(market_id, r'^[0-9]{20,}$');
+
+-- select
+--   league,
+--   game_id,
+--   market_type,
+--   market_id as bad_market_id,
+--   json_value(source_ids, '$.market_id') as kalshi_ticker,
+--   home,
+--   away,
+--   side,
+--   line
+-- from `{project}.markets_us.market_mapping`
+-- where sportsbook = 'Kalshi'
+--   and regexp_contains(market_id, r'^[0-9]{20,}$')
+-- order by league, start_date, game_id
+-- limit 200;
+
+-- ---------------------------------------------------------------------------
+-- 2) Preview restore from sibling sportsbook on the same canonical key
+--    (exclude crypto.com — it often carries the same numeric id)
+-- ---------------------------------------------------------------------------
+-- select
+--   k.league,
+--   k.game_id,
+--   k.market_type,
+--   k.market_id as bad_market_id,
+--   s.sportsbook as sibling_sportsbook,
+--   s.market_id as restored_market_id,
+--   json_value(k.source_ids, '$.market_id') as kalshi_ticker
+-- from `{project}.markets_us.market_mapping` k
+-- join `{project}.markets_us.market_mapping` s
+--   on s.sport = k.sport
+--   and s.league = k.league
+--   and s.start_date = k.start_date
+--   and s.home = k.home
+--   and s.away = k.away
+--   and s.market_type = k.market_type
+--   and s.entity is not distinct from k.entity
+--   and s.line is not distinct from k.line
+--   and s.side = k.side
+--   and s.group_key is not distinct from k.group_key
+--   and s.sportsbook != 'Kalshi'
+--   and s.sportsbook != 'crypto.com'
+--   and not regexp_contains(s.market_id, r'^[0-9]{20,}$')
+-- where k.sportsbook = 'Kalshi'
+--   and regexp_contains(k.market_id, r'^[0-9]{20,}$');
+
+-- ---------------------------------------------------------------------------
+-- 3) UPDATE from sibling (pick one sibling market_id per Kalshi row)
+-- ---------------------------------------------------------------------------
+-- update `{project}.markets_us.market_mapping` k
+-- set
+--   market_id = r.restored_market_id,
+--   last_updated = current_timestamp()
+-- from (
+--   select
+--     k.sport,
+--     k.league,
+--     k.start_date,
+--     k.home,
+--     k.away,
+--     k.market_type,
+--     k.entity,
+--     k.line,
+--     k.side,
+--     k.group_key,
+--     any_value(s.market_id) as restored_market_id
+--   from `{project}.markets_us.market_mapping` k
+--   join `{project}.markets_us.market_mapping` s
+--     on s.sport = k.sport
+--     and s.league = k.league
+--     and s.start_date = k.start_date
+--     and s.home = k.home
+--     and s.away = k.away
+--     and s.market_type = k.market_type
+--     and s.entity is not distinct from k.entity
+--     and s.line is not distinct from k.line
+--     and s.side = k.side
+--     and s.group_key is not distinct from k.group_key
+--     and s.sportsbook != 'Kalshi'
+--     and s.sportsbook != 'crypto.com'
+--     and not regexp_contains(s.market_id, r'^[0-9]{20,}$')
+--   where k.sportsbook = 'Kalshi'
+--     and regexp_contains(k.market_id, r'^[0-9]{20,}$')
+--   group by 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+-- ) r
+-- where k.sportsbook = 'Kalshi'
+--   and regexp_contains(k.market_id, r'^[0-9]{20,}$')
+--   and k.sport = r.sport
+--   and k.league = r.league
+--   and k.start_date = r.start_date
+--   and k.home = r.home
+--   and k.away = r.away
+--   and k.market_type = r.market_type
+--   and k.entity is not distinct from r.entity
+--   and k.line is not distinct from r.line
+--   and k.side = r.side
+--   and k.group_key is not distinct from r.group_key;
+
+-- ---------------------------------------------------------------------------
+-- 4) Preview restore from prices_dedup_state via Kalshi ticker
+--    (for rows with no usable sibling)
+-- ---------------------------------------------------------------------------
+-- select
+--   k.league,
+--   k.game_id,
+--   k.market_id as bad_market_id,
+--   p.market_id as restored_market_id,
+--   json_value(k.source_ids, '$.market_id') as kalshi_ticker
+-- from `{project}.markets_us.market_mapping` k
+-- join `{project}.opticodds_us.prices_dedup_state` p
+--   on p.sportsbook = 'Kalshi'
+--   and p.game_id = k.game_id
+--   and json_value(p.source_ids, '$.market_id')
+--       = json_value(k.source_ids, '$.market_id')
+--   and json_value(p.source_ids, '$.selection_id')
+--       = json_value(k.source_ids, '$.selection_id')
+--   and not regexp_contains(p.market_id, r'^[0-9]{20,}$')
+-- where k.sportsbook = 'Kalshi'
+--   and regexp_contains(k.market_id, r'^[0-9]{20,}$');
+
+-- ---------------------------------------------------------------------------
+-- 5) UPDATE leftovers from prices_dedup_state
+-- ---------------------------------------------------------------------------
+-- update `{project}.markets_us.market_mapping` k
+-- set
+--   market_id = r.restored_market_id,
+--   last_updated = current_timestamp()
+-- from (
+--   select
+--     k.sport,
+--     k.league,
+--     k.start_date,
+--     k.home,
+--     k.away,
+--     k.market_type,
+--     k.entity,
+--     k.line,
+--     k.side,
+--     k.group_key,
+--     any_value(p.market_id) as restored_market_id
+--   from `{project}.markets_us.market_mapping` k
+--   join `{project}.opticodds_us.prices_dedup_state` p
+--     on p.sportsbook = 'Kalshi'
+--     and p.game_id = k.game_id
+--     and json_value(p.source_ids, '$.market_id')
+--         = json_value(k.source_ids, '$.market_id')
+--     and json_value(p.source_ids, '$.selection_id')
+--         = json_value(k.source_ids, '$.selection_id')
+--     and not regexp_contains(p.market_id, r'^[0-9]{20,}$')
+--   where k.sportsbook = 'Kalshi'
+--     and regexp_contains(k.market_id, r'^[0-9]{20,}$')
+--   group by 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+-- ) r
+-- where k.sportsbook = 'Kalshi'
+--   and regexp_contains(k.market_id, r'^[0-9]{20,}$')
+--   and k.sport = r.sport
+--   and k.league = r.league
+--   and k.start_date = r.start_date
+--   and k.home = r.home
+--   and k.away = r.away
+--   and k.market_type = r.market_type
+--   and k.entity is not distinct from r.entity
+--   and k.line is not distinct from r.line
+--   and k.side = r.side
+--   and k.group_key is not distinct from r.group_key;
+
+-- Active statement for console paste: detection only (uncomment UPDATEs above
+-- after reviewing counts in test, then prod).
+select
+  count(*) as n_contaminated,
+  count(distinct game_id) as n_games,
+  count(distinct league) as n_leagues
+from `{project}.markets_us.market_mapping`
+where sportsbook = 'Kalshi'
+  and regexp_contains(market_id, r'^[0-9]{20,}$');

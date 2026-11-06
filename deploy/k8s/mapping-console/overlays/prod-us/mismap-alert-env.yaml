@@ -1,0 +1,26 @@
+# PROD mismap-alert CronJob (mmmapper#23): hourly Slack rollup of high-tier, served,
+# unflagged mappings to the mapping channel (the same channel the prod gap-propose
+# CronJob posts to; @mmalertmanager is already a member). Owner approved 2026-09-27.
+# The alert-engine sink (MAPPING_ALERT_ENGINE_URL / _TOKEN) is wired separately.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: mismap-alert
+spec:
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: mismap-alert
+              env:
+                - name: GCP_PROJECT
+                  value: "rs-marketmaking"
+                - name: MAPPING_SOT
+                  value: "bq"
+                - name: MAPPING_MISMAP_ALERT
+                  value: "1"
+                - name: ALERT_PUBSUB_ENABLED
+                  value: "true"
+                - name: ALERT_SLACK_CHANNEL
+                  value: "#marketmaking-mapping-alerts"

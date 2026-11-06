@@ -1,0 +1,8 @@
+# dkex-catalogue — own image and deploy jobs, separate from the mapping-console
+# deploy. It runs in the mapping-console namespace as that app's
+# mapping-control-plane KSA (Workload Identity is already bound there), which
+# this app dir does not declare: the KSA stays owned by mapping-console.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - cronjob.yaml

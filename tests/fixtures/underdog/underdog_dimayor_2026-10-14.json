@@ -1,0 +1,214 @@
+{
+"colombia_primera_a": {
+"fixture_id": "202610141E46CC60",
+"rows": [
+{
+"description": "Resolves Yes if both teams score in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "both_teams_to_score"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORBTTS_PERJUN26OCT141730_BTTS"
+},
+{
+"description": "Resolves Yes if Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026 ends in a draw.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "moneyline"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORGAMEWIN_PERJUN26OCT141730_DRAW"
+},
+{
+"description": "Resolves Yes if CD Popular Junior FC SA win Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "moneyline",
+"team_id": "1E4BE45D6DCD"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORGAMEWIN_PERJUN26OCT141730_JUN"
+},
+{
+"description": "Resolves Yes if Deportivo Pereira FC win Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "moneyline",
+"team_id": "ED222F5479BC"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORGAMEWIN_PERJUN26OCT141730_PER"
+},
+{
+"description": "Resolves Yes if CD Popular Junior FC SA beat Deportivo Pereira FC by above 0.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "asian_handicap",
+"team_id": "1E4BE45D6DCD"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORSPREAD_PERJUN26OCT141730_JUN0.5"
+},
+{
+"description": "Resolves Yes if CD Popular Junior FC SA beat Deportivo Pereira FC by above 1.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "asian_handicap",
+"team_id": "1E4BE45D6DCD"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORSPREAD_PERJUN26OCT141730_JUN1.5"
+},
+{
+"description": "Resolves Yes if CD Popular Junior FC SA beat Deportivo Pereira FC by above 2.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "asian_handicap",
+"team_id": "1E4BE45D6DCD"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORSPREAD_PERJUN26OCT141730_JUN2.5"
+},
+{
+"description": "Resolves Yes if CD Popular Junior FC SA beat Deportivo Pereira FC by above 3.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "asian_handicap",
+"team_id": "1E4BE45D6DCD"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORSPREAD_PERJUN26OCT141730_JUN3.5"
+},
+{
+"description": "Resolves Yes if Deportivo Pereira FC beat CD Popular Junior FC SA by above 0.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "asian_handicap",
+"team_id": "ED222F5479BC"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORSPREAD_PERJUN26OCT141730_PER0.5"
+},
+{
+"description": "Resolves Yes if Deportivo Pereira FC beat CD Popular Junior FC SA by above 1.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "asian_handicap",
+"team_id": "ED222F5479BC"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORSPREAD_PERJUN26OCT141730_PER1.5"
+},
+{
+"description": "Resolves Yes if Deportivo Pereira FC beat CD Popular Junior FC SA by above 2.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "asian_handicap",
+"team_id": "ED222F5479BC"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORSPREAD_PERJUN26OCT141730_PER2.5"
+},
+{
+"description": "Resolves Yes if there are above 0.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORTOTAL_PERJUN26OCT141730_0.5"
+},
+{
+"description": "Resolves Yes if there are above 1.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORTOTAL_PERJUN26OCT141730_1.5"
+},
+{
+"description": "Resolves Yes if there are above 2.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORTOTAL_PERJUN26OCT141730_2.5"
+},
+{
+"description": "Resolves Yes if there are above 3.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORTOTAL_PERJUN26OCT141730_3.5"
+},
+{
+"description": "Resolves Yes if there are above 4.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORTOTAL_PERJUN26OCT141730_4.5"
+},
+{
+"description": "Resolves Yes if there are above 5.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORTOTAL_PERJUN26OCT141730_5.5"
+},
+{
+"description": "Resolves Yes if there are above 6.5 goals in Colombia Primera A match between CD Popular Junior FC SA and Deportivo Pereira FC originally scheduled for 5:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610141E46CC60",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXDIMAYORTOTAL_PERJUN26OCT141730_6.5"
+}
+]
+}
+}

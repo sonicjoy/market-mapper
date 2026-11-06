@@ -1,0 +1,616 @@
+include:
+  # Shared quality + GKE build/deploy. Keep MM_CI_TEMPLATES_REF in lockstep with this ref.
+  # Scripts live in mm-ci-templates; baselines stay here.
+  - project: 'whiteswandata/marketmaking/mm-ci-templates'
+    ref: v1.3.1
+    file:
+      - '/templates/quality.gitlab-ci.yml'
+      - '/templates/build-kaniko.gitlab-ci.yml'
+      - '/templates/deploy.gitlab-ci.yml'
+
+stages:
+  - test
+  - build
+  - deploy
+
+default:
+  interruptible: true
+
+variables:
+  GCP_PROJECT: marketmaking-test
+  # Full-history clone: regression tests read config through git
+  # objects at historical SHAs (e.g. the e1a7136 audit target),
+  # which a shallow fetch does not contain.
+  GIT_DEPTH: "0"
+  MM_CI_TEMPLATES_REF: "v1.3.1"
+
+.python-test:
+  # Self-hosted test-US runner (in-cluster, keyless).
+  tags: [wsd-test-us]
+  # The full image already ships git (regression tests shell out to it) and libatomic1 (pyright's node).
+  # On -slim every job spent ~2m18s in apt-get on the test-US runner (pipeline 2951251812, 2026-10-15).
+  image: python:3.13
+  cache:
+    key:
+      prefix: py313-$CI_JOB_NAME_SLUG  # one venv per job: each installs different extras on top
+      files:
+        - requirements.txt
+        - pyproject.toml
+    paths:
+      - .venv/
+  before_script:
+    - python -m venv .venv
+    - .venv/bin/pip install -r requirements.txt
+    - .venv/bin/pip install pytest pyright PyYAML
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "test"
+    - if: $CI_COMMIT_BRANCH == "main"
+
+pyright:
+  extends: .python-test
+  stage: test
+  variables:
+    # pyright installs node via nodeenv. Its default "latest" is the top of Node's release index,
+    # which can be a pre-release (27.0.0-alpha.0.0.0) that nodeenv's version parser rejects.
+    PYRIGHT_PYTHON_NODE_VERSION: lts
+  script:
+    - .venv/bin/pyright .
+
+# Shared warm-first quality gate (.mm-quality clones mm-ci-templates + runs quality.sh). Inherits
+# .python-test's image/cache/rules; own before_script adds the gate tooling. coverage floor 0 → ratchet.
+# It is also THE test run (tests/, see pyproject testpaths): the separate `pytest` job ran the same
+# 4,861 tests again (173 s serial) next to this one (301 s serial with coverage). pytest-xdist makes
+# quality.sh run `-n auto --dist loadscope`; 3 CPUs + sysmon coverage (py3.12+) keep it short.
+quality:
+  extends:
+    - .python-test
+    - .mm-quality
+  stage: test
+  variables:
+    QUALITY_SRC: "mappers BigQuery fetch regression goalscorer"
+    QUALITY_COV_PKG: "mappers"
+    QUALITY_COV_MIN: "0"
+    QUALITY_INTERROGATE_MIN: "75"
+    COVERAGE_CORE: sysmon
+    KUBERNETES_CPU_REQUEST: "3"
+    KUBERNETES_MEMORY_REQUEST: 4Gi
+  before_script:
+    - python -m venv .venv
+    - .venv/bin/pip install -r requirements.txt
+    - .venv/bin/pip install ruff bandit pip-audit interrogate pytest pytest-cov pytest-xdist PyYAML
+
+# ---- Mapping regression gate (regression/live_gate.py, README "Live gate") ----
+# Replays the newest prod fetch snapshots plus every incident in
+# regression/incidents.toml through THIS commit and through the commit prod
+# is publishing with, under one pinned rules tip, and fails on any
+# unexplained mapping change, any side swap, any new invariant violation
+# (e.g. a venue's contract name fitting the opponent) or any broken incident
+# case. Both prod deploys below `needs:` it, so a red gate cannot ship.
+# Exit 2 = the gate could not run; that blocks too (nothing fails open).
+#
+# Prod runner + prod data on purpose: the test project has no fetch
+# snapshots (raw_ingestion_us.*_fetch_raw is empty there), and the prod
+# runner accepts MR refs (access_level not_protected). Identity: the runner
+# impersonates mmmapper-regression@ (read-only; mm-infrastructure
+# modules/mapping_control_plane/mmmapper_regression_gate.tf).
+#
+# Fanned out: plan -> one replay per run job, in parallel -> verdict (the job named
+# regression:mapping-gate, which the deploys need). A replay is mostly serial and needs ~4-6 GiB, so one
+# 12 GiB pod cannot hold two (OOMKilled, job 17174576209) and five ran back to back: 920 s of the 1,482 s
+# job 17282057672. Each run job reads its own tick from BigQuery (ranged parallel reads, ~15 s and $0.012
+# a tick), so no tick/output cache is carried between pipelines any more — restoring and saving it cost
+# 50-66 s + 60-95 s a run.
+#
+# Runs on the prod-US runner's v2 pool (n2d-standard-8, on-demand, 3 warm; mm-infrastructure !1698/!1700,
+# plans/ci-runner-scale-out-plan.md): a whole replay is 110-126 s there at 7 CPUs against 228-285 s on the
+# prod-UK e2 spot pool, and the gate went 490-665 s -> 370 s (pipeline 2968338670). BigQuery is us-east4 too.
+.mapping-gate:
+  extends: .python-test
+  stage: test
+  tags: [wsd-prod-us]
+  # -slim + apt: setup (apt + venv + pip) is 12-16 s on the prod-US v2 pool (pipeline 2968338670).
+  image: python:3.13-slim
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq libatomic1 git >/dev/null
+    - python -m venv .venv
+    - .venv/bin/pip install -r requirements.txt
+    - .venv/bin/pip install pytest pyright PyYAML
+  # A lost node kills the job as a system failure (spot reclaims on the old pool: jobs 17223842668,
+  # 17226007063, 17315002327). Retry those only; a real FAIL is never retried.
+  retry:
+    max: 2
+    when: [runner_system_failure, scheduler_failure]
+  variables:
+    GCP_PROJECT: rs-marketmaking
+    MM_REPLAY_PROJECT: rs-marketmaking
+    MM_REGRESSION_SA: mmmapper-regression@rs-marketmaking.iam.gserviceaccount.com
+    MM_REGRESSION_CACHE: $CI_PROJECT_DIR/.regression-cache
+    # Must equal regression:mapping-gate:run's `parallel:` (the run stage refuses a mismatch).
+    MAPPING_GATE_SLOTS: "5"
+    FF_USE_FASTZIP: "true"
+    ARTIFACT_COMPRESSION_LEVEL: fastest
+    CACHE_COMPRESSION_LEVEL: fastest
+  # Pulled, never pushed, on the critical path: archiving the venv is ~28 s (job 17286673041).
+  # regression:mapping-gate:venv keeps it fresh. The prefix is the old single job's slug, so it is warm.
+  cache:
+    - key:
+        prefix: py313-regression-mapping-gate
+        files:
+          - requirements.txt
+          - pyproject.toml
+      paths:
+        - .venv/
+      policy: pull
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $MAPPING_GATE_SCHEDULE == "1"
+    - if: $CI_COMMIT_BRANCH == "test"
+    - if: $CI_COMMIT_BRANCH == "main"
+
+# Refreshes the venv the gate jobs pull, beside them rather than in front of them.
+regression:mapping-gate:venv:
+  extends: .mapping-gate
+  needs: []
+  allow_failure: true
+  variables:
+    KUBERNETES_CPU_REQUEST: "500m"
+    KUBERNETES_MEMORY_REQUEST: 1Gi
+  cache:
+    - key:
+        prefix: py313-regression-mapping-gate
+        files:
+          - requirements.txt
+          - pyproject.toml
+      paths:
+        - .venv/
+      policy: pull-push
+  script:
+    - .venv/bin/python -c "import google.cloud.bigquery"
+
+# Resolves both SHAs, pins the rules tip and picks the snapshots once, so every run job replays the same thing.
+regression:mapping-gate:plan:
+  extends: .mapping-gate
+  needs: []
+  variables:
+    KUBERNETES_CPU_REQUEST: "1"
+    KUBERNETES_MEMORY_REQUEST: 2Gi
+    KUBERNETES_MEMORY_LIMIT: 6Gi
+  script:
+    # The baseline is whatever prod runs; make sure that commit is in the clone.
+    - git fetch --quiet origin +refs/heads/main:refs/remotes/origin/main +refs/heads/test:refs/remotes/origin/test
+    - .venv/bin/python -m regression.live_gate --stage plan --candidate "$CI_COMMIT_SHA" --plan gate-plan --slots "$MAPPING_GATE_SLOTS"
+  artifacts:
+    expire_in: 7 days
+    paths: [gate-plan/]
+
+regression:mapping-gate:run:
+  extends: .mapping-gate
+  needs:
+    - { job: "regression:mapping-gate:plan", artifacts: true }
+  parallel: 5
+  timeout: 60m
+  variables:
+    # One replay per 8-vCPU node: 7 CPUs (the v2 cap), mappers.run mapping leagues in 6 processes next to
+    # its parent. Memory follows the workers (a whole replay's process tree peaked ~8.4 GB with 4).
+    KUBERNETES_CPU_REQUEST: "7"
+    KUBERNETES_MEMORY_REQUEST: 16Gi
+    KUBERNETES_MEMORY_LIMIT: 24Gi
+    MAP_LEAGUE_WORKERS: "6"
+  script:
+    - git fetch --quiet origin +refs/heads/main:refs/remotes/origin/main +refs/heads/test:refs/remotes/origin/test
+    - .venv/bin/python -m regression.live_gate --stage run --plan gate-plan --runs gate-runs
+  artifacts:
+    expire_in: 1 day
+    paths: [gate-runs/]
+
+# The verdict: diff + invariants + incidents over the run jobs' outputs. Standard library only — no venv,
+# no apt, no history.
+regression:mapping-gate:
+  extends: .mapping-gate
+  needs:
+    - { job: "regression:mapping-gate:plan", artifacts: true }
+    - { job: "regression:mapping-gate:run", artifacts: true }
+  cache: []
+  before_script: []
+  variables:
+    GIT_DEPTH: "1"
+    KUBERNETES_CPU_REQUEST: "1"
+    KUBERNETES_MEMORY_REQUEST: 2Gi
+    KUBERNETES_MEMORY_LIMIT: 6Gi
+  script:
+    - python -m regression.live_gate --stage verdict --plan gate-plan --runs gate-runs --out gate-report
+  artifacts:
+    when: always
+    expire_in: 30 days
+    paths: [gate-report/]
+    expose_as: mapping gate report
+
+# ---- GKE mapping console — Kaniko build + .mm-deploy ----
+# Manifests: deploy/k8s/mapping-console (base + overlays/{test-us,prod-us}).
+# VM deploy jobs below stay as-is. Prod .mm-deploy MUST override CI_DEPLOY_IMAGE:
+# the template default is marketmaking-test/ci-images; the prod-US runner cannot pull it (403).
+build:mapping-console:test:
+  extends: .mm-build-kaniko
+  tags: [wsd-test-us]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+      when: on_success
+  variables:
+    REGISTRY_PROJECT: marketmaking-test
+    AR_REPO: mapping-console
+    IMAGE_NAME: app
+    DOCKERFILE: deploy/Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:mapping-console:test:
+  extends: .mm-deploy
+  needs: [{ job: "build:mapping-console:test", artifacts: true }]
+  rules:
+    # Auto on test (same posture as deploy:mapping-pipeline:test). Prod GKE stays manual when added.
+    - if: $CI_COMMIT_BRANCH == "test"
+      when: on_success
+  variables:
+    DEPLOY_ENV: test
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/mapping-console
+    APP_NAME: mapping-console
+    IMAGE_ARGS: "-i mapping-console-app=$IMAGE_URI_MAIN"
+  environment:
+    name: mapping-console/test
+
+build:mapping-console:prod:
+  extends: .mm-build-kaniko
+  tags: [wsd-prod-uk]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: on_success
+  variables:
+    REGISTRY_PROJECT: rs-marketmaking
+    AR_REPO: mapping-console
+    IMAGE_NAME: app
+    DOCKERFILE: deploy/Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:mapping-console:prod:
+  extends: .mm-deploy
+  # The console's gap-propose / chat pin fighter and team ids with the same
+  # pairing code the mapper uses (mappers/px_name_bind.py) — gate it too.
+  needs:
+    - { job: "build:mapping-console:prod", artifacts: true }
+    - { job: "regression:mapping-gate", artifacts: false }
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: manual
+  variables:
+    DEPLOY_ENV: prod
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/mapping-console
+    APP_NAME: mapping-console
+    IMAGE_ARGS: "-i mapping-console-app=$IMAGE_URI_MAIN"
+    # Same image trading-dash prod uses; template default is the test AR copy.
+    CI_DEPLOY_IMAGE: us-east4-docker.pkg.dev/rs-marketmaking/ci-images/deploy-base:v1
+  environment:
+    name: mapping-console/prod
+
+# ---- GKE goalscorer-mapper — own image, namespace and deploy (deploy/k8s/goalscorer-mapper) ----
+# Image lives in the mapping-console AR repo under its own name. Built/deployed only
+# when its sources change; a web-triggered pipeline always runs them.
+.goalscorer-changes: &goalscorer_changes
+  - goalscorer/**/*
+  - BigQuery/client.py
+  - deploy/goalscorer-mapper.Dockerfile
+  - deploy/k8s/goalscorer-mapper/**/*
+
+build:goalscorer-mapper:test:
+  extends: .mm-build-kaniko
+  tags: [wsd-test-us]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+      changes: *goalscorer_changes
+  variables:
+    REGISTRY_PROJECT: marketmaking-test
+    AR_REPO: mapping-console
+    IMAGE_NAME: goalscorer-mapper
+    DOCKERFILE: deploy/goalscorer-mapper.Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:goalscorer-mapper:test:
+  extends: .mm-deploy
+  needs: [{ job: "build:goalscorer-mapper:test", artifacts: true }]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+      changes: *goalscorer_changes
+      when: on_success
+  variables:
+    DEPLOY_ENV: test
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/goalscorer-mapper
+    APP_NAME: goalscorer-mapper
+    IMAGE_ARGS: "-i goalscorer-mapper=$IMAGE_URI_MAIN"
+  environment:
+    name: goalscorer-mapper/test
+
+build:goalscorer-mapper:prod:
+  extends: .mm-build-kaniko
+  tags: [wsd-prod-uk]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes: *goalscorer_changes
+  variables:
+    REGISTRY_PROJECT: rs-marketmaking
+    AR_REPO: mapping-console
+    IMAGE_NAME: goalscorer-mapper
+    DOCKERFILE: deploy/goalscorer-mapper.Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:goalscorer-mapper:prod:
+  extends: .mm-deploy
+  needs: [{ job: "build:goalscorer-mapper:prod", artifacts: true }]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes: *goalscorer_changes
+      when: manual
+  variables:
+    DEPLOY_ENV: prod
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/goalscorer-mapper
+    APP_NAME: goalscorer-mapper
+    IMAGE_ARGS: "-i goalscorer-mapper=$IMAGE_URI_MAIN"
+    CI_DEPLOY_IMAGE: us-east4-docker.pkg.dev/rs-marketmaking/ci-images/deploy-base:v1
+  environment:
+    name: goalscorer-mapper/prod
+
+# ---- GKE dkex-catalogue — own image and deploy (deploy/k8s/dkex-catalogue) ----
+# The DKEX REST catalogue -> raw_ingestion_us.dkex_raw CronJob. Not gated on the
+# mapping-console deploy: it ships on its own buttons, in the mapping-console
+# namespace as that app's KSA. Built/deployed only when the job's import closure
+# changes; a web-triggered pipeline always runs them.
+.dkex-catalogue-changes: &dkex_catalogue_changes
+  - fetch/dkex.py
+  - fetch/dkex_api.py
+  - fetch/gcloud_util.py
+  - BigQuery/load_dkex_raw.py
+  - mappers/exchanges/dkex.py
+  - mappers/exchanges/dkex_leagues.py
+  - mappers/market_types.py
+  - mappers/shared.py
+  - requirements.txt
+  - deploy/dkex-catalogue.Dockerfile
+  - deploy/k8s/dkex-catalogue/**/*
+
+build:dkex-catalogue:test:
+  extends: .mm-build-kaniko
+  tags: [wsd-test-us]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+      changes: *dkex_catalogue_changes
+  variables:
+    REGISTRY_PROJECT: marketmaking-test
+    AR_REPO: mapping-console
+    IMAGE_NAME: dkex-catalogue
+    DOCKERFILE: deploy/dkex-catalogue.Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:dkex-catalogue:test:
+  extends: .mm-deploy
+  needs: [{ job: "build:dkex-catalogue:test", artifacts: true }]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+      changes: *dkex_catalogue_changes
+      when: on_success
+  variables:
+    DEPLOY_ENV: test
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/dkex-catalogue
+    APP_NAME: dkex-catalogue
+    IMAGE_ARGS: "-i dkex-catalogue=$IMAGE_URI_MAIN"
+  environment:
+    name: dkex-catalogue/test
+
+build:dkex-catalogue:prod:
+  extends: .mm-build-kaniko
+  tags: [wsd-prod-uk]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes: *dkex_catalogue_changes
+  variables:
+    REGISTRY_PROJECT: rs-marketmaking
+    AR_REPO: mapping-console
+    IMAGE_NAME: dkex-catalogue
+    DOCKERFILE: deploy/dkex-catalogue.Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:dkex-catalogue:prod:
+  extends: .mm-deploy
+  needs: [{ job: "build:dkex-catalogue:prod", artifacts: true }]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes: *dkex_catalogue_changes
+      when: manual
+  variables:
+    DEPLOY_ENV: prod
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/dkex-catalogue
+    APP_NAME: dkex-catalogue
+    IMAGE_ARGS: "-i dkex-catalogue=$IMAGE_URI_MAIN"
+    CI_DEPLOY_IMAGE: us-east4-docker.pkg.dev/rs-marketmaking/ci-images/deploy-base:v1
+  environment:
+    name: dkex-catalogue/prod
+
+# ---- GKE ai-validation — own image and deploy (deploy/k8s/ai-validation) ----
+# The Gemini judge of the published mappings (BigQuery.ai_validation) as a
+# CronJob, in the mapping-console namespace as that app's KSA. Not gated on the
+# mapping-console deploy: it ships on its own buttons. Built/deployed only when
+# the job's import closure changes; a web-triggered pipeline always runs them.
+.ai-validation-changes: &ai_validation_changes
+  - BigQuery/ai_validation.py
+  - BigQuery/alerts.py
+  - BigQuery/load_mappings.py
+  - BigQuery/polymarket_bq_util.py
+  - mappers/market_types.py
+  - mappers/shared.py
+  - requirements.txt
+  - deploy/ai-validation.Dockerfile
+  - deploy/k8s/ai-validation/**/*
+
+build:ai-validation:test:
+  extends: .mm-build-kaniko
+  tags: [wsd-test-us]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+      changes: *ai_validation_changes
+  variables:
+    REGISTRY_PROJECT: marketmaking-test
+    AR_REPO: mapping-console
+    IMAGE_NAME: ai-validation
+    DOCKERFILE: deploy/ai-validation.Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:ai-validation:test:
+  extends: .mm-deploy
+  needs: [{ job: "build:ai-validation:test", artifacts: true }]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+      changes: *ai_validation_changes
+      when: on_success
+  variables:
+    DEPLOY_ENV: test
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/ai-validation
+    APP_NAME: ai-validation
+    IMAGE_ARGS: "-i ai-validation=$IMAGE_URI_MAIN"
+  environment:
+    name: ai-validation/test
+
+build:ai-validation:prod:
+  extends: .mm-build-kaniko
+  tags: [wsd-prod-uk]
+  needs: ["quality"]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes: *ai_validation_changes
+  variables:
+    REGISTRY_PROJECT: rs-marketmaking
+    AR_REPO: mapping-console
+    IMAGE_NAME: ai-validation
+    DOCKERFILE: deploy/ai-validation.Dockerfile
+    KANIKO_EXTRA_ARGS: --build-arg GIT_SHA=${CI_COMMIT_SHORT_SHA}
+
+deploy:ai-validation:prod:
+  extends: .mm-deploy
+  needs: [{ job: "build:ai-validation:prod", artifacts: true }]
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes: *ai_validation_changes
+      when: manual
+  variables:
+    DEPLOY_ENV: prod
+    DEPLOY_REGION: us
+    APP_DIR: deploy/k8s/ai-validation
+    APP_NAME: ai-validation
+    IMAGE_ARGS: "-i ai-validation=$IMAGE_URI_MAIN"
+    CI_DEPLOY_IMAGE: us-east4-docker.pkg.dev/rs-marketmaking/ci-images/deploy-base:v1
+  environment:
+    name: ai-validation/prod
+
+.deploy:
+  image: google/cloud-sdk:slim
+  stage: deploy
+  timeout: 2h
+  variables:
+    VM_REPO_USER: gtod
+    VM_REPO_DIR: /home/gtod/mmmapper
+    # gcloud derives the SSH username from whoami. The cloud-sdk image runs as
+    # root, but Debian VMs block root SSH — use a non-root user so metadata keys
+    # land as gcloudci (auto-created on the VM with passwordless sudo).
+    GCLOUD_SSH_USER: gcloudci
+    GCLOUD_SSH_KEY_FILE: /home/gcloudci/.ssh/google_compute_engine
+    # Scoped deploy identity (mm-infrastructure mmmapper_deploy.tf): instance-scoped compute +
+    # IAP tunnel on the mapper VM only. The runner holds nothing but tokenCreator on it.
+    DEPLOY_SA: mmmapper-deploy@$GCP_PROJECT.iam.gserviceaccount.com
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq sudo
+    - id "$GCLOUD_SSH_USER" &>/dev/null || useradd -m -s /bin/bash "$GCLOUD_SSH_USER"
+    - install -d -m700 "/home/$GCLOUD_SSH_USER/.ssh"
+    # Normalize the File variable: strip CR (CRLF) and guarantee a trailing
+    # newline, otherwise OpenSSH rejects the key with "error in libcrypto".
+    - sed -e 's/\r$//' "$GCP_DEPLOY_SSH_KEY" > "$GCLOUD_SSH_KEY_FILE"
+    - printf '\n' >> "$GCLOUD_SSH_KEY_FILE"
+    - chmod 600 "$GCLOUD_SSH_KEY_FILE"
+    - ssh-keygen -y -f "$GCLOUD_SSH_KEY_FILE" > "${GCLOUD_SSH_KEY_FILE}.pub"
+    - chmod 644 "${GCLOUD_SSH_KEY_FILE}.pub"
+    - chown -R "$GCLOUD_SSH_USER:$GCLOUD_SSH_USER" "/home/$GCLOUD_SSH_USER"
+    # No credential file. The runner has ambient Workload Identity; gcloud picks it up from the
+    # metadata server (reachable for any OS user on the pod) and exchanges it for a short-lived
+    # token on the scoped deploy GSA via --impersonate-service-account below.
+    - sudo -u "$GCLOUD_SSH_USER" env "PATH=$PATH" gcloud config set project "$GCP_PROJECT"
+  script:
+    # Ship the CI checkout to the VM (no GitLab credentials on the VM).
+    # Exclude .git so the VM keeps its own repo; the archive only refreshes source.
+    # Job-unique remote path avoids ownership collisions between concurrent jobs.
+    - tar czf /tmp/mmmapper-src.tgz --exclude='./.venv' --exclude='./data' --exclude='./.git' -C "$CI_PROJECT_DIR" .
+    - chown "$GCLOUD_SSH_USER:$GCLOUD_SSH_USER" /tmp/mmmapper-src.tgz
+    - REMOTE_ARCHIVE="/tmp/mmmapper-src-${CI_JOB_ID}.tgz"
+    - |
+      sudo -u "$GCLOUD_SSH_USER" env "PATH=$PATH" gcloud compute scp /tmp/mmmapper-src.tgz \
+        "$VM_NAME:$REMOTE_ARCHIVE" \
+        --zone="$VM_ZONE" \
+        --project="$GCP_PROJECT" \
+        --impersonate-service-account="$DEPLOY_SA" \
+        --tunnel-through-iap \
+        --ssh-key-file="$GCLOUD_SSH_KEY_FILE" \
+        --scp-flag="-o StrictHostKeyChecking=no"
+    # Extract first (this restores infra/deploy.sh), sync git to the CI commit,
+    # refresh deps, and record infra/DEPLOYED.  CI_JOB_TOKEN is job-scoped —
+    # not stored on the VM; origin is scrubbed to a credential-free URL after fetch.
+    - DEPLOY_FETCH_URL="https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.com/whiteswandata/marketmaking/mmmapper.git"
+    - |
+      sudo -u "$GCLOUD_SSH_USER" env "PATH=$PATH" gcloud compute ssh "$VM_NAME" \
+        --zone="$VM_ZONE" \
+        --project="$GCP_PROJECT" \
+        --impersonate-service-account="$DEPLOY_SA" \
+        --tunnel-through-iap \
+        --ssh-key-file="$GCLOUD_SSH_KEY_FILE" \
+        --ssh-flag="-o StrictHostKeyChecking=no" \
+        --command "sudo -u $VM_REPO_USER tar xzf $REMOTE_ARCHIVE -C $VM_REPO_DIR && sudo rm -f $REMOTE_ARCHIVE && sudo -u $VM_REPO_USER bash $VM_REPO_DIR/infra/deploy.sh --refresh-deps --commit $CI_COMMIT_SHA --ref $CI_COMMIT_REF_NAME --fetch-url '$DEPLOY_FETCH_URL'"
+
+deploy:mapping-pipeline:test:
+  extends: .deploy
+  tags: [wsd-test-us]
+  variables:
+    GCP_PROJECT: marketmaking-test
+    GCP_DEPLOY_SSH_KEY: $GCP_DEPLOY_SSH_KEY_TEST
+    VM_NAME: $VM_NAME_TEST
+    VM_ZONE: $VM_ZONE_TEST
+  environment:
+    name: test
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test"
+
+deploy:mapping-pipeline:prod:
+  extends: .deploy
+  tags: [wsd-prod-uk]
+  # Explicit, not left to stage order: a later edit adding needs: would
+  # otherwise silently stop waiting for the gate.
+  needs:
+    - { job: "regression:mapping-gate", artifacts: false }
+    - { job: "pyright", artifacts: false }
+    - { job: "quality", artifacts: false }
+  variables:
+    GCP_PROJECT: rs-marketmaking
+    GCP_DEPLOY_SSH_KEY: $GCP_DEPLOY_SSH_KEY_PROD
+    VM_NAME: $VM_NAME_PROD
+    VM_ZONE: $VM_ZONE_PROD
+  environment:
+    name: production
+  when: manual
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"

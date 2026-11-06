@@ -1,0 +1,1034 @@
+[
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:48.001Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-BTMSC-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:48.001Z",
+  "marketProductTypeId": "45e50886-40e8-499d-bb19-9723f897e255",
+  "marketProductTypeName": "BSA-BTMSC",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "033EL8MBSO2V14PU",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "Both Teams to Score",
+  "parameters": {
+   "statAchievement": "BTMSC",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-BTMSC-FG-02L4G7P1HIOAEOO-BINARY",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:18.428Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-DWIN-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:18.428Z",
+  "marketProductTypeId": "64a09b0c-4329-4105-8c80-7e6dbca9213a",
+  "marketProductTypeName": "BSA-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "0335R5M3CO2K95TGA0",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_012669EL0OQ0E",
+     "name": "Atletico Mineiro",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Atletico Mineiro",
+  "parameters": {
+   "participant": "DKT_012669EL0OQ0E",
+   "statAchievement": "DWIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-DWIN-FG-02L4G7P1HIOAEOO-ATRO002",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:18.428Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-DWIN-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:18.428Z",
+  "marketProductTypeId": "64a09b0c-4329-4105-8c80-7e6dbca9213a",
+  "marketProductTypeName": "BSA-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "0335R5M3CO2K95TGA0",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "Draw",
+  "parameters": {
+   "statAchievement": "DWIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-DWIN-FG-02L4G7P1HIOAEOO-DRAW",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:18.428Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-DWIN-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:18.428Z",
+  "marketProductTypeId": "64a09b0c-4329-4105-8c80-7e6dbca9213a",
+  "marketProductTypeName": "BSA-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "0335R5M3CO2K95TGA0",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_0284Q6GTAQB6A",
+     "name": "RB Bragantino",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "RB Bragantino",
+  "parameters": {
+   "participant": "DKT_0284Q6GTAQB6A",
+   "statAchievement": "DWIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-DWIN-FG-02L4G7P1HIOAEOO-RBNO000",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_012669EL0OQ0E",
+     "name": "Atletico Mineiro",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Atletico Mineiro -0.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_012669EL0OQ0E",
+   "statAchievement": "MOVY",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-ATRO002-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_012669EL0OQ0E",
+     "name": "Atletico Mineiro",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Atletico Mineiro -1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_012669EL0OQ0E",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-ATRO002-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_012669EL0OQ0E",
+     "name": "Atletico Mineiro",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Atletico Mineiro -2.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_012669EL0OQ0E",
+   "statAchievement": "MOVY",
+   "strikePrice": "2.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-ATRO002-GTE-P00025",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_012669EL0OQ0E",
+     "name": "Atletico Mineiro",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Atletico Mineiro -3.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_012669EL0OQ0E",
+   "statAchievement": "MOVY",
+   "strikePrice": "3.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-ATRO002-GTE-P00035",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_012669EL0OQ0E",
+     "name": "Atletico Mineiro",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Atletico Mineiro -4.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_012669EL0OQ0E",
+   "statAchievement": "MOVY",
+   "strikePrice": "4.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-ATRO002-GTE-P00045",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_0284Q6GTAQB6A",
+     "name": "RB Bragantino",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "RB Bragantino -0.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0284Q6GTAQB6A",
+   "statAchievement": "MOVY",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-RBNO000-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_0284Q6GTAQB6A",
+     "name": "RB Bragantino",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "RB Bragantino -1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0284Q6GTAQB6A",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-RBNO000-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_0284Q6GTAQB6A",
+     "name": "RB Bragantino",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "RB Bragantino -2.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0284Q6GTAQB6A",
+   "statAchievement": "MOVY",
+   "strikePrice": "2.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-RBNO000-GTE-P00025",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_0284Q6GTAQB6A",
+     "name": "RB Bragantino",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "RB Bragantino -3.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0284Q6GTAQB6A",
+   "statAchievement": "MOVY",
+   "strikePrice": "3.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-RBNO000-GTE-P00035",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:41.383Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:41.384Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "01S9HSVLNABSTIFGIO",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_0284Q6GTAQB6A",
+     "name": "RB Bragantino",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "RB Bragantino -4.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0284Q6GTAQB6A",
+   "statAchievement": "MOVY",
+   "strikePrice": "4.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4G7P1HIOAEOO-RBNO000-GTE-P00045",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:43.499Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-TGLS-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:43.499Z",
+  "marketProductTypeId": "96348a7f-0716-45ee-87b5-78728e66f2e1",
+  "marketProductTypeName": "BSA-GTE-TGLS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "012268U4I039KAD9V4",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "0.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGLS",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-TGLS-FG-02L4G7P1HIOAEOO-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:43.499Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-TGLS-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:43.499Z",
+  "marketProductTypeId": "96348a7f-0716-45ee-87b5-78728e66f2e1",
+  "marketProductTypeName": "BSA-GTE-TGLS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "012268U4I039KAD9V4",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "1.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGLS",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-TGLS-FG-02L4G7P1HIOAEOO-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:43.499Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-TGLS-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:43.499Z",
+  "marketProductTypeId": "96348a7f-0716-45ee-87b5-78728e66f2e1",
+  "marketProductTypeName": "BSA-GTE-TGLS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "012268U4I039KAD9V4",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "2.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGLS",
+   "strikePrice": "2.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-TGLS-FG-02L4G7P1HIOAEOO-GTE-P00025",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:43.499Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-TGLS-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:43.499Z",
+  "marketProductTypeId": "96348a7f-0716-45ee-87b5-78728e66f2e1",
+  "marketProductTypeName": "BSA-GTE-TGLS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "012268U4I039KAD9V4",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "3.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGLS",
+   "strikePrice": "3.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-TGLS-FG-02L4G7P1HIOAEOO-GTE-P00035",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:43.499Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-TGLS-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:43.499Z",
+  "marketProductTypeId": "96348a7f-0716-45ee-87b5-78728e66f2e1",
+  "marketProductTypeName": "BSA-GTE-TGLS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "012268U4I039KAD9V4",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "4.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGLS",
+   "strikePrice": "4.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-TGLS-FG-02L4G7P1HIOAEOO-GTE-P00045",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:43.499Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-TGLS-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:43.499Z",
+  "marketProductTypeId": "96348a7f-0716-45ee-87b5-78728e66f2e1",
+  "marketProductTypeName": "BSA-GTE-TGLS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "012268U4I039KAD9V4",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "5.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TGLS",
+   "strikePrice": "5.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-TGLS-FG-02L4G7P1HIOAEOO-GTE-P00055",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T03:08:31.692Z",
+  "domainId": "00TG",
+  "eventTicker": "EFLC-DWIN-FG-01S1RKSTIU4CCJ8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-10-19T14:00:00Z",
+  "marketOpenTimestamp": "2026-09-16T03:23:31.692Z",
+  "marketProductTypeId": "5a75bd8d-01bd-43bf-904e-ea271af2552c",
+  "marketProductTypeName": "EFLC-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S1RKSTIU4CCJ8",
+   "competitionName": "Birmingham vs Middlesbrough",
+   "competitionStartTime": "2026-09-19T14:00:00Z",
+   "intakeEventId": "00H68E0MSS11CSBJ0K",
+   "leagueId": "03MV5HTT1K",
+   "leagueName": "England - Championship",
+   "participants": [
+    {
+     "id": "DKT_01257QUK0R4P2",
+     "name": "Birmingham",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "Birmingham",
+  "parameters": {
+   "participant": "DKT_01257QUK0R4P2",
+   "statAchievement": "DWIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "England - Championship",
+  "ticker": "EFLC-DWIN-FG-01S1RKSTIU4CCJ8-BIAM000",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T03:08:31.692Z",
+  "domainId": "00TG",
+  "eventTicker": "EFLC-DWIN-FG-01S1RKSTIU4CCJ8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-10-19T14:00:00Z",
+  "marketOpenTimestamp": "2026-09-16T03:23:31.692Z",
+  "marketProductTypeId": "5a75bd8d-01bd-43bf-904e-ea271af2552c",
+  "marketProductTypeName": "EFLC-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S1RKSTIU4CCJ8",
+   "competitionName": "Birmingham vs Middlesbrough",
+   "competitionStartTime": "2026-09-19T14:00:00Z",
+   "intakeEventId": "00H68E0MSS11CSBJ0K",
+   "leagueId": "03MV5HTT1K",
+   "leagueName": "England - Championship",
+   "participants": []
+  },
+  "name": "Draw",
+  "parameters": {
+   "statAchievement": "DWIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "England - Championship",
+  "ticker": "EFLC-DWIN-FG-01S1RKSTIU4CCJ8-DRAW",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T03:08:31.692Z",
+  "domainId": "00TG",
+  "eventTicker": "EFLC-DWIN-FG-01S1RKSTIU4CCJ8",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-10-19T14:00:00Z",
+  "marketOpenTimestamp": "2026-09-16T03:23:31.692Z",
+  "marketProductTypeId": "5a75bd8d-01bd-43bf-904e-ea271af2552c",
+  "marketProductTypeName": "EFLC-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S1RKSTIU4CCJ8",
+   "competitionName": "Birmingham vs Middlesbrough",
+   "competitionStartTime": "2026-09-19T14:00:00Z",
+   "intakeEventId": "00H68E0MSS11CSBJ0K",
+   "leagueId": "03MV5HTT1K",
+   "leagueName": "England - Championship",
+   "participants": [
+    {
+     "id": "DKT_01L5DL1MKEFDE",
+     "name": "Middlesbrough",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Middlesbrough",
+  "parameters": {
+   "participant": "DKT_01L5DL1MKEFDE",
+   "statAchievement": "DWIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "England - Championship",
+  "ticker": "EFLC-DWIN-FG-01S1RKSTIU4CCJ8-MIGH000",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T14:55:41.772Z",
+  "domainId": "00TG",
+  "eventTicker": "EFLC-SGL1-FG-01S1RKSTIU4CCJ8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-19T14:00:00Z",
+  "marketOpenTimestamp": "2026-09-16T15:10:41.772Z",
+  "marketProductTypeId": "a1d61400-6a76-46ca-9f47-4c62d86f8b60",
+  "marketProductTypeName": "EFLC-GTE-0.5-SGL1",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S1RKSTIU4CCJ8",
+   "competitionName": "Birmingham vs Middlesbrough",
+   "competitionStartTime": "2026-09-19T14:00:00Z",
+   "intakeEventId": "03KTKLKCC01F8UED",
+   "leagueId": "03MV5HTT1K",
+   "leagueName": "England - Championship",
+   "participants": [
+    {
+     "id": "DKP_036KSOSTI8V0",
+     "name": "Adilson Malanda"
+    }
+   ]
+  },
+  "name": "Adilson Malanda",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_036KSOSTI8V0",
+   "statAchievement": "SGL1",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "England - Championship",
+  "ticker": "EFLC-SGL1-FG-01S1RKSTIU4CCJ8-ADDA004",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T14:55:41.772Z",
+  "domainId": "00TG",
+  "eventTicker": "EFLC-SGL1-FG-01S1RKSTIU4CCJ8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-19T14:00:00Z",
+  "marketOpenTimestamp": "2026-09-16T15:10:41.772Z",
+  "marketProductTypeId": "a1d61400-6a76-46ca-9f47-4c62d86f8b60",
+  "marketProductTypeName": "EFLC-GTE-0.5-SGL1",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S1RKSTIU4CCJ8",
+   "competitionName": "Birmingham vs Middlesbrough",
+   "competitionStartTime": "2026-09-19T14:00:00Z",
+   "intakeEventId": "03KTKLKCC01F8UED",
+   "leagueId": "03MV5HTT1K",
+   "leagueName": "England - Championship",
+   "participants": [
+    {
+     "id": "DKP_006JNHNSJH10",
+     "name": "Aidan Morris"
+    }
+   ]
+  },
+  "name": "Aidan Morris",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_006JNHNSJH10",
+   "statAchievement": "SGL1",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "England - Championship",
+  "ticker": "EFLC-SGL1-FG-01S1RKSTIU4CCJ8-AIIS004",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-16T14:55:41.772Z",
+  "domainId": "00TG",
+  "eventTicker": "EFLC-SGL1-FG-01S1RKSTIU4CCJ8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-19T14:00:00Z",
+  "marketOpenTimestamp": "2026-09-16T15:10:41.772Z",
+  "marketProductTypeId": "a1d61400-6a76-46ca-9f47-4c62d86f8b60",
+  "marketProductTypeName": "EFLC-GTE-0.5-SGL1",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S1RKSTIU4CCJ8",
+   "competitionName": "Birmingham vs Middlesbrough",
+   "competitionStartTime": "2026-09-19T14:00:00Z",
+   "intakeEventId": "03KTKLKCC01F8UED",
+   "leagueId": "03MV5HTT1K",
+   "leagueName": "England - Championship",
+   "participants": []
+  },
+  "name": "No Goalscorer",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "SGL1",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "England - Championship",
+  "ticker": "EFLC-SGL1-FG-01S1RKSTIU4CCJ8-NONE",
+  "topic": "Sports"
+ }
+]

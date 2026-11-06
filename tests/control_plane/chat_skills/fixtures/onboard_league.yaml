@@ -1,0 +1,95 @@
+# Suite A/B goldens for onboard_league. Book probes are stubbed so CI stays offline.
+- id: onboard_needs_code_stops
+  message: onboard league lacrosse_pll
+  page: {}
+  stubs:
+    parser_gate:
+      ok: false
+      needs_code: true
+      league: lacrosse_pll
+      ready_books: []
+      missing_books: [novig, px]
+      message: "needs_code: build parser profile for ['novig', 'px'] before onboard."
+  expect:
+    path: skill:onboard_league
+    outcome: needs_code
+    no_cart: true
+    must_not_ui: [prefill_form]
+
+- id: onboard_ask_league_slot
+  message: onboard a league for soccer
+  page: {}
+  expect:
+    path: skill:onboard_league
+    outcome: ask_slot
+
+- id: onboard_evidenced_books_only
+  message: please map esport valorant league
+  page: {}
+  stubs:
+    book_probes:
+      - {ok: true, book: novig, evidence: true, league: VALORANT}
+      - {ok: true, book: optic, evidence: false, note: no fixtures in 96h}
+      - {ok: true, book: polymarket, evidence: false, note: missing optic id}
+      - {ok: true, book: px, evidence: false, note: verify manually}
+      - {ok: true, book: "crypto.com", evidence: false, note: verify catalogue}
+  expect:
+    path: skill:onboard_league
+    outcome: ok
+    prefill_tab: league
+    enabled_books: [novig]
+    ui_action_types: [navigate, switch_tab, prefill_form]
+
+- id: onboard_all_books_evidenced
+  message: enable Valorant for all sportsbooks
+  page: {}
+  stubs:
+    book_probes:
+      - {ok: true, book: novig, evidence: true, league: VALORANT}
+      - {ok: true, book: optic, evidence: true, fixture_count: 4}
+      - {ok: true, book: polymarket, evidence: true}
+      - {ok: true, book: px, evidence: true}
+      - {ok: true, book: "crypto.com", evidence: true}
+  expect:
+    path: skill:onboard_league
+    outcome: ok
+    prefill_tab: league
+    enabled_books: [novig, optic, polymarket, px, "crypto.com"]
+
+- id: onboard_no_evidence_stages_nothing_enabled
+  message: add league serie_a
+  page: {}
+  stubs:
+    book_probes:
+      - {ok: true, book: novig, evidence: false, note: no league string}
+      - {ok: true, book: optic, evidence: false, note: no fixtures in 96h}
+      - {ok: true, book: polymarket, evidence: false, note: missing optic id}
+      - {ok: true, book: px, evidence: false, note: verify manually}
+      - {ok: true, book: "crypto.com", evidence: false, note: verify catalogue}
+  expect:
+    path: skill:onboard_league
+    outcome: ok
+    enabled_books: []
+    reply_contains: no fixtures in 96h
+
+- id: onboard_league_from_console_entry
+  message: onboard this league
+  page:
+    path: /entry
+    tab: league
+    entry:
+      league: epl
+      sport: soccer
+      optic_league_id: england_-_premier_league
+  stubs:
+    book_probes:
+      - {ok: true, book: novig, evidence: true, league: EPL}
+      - {ok: true, book: optic, evidence: true, fixture_count: 9}
+      - {ok: true, book: polymarket, evidence: false, note: missing optic id}
+      - {ok: true, book: px, evidence: false, note: verify manually}
+      - {ok: true, book: "crypto.com", evidence: false, note: verify catalogue}
+  expect:
+    path: skill:onboard_league
+    outcome: ok
+    slot_source: console
+    enabled_books: [novig, optic]

@@ -1,0 +1,18 @@
+# TEST — marketmaking-test BQ / Pub/Sub, no Slack (no channel or tokens), so the
+# bot is scaled to 0 and the Slack-facing CronJobs are suspended. pregame runs
+# for real against test data. Smoke the others with
+#   kubectl -n goalscorer-mapper create job --from=cronjob/goalscorer-reconcile gs-reconcile-manual
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: goalscorer-mapper
+resources:
+  - namespace.yaml
+  - ../../base
+patches:
+  - path: sa.yaml
+  - path: slack-off.yaml
+configMapGenerator:
+  - name: goalscorer-mapper-config
+    behavior: merge
+    literals:
+      - GCP_PROJECT=marketmaking-test

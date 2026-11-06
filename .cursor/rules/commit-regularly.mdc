@@ -1,0 +1,14 @@
+---
+description: Commit each coherent slice as it lands during implementation
+alwaysApply: true
+---
+
+# Commit regularly
+
+During implementation, a bugfix, or plan execution, commit each coherent slice on the task branch as it lands. Do not wait until the task is finished, and do not squash the work into one commit at the end.
+
+A slice is one reviewable step.
+
+This is the standing request to commit. Do not wait for a separate commit message for each slice once that work has started.
+
+Do not commit when the user is only planning, asking, or reviewing. Do not commit secrets, unrelated dirty files, or someone else's work. Follow the git safety rules: no force-push, no skipped hooks, no amend unless those rules allow it.

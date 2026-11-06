@@ -1,0 +1,851 @@
+[
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-22T19:50:09.149Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-WIN-FG-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-22T20:05:09.149Z",
+  "marketProductTypeId": "cc612067-a632-4893-9722-b2f56717d3bc",
+  "marketProductTypeName": "NFL-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "01RV97VM069JH954BK",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_017L0DLIPF2O2",
+     "name": "DEN Broncos",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "DEN Broncos",
+  "parameters": {
+   "participant": "DKT_017L0DLIPF2O2",
+   "statAchievement": "WIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-WIN-FG-01S2KTKBIUCN390-DEOS024",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-22T19:50:09.149Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-WIN-FG-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-22T20:05:09.149Z",
+  "marketProductTypeId": "cc612067-a632-4893-9722-b2f56717d3bc",
+  "marketProductTypeName": "NFL-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "01RV97VM069JH954BK",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_02DM9P7JN6M08",
+     "name": "SF 49ers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "SF 49ers",
+  "parameters": {
+   "participant": "DKT_02DM9P7JN6M08",
+   "statAchievement": "WIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-WIN-FG-01S2KTKBIUCN390-SFRS000",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-22T19:50:09.145Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-MOVY-FG-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-22T20:05:09.145Z",
+  "marketProductTypeId": "0e05196c-afa1-4afa-99ac-ea47c52dd178",
+  "marketProductTypeName": "NFL-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "036UC0PARUEHL17NAO",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_02DM9P7JN6M08",
+     "name": "SF 49ers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "SF 49ers -3.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_02DM9P7JN6M08",
+   "statAchievement": "MOVY",
+   "strikePrice": "3.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-MOVY-FG-01S2KTKBIUCN390-SFRS000-GTE-P00035",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-22T19:50:09.145Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-MOVY-FG-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-22T20:05:09.145Z",
+  "marketProductTypeId": "0e05196c-afa1-4afa-99ac-ea47c52dd178",
+  "marketProductTypeName": "NFL-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "036UC0PARUEHL17NAO",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_017L0DLIPF2O2",
+     "name": "DEN Broncos",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "DEN Broncos -3.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_017L0DLIPF2O2",
+   "statAchievement": "MOVY",
+   "strikePrice": "3.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-MOVY-FG-01S2KTKBIUCN390-DEOS024-GTE-P00035",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-22T19:50:09.636Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-TPTS-FG-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-22T20:05:09.636Z",
+  "marketProductTypeId": "fe6ea4ae-19d3-49db-a23c-6166e67e4457",
+  "marketProductTypeName": "NFL-GTE-TPTS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "02DQ7SJB02SPQN2P5G",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": []
+  },
+  "name": "Over 60.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TPTS",
+   "strikePrice": "60.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-TPTS-FG-01S2KTKBIUCN390-GTE-P00605",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-24T16:09:15.496Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-TPTS-H1-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-24T16:24:15.497Z",
+  "marketProductTypeId": "62fdecf0-b50f-4743-b847-c43a7614132f",
+  "marketProductTypeName": "NFL-GTE-TPTS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "01SP8A4QPN81M3209K",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": []
+  },
+  "name": "6.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "TPTS",
+   "strikePrice": "6.5",
+   "timePeriod": "H1"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-TPTS-H1-01S2KTKBIUCN390-GTE-P00065",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-24T16:10:11.112Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-TMPTS-FG-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-24T16:25:11.112Z",
+  "marketProductTypeId": "dbc1107b-0a20-4884-aef9-75209d574ec4",
+  "marketProductTypeName": "NFL-GTE-TMPTS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "01SQB0E6IJ8DVK59BC",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_017L0DLIPF2O2",
+     "name": "DEN Broncos",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "DEN Broncos Over 6.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_017L0DLIPF2O2",
+   "statAchievement": "TMPTS",
+   "strikePrice": "6.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-TMPTS-FG-01S2KTKBIUCN390-DEOS024-GTE-P00065",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-24T16:09:32.946Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-WIN-Q2-01S2KTKBIUCN390",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-03T20:25:00Z",
+  "marketOpenTimestamp": "2026-09-24T16:24:32.946Z",
+  "marketProductTypeId": "bb8c2de9-2099-4740-9fb0-a376573ee896",
+  "marketProductTypeName": "NFL-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2KTKBIUCN390",
+   "competitionName": "DEN Broncos @ SF 49ers",
+   "competitionStartTime": "2026-10-04T20:25:00Z",
+   "intakeEventId": "00HA22TMF810TLURI8",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_017L0DLIPF2O2",
+     "name": "DEN Broncos",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "DEN Broncos",
+  "parameters": {
+   "participant": "DKT_017L0DLIPF2O2",
+   "statAchievement": "WIN",
+   "timePeriod": "Q2"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-WIN-Q2-01S2KTKBIUCN390-DEOS024",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-24T16:09:50.664Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-WIN-H1-01S2LVEPIUCM13O",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:15:00Z",
+  "marketOpenTimestamp": "2026-09-24T16:24:50.664Z",
+  "marketProductTypeId": "ddbc286b-9a09-4663-b0d9-863dcff7b5df",
+  "marketProductTypeName": "NFL-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2LVEPIUCM13O",
+   "competitionName": "PIT Steelers @ CLE Browns",
+   "competitionStartTime": "2026-10-02T00:15:00Z",
+   "intakeEventId": "00HA31GPCG10T87UAK",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_012BKGHD0Q1C2",
+     "name": "CLE Browns",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CLE Browns",
+  "parameters": {
+   "participant": "DKT_012BKGHD0Q1C2",
+   "statAchievement": "WIN",
+   "timePeriod": "H1"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-WIN-H1-01S2LVEPIUCM13O-CLNS004",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-24T16:09:50.664Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-WIN-H1-01S2LVEPIUCM13O",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:15:00Z",
+  "marketOpenTimestamp": "2026-09-24T16:24:50.664Z",
+  "marketProductTypeId": "ddbc286b-9a09-4663-b0d9-863dcff7b5df",
+  "marketProductTypeName": "NFL-WIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2LVEPIUCM13O",
+   "competitionName": "PIT Steelers @ CLE Browns",
+   "competitionStartTime": "2026-10-02T00:15:00Z",
+   "intakeEventId": "00HA31GPCG10T87UAK",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKT_02808SUVAQ6R0",
+     "name": "PIT Steelers",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "PIT Steelers",
+  "parameters": {
+   "participant": "DKT_02808SUVAQ6R0",
+   "statAchievement": "WIN",
+   "timePeriod": "H1"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-WIN-H1-01S2LVEPIUCM13O-PIRS004",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T07:17:41.335Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-PREY-FG-01S2LVEPIUCM13O-DEON230",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:15:00Z",
+  "marketOpenTimestamp": "2026-09-28T07:32:41.336Z",
+  "marketProductTypeId": "51f6cd66-9b9f-46a8-9fb9-ab55a09a3977",
+  "marketProductTypeName": "NFL-GTE-PREY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2LVEPIUCM13O",
+   "competitionName": "PIT Steelers @ CLE Browns",
+   "competitionStartTime": "2026-10-02T00:15:00Z",
+   "intakeEventId": "02HJ48K1RTV0QCJH",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKP_0281FJ2MSH60",
+     "name": "Denzel Boston"
+    }
+   ]
+  },
+  "name": "Denzel Boston 19.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_0281FJ2MSH60",
+   "statAchievement": "PREY",
+   "strikePrice": "19.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-PREY-FG-01S2LVEPIUCM13O-DEON230-GTE-P00195",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T07:17:40.811Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-PREYOU-FG-01S2LVEPIUCM13O-DEON230",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:15:00Z",
+  "marketOpenTimestamp": "2026-09-28T07:32:40.812Z",
+  "marketProductTypeId": "0f4a7c21-3ad8-4e6b-9c15-6b1e2f7a5d03",
+  "marketProductTypeName": "NFL-GTE-PREYOU",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2LVEPIUCM13O",
+   "competitionName": "PIT Steelers @ CLE Browns",
+   "competitionStartTime": "2026-10-02T00:15:00Z",
+   "intakeEventId": "02HNT5JEVDV2NBKT",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKP_0281FJ2MSH60",
+     "name": "Denzel Boston"
+    }
+   ]
+  },
+  "name": "Denzel Boston O/U 46.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_0281FJ2MSH60",
+   "statAchievement": "PREYOU",
+   "strikePrice": "46.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-PREYOU-FG-01S2LVEPIUCM13O-DEON230-GTE-P00465",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T06:54:48.502Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-PTDS1-FG-01S2LVEPIUCM13O",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:15:00Z",
+  "marketOpenTimestamp": "2026-09-28T07:09:48.502Z",
+  "marketProductTypeId": "8f272291-7246-44df-9d5e-f3ffb3d93639",
+  "marketProductTypeName": "NFL-GTE-0.5-PTDS1",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2LVEPIUCM13O",
+   "competitionName": "PIT Steelers @ CLE Browns",
+   "competitionStartTime": "2026-10-02T00:15:00Z",
+   "intakeEventId": "02HG96QK3LVDG7B1",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKP_02DQDNLPASTG",
+     "name": "Aaron Rodgers"
+    }
+   ]
+  },
+  "name": "Aaron Rodgers",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_02DQDNLPASTG",
+   "statAchievement": "PTDS1",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-PTDS1-FG-01S2LVEPIUCM13O-AARS007",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-28T07:06:06.549Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-PPAY-FG-01S2LVEPIUCM13O-AARS007",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-01T00:15:00Z",
+  "marketOpenTimestamp": "2026-09-28T07:21:06.559Z",
+  "marketProductTypeId": "025d2a6a-8df9-407f-9b6d-1893f8fcef7e",
+  "marketProductTypeName": "NFL-GTE-PPAY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "01S2LVEPIUCM13O",
+   "competitionName": "PIT Steelers @ CLE Browns",
+   "competitionStartTime": "2026-10-02T00:15:00Z",
+   "intakeEventId": "02HNB7BU65VB6J0V",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKP_02DQDNLPASTG",
+     "name": "Aaron Rodgers"
+    }
+   ]
+  },
+  "name": "Aaron Rodgers 29.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_02DQDNLPASTG",
+   "statAchievement": "PPAY",
+   "strikePrice": "29.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-PPAY-FG-01S2LVEPIUCM13O-AARS007-GTE-P00295",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-26T07:59:10.409Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-FTD-FG-00O2Q7JBQSTTPC0",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-10-26T07:07:29.1Z",
+  "marketOpenTimestamp": "2026-09-26T08:14:10.419Z",
+  "marketProductTypeId": "16e303d5-3970-4edb-b542-bc6a08df8f42",
+  "marketProductTypeName": "NFL-GTE-0.5-FTD",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O2Q7JBQSTTPC0",
+   "competitionName": "MIA Dolphins @ SF 49ers",
+   "competitionStartTime": "2026-09-26T07:07:52Z",
+   "intakeEventId": "0062UM64LJI5ANJE",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": [
+    {
+     "id": "DKP_02DRBELPUAG0",
+     "name": "Brock Purdy"
+    }
+   ]
+  },
+  "name": "Brock Purdy",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_02DRBELPUAG0",
+   "statAchievement": "FTD",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYACHIEVEMENT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-FTD-FG-00O2Q7JBQSTTPC0-BRDY014",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-26T07:59:10.409Z",
+  "domainId": "00SG",
+  "eventTicker": "NFL-FTD-FG-00O2Q7JBQSTTPC0",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-10-26T07:07:29.1Z",
+  "marketOpenTimestamp": "2026-09-26T08:14:10.419Z",
+  "marketProductTypeId": "16e303d5-3970-4edb-b542-bc6a08df8f42",
+  "marketProductTypeName": "NFL-GTE-0.5-FTD",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O2Q7JBQSTTPC0",
+   "competitionName": "MIA Dolphins @ SF 49ers",
+   "competitionStartTime": "2026-09-26T07:07:52Z",
+   "intakeEventId": "0062UM64LJI5ANJE",
+   "leagueId": "02BLJE5644",
+   "leagueName": "NFL",
+   "participants": []
+  },
+  "name": "No Touchdown Scorer",
+  "parameters": {
+   "outcomeType": "GTE",
+   "statAchievement": "FTD",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYACHIEVEMENT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NFL",
+  "ticker": "NFL-FTD-FG-00O2Q7JBQSTTPC0-NONE",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:18.428Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-DWIN-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:18.428Z",
+  "marketProductTypeId": "64a09b0c-4329-4105-8c80-7e6dbca9213a",
+  "marketProductTypeName": "BSA-DWIN",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "0335R5M3CO2K95TGA0",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "Draw",
+  "parameters": {
+   "statAchievement": "DWIN",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMEWIN",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-DWIN-FG-02L4G7P1HIOAEOO-DRAW",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:48.001Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-BTMSC-FG-02L4G7P1HIOAEOO",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-02T21:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:48.001Z",
+  "marketProductTypeId": "45e50886-40e8-499d-bb19-9723f897e255",
+  "marketProductTypeName": "BSA-BTMSC",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4G7P1HIOAEOO",
+   "competitionName": "Atletico Mineiro vs RB Bragantino",
+   "competitionStartTime": "2026-10-03T21:30:00Z",
+   "intakeEventId": "033EL8MBSO2V14PU",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": []
+  },
+  "name": "Both Teams to Score",
+  "parameters": {
+   "statAchievement": "BTMSC",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "ENTITYSTAT",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-BTMSC-FG-02L4G7P1HIOAEOO-BINARY",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-23T13:22:11.723Z",
+  "domainId": "00TG",
+  "eventTicker": "BSA-MOVY-FG-02L4HV50HIO28DG",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-07T00:30:00Z",
+  "marketOpenTimestamp": "2026-09-23T13:37:11.723Z",
+  "marketProductTypeId": "7665d681-a25b-4541-b3f4-f9a9c99d5d7f",
+  "marketProductTypeName": "BSA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "02L4HV50HIO28DG",
+   "competitionName": "Cruzeiro vs Sao Paulo",
+   "competitionStartTime": "2026-10-08T00:30:00Z",
+   "intakeEventId": "01S9HRO092BSS4PJR4",
+   "leagueId": "00J7QIHGNO",
+   "leagueName": "Brazil - Serie A",
+   "participants": [
+    {
+     "id": "DKT_0122GRI10PFAO",
+     "name": "Sao Paulo",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Sao Paulo -3.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_0122GRI10PFAO",
+   "statAchievement": "MOVY",
+   "strikePrice": "3.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "Brazil - Serie A",
+  "ticker": "BSA-MOVY-FG-02L4HV50HIO28DG-SALO008-GTE-P00035",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-24T23:37:00.7Z",
+  "domainId": "00SG",
+  "eventTicker": "CFB-MOVY-FG-00O054EUQSO63K8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-25T00:05:49.25Z",
+  "marketOpenTimestamp": "2026-09-24T23:52:00.702Z",
+  "marketProductTypeId": "538a0097-b7da-4cb1-a111-a4b961cbf451",
+  "marketProductTypeName": "CFB-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O054EUQSO63K8",
+   "competitionName": "Appalachian State @ Charlotte",
+   "competitionStartTime": "2026-09-25T00:05:49.25Z",
+   "intakeEventId": "036SBIOBPMEK9EPVBO",
+   "leagueId": "03H7MSNN1O",
+   "leagueName": "NCAAF",
+   "participants": [
+    {
+     "id": "DKT_00R0FDCRDMUEQ",
+     "name": "Appalachian State",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "Appalachian State -1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_00R0FDCRDMUEQ",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NCAAF",
+  "ticker": "CFB-MOVY-FG-00O054EUQSO63K8-APTE002-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-24T23:59:34.925Z",
+  "domainId": "00UG",
+  "eventTicker": "MLB-MOVY-IT5-00O043L4QSODRB8",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-10-25T00:20:55.507Z",
+  "marketOpenTimestamp": "2026-09-25T00:14:34.926Z",
+  "marketProductTypeId": "d135edfe-6ee8-4e79-9739-ed296ab88867",
+  "marketProductTypeName": "MLB-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O043L4QSODRB8",
+   "competitionName": "DET Tigers @ PIT Pirates",
+   "competitionStartTime": "2026-09-25T00:20:55.507Z",
+   "intakeEventId": "036SB1EMCEEK8BQ0T8",
+   "leagueId": "03L1A3KVBO",
+   "leagueName": "MLB",
+   "participants": [
+    {
+     "id": "DKT_01LCO1N3KD6M8",
+     "name": "DET Tigers",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "DET Tigers -0.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_01LCO1N3KD6M8",
+   "statAchievement": "MOVY",
+   "strikePrice": "0.5",
+   "timePeriod": "IT5"
+  },
+  "payoutType": "binary",
+  "productTicker": "GAMESPREAD",
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "MLB",
+  "ticker": "MLB-MOVY-IT5-00O043L4QSODRB8-DERS000-GTE-P00005",
+  "topic": "Sports"
+ }
+]

@@ -1,0 +1,45 @@
+# Permanent regression cases: every mapping incident becomes one.
+#
+# Each [[incident]] names a prod fetch snapshot that witnessed the bug
+# (raw_ingestion_us.*_fetch_raw keeps every snapshot since 2026-08-19; no
+# partition expiry) and what the CORRECT mapping of specific venue
+# contracts is.  live_gate.py replays the snapshot through the candidate
+# with the pinned rules tip and fails if any expectation is not met —
+# forever, on every gate run, whatever else changes.
+#
+# Add one in the MR that fixes the incident.  Expectations are checked
+# against the Optic selection NAME the contract is mapped to, so they
+# survive a re-keying of internal side codes.
+#
+# Fields:
+#   id, reason (cite the incident / epic), snapshot (YYYY-MM-DDTHH:MM),
+#   leagues (run only these — keeps the replay fast),
+#   [[incident.expect]]  sportsbook, contract, selection
+#     contract: crypto_com -> FIX Symbol; kalshi -> "<ticker>:<yes|no>";
+#               prophet_x -> line_id
+
+[[incident]]
+id = "2026-09-29-crypto-ufc-side-flip"
+reason = "mmmapper 1f843ccc made pair_fits accept either orientation; aligned_pairs then pinned each crypto.com fighter id to the opponent (epic &91). 38 bets on a flipped leg."
+snapshot = "2026-09-30T15:00"
+leagues = ["ufc"]
+
+[[incident.expect]]
+sportsbook = "crypto_com"
+contract = "NX.F.OPT.UFC-00009-261003-M.O.1.1.20261229"
+selection = "Court McGee"
+
+[[incident.expect]]
+sportsbook = "crypto_com"
+contract = "NX.F.OPT.UFC-00009-261003-M.O.1.2.20261229"
+selection = "Eric Nolan"
+
+[[incident.expect]]
+sportsbook = "crypto_com"
+contract = "NX.F.OPT.UFC-00008-261003-M.O.1.1.20261229"
+selection = "Jacobe Smith"
+
+[[incident.expect]]
+sportsbook = "crypto_com"
+contract = "NX.F.OPT.UFC-00008-261003-M.O.1.2.20261229"
+selection = "Bruce Whitehead"

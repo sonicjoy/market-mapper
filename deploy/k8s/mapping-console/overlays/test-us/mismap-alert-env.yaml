@@ -1,0 +1,26 @@
+# TEST mismap-alert CronJob: on, Slack to the mapping channel. The central alert engine
+# (MMutils services/alert_engine_service) only runs in prod; its external route is
+# MMutils#168. MAPPING_ALERT_ENGINE_URL + MAPPING_ALERT_ENGINE_TOKEN stay unset here
+# (engine sink off) until an engine exists on test.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: mismap-alert
+spec:
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: mismap-alert
+              env:
+                - name: GCP_PROJECT
+                  value: "marketmaking-test"
+                - name: MAPPING_SOT
+                  value: "bq"
+                - name: MAPPING_MISMAP_ALERT
+                  value: "1"
+                - name: ALERT_PUBSUB_ENABLED
+                  value: "true"
+                - name: ALERT_SLACK_CHANNEL
+                  value: "#mm-test-app-alerts"

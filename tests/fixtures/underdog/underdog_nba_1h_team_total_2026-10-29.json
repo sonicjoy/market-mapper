@@ -1,0 +1,1449 @@
+{
+ "captured": "2026-10-29T00:54:13Z UDX GET /markets?series_ticker=UDXNBATEAMTOTAL1H; Optic /fixtures/odds market=1st_half_team_total (mmmapper book batches), one odd per selection+line",
+ "events": [
+  {
+   "fixture_id": "2026102973489D36",
+   "start_date": "2026-10-29T02:30:00Z",
+   "home_competitors": [
+    {
+     "id": "3E1EA77686B9",
+     "name": "Los Angeles Clippers",
+     "abbreviation": "LAC"
+    }
+   ],
+   "away_competitors": [
+    {
+     "id": "73AEB6743EC2",
+     "name": "Los Angeles Lakers",
+     "abbreviation": "LAL"
+    }
+   ],
+   "odds": [
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_57_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 57.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 57.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:57.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_53_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 53.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 53.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:53.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_54_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 54.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 54.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:54.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_47_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 47.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 47.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:47.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_61_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 61.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 61.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:61.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_49_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 49.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 49.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:49.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_55_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 55.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 55.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:55.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_67_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 67.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 67.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:67.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_56_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 56.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 56.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:56.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_54_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 54.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 54.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:54.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_65_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 65.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 65.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:65.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_59_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 59.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 59.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:59.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_49_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 49.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 49.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:49.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_59_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 59.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 59.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:59.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_63_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 63.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 63.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:63.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_49_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 49.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 49.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:49.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_56_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 56.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 56.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:56.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_65_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 65.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 65.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:65.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_53_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 53.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 53.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:53.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_65_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 65.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 65.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:65.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_57_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 57.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 57.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:57.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_67_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 67.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 67.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:67.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_60_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 60.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 60.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:60.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_55_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 55.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 55.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:55.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_65_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 65.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 65.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:65.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_63_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 63.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 63.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:63.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_61_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 61.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 61.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:61.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_55_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 55.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 55.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:55.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_59_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 59.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 59.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:59.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_51_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 51.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 51.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:51.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_55_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 55.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 55.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:55.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_54_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 54.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 54.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:54.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_51_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 51.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 51.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:51.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_57_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 57.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 57.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:57.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_58_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 58.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 58.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:58.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_69_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 69.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 69.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:69.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_63_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 63.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 63.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:63.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_59_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 59.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 59.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:59.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_51_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 51.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 51.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:51.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_58_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 58.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 58.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:58.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_67_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 67.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 67.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:67.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_61_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 61.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 61.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:61.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_54_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 54.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 54.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:54.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_51_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 51.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 51.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:51.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_49_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 49.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 49.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:49.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_57_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 57.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 57.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:57.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_67_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 67.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 67.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:67.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_58_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 58.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 58.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:58.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_69_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 69.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 69.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:69.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_61_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 61.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 61.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:61.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_60_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 60.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 60.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:60.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_56_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 56.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 56.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:56.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_63_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 63.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 63.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:63.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_56_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 56.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 56.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:56.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_53_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 53.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 53.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:53.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_53_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 53.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 53.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:53.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_47_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 47.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 47.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:47.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_58_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 58.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 58.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:58.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_over_52_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Over 52.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "over",
+     "points": 52.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:52.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_under_60_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Under 60.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "under",
+     "points": 60.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:60.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_lakers_over_60_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Lakers Over 60.5",
+     "selection": "Los Angeles Lakers",
+     "normalized_selection": "los_angeles_lakers",
+     "selection_line": "over",
+     "points": 60.5,
+     "team_id": "73AEB6743EC2",
+     "player_id": null,
+     "grouping_key": "los_angeles_lakers:60.5"
+    },
+    {
+     "id": "27843-16903-2026-10-28:1st_half_team_total:los_angeles_clippers_under_52_5",
+     "market": "1st Half Team Total",
+     "market_id": "1st_half_team_total",
+     "name": "Los Angeles Clippers Under 52.5",
+     "selection": "Los Angeles Clippers",
+     "normalized_selection": "los_angeles_clippers",
+     "selection_line": "under",
+     "points": 52.5,
+     "team_id": "3E1EA77686B9",
+     "player_id": null,
+     "grouping_key": "los_angeles_clippers:52.5"
+    }
+   ],
+   "rows": [
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 47.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:51.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "47.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER47.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 47.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 49.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "49.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER49.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 49.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 51.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "51.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER51.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 51.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 53.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "53.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER53.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 53.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 55.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:51.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "55.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER55.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 55.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 57.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "57.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER57.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 57.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 59.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "59.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER59.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 59.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 61.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "61.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER61.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 61.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 63.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "63.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER63.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 63.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 65.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "65.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER65.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 65.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Clippers records above 67.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "3E1EA77686B9"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Clippers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Clippers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "67.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LACOVER67.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Clippers over 67.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 49.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "49.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER49.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 49.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 51.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "51.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER51.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 51.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 53.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "53.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER53.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 53.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 55.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "55.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER55.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 55.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 57.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "57.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER57.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 57.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 59.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:51.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "59.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER59.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 59.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 61.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "61.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER61.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 61.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 63.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "63.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER63.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 63.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 65.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "65.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER65.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 65.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 67.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "67.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER67.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 67.5 first-half points?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/4OIEZXigKpea49ioaZeCOL/3d6b4d1fc4dc933687617a5ddb177e21/NBAENTITYOUTCOME.pdf",
+     "description": "Resolves Yes if the Los Angeles Lakers records above 69.5 points scored during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026.",
+     "event_ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "2026102973489D36",
+       "market_id": "1st_half_team_total",
+       "team_id": "73AEB6743EC2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T07:35:52.000000Z",
+     "rules": "The Underlying for this Contract is the official attribution of points scored to the Los Angeles Lakers during the first half of the National Basketball Association game between the Los Angeles Lakers and the Los Angeles Clippers originally scheduled for 10:30pm ET on October 28, 2026, as reflected in the official box score and/or play-by-play published by the National Basketball Association. Where the Los Angeles Lakers is a team, only statistics accumulated by that team count toward the Underlying; statistics from both teams are combined only where the market explicitly references combined or total game statistics. Statistics recorded during regulation time and any officially designated overtime periods shall count toward the Underlying, unless the first half specifies otherwise. Revisions to the Underlying made after Expiration will not be accounted for in determining the Expiration Value.",
+     "series_ticker": "UDXNBATEAMTOTAL1H",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "69.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNBATEAMTOTAL1H_LALLAC26OCT28_LALOVER69.5",
+     "title": "Los Angeles Lakers at Los Angeles Clippers: Los Angeles Lakers over 69.5 first-half points?"
+    }
+   ]
+  }
+ ]
+}

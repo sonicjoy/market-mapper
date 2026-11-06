@@ -1,0 +1,589 @@
+{
+ "captured": "2026-10-23 api.underdogexchange.com /markets (open, single_leg; UDXNBAMOV, UDXNBARACE10/20/30) + Optic /fixtures/odds (betmgm race 10/20, superbet race 30, fanatics winning_margin), ATL @ CHA",
+ "events": [
+  {
+   "fixture_id": "20261023A66A27C8",
+   "start_date": "2026-10-23T23:00:00Z",
+   "home_competitors": [
+    {
+     "id": "C65360931346",
+     "name": "Charlotte Hornets",
+     "abbreviation": "CHA"
+    }
+   ],
+   "away_competitors": [
+    {
+     "id": "B59C1C735494",
+     "name": "Atlanta Hawks",
+     "abbreviation": "ATL"
+    }
+   ],
+   "odds": [
+    {
+     "id": "19957-35142-2026-10-23:betmgm:race_to_10_points:atlanta_hawks",
+     "market": "Race To 10 Points",
+     "market_id": "race_to_10_points",
+     "name": "Atlanta Hawks",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": null,
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:betmgm:race_to_10_points:charlotte_hornets",
+     "market": "Race To 10 Points",
+     "market_id": "race_to_10_points",
+     "name": "Charlotte Hornets",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": null,
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:betmgm:race_to_20_points:atlanta_hawks",
+     "market": "Race To 20 Points",
+     "market_id": "race_to_20_points",
+     "name": "Atlanta Hawks",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": null,
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:betmgm:race_to_20_points:charlotte_hornets",
+     "market": "Race To 20 Points",
+     "market_id": "race_to_20_points",
+     "name": "Charlotte Hornets",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": null,
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:superbet:race_to_30_points:charlotte_hornets",
+     "market": "Race To 30 Points",
+     "market_id": "race_to_30_points",
+     "name": "Charlotte Hornets",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": null,
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:superbet:race_to_30_points:atlanta_hawks",
+     "market": "Race To 30 Points",
+     "market_id": "race_to_30_points",
+     "name": "Atlanta Hawks",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": null,
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_6-10",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 6-10",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "6-10",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_1-10",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 1-10",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "1-10",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_21+",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 21+",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "21+",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_11+",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 11+",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "11+",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_11-15",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 11-15",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "11-15",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_11-20",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 11-20",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "11-20",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_16-20",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 16-20",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "16-20",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_1-5",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 1-5",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "1-5",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_26+",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 26+",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "26+",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_11+",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 11+",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "11+",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_21-25",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 21-25",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "21-25",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_21-25",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 21-25",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "21-25",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_11-20",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 11-20",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "11-20",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_16-20",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 16-20",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "16-20",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_6-10",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 6-10",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "6-10",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_26+",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 26+",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "26+",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_11-15",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 11-15",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "11-15",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_21+",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 21+",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "21+",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:atlanta_hawks_1-5",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Atlanta Hawks 1-5",
+     "selection": "Atlanta Hawks",
+     "normalized_selection": "atlanta_hawks",
+     "selection_line": "1-5",
+     "points": null,
+     "team_id": "B59C1C735494",
+     "player_id": null,
+     "grouping_key": "default"
+    },
+    {
+     "id": "19957-35142-2026-10-23:fanatics:winning_margin:charlotte_hornets_1-10",
+     "market": "Winning Margin",
+     "market_id": "winning_margin",
+     "name": "Charlotte Hornets 1-10",
+     "selection": "Charlotte Hornets",
+     "normalized_selection": "charlotte_hornets",
+     "selection_line": "1-10",
+     "points": null,
+     "team_id": "C65360931346",
+     "player_id": null,
+     "grouping_key": "default"
+    }
+   ],
+   "rows": [
+    {
+     "description": "Resolves Yes if Atlanta Hawks beat Charlotte Hornets by between 11 and 20 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "B59C1C735494"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_ATL11TO20"
+    },
+    {
+     "description": "Resolves Yes if Atlanta Hawks beat Charlotte Hornets by between 1 and 5 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "B59C1C735494"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_ATL1TO5"
+    },
+    {
+     "description": "Resolves Yes if Atlanta Hawks beat Charlotte Hornets by at least 21 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "B59C1C735494"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_ATL21PLUS"
+    },
+    {
+     "description": "Resolves Yes if Atlanta Hawks beat Charlotte Hornets by between 6 and 10 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "B59C1C735494"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_ATL6TO10"
+    },
+    {
+     "description": "Resolves Yes if Charlotte Hornets beat Atlanta Hawks by between 11 and 20 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "C65360931346"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_CHA11TO20"
+    },
+    {
+     "description": "Resolves Yes if Charlotte Hornets beat Atlanta Hawks by between 1 and 5 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "C65360931346"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_CHA1TO5"
+    },
+    {
+     "description": "Resolves Yes if Charlotte Hornets beat Atlanta Hawks by at least 21 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "C65360931346"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_CHA21PLUS"
+    },
+    {
+     "description": "Resolves Yes if Charlotte Hornets beat Atlanta Hawks by between 6 and 10 points in the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "winning_margin",
+       "team_id": "C65360931346"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBAMOV_ATLCHA26OCT23_CHA6TO10"
+    },
+    {
+     "description": "Resolves Yes if the Atlanta Hawks records at least 1 the first attainment of at least 10 points by either team during the entire game including officially designated overtime periods of the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "race_to_10_points",
+       "team_id": "B59C1C735494"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBARACE10_ATLCHA26OCT23_ATL"
+    },
+    {
+     "description": "Resolves Yes if the Charlotte Hornets records at least 1 the first attainment of at least 10 points by either team during the entire game including officially designated overtime periods of the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "race_to_10_points",
+       "team_id": "C65360931346"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBARACE10_ATLCHA26OCT23_CHA"
+    },
+    {
+     "description": "Resolves Yes if the Atlanta Hawks records at least 1 the first attainment of at least 20 points by either team during the entire game including officially designated overtime periods of the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "race_to_20_points",
+       "team_id": "B59C1C735494"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBARACE20_ATLCHA26OCT23_ATL"
+    },
+    {
+     "description": "Resolves Yes if the Charlotte Hornets records at least 1 the first attainment of at least 20 points by either team during the entire game including officially designated overtime periods of the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "race_to_20_points",
+       "team_id": "C65360931346"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBARACE20_ATLCHA26OCT23_CHA"
+    },
+    {
+     "description": "Resolves Yes if the Atlanta Hawks records at least 1 the first attainment of at least 30 points by either team during the entire game including officially designated overtime periods of the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "race_to_30_points",
+       "team_id": "B59C1C735494"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBARACE30_ATLCHA26OCT23_ATL"
+    },
+    {
+     "description": "Resolves Yes if the Charlotte Hornets records at least 1 the first attainment of at least 30 points by either team during the entire game including officially designated overtime periods of the National Basketball Association game between the Atlanta Hawks and the Charlotte Hornets originally scheduled for 7:00pm ET on October 23, 2026.",
+     "expires_at": "2026-10-26T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "20261023A66A27C8",
+       "market_id": "race_to_30_points",
+       "team_id": "C65360931346"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "status": "open",
+     "tick_size": "0.001",
+     "ticker": "UDXNBARACE30_ATLCHA26OCT23_CHA"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+# Every-15-min fold GREG into opticodds_mapping + rank RFQ winners.
+# Scheduled ~2 min after infra prices_state_merge (2,17,32,47).
+# Same image + Workload-Identity SA as the mapping-console Deployment.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: oom-fold-rank
+  labels:
+    app: oom-fold-rank
+spec:
+  schedule: "2,17,32,47 * * * *"
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 600
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      template:
+        metadata:
+          labels:
+            app: oom-fold-rank
+        spec:
+          serviceAccountName: mapping-control-plane
+          restartPolicy: Never
+          containers:
+            - name: oom-fold-rank
+              image: mapping-console-app:DEPLOY-VIA-DEPLOY-SH
+              env:
+                - name: MAPPING_PIPELINE_OOM_FOLD_RANK
+                  value: "1"
+              command:
+                - python
+                - -m
+                - mappers.control_plane.pipeline_oom_fold_rank
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 1Gi

@@ -1,0 +1,44 @@
+# Every-30-min checker: start a gap-propose worker Job when none is running.
+# Harvest runs in the worker pod (pipeline_gap_drain --role worker), not here.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: gap-propose
+  labels:
+    app: gap-propose
+spec:
+  schedule: "*/30 * * * *"
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 600
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 0
+      template:
+        metadata:
+          labels:
+            app: gap-propose
+        spec:
+          serviceAccountName: mapping-control-plane
+          restartPolicy: Never
+          terminationGracePeriodSeconds: 45
+          containers:
+            - name: gap-propose
+              image: mapping-console-app:DEPLOY-VIA-DEPLOY-SH
+              env:
+                - name: MAPPING_PIPELINE_GAP_SUGGEST
+                  value: "1"
+              command:
+                - python
+                - -m
+                - mappers.control_plane.pipeline_gap_drain
+                - --role
+                - checker
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 256Mi

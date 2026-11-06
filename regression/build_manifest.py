@@ -1,0 +1,269 @@
+"""Generate the corpus manifest and integrity records.
+
+Scans the corpus (bucket listing is authoritative; a verified local
+mirror supplies file contents) and writes three artifacts:
+
+- ``regression/manifest.toml`` — per-tick witnessability metadata:
+  which leagues and exchange feeds each tick contains.  A zero diff
+  is only meaningful if the tick could have witnessed the change;
+  this file is what makes that judgement mechanical.  Checked in, so
+  tick selection is reviewed and stable.  The ``tier`` field is
+  HUMAN-OWNED (``smoke`` = fast per-iteration subset, ``full`` =
+  everything) and is preserved across regenerations; every other
+  field is machine-owned and overwritten.
+- ``regression/MANIFEST.sha256`` — ``sha256sum -c`` format, every
+  corpus file.  The checked-in copy is the authoritative definition
+  of the corpus bytes; the bucket is just storage for them.  A copy
+  is uploaded to the bucket for self-description.
+- ``regression/MANIFEST.md5`` — ``md5sum`` format.  Exists because
+  GCS stores an MD5 per object, so bucket drift can be detected by
+  comparing listings against this file WITHOUT downloading anything
+  (sha256 would require a download to recompute).
+
+Generation verifies the local mirror against the bucket (size + MD5
+per file) before trusting its contents, so the manifest provably
+describes the bucket even though it was read locally.  Output is
+deterministic: regenerating against an unchanged corpus is a no-op.
+
+This module must not import from mappers/ (see README design rules).
+"""
+import argparse
+import base64
+import hashlib
+import json
+import re
+import subprocess
+import sys
+import tomllib
+from pathlib import Path
+
+from fetch.gcloud_util import gcloud_cmd
+
+BUCKET = "gs://rs-marketmaking-mapping/corpus"
+REPO = Path(__file__).resolve().parent.parent
+
+# exchange (STAMPS name, see project.py) -> the feed file whose
+# non-emptiness means "this tick can witness that exchange".
+FEEDS = {
+    "kalshi": "kalshi_markets.jsonl",
+    "prophet_x": "prophetx_markets.jsonl",
+    "crypto_com": "crypto_com_markets.jsonl",
+    "polymarket": "polymarket_markets.jsonl",
+    "runshop": "runshop_prices.jsonl",
+}
+# secondary files that belong to a feed (not aux, not presence-defining)
+COMPANIONS = {"prophetx_events.jsonl", "runshop_fixture_chain.jsonl"}
+OPTIC = "optic_fixtures_odds.jsonl"
+
+
+def parse_listing(text):
+    """``gcloud storage ls -L`` output -> {corpus-relative path:
+    (size, md5_b64)}.  Paths look like data/<date>/<HH_MM>/<file>."""
+    out = {}
+    cur = None
+    prefix = BUCKET + "/"
+    for line in text.splitlines():
+        if line.startswith("gs://") and line.endswith(":"):
+            cur = line[len(prefix):-1]
+            out[cur] = [None, None]
+        elif cur:
+            m = re.match(r"\s+Content-Length:\s+(\d+)$", line)
+            if m:
+                out[cur][0] = int(m.group(1))
+            m = re.match(r"\s+Hash \(MD5\):\s+(\S+)$", line)
+            if m:
+                out[cur][1] = m.group(1)
+    bad = [p for p, v in out.items() if v[0] is None or v[1] is None]
+    if bad:
+        raise ValueError(f"listing entries missing size/md5: {bad[:5]}")
+    return {p: tuple(v) for p, v in out.items()}
+
+
+def split_tick(path):
+    """Corpus-relative path -> (tick id, file name within tick)."""
+    m = re.match(r"data/(\d{4}-\d\d-\d\d/\d\d_\d\d)/(.+)$", path)
+    if not m:
+        raise ValueError(f"path not in tick layout: {path}")
+    return m.group(1), m.group(2)
+
+
+def classify(files):
+    """{file name: size} for one tick -> manifest fields (everything
+    except leagues, which needs file contents)."""
+    if files.get(OPTIC, 0) <= 0:
+        raise ValueError("tick has no optic fixtures — unusable")
+    exchanges = sorted(x for x, f in FEEDS.items() if files.get(f, 0) > 0)
+    feed_files = set(FEEDS.values()) | COMPANIONS | {OPTIC}
+    aux = sorted(f for f, s in files.items()
+                 if f not in feed_files and s > 0)
+    empty = sorted(f for f, s in files.items() if s == 0)
+    return {"bytes": sum(files.values()), "exchanges": exchanges,
+            "aux": aux, "empty_files": empty}
+
+
+def leagues_of(optic_path):
+    """Sorted distinct league ids in an optic fixtures file."""
+    seen = set()
+    with open(optic_path) as f:
+        for line in f:
+            if line.strip():
+                seen.add(json.loads(line)["league"]["id"])
+    return sorted(seen)
+
+
+def _toml_str(s):
+    return json.dumps(s)  # valid TOML basic string
+
+
+def _toml_array(items, indent="    "):
+    inline = "[" + ", ".join(_toml_str(i) for i in items) + "]"
+    if len(inline) <= 60:
+        return inline
+    body = ",\n".join(indent + _toml_str(i) for i in items)
+    return "[\n" + body + ",\n]"
+
+
+def emit_manifest(corpus, ticks):
+    """(corpus totals dict, {tick id: fields dict}) -> manifest.toml
+    text.  Deterministic: sorted ticks, sorted arrays, no timestamps."""
+    lines = [
+        "# Corpus manifest — generated by regression/build_manifest.py.",
+        "# Machine-owned EXCEPT `tier`, which is human-owned and",
+        "# preserved on regeneration: flip ticks to \"smoke\" by hand.",
+        "",
+        "[corpus]",
+        f"bucket = {_toml_str(corpus['bucket'])}",
+        f"ticks = {corpus['ticks']}",
+        f"files = {corpus['files']}",
+        f"bytes = {corpus['bytes']}",
+    ]
+    for tick_id in sorted(ticks):
+        t = ticks[tick_id]
+        lines += [
+            "",
+            "[[tick]]",
+            f"id = {_toml_str(tick_id)}",
+            f"tier = {_toml_str(t['tier'])}",
+            f"bytes = {t['bytes']}",
+            f"exchanges = {_toml_array(t['exchanges'])}",
+            f"aux = {_toml_array(t['aux'])}",
+            f"empty_files = {_toml_array(t['empty_files'])}",
+            f"leagues = {_toml_array(t['leagues'])}",
+        ]
+    return "\n".join(lines) + "\n"
+
+
+def existing_tiers(manifest_path):
+    """{tick id: tier} from a previous manifest, if any."""
+    if not manifest_path.exists():
+        return {}
+    doc = tomllib.loads(manifest_path.read_text())
+    return {t["id"]: t["tier"] for t in doc.get("tick", [])}
+
+
+def hash_local(path):
+    """(md5 base64, sha256 hex) of a local file."""
+    md5, sha = hashlib.md5(usedforsecurity=False), hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 22), b""):
+            md5.update(chunk)
+            sha.update(chunk)
+    return base64.b64encode(md5.digest()).decode(), sha.hexdigest()
+
+
+def verify_mirror(bucket, data_root):
+    """Verify the mirror byte-for-byte against the bucket before
+    trusting its contents; collect sha256 for MANIFEST.sha256 in
+    the same pass.  -> (sha256s by path, error strings)."""
+    print(f"verifying {len(bucket)} files against {data_root} ...",
+          file=sys.stderr)
+    sha256s, errors = {}, []
+    for path, (size, md5_b64) in sorted(bucket.items()):
+        local = data_root / Path(path).relative_to("data")
+        if not local.is_file():
+            errors.append(f"missing from mirror: {path}")
+            continue
+        actual = local.stat().st_size
+        if actual != size:
+            errors.append(f"size mismatch {path}: "
+                          f"bucket {size} local {actual}")
+            continue
+        local_md5, local_sha = hash_local(local)
+        if local_md5 != md5_b64:
+            errors.append(f"MD5 mismatch {path}")
+            continue
+        sha256s[path] = local_sha
+    return sha256s, errors
+
+
+def build_ticks(bucket, data_root, manifest_path):
+    """Group bucket files into ticks and build manifest fields."""
+    ticks_files = {}
+    for path, (size, _) in bucket.items():
+        tick_id, fname = split_tick(path)
+        ticks_files.setdefault(tick_id, {})[fname] = size
+    tiers = existing_tiers(manifest_path)
+    ticks = {}
+    for tick_id, files in sorted(ticks_files.items()):
+        t = classify(files)
+        t["tier"] = tiers.get(tick_id, "full")
+        optic = data_root / Path(tick_id) / OPTIC
+        print(f"  leagues {tick_id}", file=sys.stderr)
+        t["leagues"] = leagues_of(optic)
+        ticks[tick_id] = t
+    return ticks
+
+
+def main():
+    ap = argparse.ArgumentParser(
+        description="Generate the corpus manifest and integrity records.")
+    ap.add_argument("--data-root", type=Path, default=REPO / "data",
+                    help="local corpus mirror (default: repo data/)")
+    ap.add_argument("--listing", type=Path, default=None,
+                    help="saved `gcloud storage ls -L` output "
+                         "(default: query the bucket)")
+    ap.add_argument("--out-dir", type=Path,
+                    default=Path(__file__).resolve().parent)
+    args = ap.parse_args()
+
+    if args.listing:
+        text = args.listing.read_text()
+    else:
+        print(f"listing {BUCKET}/data/** ...", file=sys.stderr)
+        text = subprocess.run(
+            gcloud_cmd("storage", "ls", "-L", f"{BUCKET}/data/**"),
+            check=True, capture_output=True, text=True).stdout
+    bucket = parse_listing(text)
+
+    sha256s, errors = verify_mirror(bucket, args.data_root)
+    if errors:
+        print("CORPUS INTEGRITY VIOLATION — mirror does not match "
+              "bucket:", file=sys.stderr)
+        for e in errors:
+            print("  " + e, file=sys.stderr)
+        return 1
+
+    ticks = build_ticks(bucket, args.data_root,
+                        args.out_dir / "manifest.toml")
+
+    corpus = {"bucket": BUCKET, "ticks": len(ticks),
+              "files": len(bucket),
+              "bytes": sum(s for s, _ in bucket.values())}
+    (args.out_dir / "manifest.toml").write_text(
+        emit_manifest(corpus, ticks))
+    (args.out_dir / "MANIFEST.sha256").write_text("".join(
+        f"{sha256s[p]}  {p}\n" for p in sorted(sha256s)))
+    (args.out_dir / "MANIFEST.md5").write_text("".join(
+        f"{base64.b64decode(bucket[p][1]).hex()}  {p}\n"
+        for p in sorted(bucket)))
+    print(f"wrote manifest.toml ({corpus['ticks']} ticks), "
+          f"MANIFEST.sha256, MANIFEST.md5\n"
+          f"upload integrity records with:\n"
+          f"  gcloud storage cp {args.out_dir}/MANIFEST.sha256 "
+          f"{args.out_dir}/MANIFEST.md5 {BUCKET}/",
+          file=sys.stderr)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

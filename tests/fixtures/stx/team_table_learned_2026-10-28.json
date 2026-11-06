@@ -1,0 +1,2048 @@
+[
+ {
+  "competition": "AFC",
+  "stx_name": "Adelaide United FC",
+  "stx_abbr": "ADL",
+  "optic": [
+   {
+    "id": "BB4B39BB05F988ED",
+    "name": "Adelaide United FC"
+   }
+  ]
+ },
+ {
+  "competition": "AFC",
+  "stx_name": "Al Taawoun",
+  "stx_abbr": "TAA",
+  "optic": [
+   {
+    "id": "F7A04BC9311EED39",
+    "name": "Al-Taawoun FC"
+   }
+  ]
+ },
+ {
+  "competition": "AFC",
+  "stx_name": "Al-Faisaly SC",
+  "stx_abbr": "ALF",
+  "optic": [
+   {
+    "id": "5FBC6513D6099303",
+    "name": "Al Faisaly SC"
+   }
+  ]
+ },
+ {
+  "competition": "AFC",
+  "stx_name": "Arkadag FK",
+  "stx_abbr": "AFK",
+  "optic": [
+   {
+    "id": "CD0FF52201EA6A0C",
+    "name": "Arkadag FK"
+   }
+  ]
+ },
+ {
+  "competition": "AFC",
+  "stx_name": "Gangwon FC",
+  "stx_abbr": "GAN",
+  "optic": [
+   {
+    "id": "17752B2C289A9995",
+    "name": "Gangwon FC"
+   }
+  ]
+ },
+ {
+  "competition": "AFC",
+  "stx_name": "Gol Gohar Sirjan FC",
+  "stx_abbr": "GGS",
+  "optic": [
+   {
+    "id": "35A27194BF4E5CE3",
+    "name": "Gol Gohar Sirjan"
+   }
+  ]
+ },
+ {
+  "competition": "AFC",
+  "stx_name": "Kuching City",
+  "stx_abbr": "KUC",
+  "optic": [
+   {
+    "id": "867C6982F1FDEDD4",
+    "name": "Kuching City"
+   }
+  ]
+ },
+ {
+  "competition": "AFC",
+  "stx_name": "Lion City Sailors FC",
+  "stx_abbr": "LCS",
+  "optic": [
+   {
+    "id": "E68943A78970AA9B",
+    "name": "Lion City Sailors FC"
+   }
+  ]
+ },
+ {
+  "competition": "ISL",
+  "stx_name": "FC GOA",
+  "stx_abbr": "FC Goa",
+  "optic": [
+   {
+    "id": "1720D75EF3E6",
+    "name": "FC Goa"
+   }
+  ]
+ },
+ {
+  "competition": "ISL",
+  "stx_name": "Sporting Club Delhi",
+  "stx_abbr": "SCD",
+  "optic": [
+   {
+    "id": "DEE9E8883F4FD0DF",
+    "name": "Sporting Club Delhi"
+   }
+  ]
+ },
+ {
+  "competition": "MLB",
+  "stx_name": "Milwaukee Brewers",
+  "stx_abbr": "MIL",
+  "optic": [
+   {
+    "id": "2B194AFDDF3B",
+    "name": "Milwaukee Brewers"
+   }
+  ]
+ },
+ {
+  "competition": "MLB",
+  "stx_name": "Tampa Bay Rays",
+  "stx_abbr": "TB",
+  "optic": [
+   {
+    "id": "FE07CF8C473A",
+    "name": "Tampa Bay Rays"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Atlanta Hawks",
+  "stx_abbr": "ATL",
+  "optic": [
+   {
+    "id": "B59C1C735494",
+    "name": "Atlanta Hawks"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Charlotte Hornets",
+  "stx_abbr": "CHA",
+  "optic": [
+   {
+    "id": "C65360931346",
+    "name": "Charlotte Hornets"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Chicago Bulls",
+  "stx_abbr": "CHI",
+  "optic": [
+   {
+    "id": "CA98E3A931AE",
+    "name": "Chicago Bulls"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Cleveland Cavaliers",
+  "stx_abbr": "CLE",
+  "optic": [
+   {
+    "id": "D5348BDFEBCC",
+    "name": "Cleveland Cavaliers"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Dallas Mavericks",
+  "stx_abbr": "DAL",
+  "optic": [
+   {
+    "id": "7165DAB9CAE4",
+    "name": "Dallas Mavericks"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Denver Nuggets",
+  "stx_abbr": "DEN",
+  "optic": [
+   {
+    "id": "C0312DE08463",
+    "name": "Denver Nuggets"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Detroit Pistons",
+  "stx_abbr": "DET",
+  "optic": [
+   {
+    "id": "5988658C6B9B",
+    "name": "Detroit Pistons"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Golden State Warriors",
+  "stx_abbr": "GS",
+  "optic": [
+   {
+    "id": "DFC9A735A4D7",
+    "name": "Golden State Warriors"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Houston Rockets",
+  "stx_abbr": "HOU",
+  "optic": [
+   {
+    "id": "DF2D9E9E8E20",
+    "name": "Houston Rockets"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Indiana Pacers",
+  "stx_abbr": "IND",
+  "optic": [
+   {
+    "id": "F342C875E571",
+    "name": "Indiana Pacers"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "LA Clippers",
+  "stx_abbr": "LAC",
+  "optic": [
+   {
+    "id": "3E1EA77686B9",
+    "name": "Los Angeles Clippers"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Los Angeles Lakers",
+  "stx_abbr": "LAL",
+  "optic": [
+   {
+    "id": "73AEB6743EC2",
+    "name": "Los Angeles Lakers"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Miami Heat",
+  "stx_abbr": "MIA",
+  "optic": [
+   {
+    "id": "26BB4DC5722F",
+    "name": "Miami Heat"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Milwaukee Bucks",
+  "stx_abbr": "MIL",
+  "optic": [
+   {
+    "id": "14682EF45C4D",
+    "name": "Milwaukee Bucks"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Minnesota Timberwolves",
+  "stx_abbr": "MIN",
+  "optic": [
+   {
+    "id": "FDAE71FA88C6",
+    "name": "Minnesota Timberwolves"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "New Orleans Pelicans",
+  "stx_abbr": "NO",
+  "optic": [
+   {
+    "id": "6C595835C85B",
+    "name": "New Orleans Pelicans"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "New York Knicks",
+  "stx_abbr": "NY",
+  "optic": [
+   {
+    "id": "6A36E386117E",
+    "name": "New York Knicks"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Oklahoma City Thunder",
+  "stx_abbr": "OKC",
+  "optic": [
+   {
+    "id": "D8EC6878976A",
+    "name": "Oklahoma City Thunder"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Orlando Magic",
+  "stx_abbr": "ORL",
+  "optic": [
+   {
+    "id": "CC72CD00EB95",
+    "name": "Orlando Magic"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Philadelphia 76ers",
+  "stx_abbr": "PHI",
+  "optic": [
+   {
+    "id": "EDF03AD3C346",
+    "name": "Philadelphia 76ers"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "San Antonio Spurs",
+  "stx_abbr": "SA",
+  "optic": [
+   {
+    "id": "E89F51275352",
+    "name": "San Antonio Spurs"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Toronto Raptors",
+  "stx_abbr": "TOR",
+  "optic": [
+   {
+    "id": "417F4FFF4625",
+    "name": "Toronto Raptors"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Utah Jazz",
+  "stx_abbr": "UTAH",
+  "optic": [
+   {
+    "id": "7C902BB2E272",
+    "name": "Utah Jazz"
+   }
+  ]
+ },
+ {
+  "competition": "NBA",
+  "stx_name": "Washington Wizards",
+  "stx_abbr": "WSH",
+  "optic": [
+   {
+    "id": "8F17F23FB753",
+    "name": "Washington Wizards"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Air Force Falcons",
+  "stx_abbr": "AFA",
+  "optic": [
+   {
+    "id": "7AE905D8467A",
+    "name": "Air Force"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "App State Mountaineers",
+  "stx_abbr": "APP",
+  "optic": [
+   {
+    "id": "A6418BE9B431",
+    "name": "Appalachian State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Arizona State Sun Devils",
+  "stx_abbr": "ASU",
+  "optic": [
+   {
+    "id": "0976A1A897A0",
+    "name": "Arizona State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Arizona Wildcats",
+  "stx_abbr": "ARIZ",
+  "optic": [
+   {
+    "id": "D4D329E885F8",
+    "name": "Arizona"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Arkansas Razorbacks",
+  "stx_abbr": "ARK",
+  "optic": [
+   {
+    "id": "9C218CAA480C",
+    "name": "Arkansas"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Army Black Knights",
+  "stx_abbr": "ARMY",
+  "optic": [
+   {
+    "id": "E2AB7FF2E5A7",
+    "name": "Army"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Auburn Tigers",
+  "stx_abbr": "AUB",
+  "optic": [
+   {
+    "id": "917819DC2366",
+    "name": "Auburn"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "BYU Cougars",
+  "stx_abbr": "BYU",
+  "optic": [
+   {
+    "id": "8D2E0EC6D08C",
+    "name": "BYU"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Baylor Bears",
+  "stx_abbr": "BAY",
+  "optic": [
+   {
+    "id": "D2517553FE17",
+    "name": "Baylor"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Boston College Eagles",
+  "stx_abbr": "BC",
+  "optic": [
+   {
+    "id": "465FDD28C7D2",
+    "name": "Boston College"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Bowling Green Falcons",
+  "stx_abbr": "BGSU",
+  "optic": [
+   {
+    "id": "B61FCFA267E6",
+    "name": "Bowling Green"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "California Golden Bears",
+  "stx_abbr": "CAL",
+  "optic": [
+   {
+    "id": "F1D6BC8C1A83",
+    "name": "California"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Charlotte 49ers",
+  "stx_abbr": "CLT",
+  "optic": [
+   {
+    "id": "B231A76C7CDF",
+    "name": "Charlotte"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Cincinnati Bearcats",
+  "stx_abbr": "CIN",
+  "optic": [
+   {
+    "id": "EE4B32FC0FB8",
+    "name": "Cincinnati"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Clemson Tigers",
+  "stx_abbr": "CLEM",
+  "optic": [
+   {
+    "id": "AB8D1BDC0E39",
+    "name": "Clemson"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Coastal Carolina Chanticleers",
+  "stx_abbr": "CCU",
+  "optic": [
+   {
+    "id": "710544DCE554",
+    "name": "Coastal Carolina"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Colorado Buffaloes",
+  "stx_abbr": "COLO",
+  "optic": [
+   {
+    "id": "A11C2D43ED35",
+    "name": "Colorado"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Colorado State Rams",
+  "stx_abbr": "CSU",
+  "optic": [
+   {
+    "id": "39777B0660BA",
+    "name": "Colorado State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Duke Blue Devils",
+  "stx_abbr": "DUKE",
+  "optic": [
+   {
+    "id": "34C7C1D5B0B7",
+    "name": "Duke"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "East Carolina Pirates",
+  "stx_abbr": "ECU",
+  "optic": [
+   {
+    "id": "CF764042625A",
+    "name": "East Carolina"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Florida Atlantic Owls",
+  "stx_abbr": "FAU",
+  "optic": [
+   {
+    "id": "AFA3F47A8E89",
+    "name": "Florida Atlantic"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Florida Gators",
+  "stx_abbr": "FLA",
+  "optic": [
+   {
+    "id": "B5FE2526A2BF",
+    "name": "Florida"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Florida International Panthers",
+  "stx_abbr": "FIU",
+  "optic": [
+   {
+    "id": "5BC6E20E98A5",
+    "name": "Florida International"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Florida State Seminoles",
+  "stx_abbr": "FSU",
+  "optic": [
+   {
+    "id": "36D5C55CF7F1",
+    "name": "Florida State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Fresno State Bulldogs",
+  "stx_abbr": "FRES",
+  "optic": [
+   {
+    "id": "D9D95D3B98AA",
+    "name": "Fresno State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Georgia Bulldogs",
+  "stx_abbr": "UGA",
+  "optic": [
+   {
+    "id": "04C37B5D7034",
+    "name": "Georgia"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Georgia Southern Eagles",
+  "stx_abbr": "GASO",
+  "optic": [
+   {
+    "id": "B74921896764",
+    "name": "Georgia Southern"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Georgia State Panthers",
+  "stx_abbr": "GAST",
+  "optic": [
+   {
+    "id": "996C9CD2D0B8",
+    "name": "Georgia State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Georgia Tech Yellow Jackets",
+  "stx_abbr": "GT",
+  "optic": [
+   {
+    "id": "534C685B8098",
+    "name": "Georgia Tech"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Illinois Fighting Illini",
+  "stx_abbr": "ILL",
+  "optic": [
+   {
+    "id": "6435059328DC",
+    "name": "Illinois"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Iowa Hawkeyes",
+  "stx_abbr": "IOWA",
+  "optic": [
+   {
+    "id": "9F321A1DA403",
+    "name": "Iowa"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Iowa State Cyclones",
+  "stx_abbr": "ISU",
+  "optic": [
+   {
+    "id": "17125A5E5678",
+    "name": "Iowa State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "James Madison Dukes",
+  "stx_abbr": "JMU",
+  "optic": [
+   {
+    "id": "CF4AC4877CEA",
+    "name": "James Madison"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Kansas Jayhawks",
+  "stx_abbr": "KU",
+  "optic": [
+   {
+    "id": "CAC97D0AA1EE",
+    "name": "Kansas"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Kansas State Wildcats",
+  "stx_abbr": "KSU",
+  "optic": [
+   {
+    "id": "D7CBAF5F03AE",
+    "name": "Kansas State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Kennesaw State Owls",
+  "stx_abbr": "KENN",
+  "optic": [
+   {
+    "id": "049CEAC378FB",
+    "name": "Kennesaw State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Kent State Golden Flashes",
+  "stx_abbr": "KENT",
+  "optic": [
+   {
+    "id": "7FF3738AF251",
+    "name": "Kent State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Liberty Flames",
+  "stx_abbr": "LIB",
+  "optic": [
+   {
+    "id": "638274B79CED",
+    "name": "Liberty"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Louisiana Tech Bulldogs",
+  "stx_abbr": "LT",
+  "optic": [
+   {
+    "id": "79C6764311D5",
+    "name": "Louisiana Tech"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Louisville Cardinals",
+  "stx_abbr": "LOU",
+  "optic": [
+   {
+    "id": "DF83441F8DF0",
+    "name": "Louisville"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Marshall Thundering Herd",
+  "stx_abbr": "MRSH",
+  "optic": [
+   {
+    "id": "367C3B057FBF",
+    "name": "Marshall"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Maryland Terrapins",
+  "stx_abbr": "MD",
+  "optic": [
+   {
+    "id": "2D589316FED5",
+    "name": "Maryland"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Memphis Tigers",
+  "stx_abbr": "MEM",
+  "optic": [
+   {
+    "id": "01FBDB1511E0",
+    "name": "Memphis"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Miami Hurricanes",
+  "stx_abbr": "MIA",
+  "optic": [
+   {
+    "id": "412D810EA674",
+    "name": "Miami Florida"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Michigan Wolverines",
+  "stx_abbr": "MICH",
+  "optic": [
+   {
+    "id": "83E0960213F5",
+    "name": "Michigan"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Middle Tennessee Blue Raiders",
+  "stx_abbr": "MTSU",
+  "optic": [
+   {
+    "id": "42DF672DA39F",
+    "name": "Middle Tennessee"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Mississippi State Bulldogs",
+  "stx_abbr": "MSST",
+  "optic": [
+   {
+    "id": "16CAEA6D2A10",
+    "name": "Mississippi State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Missouri Tigers",
+  "stx_abbr": "MIZ",
+  "optic": [
+   {
+    "id": "11BE241A8FAF",
+    "name": "Missouri"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "NC State Wolfpack",
+  "stx_abbr": "NCSU",
+  "optic": [
+   {
+    "id": "F68617FF3A0A",
+    "name": "North Carolina State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Nebraska Cornhuskers",
+  "stx_abbr": "NEB",
+  "optic": [
+   {
+    "id": "F0653545EFEE",
+    "name": "Nebraska"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Nevada Wolf Pack",
+  "stx_abbr": "NEV",
+  "optic": [
+   {
+    "id": "527F9576AB57",
+    "name": "Nevada"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "New Mexico Lobos",
+  "stx_abbr": "UNM",
+  "optic": [
+   {
+    "id": "3E9AECF16070",
+    "name": "New Mexico"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "North Carolina Tar Heels",
+  "stx_abbr": "UNC",
+  "optic": [
+   {
+    "id": "D8E9069D0DAD",
+    "name": "North Carolina"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "North Dakota State Bison",
+  "stx_abbr": "NDSU",
+  "optic": [
+   {
+    "id": "283AD3A25745",
+    "name": "North Dakota State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "North Texas Mean Green",
+  "stx_abbr": "UNT",
+  "optic": [
+   {
+    "id": "D46186911F02",
+    "name": "North Texas"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Northern Illinois Huskies",
+  "stx_abbr": "NIU",
+  "optic": [
+   {
+    "id": "593D1EFBB01D",
+    "name": "Northern Illinois"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Northwestern Wildcats",
+  "stx_abbr": "NU",
+  "optic": [
+   {
+    "id": "F3FE452047E3",
+    "name": "Northwestern"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Ohio State Buckeyes",
+  "stx_abbr": "OSU",
+  "optic": [
+   {
+    "id": "647B0C1D6483",
+    "name": "Ohio State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Oklahoma Sooners",
+  "stx_abbr": "OU",
+  "optic": [
+   {
+    "id": "EEEB0AC066A7",
+    "name": "Oklahoma"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Oklahoma State Cowboys",
+  "stx_abbr": "OKST",
+  "optic": [
+   {
+    "id": "666C6E0DDD96",
+    "name": "Oklahoma State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Old Dominion Monarchs",
+  "stx_abbr": "ODU",
+  "optic": [
+   {
+    "id": "B0B463DB73F9",
+    "name": "Old Dominion"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Ole Miss Rebels",
+  "stx_abbr": "MISS",
+  "optic": [
+   {
+    "id": "FD8B7660E58B",
+    "name": "Ole Miss"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Oregon Ducks",
+  "stx_abbr": "ORE",
+  "optic": [
+   {
+    "id": "D836AC0A0496",
+    "name": "Oregon"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Oregon State Beavers",
+  "stx_abbr": "ORST",
+  "optic": [
+   {
+    "id": "243C16B6F3AB",
+    "name": "Oregon State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Penn State Nittany Lions",
+  "stx_abbr": "PSU",
+  "optic": [
+   {
+    "id": "3BF603A68A5F",
+    "name": "Penn State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Pittsburgh Panthers",
+  "stx_abbr": "PITT",
+  "optic": [
+   {
+    "id": "CA4CAC3B1B45",
+    "name": "Pittsburgh"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Purdue Boilermakers",
+  "stx_abbr": "PUR",
+  "optic": [
+   {
+    "id": "F1F4D11CEC44",
+    "name": "Purdue"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Rutgers Scarlet Knights",
+  "stx_abbr": "RUTG",
+  "optic": [
+   {
+    "id": "AE586263C580",
+    "name": "Rutgers"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "SMU Mustangs",
+  "stx_abbr": "SMU",
+  "optic": [
+   {
+    "id": "AFF084D95AB6",
+    "name": "SMU"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Sacramento State Hornets",
+  "stx_abbr": "SAC",
+  "optic": [
+   {
+    "id": "29A5D16FFEE7",
+    "name": "Sacramento State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "San Diego State Aztecs",
+  "stx_abbr": "SDSU",
+  "optic": [
+   {
+    "id": "B2C85637086C",
+    "name": "San Diego State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "San Jos\u00e9 State Spartans",
+  "stx_abbr": "SJSU",
+  "optic": [
+   {
+    "id": "BCBC3E2330D5",
+    "name": "San Jose State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "South Alabama Jaguars",
+  "stx_abbr": "USA",
+  "optic": [
+   {
+    "id": "DD58BC766EF9",
+    "name": "South Alabama"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "South Carolina Gamecocks",
+  "stx_abbr": "SC",
+  "optic": [
+   {
+    "id": "4A1B23884427",
+    "name": "South Carolina"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "South Florida Bulls",
+  "stx_abbr": "USF",
+  "optic": [
+   {
+    "id": "96FAD49A7BA2",
+    "name": "South Florida"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Southern Miss Golden Eagles",
+  "stx_abbr": "USM",
+  "optic": [
+   {
+    "id": "826709E8B05C",
+    "name": "Southern Mississippi"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Stanford Cardinal",
+  "stx_abbr": "STAN",
+  "optic": [
+   {
+    "id": "19CDC7E791AD",
+    "name": "Stanford"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Syracuse Orange",
+  "stx_abbr": "SYR",
+  "optic": [
+   {
+    "id": "91E87AF12DE0",
+    "name": "Syracuse"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "TCU Horned Frogs",
+  "stx_abbr": "TCU",
+  "optic": [
+   {
+    "id": "5CFBC52E970D",
+    "name": "TCU"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Temple Owls",
+  "stx_abbr": "TEM",
+  "optic": [
+   {
+    "id": "97A2438AD577",
+    "name": "Temple"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Texas Longhorns",
+  "stx_abbr": "TEX",
+  "optic": [
+   {
+    "id": "7DBBEB676B16",
+    "name": "Texas"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Texas Tech Red Raiders",
+  "stx_abbr": "TTU",
+  "optic": [
+   {
+    "id": "1B38454E519E",
+    "name": "Texas Tech"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Troy Trojans",
+  "stx_abbr": "TROY",
+  "optic": [
+   {
+    "id": "D8FB7EAE0459",
+    "name": "Troy"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Tulane Green Wave",
+  "stx_abbr": "TULN",
+  "optic": [
+   {
+    "id": "E9656F1C2B64",
+    "name": "Tulane"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "UAB Blazers",
+  "stx_abbr": "UAB",
+  "optic": [
+   {
+    "id": "0AD964BA2FEC",
+    "name": "UAB"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "UCF Knights",
+  "stx_abbr": "UCF",
+  "optic": [
+   {
+    "id": "195D38581E9D",
+    "name": "UCF"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "UCLA Bruins",
+  "stx_abbr": "UCLA",
+  "optic": [
+   {
+    "id": "A47558AF6BEC",
+    "name": "UCLA"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "UConn Huskies",
+  "stx_abbr": "CONN",
+  "optic": [
+   {
+    "id": "A273A3133F39",
+    "name": "Connecticut"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "UL Monroe Warhawks",
+  "stx_abbr": "ULM",
+  "optic": [
+   {
+    "id": "A64EEB67E967",
+    "name": "UL Monroe"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "UNLV Rebels",
+  "stx_abbr": "UNLV",
+  "optic": [
+   {
+    "id": "408CBE6B9C50",
+    "name": "UNLV"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "USC Trojans",
+  "stx_abbr": "USC",
+  "optic": [
+   {
+    "id": "6414D2CB2EFE",
+    "name": "USC"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "UTEP Miners",
+  "stx_abbr": "UTEP",
+  "optic": [
+   {
+    "id": "EF58CF147082",
+    "name": "UTEP"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Utah State Aggies",
+  "stx_abbr": "USU",
+  "optic": [
+   {
+    "id": "F5C5604863E3",
+    "name": "Utah State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Utah Utes",
+  "stx_abbr": "UTAH",
+  "optic": [
+   {
+    "id": "9DF884C46350",
+    "name": "Utah"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Virginia Cavaliers",
+  "stx_abbr": "UVA",
+  "optic": [
+   {
+    "id": "9F5958B05742",
+    "name": "Virginia"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Wake Forest Demon Deacons",
+  "stx_abbr": "WAKE",
+  "optic": [
+   {
+    "id": "F4E6B3B8807C",
+    "name": "Wake Forest"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Washington Huskies",
+  "stx_abbr": "WASH",
+  "optic": [
+   {
+    "id": "63F0FB69A8FC",
+    "name": "Washington"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Washington State Cougars",
+  "stx_abbr": "WSU",
+  "optic": [
+   {
+    "id": "F2B897726667",
+    "name": "Washington State"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Western Michigan Broncos",
+  "stx_abbr": "WMU",
+  "optic": [
+   {
+    "id": "CC80438545C7",
+    "name": "Western Michigan"
+   }
+  ]
+ },
+ {
+  "competition": "NCAAF",
+  "stx_name": "Wisconsin Badgers",
+  "stx_abbr": "WIS",
+  "optic": [
+   {
+    "id": "F6A60D670A0D",
+    "name": "Wisconsin"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Arizona Cardinals",
+  "stx_abbr": "ARI",
+  "optic": [
+   {
+    "id": "AF456B375E7E",
+    "name": "Arizona Cardinals"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Atlanta Falcons",
+  "stx_abbr": "ATL",
+  "optic": [
+   {
+    "id": "348C1EE88C42",
+    "name": "Atlanta Falcons"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Baltimore Ravens",
+  "stx_abbr": "BAL",
+  "optic": [
+   {
+    "id": "766A226BC204",
+    "name": "Baltimore Ravens"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Buffalo Bills",
+  "stx_abbr": "BUF",
+  "optic": [
+   {
+    "id": "0787D09E47B9",
+    "name": "Buffalo Bills"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Carolina Panthers",
+  "stx_abbr": "CAR",
+  "optic": [
+   {
+    "id": "EB5E972AB475",
+    "name": "Carolina Panthers"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Chicago Bears",
+  "stx_abbr": "CHI",
+  "optic": [
+   {
+    "id": "7108F48884ED",
+    "name": "Chicago Bears"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Cincinnati Bengals",
+  "stx_abbr": "CIN",
+  "optic": [
+   {
+    "id": "EB3A43FF026E",
+    "name": "Cincinnati Bengals"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Cleveland Browns",
+  "stx_abbr": "CLE",
+  "optic": [
+   {
+    "id": "81A1B4413577",
+    "name": "Cleveland Browns"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Dallas Cowboys",
+  "stx_abbr": "DAL",
+  "optic": [
+   {
+    "id": "0BDD5205ECCB",
+    "name": "Dallas Cowboys"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Denver Broncos",
+  "stx_abbr": "DEN",
+  "optic": [
+   {
+    "id": "0DBD3AEC9A84",
+    "name": "Denver Broncos"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Detroit Lions",
+  "stx_abbr": "DET",
+  "optic": [
+   {
+    "id": "43412DC9CDCA",
+    "name": "Detroit Lions"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Green Bay Packers",
+  "stx_abbr": "GB",
+  "optic": [
+   {
+    "id": "2C6CB429C60C",
+    "name": "Green Bay Packers"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Indianapolis Colts",
+  "stx_abbr": "IND",
+  "optic": [
+   {
+    "id": "28ABEAB98C11",
+    "name": "Indianapolis Colts"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Jacksonville Jaguars",
+  "stx_abbr": "JAX",
+  "optic": [
+   {
+    "id": "9CCE4CA64CF2",
+    "name": "Jacksonville Jaguars"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Kansas City Chiefs",
+  "stx_abbr": "KC",
+  "optic": [
+   {
+    "id": "2D71E5BA64A5",
+    "name": "Kansas City Chiefs"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Las Vegas Raiders",
+  "stx_abbr": "LV",
+  "optic": [
+   {
+    "id": "A715F8199801",
+    "name": "Las Vegas Raiders"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Los Angeles Chargers",
+  "stx_abbr": "LAC",
+  "optic": [
+   {
+    "id": "A283836CDF6E",
+    "name": "Los Angeles Chargers"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Los Angeles Rams",
+  "stx_abbr": "LAR",
+  "optic": [
+   {
+    "id": "13AD4FDBEBA8",
+    "name": "Los Angeles Rams"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Miami Dolphins",
+  "stx_abbr": "MIA",
+  "optic": [
+   {
+    "id": "8380A12E67FE",
+    "name": "Miami Dolphins"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Minnesota Vikings",
+  "stx_abbr": "MIN",
+  "optic": [
+   {
+    "id": "24E4EA618C5E",
+    "name": "Minnesota Vikings"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "New England Patriots",
+  "stx_abbr": "NE",
+  "optic": [
+   {
+    "id": "04E3F3D69B89",
+    "name": "New England Patriots"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "New York Jets",
+  "stx_abbr": "NYJ",
+  "optic": [
+   {
+    "id": "032D4F9C6C55",
+    "name": "New York Jets"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Philadelphia Eagles",
+  "stx_abbr": "PHI",
+  "optic": [
+   {
+    "id": "EDCC2866B795",
+    "name": "Philadelphia Eagles"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Pittsburgh Steelers",
+  "stx_abbr": "PIT",
+  "optic": [
+   {
+    "id": "727B3B3C78E8",
+    "name": "Pittsburgh Steelers"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Seattle Seahawks",
+  "stx_abbr": "SEA",
+  "optic": [
+   {
+    "id": "EFED0277C4BD",
+    "name": "Seattle Seahawks"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Tampa Bay Buccaneers",
+  "stx_abbr": "TB",
+  "optic": [
+   {
+    "id": "4E7DB4C57393",
+    "name": "Tampa Bay Buccaneers"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Tennessee Titans",
+  "stx_abbr": "TEN",
+  "optic": [
+   {
+    "id": "24988863B4CB",
+    "name": "Tennessee Titans"
+   }
+  ]
+ },
+ {
+  "competition": "NFL",
+  "stx_name": "Washington Commanders",
+  "stx_abbr": "WSH",
+  "optic": [
+   {
+    "id": "C921828AB706",
+    "name": "Washington Commanders"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Anaheim Ducks",
+  "stx_abbr": "ANA",
+  "optic": [
+   {
+    "id": "013ABB6C1301",
+    "name": "Anaheim Ducks"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Boston Bruins",
+  "stx_abbr": "BOS",
+  "optic": [
+   {
+    "id": "E24CA44A7824",
+    "name": "Boston Bruins"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Calgary Flames",
+  "stx_abbr": "CGY",
+  "optic": [
+   {
+    "id": "BDCDF0745CC4",
+    "name": "Calgary Flames"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Colorado Avalanche",
+  "stx_abbr": "COL",
+  "optic": [
+   {
+    "id": "7C307B636971",
+    "name": "Colorado Avalanche"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Columbus Blue Jackets",
+  "stx_abbr": "CBJ",
+  "optic": [
+   {
+    "id": "B59FF9985C9C",
+    "name": "Columbus Blue Jackets"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Edmonton Oilers",
+  "stx_abbr": "EDM",
+  "optic": [
+   {
+    "id": "759AA8469413",
+    "name": "Edmonton Oilers"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "New Jersey Devils",
+  "stx_abbr": "NJ",
+  "optic": [
+   {
+    "id": "B382C1413F50",
+    "name": "New Jersey Devils"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Philadelphia Flyers",
+  "stx_abbr": "PHI",
+  "optic": [
+   {
+    "id": "4BF7B4862E12",
+    "name": "Philadelphia Flyers"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Pittsburgh Penguins",
+  "stx_abbr": "PIT",
+  "optic": [
+   {
+    "id": "3B83B74A4BD7",
+    "name": "Pittsburgh Penguins"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Seattle Kraken",
+  "stx_abbr": "SEA",
+  "optic": [
+   {
+    "id": "F86BAB6416CB",
+    "name": "Seattle Kraken"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Toronto Maple Leafs",
+  "stx_abbr": "TOR",
+  "optic": [
+   {
+    "id": "2C06F9EEDB61",
+    "name": "Toronto Maple Leafs"
+   }
+  ]
+ },
+ {
+  "competition": "NHL",
+  "stx_name": "Washington Capitals",
+  "stx_abbr": "WSH",
+  "optic": [
+   {
+    "id": "EEB0E7F5C10F",
+    "name": "Washington Capitals"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "AC Milan",
+  "stx_abbr": "MIL",
+  "optic": [
+   {
+    "id": "462901E3CB34",
+    "name": "AC Milan"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Bologna",
+  "stx_abbr": "BOL",
+  "optic": [
+   {
+    "id": "1ABA84CDAB19",
+    "name": "Bologna FC 1909"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Genoa",
+  "stx_abbr": "GEN",
+  "optic": [
+   {
+    "id": "ED0D6C9DEFF9",
+    "name": "Genoa CFC"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Internazionale",
+  "stx_abbr": "INT",
+  "optic": [
+   {
+    "id": "996237D718F6",
+    "name": "FC Internazionale Milano"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Juventus",
+  "stx_abbr": "JUV",
+  "optic": [
+   {
+    "id": "D2B0BBE8CA1F",
+    "name": "Juventus FC"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Monza",
+  "stx_abbr": "MON",
+  "optic": [
+   {
+    "id": "E7387B29ADEA",
+    "name": "AC Monza"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Napoli",
+  "stx_abbr": "NAP",
+  "optic": [
+   {
+    "id": "8A5F50CC9386",
+    "name": "SSC Napoli"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Parma",
+  "stx_abbr": "PAR",
+  "optic": [
+   {
+    "id": "7FA287A79171",
+    "name": "Parma Calcio 1913"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Udinese",
+  "stx_abbr": "UDI",
+  "optic": [
+   {
+    "id": "711B5179D186",
+    "name": "Udinese Calcio"
+   }
+  ]
+ },
+ {
+  "competition": "Serie A",
+  "stx_name": "Venezia",
+  "stx_abbr": "VEN",
+  "optic": [
+   {
+    "id": "E32846E9682C",
+    "name": "Venezia FC"
+   }
+  ]
+ }
+]

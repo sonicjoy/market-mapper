@@ -1,0 +1,32 @@
+[project]
+name = "market-mapping"
+version = "0.0.0"
+requires-python = ">=3.13"
+
+[project.optional-dependencies]
+# Quality-gate + test tooling consumed by the shared mm-ci-templates quality.sh (warm-first).
+dev = ["pytest", "pyright", "ruff>=0.5.0", "bandit>=1.7.0", "pip-audit>=2.7.0", "interrogate>=1.7.0", "pytest-cov>=5.0.0", "httpx>=0.27", "PyYAML>=6.0"]
+
+[tool.pytest.ini_options]
+# Tests live under tests/.  Scope collection there so the quality gate's
+# bare `pytest --cov=mappers` (mm-ci-templates quality.sh) does not crawl
+# the whole repo and import CLI scripts under scripts/ named test_*.py
+# (e.g. scripts/test_optic_tennis.py runs argparse at import → SystemExit
+# during collection → pytest INTERNALERROR).  The quality job is the
+# only CI test run (.gitlab-ci.yml).
+testpaths = ["tests"]
+
+[tool.ruff]
+# Estate-standard ruff config. Warn-only in CI for now (legacy backlog); ratchet later.
+target-version = "py313"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "C4", "RET", "PIE", "SIM", "B", "N"]
+
+[tool.pyright]
+pythonVersion = "3.13"
+venvPath = "."
+venv = ".venv"
+ignore = ["data", "scratch", "scripts/nick", "scripts/test_optic_tennis.py", "scripts/fetch_nba_reference.py"]
+extraPaths = [".."]

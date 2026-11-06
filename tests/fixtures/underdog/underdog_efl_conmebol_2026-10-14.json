@@ -1,0 +1,796 @@
+{
+"conmebol_copa_libertadores": {
+"optic": {
+"away_id": "70C178E9B71E",
+"away_name": "SE Palmeiras",
+"fixture_id": "202610155D361129",
+"home_id": "83F4A9B0083A",
+"home_name": "Fluminense FC",
+"start_date": "2026-10-15T00:30:00Z"
+},
+"rows": [
+{
+"description": "Resolves Yes if both teams score in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "both_teams_to_score"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBBTTS_PALFLU26OCT142030_BTTS"
+},
+{
+"description": "Resolves Yes if Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026 ends in a draw.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "moneyline"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBGAMEWIN_PALFLU26OCT142030_DRAW"
+},
+{
+"description": "Resolves Yes if Fluminense FC win Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "moneyline",
+"team_id": "83F4A9B0083A"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBGAMEWIN_PALFLU26OCT142030_FLU"
+},
+{
+"description": "Resolves Yes if SE Palmeiras win Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "moneyline",
+"team_id": "70C178E9B71E"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBGAMEWIN_PALFLU26OCT142030_PAL"
+},
+{
+"description": "Resolves Yes if Fluminense FC beat SE Palmeiras by above 0.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "asian_handicap",
+"team_id": "83F4A9B0083A"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBSPREAD_PALFLU26OCT142030_FLU0.5"
+},
+{
+"description": "Resolves Yes if Fluminense FC beat SE Palmeiras by above 1.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "asian_handicap",
+"team_id": "83F4A9B0083A"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBSPREAD_PALFLU26OCT142030_FLU1.5"
+},
+{
+"description": "Resolves Yes if Fluminense FC beat SE Palmeiras by above 2.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "asian_handicap",
+"team_id": "83F4A9B0083A"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBSPREAD_PALFLU26OCT142030_FLU2.5"
+},
+{
+"description": "Resolves Yes if SE Palmeiras beat Fluminense FC by above 0.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "asian_handicap",
+"team_id": "70C178E9B71E"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBSPREAD_PALFLU26OCT142030_PAL0.5"
+},
+{
+"description": "Resolves Yes if SE Palmeiras beat Fluminense FC by above 1.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "asian_handicap",
+"team_id": "70C178E9B71E"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBSPREAD_PALFLU26OCT142030_PAL1.5"
+},
+{
+"description": "Resolves Yes if SE Palmeiras beat Fluminense FC by above 2.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "asian_handicap",
+"team_id": "70C178E9B71E"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBSPREAD_PALFLU26OCT142030_PAL2.5"
+},
+{
+"description": "Resolves Yes if there are above 0.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBTOTAL_PALFLU26OCT142030_0.5"
+},
+{
+"description": "Resolves Yes if there are above 1.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBTOTAL_PALFLU26OCT142030_1.5"
+},
+{
+"description": "Resolves Yes if there are above 2.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBTOTAL_PALFLU26OCT142030_2.5"
+},
+{
+"description": "Resolves Yes if there are above 3.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBTOTAL_PALFLU26OCT142030_3.5"
+},
+{
+"description": "Resolves Yes if there are above 4.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBTOTAL_PALFLU26OCT142030_4.5"
+},
+{
+"description": "Resolves Yes if there are above 5.5 goals in Libertadores match between Fluminense FC and SE Palmeiras originally scheduled for 8:30pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "202610155D361129",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBLIBTOTAL_PALFLU26OCT142030_5.5"
+}
+]
+},
+"conmebol_sudamericana": {
+"optic": {
+"away_id": "3E56CD5B71016C28",
+"away_name": "Montevideo City Torque",
+"fixture_id": "20261014CFB0EF76",
+"home_id": "F751E8DC4086C618",
+"home_name": "Clube Atlético Mineiro",
+"start_date": "2026-10-14T22:00:00Z"
+},
+"rows": [
+{
+"description": "Resolves Yes if both teams score in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "both_teams_to_score"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDBTTS_TORATL26OCT141800_BTTS"
+},
+{
+"description": "Resolves Yes if Clube Atlético Mineiro win Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "moneyline",
+"team_id": "F751E8DC4086C618"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDGAMEWIN_TORATL26OCT141800_ATL"
+},
+{
+"description": "Resolves Yes if Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026 ends in a draw.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "moneyline"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDGAMEWIN_TORATL26OCT141800_DRAW"
+},
+{
+"description": "Resolves Yes if Montevideo City Torque win Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "moneyline",
+"team_id": "3E56CD5B71016C28"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDGAMEWIN_TORATL26OCT141800_TOR"
+},
+{
+"description": "Resolves Yes if Clube Atlético Mineiro beat Montevideo City Torque by above 0.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "asian_handicap",
+"team_id": "F751E8DC4086C618"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDSPREAD_TORATL26OCT141800_ATL0.5"
+},
+{
+"description": "Resolves Yes if Clube Atlético Mineiro beat Montevideo City Torque by above 1.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "asian_handicap",
+"team_id": "F751E8DC4086C618"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDSPREAD_TORATL26OCT141800_ATL1.5"
+},
+{
+"description": "Resolves Yes if Clube Atlético Mineiro beat Montevideo City Torque by above 2.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "asian_handicap",
+"team_id": "F751E8DC4086C618"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDSPREAD_TORATL26OCT141800_ATL2.5"
+},
+{
+"description": "Resolves Yes if Clube Atlético Mineiro beat Montevideo City Torque by above 3.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "asian_handicap",
+"team_id": "F751E8DC4086C618"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDSPREAD_TORATL26OCT141800_ATL3.5"
+},
+{
+"description": "Resolves Yes if Montevideo City Torque beat Clube Atlético Mineiro by above 0.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "asian_handicap",
+"team_id": "3E56CD5B71016C28"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDSPREAD_TORATL26OCT141800_TOR0.5"
+},
+{
+"description": "Resolves Yes if Montevideo City Torque beat Clube Atlético Mineiro by above 1.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "asian_handicap",
+"team_id": "3E56CD5B71016C28"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDSPREAD_TORATL26OCT141800_TOR1.5"
+},
+{
+"description": "Resolves Yes if Montevideo City Torque beat Clube Atlético Mineiro by above 2.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "asian_handicap",
+"team_id": "3E56CD5B71016C28"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDSPREAD_TORATL26OCT141800_TOR2.5"
+},
+{
+"description": "Resolves Yes if there are above 0.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDTOTAL_TORATL26OCT141800_0.5"
+},
+{
+"description": "Resolves Yes if there are above 1.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDTOTAL_TORATL26OCT141800_1.5"
+},
+{
+"description": "Resolves Yes if there are above 2.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDTOTAL_TORATL26OCT141800_2.5"
+},
+{
+"description": "Resolves Yes if there are above 3.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDTOTAL_TORATL26OCT141800_3.5"
+},
+{
+"description": "Resolves Yes if there are above 4.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDTOTAL_TORATL26OCT141800_4.5"
+},
+{
+"description": "Resolves Yes if there are above 5.5 goals in Sudamericana match between Clube Atlético Mineiro and Montevideo City Torque originally scheduled for 6:00pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014CFB0EF76",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXCONMEBSUDTOTAL_TORATL26OCT141800_5.5"
+}
+]
+},
+"england_championship": {
+"optic": {
+"away_id": "B4E570C83C60",
+"away_name": "Derby County FC",
+"fixture_id": "20261014D4DFDE8A",
+"home_id": "7ABBD39891C8",
+"home_name": "Queens Park Rangers FC",
+"start_date": "2026-10-14T18:45:00Z"
+},
+"rows": [
+{
+"description": "Resolves Yes if both teams score in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "both_teams_to_score"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPBTTS_DERQPR26OCT141445_BTTS"
+},
+{
+"description": "Resolves Yes if Derby County FC win Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "moneyline",
+"team_id": "B4E570C83C60"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPGAMEWIN_DERQPR26OCT141445_DER"
+},
+{
+"description": "Resolves Yes if Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026 ends in a draw.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "moneyline"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPGAMEWIN_DERQPR26OCT141445_DRAW"
+},
+{
+"description": "Resolves Yes if Queens Park Rangers FC win Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "moneyline",
+"team_id": "7ABBD39891C8"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPGAMEWIN_DERQPR26OCT141445_QPR"
+},
+{
+"description": "Resolves Yes if Derby County FC beat Queens Park Rangers FC by above 1.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "asian_handicap",
+"team_id": "B4E570C83C60"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPSPREAD_DERQPR26OCT141445_DER1.5"
+},
+{
+"description": "Resolves Yes if Derby County FC beat Queens Park Rangers FC by above 2.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "asian_handicap",
+"team_id": "B4E570C83C60"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPSPREAD_DERQPR26OCT141445_DER2.5"
+},
+{
+"description": "Resolves Yes if Queens Park Rangers FC beat Derby County FC by above 1.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "asian_handicap",
+"team_id": "7ABBD39891C8"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPSPREAD_DERQPR26OCT141445_QPR1.5"
+},
+{
+"description": "Resolves Yes if Queens Park Rangers FC beat Derby County FC by above 2.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "asian_handicap",
+"team_id": "7ABBD39891C8"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPSPREAD_DERQPR26OCT141445_QPR2.5"
+},
+{
+"description": "Resolves Yes if there are above 0.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPTOTAL_DERQPR26OCT141445_0.5"
+},
+{
+"description": "Resolves Yes if there are above 1.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPTOTAL_DERQPR26OCT141445_1.5"
+},
+{
+"description": "Resolves Yes if there are above 2.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPTOTAL_DERQPR26OCT141445_2.5"
+},
+{
+"description": "Resolves Yes if there are above 3.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPTOTAL_DERQPR26OCT141445_3.5"
+},
+{
+"description": "Resolves Yes if there are above 4.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPTOTAL_DERQPR26OCT141445_4.5"
+},
+{
+"description": "Resolves Yes if there are above 5.5 goals in Championship match between Queens Park Rangers FC and Derby County FC originally scheduled for 2:45pm ET on October 14, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "20261014D4DFDE8A",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLCHAMPTOTAL_DERQPR26OCT141445_5.5"
+}
+]
+},
+"england_league_1": {
+"optic": {
+"away_id": "04A4793CF9D4",
+"away_name": "Oxford United FC",
+"fixture_id": "2026101710589469",
+"home_id": "394C85F7CC31",
+"home_name": "Mansfield Town FC",
+"start_date": "2026-10-15T19:00:00Z"
+},
+"rows": [
+{
+"description": "Resolves Yes if both teams score in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "both_teams_to_score"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1BTTS_OXFMAN26OCT151500_BTTS"
+},
+{
+"description": "Resolves Yes if League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026 ends in a draw.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "moneyline"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1GAMEWIN_OXFMAN26OCT151500_DRAW"
+},
+{
+"description": "Resolves Yes if Mansfield Town FC win League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "moneyline",
+"team_id": "394C85F7CC31"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1GAMEWIN_OXFMAN26OCT151500_MAN"
+},
+{
+"description": "Resolves Yes if Oxford United FC win League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "moneyline",
+"team_id": "04A4793CF9D4"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1GAMEWIN_OXFMAN26OCT151500_OXF"
+},
+{
+"description": "Resolves Yes if Mansfield Town FC beat Oxford United FC by above 1.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "asian_handicap",
+"team_id": "394C85F7CC31"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1SPREAD_OXFMAN26OCT151500_MAN1.5"
+},
+{
+"description": "Resolves Yes if Mansfield Town FC beat Oxford United FC by above 2.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "asian_handicap",
+"team_id": "394C85F7CC31"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1SPREAD_OXFMAN26OCT151500_MAN2.5"
+},
+{
+"description": "Resolves Yes if Mansfield Town FC beat Oxford United FC by above 3.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "asian_handicap",
+"team_id": "394C85F7CC31"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1SPREAD_OXFMAN26OCT151500_MAN3.5"
+},
+{
+"description": "Resolves Yes if Oxford United FC beat Mansfield Town FC by above 1.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "asian_handicap",
+"team_id": "04A4793CF9D4"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1SPREAD_OXFMAN26OCT151500_OXF1.5"
+},
+{
+"description": "Resolves Yes if Oxford United FC beat Mansfield Town FC by above 2.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "asian_handicap",
+"team_id": "04A4793CF9D4"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1SPREAD_OXFMAN26OCT151500_OXF2.5"
+},
+{
+"description": "Resolves Yes if Oxford United FC beat Mansfield Town FC by above 3.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "asian_handicap",
+"team_id": "04A4793CF9D4"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1SPREAD_OXFMAN26OCT151500_OXF3.5"
+},
+{
+"description": "Resolves Yes if there are above 0.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_0.5"
+},
+{
+"description": "Resolves Yes if there are above 1.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_1.5"
+},
+{
+"description": "Resolves Yes if there are above 2.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_2.5"
+},
+{
+"description": "Resolves Yes if there are above 3.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_3.5"
+},
+{
+"description": "Resolves Yes if there are above 4.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_4.5"
+},
+{
+"description": "Resolves Yes if there are above 5.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_5.5"
+},
+{
+"description": "Resolves Yes if there are above 6.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_6.5"
+},
+{
+"description": "Resolves Yes if there are above 7.5 goals in League One match between Mansfield Town FC and Oxford United FC originally scheduled for 3:00pm ET on October 15, 2026.",
+"external_ids": {
+"optic_odds": {
+"fixture_id": "2026101710589469",
+"market_id": "total_goals"
+}
+},
+"status": "open",
+"ticker": "UDXEFLL1TOTAL_OXFMAN26OCT151500_7.5"
+}
+]
+}
+}

@@ -1,0 +1,57 @@
+# Waivers for the config-equivalence gate (config_diff.py) — bound
+# to the reader-vs-extractor entity audit by the audit key below,
+# which config_diff enforces mechanically (--audit must match, else
+# exit 2).  Waiver files are per-audit-invocation: the 2026-08-14
+# tip audit showed this file's quoted-key waivers silently absorbing
+# a legitimate console edit (the Uwinks lol entity, kind+league
+# match by accident) when reused there.  Seed and tip audits run
+# with no waivers file (or their own) until they earn entries.
+# Same seven-rule policy as waivers.toml (HISTORY.md step 4): narrow by
+# construction, exact ceilings, born with the change they excuse,
+# deleted when the fix lands, always printed, never silently green.
+
+audit = "reader-vs-extractor"
+#
+# All four entries below cover ONE defect: the seed extractor loses
+# the display name of every QUOTED TOML section (HISTORY.md step 5
+# component 4 finding; ask 9 in plan.md "Asks for Joe").  A changed
+# canonical_name is one a_only + one b_only line, so ceilings are
+# 2 x the entity count and direction is "both".  When Joe's one-line
+# unquote fix lands and a reseed follows, all four go STALE and get
+# deleted in that commit.
+
+[[waiver]]
+id = "quoted-key-names-lol"
+reason = "extractor drops quoted-section display names (15 lol entities) — ask 9 to Joe, plan.md"
+match = { direction = "both", kind = "entity", league = "lol" }
+max_rows = 30
+expires = 2026-09-13
+
+[[waiver]]
+id = "quoted-key-names-world-cup"
+reason = "extractor drops quoted-section display names (23 world_cup players) — ask 9 to Joe, plan.md"
+match = { direction = "both", kind = "entity", league = "world_cup" }
+max_rows = 46
+expires = 2026-09-13
+
+[[waiver]]
+id = "quoted-key-names-ecl"
+reason = "extractor drops quoted-section display names (ZAL) — ask 9 to Joe, plan.md"
+match = { direction = "both", kind = "entity", league = "europa_conference_league" }
+max_rows = 2
+expires = 2026-09-13
+
+[[waiver]]
+id = "quoted-key-names-ucl"
+reason = "extractor drops quoted-section display names (ZAL) — ask 9 to Joe, plan.md"
+match = { direction = "both", kind = "entity", league = "ucl" }
+max_rows = 2
+expires = 2026-09-13
+
+# The standing comment-loss accounting (decision 3): not line deltas,
+# but the count config_toml reports must appear in every gate run as
+# EXPECTED-LOSS, citing the ask that will shrink it.  Expiry forces
+# renewal so the number never becomes furniture.
+[comment_loss]
+reason = "TOML comments only partially migrate (display names only; provenance and block commentary drop) — redesign ask 4, plan.md"
+expires = 2026-09-13

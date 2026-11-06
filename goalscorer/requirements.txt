@@ -1,0 +1,8 @@
+# Runtime deps for the goalscorer-mapper image only (deploy/goalscorer-mapper.Dockerfile).
+# Keep in step with the root requirements.txt, which CI tests and type-checks against.
+google-cloud-bigquery
+google-cloud-pubsub
+requests
+slack-bolt>=1.30
+fpdf2>=2.8
+pyasn1>=0.6.4

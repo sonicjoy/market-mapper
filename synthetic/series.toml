@@ -1,0 +1,209 @@
+# Series config for the synthetic-fixture job (synthetic/).
+#
+# The ONLY place to onboard a Kalshi market OpticOdds has no fixture for — add a
+# [[series]] block, no code change. The job lists open Kalshi markets per
+# `series_ticker` and synthesizes ONLY where neither ORIGINAL (Optic's feed) nor GREG
+# (the mapping pipeline) already maps the ticker, so it never fights existing
+# coverage.
+#
+# Background, measurements and failure modes: docs_workspace/synthetic/
+#   STATUS.md  current state and gates
+#   split-fixture-risk.md  what breaks when one match lands on two fixture ids
+#   motorsports-onboarding.md  outright builder, liquidity, bias derivation
+#
+# FIELDS
+#   series_ticker       Exact Kalshi series ticker, passed to Get Markets as-is.
+#                       Siblings (KXF1RACETOP5, KXNASCARRACEOLD) are other series
+#                       and are never pulled in.
+#   sport_id            MUST equal the RFQ service's ALLOWED_SPORTS value. This is
+#                       the FIRST gate; a sport missing from a tenant's list means
+#                       no mapper entry is ever built for it.
+#   sport_name          Display, nested sport struct.
+#   league_id/_name     Odds-screen grouping. Invent one if Optic has no league.
+#   optic_market_id     Optic market slug. Default "moneyline".
+#   market_type         "match_winner" (2 competitors) or "outright" (N runners).
+#   ttko_hours          Gate on ESTIMATED START, not on Kalshi's resolution time.
+#                       Estimated start = expected_expiration_time MINUS
+#                       start_bias_minutes, so ttko_hours=1 with bias 346 means
+#                       "resolution within 6h46m". Easy to misread — it is the
+#                       single most common misunderstanding of this file.
+#                       No lower bound: an event past its estimated start has
+#                       negative hours-out and is always admitted, so in-play and
+#                       already-running matches are never excluded.
+#                       null = no gate, which would admit season futures.
+#   start_bias_minutes  How far Kalshi's expected_expiration_time sits AFTER the
+#                       real start.
+#   allow_backfill      Attach to a real Optic fixture instead of minting one.
+#                       Off everywhere — see the ITF singles note.
+#   write_greg_rows     Also write markets_us.market_mapping. Not an in-play
+#                       switch (eligibility is the tenant's allowed_sports); the
+#                       one known reader is MMOpticOdds selection_resolver, see
+#                       adapters.py. Leaving it FALSE
+#                       also removes split-fixture exposure: with greg_fixture_id
+#                       NULL, mapping_loader resolves every fanned-out row through
+#                       the single `f.game_id = c.game_id` arm.
+
+# TENNIS DOUBLES: OFF (2026-10-20). ITF men's (KXITFDOUBLES), ITF women's
+# (KXITFWDOUBLES) and Challenger doubles (KXATPCHALLENGERDOUBLES, never onboarded)
+# are intentionally not synthesized: 11 fills in 67s on an ITF doubles combo priced
+# from synthetic/substitute fixtures. Removing the blocks makes the next tick retract
+# every wsdsyn- doubles override, complete the fixtures and delete their GREG rows.
+# Previous blocks (restore to re-enable): series_ticker KXITFDOUBLES / KXITFWDOUBLES,
+# sport tennis, leagues itf_men_doubles / itf_women_doubles, ttko_hours 8,
+# start_bias_minutes 346, write_greg_rows default (true).
+
+# ITF SINGLES — enabled 2026-09-01.
+#
+# Optic DOES map Kalshi ITF singles tickers, actively (opticodds_mapping, league
+# "ITF Men"/"ITF Women" — title case with a space, which is easy to miss when
+# grepping for itf_men). The coverage gate sees all of them: 80/80 of the last
+# 24h's Optic mappings were visible to it, so the exact handover path works and
+# we skip correctly.
+#
+# ttko_hours = 1 — measured 2026-09-01 over 160 open events: 1h admits 70 (44%),
+# 3h 85, 6h 100. Kalshi never lists these beyond 12h, and the job ticks every
+# 5 min, so the gate only DELAYS entry; nothing is dropped permanently. Tight
+# because the less time we hold a synthetic fixture, the less chance Optic starts
+# covering the ticker while ours is live.
+#
+# start_bias_minutes = 346 re-verified 2026-09-01 on n=2031 settled matches:
+# median gap 330 min, 346 at the 56th percentile. Tails are heavy (IQR 83 but
+# stdev 271) from rescheduling, so ~10-20% of events will be hours out. No
+# constant fixes that.
+#
+# allow_backfill stays OFF. Both prerequisites have landed (league-scoped matcher,
+# provenance-aware override diff), so this is a risk decision, not a gap:
+#   * the prize is zero on ITF — backfill's value is converging legs onto one
+#     fixture id to avoid correlated parlays pricing as uncorrelated, and all four
+#     Kalshi ITF series are moneyline, so there is nothing to split against;
+#   * it swaps a CAUGHT failure (duplicate fixture -> Alert E -> retracted in
+#     ~15 min) for a SILENT one (mis-attach -> one fixture -> invisible to every
+#     deployed alert while the leg prices off a different match);
+#   * the prod --dry-run gate is unmet (Kalshi secret IAM-denied locally).
+# Revisit if Kalshi lists a sibling ITF series (per-set, totals) — that is when
+# the first point stops holding — and land the mis-route detector first. Detail
+# in split-fixture-risk.md.
+#
+# If it IS ever enabled: the league filter is load-bearing. load_optic_fixtures is
+# scoped by SPORT, so the tennis pool is every atp/wta/challenger/utr/itf/doubles
+# fixture in the window (791 on 2026-09-01); run.py passes series.league_id to
+# stop an ITF event matching a same-day UTR fixture with the same surnames.
+
+[[series]]
+series_ticker = "KXITFMATCH"
+sport_id = "tennis"
+sport_name = "Tennis"
+league_id = "itf_men"
+league_name = "ITF Men"
+ttko_hours = 1
+start_bias_minutes = 346
+write_greg_rows = false
+
+[[series]]
+series_ticker = "KXITFWMATCH"
+sport_id = "tennis"
+sport_name = "Tennis"
+league_id = "itf_women"
+league_name = "ITF Women"
+ttko_hours = 1
+start_bias_minutes = 346
+write_greg_rows = false
+
+# ---------------------------------------------------------------------------
+# Motorsports — N-runner outrights (market_type = "outright"). Optic covers no
+# motorsports at all, so this is cleanly the synthetic lane.
+#
+# start_bias_minutes 360 verified against six published race schedules: 360 is the
+# mode (5 of 6) and the one deviation is SHORTER, making our start_date up to an
+# hour EARLY. That is the safe direction — early risks treating a leg as in-play
+# too soon, late leaves us quoting pre-off prices into a race already running.
+#
+# ttko_hours 336 (14d) also excludes season futures, though those live under
+# separate series tickers anyway.
+
+# F1: staged but OFF (2026-08-26). Not a code gap — a dry run synthesizes
+# KXF1RACE-ITAGP26 cleanly. Off because the book is not worth quoting: only 7 of
+# 22 contracts two-sided (vs 33 of 41 for the NASCAR Cup race), and the one listed
+# race is ~262h out. Uncomment when a GP is close and the book has filled in; the
+# config below is verified as-is. sport_name/league_name are deliberately
+# lower-case and equal to their ids — that is what the manual F1/NASCAR fixtures
+# carry, and those took 210 confirmed bets.
+#[[series]]
+#series_ticker = "KXF1RACE"
+#sport_id = "motorsports"
+#sport_name = "motorsports"
+#league_id = "formulaone"
+#league_name = "formulaone"
+#optic_market_id = "race_winner"
+#market_type = "outright"
+#ttko_hours = 336
+#start_bias_minutes = 360
+#write_greg_rows = false
+
+# NASCAR — enabled 2026-08-26. league_id/league_name are "Nascar" CAPITALISED
+# (unlike formulaone) to match the manual fixtures already in opticodds_fixtures;
+# those are the rows that priced and traded. Do not lower-case it for consistency
+# with F1 — consistency with production wins.
+#
+# One KXNASCARRACE series carries BOTH competitions (Cup and O'Reilly Auto Parts),
+# so both land under league_id "Nascar". Cup-only would need a competition filter
+# in the outright branch; there is no config field for it today.
+# ATP CHALLENGER SINGLES — added 2026-09-08. Same shape as ITF singles
+# (2-way match_winner, ttko_hours = 1, no GREG rows), with ONE difference that
+# matters: the start bias.
+#
+# start_bias_minutes = 180, NOT 346.
+#   Measured 2026-09-08, n=130 Challenger tickers Optic had already mapped
+#   (Kalshi expected_expiration_time MINUS Optic start_date, minutes):
+#     median 160, mean 146, stdev 42, p10 85, p25 140, p75/p90/p95 = 180, max 180
+#   The distribution is CAPPED at 180 — best-of-3 Challenger matches resolve far
+#   faster than ITF's 346-minute central estimate. Using 346 here would place the
+#   estimated start ~3h before the true start, and since the gate admits at
+#   `est_start - ttko_hours`, we would map ~4h before the off instead of ~1h —
+#   defeating the entire point of ttko_hours = 1 and widening the window in which
+#   Optic can create a competing fixture.
+#   180 is chosen as the observed MAX, not the median, deliberately: bias <= 180
+#   always, so est_start = exp - 180 is always at or before the true start. We
+#   therefore admit at least 1h pre-off and never later, erring in the direction
+#   that cannot miss a match.
+#
+# The legacy KXCHALLENGERMATCH (identical Kalshi title, "Challenger ATP ") is a
+# different series and is dead, 0 open events on 2026-09-08.
+#
+# COVERAGE IS THIN — this series adds far less than ITF did. Real gate run
+# 2026-09-08 over 58 open events: 52 SKIP (already mapped by Optic/GREG),
+# 2 BACKFILL, only **4 SYNTH**. Optic carries 248 atp_challenger fixtures in the
+# window, so we are synthesizing a ~7% residual, not opening a new league. The
+# case for it is liquidity, not volume: the series traded 1.6M contracts across
+# open markets, against near-empty ITF books.
+#
+# KXWTACHALLENGERMATCH is deliberately NOT added. Same 2-way shape and also
+# liquid (1.02M contracts), but its start-time relationship to Optic is
+# incoherent: n=52 gave median -1290 min and p25 -2760 min, i.e. Kalshi expiry
+# landing 21-46h BEFORE Optic's start. Its existing coverage sits under Optic
+# league "WTA" (52 tickers/26 games) rather than a Challenger league, which is
+# consistent with Kalshi WTA-Challenger tickers being mapped onto main-tour WTA
+# fixtures. Resolve that before onboarding it; no bias value is trustworthy until
+# it is understood.
+
+[[series]]
+series_ticker = "KXATPCHALLENGERMATCH"
+sport_id = "tennis"
+sport_name = "Tennis"
+league_id = "atp_challenger"
+league_name = "ATP Challenger"
+ttko_hours = 1
+start_bias_minutes = 180
+write_greg_rows = false
+
+[[series]]
+series_ticker = "KXNASCARRACE"
+sport_id = "motorsports"
+sport_name = "motorsports"
+league_id = "Nascar"
+league_name = "Nascar"
+optic_market_id = "race_winner"
+market_type = "outright"
+ttko_hours = 336
+start_bias_minutes = 360
+write_greg_rows = false

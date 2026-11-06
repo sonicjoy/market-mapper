@@ -1,0 +1,27 @@
+RESOLUTION (events with GAMEWIN/MATCHWIN/FIGHTWIN, start 2026-09-15..10-12)
+ATP      events=  50 matched=  37 (74.0%)  names match, time off >1 day=13  strict (exact minute)=21  within 45 min=4  same UTC day, unique=12
+ATPCHL   events= 114 matched=  84 (73.7%)  same UTC day, unique=49  names match, time off >1 day=30  within 45 min=14  strict (exact minute)=21
+LIGAMX   events=   9 matched=   9 (100.0%)  strict (exact minute)=5  within 45 min=2  same UTC day, unique=2
+MLB      events=  89 matched=  88 (98.9%)  strict (exact minute)=88  ambiguous=1
+MLS      events=  16 matched=  16 (100.0%)  strict (exact minute)=16
+NCAAMFB  events= 119 matched= 119 (100.0%)  strict (exact minute)=117  same UTC day, unique=2
+NFL      events=  32 matched=  32 (100.0%)  strict (exact minute)=32
+UFC      events=  17 matched=  17 (100.0%)  within 45 min=5  strict (exact minute)=11  same UTC day, unique=1
+WNBA     events=  13 matched=  13 (100.0%)  strict (exact minute)=13
+WTA      events=  95 matched=  78 (82.1%)  within 45 min=6  strict (exact minute)=21  same UTC day, unique=51  names match, time off >1 day=17
+
+ORIENTATION on matched events
+  ATP      venue first = Optic away             37
+  ATPCHL   venue first = Optic HOME (flip)      1
+  ATPCHL   venue first = Optic away             83
+  LIGAMX   venue first = Optic away             9
+  MLB      venue first = Optic away             88
+  MLS      venue first = Optic away             16
+  NCAAMFB  venue first = Optic away             119
+  NFL      venue first = Optic away             32
+  UFC      venue first = Optic away             17
+  WNBA     venue first = Optic away             13
+  WTA      venue first = Optic away             78
+  flips on neutral-venue fixtures: {}
+
+NAME RESIDUE (no Optic fixture with both names), up to 12 per league

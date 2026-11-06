@@ -1,0 +1,119 @@
+# Suite A/B goldens for rules_lookup / entity_add / fixture_coverage.
+- id: lookup_entity_by_optic_id
+  message: what entity is E0133F3BCA247846
+  page: {}
+  expect:
+    path: skill:rules_lookup
+    outcome: ok
+    ui_action_types: [rules_filter]
+    reply_contains: Sinner
+
+- id: lookup_player_phrasing
+  message: which player is E0133F3BCA247846
+  page: {}
+  expect:
+    path: skill:rules_lookup
+    outcome: ok
+    ui_action_types: [rules_filter]
+
+- id: count_leagues
+  message: how many leagues do we map
+  page: {}
+  expect:
+    path: skill:rules_lookup
+    outcome: ok
+    count_only: true
+
+- id: count_ignored_market_rules
+  message: how many ignored atp market rules
+  page: {}
+  expect:
+    path: skill:rules_lookup
+    outcome: ok
+    count_only: true
+
+- id: coverage_from_rules_tab
+  message: how many do we have
+  page:
+    path: /rules
+    tab: entities
+    rules:
+      kind: entities
+      q: atp
+  expect:
+    path: skill:rules_lookup
+    outcome: ok
+
+- id: lookup_league_slug
+  message: do we have mlb mapped
+  page: {}
+  expect:
+    path: skill:rules_lookup
+    outcome: ok
+    ui_action_types: [rules_filter]
+
+- id: lookup_px_code
+  message: is ARS mapped on px
+  page:
+    path: /entry
+    tab: alias
+    entry:
+      league: epl
+  expect:
+    path: skill:rules_lookup
+    outcome: ok
+
+- id: fixture_coverage_vs_paste
+  message: Jannik Sinner vs Carlos Alcaraz
+  page:
+    path: /entry
+    tab: alias
+    entry:
+      league: atp
+  expect:
+    path: skill:fixture_coverage
+    outcome: ok
+    ui_action_types: [navigate]
+
+- id: lookup_entity_raphinha_opens_editor
+  message: entity raphinha
+  page: {}
+  expect:
+    path: skill:entity_add
+    outcome: ok
+    prefill_tab: alias
+    ui_action_types: [navigate, switch_tab, prefill_form, rules_filter]
+    reply_contains: not on the tip
+
+- id: lookup_add_raphinha_not_onboard
+  message: add raphinha
+  page: {}
+  expect:
+    path: skill:entity_add
+    outcome: ok
+    prefill_tab: alias
+    ui_action_types: [navigate, switch_tab, prefill_form, rules_filter]
+    reply_contains: Editor
+
+- id: lookup_optic_name_unique_stages
+  message: entity Holger Rune for atp
+  page: {}
+  stubs:
+    optic_fixtures:
+      - id: fx-rune
+        start_date: "2026-09-12T10:00:00Z"
+        league: {id: atp}
+        home_competitors:
+          - id: oid-rune
+            name: Holger Rune
+            abbreviation: RUN
+        away_competitors:
+          - id: oid-other
+            name: Carlos Alcaraz
+            abbreviation: ALC
+  expect:
+    path: skill:entity_add
+    outcome: ok
+    prefill_tab: alias
+    ui_action_types: [navigate, switch_tab, prefill_form, rules_filter]
+    reply_contains: unique-bind

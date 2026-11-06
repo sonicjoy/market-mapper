@@ -1,0 +1,37 @@
+---
+description: mmmapper CI quality size gate — keep new Python under line limits
+globs: mappers/**/*.py,BigQuery/**/*.py,fetch/**/*.py
+alwaysApply: false
+---
+
+# Quality size gate (CI blocking)
+
+`scripts/run-quality.sh` / `mise run quality` runs the shared mm-ci-templates size guard on `mappers`, `BigQuery`, and `fetch`.
+
+## Hard limits (new code must not violate)
+
+- **Functions / methods**: ≤ **50** lines end-to-end (AST: `end_lineno - lineno + 1`), including docstring and blank lines.
+- **Files**: ≤ **500** lines.
+- Check is strict: `n > 50` / `n > 500` fails. Equality at the limit is OK.
+
+## Allowlist policy
+
+- Existing oversize items live in `scripts/size_allowlist.json` (refactor backlog).
+- **Never add a new allowlist entry** for code you just wrote — split helpers instead.
+- Allowlist must only shrink over time; `--generate` is for intentional backlog refresh with justification, not a shortcut.
+
+## When a function approaches the limit
+
+Extract helpers (logging, import shims, map/transform steps). Prefer small private `_foo` functions in the same module over growing one entrypoint.
+
+## Circular imports
+
+If module A is imported by B and A needs B's symbols at runtime only, use a **tiny deferred-import helper** with a one-line comment naming the cycle — do not inline imports inside large business functions, and do not top-level import if that creates a cycle.
+
+## Local check
+
+```powershell
+.venv\Scripts\python.exe .cache\mm-ci-templates\scripts\check_sizes.py --src "mappers BigQuery fetch" --allowlist scripts/size_allowlist.json
+```
+
+Or: `bash scripts/run-quality.sh` / `mise run quality`.

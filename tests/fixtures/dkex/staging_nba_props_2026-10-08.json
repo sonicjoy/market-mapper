@@ -1,0 +1,1057 @@
+[
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:20:45.978Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-DDBL-FG-012578DQ0V6M1N0",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:35:45.989Z",
+  "marketProductTypeId": "7cea324d-a8db-513f-9406-4d698a8c16ed",
+  "marketProductTypeName": "NBA-DDBL",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C66DLH1HLOTROU",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03S4E25HDS50",
+     "name": "Amen Thompson"
+    }
+   ]
+  },
+  "name": "Amen Thompson",
+  "parameters": {
+   "participant": "DKP_03S4E25HDS50",
+   "statAchievement": "DDBL",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to whether a player records a double-double in this NBA game, including overtime: double digits (10 or more) in any two of points, rebounds, assists, steals and blocks on the Official Statistics. The selection resolves Yes if the player does so; otherwise No. Each player settles independently. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-DDBL-FG-012578DQ0V6M1N0-AMON021",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:20:00.829Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-P3PM-FG-012578DQ0V6M1N0-RERD005",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:35:00.865Z",
+  "marketProductTypeId": "d8068bda-a38b-54ad-aa7a-020d14cd116c",
+  "marketProductTypeName": "NBA-GTE-P3PM",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C08H22NLLGCE98",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03S8JA5HOGL0",
+     "name": "Reed Sheppard"
+    }
+   ]
+  },
+  "name": "Reed Sheppard 0.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_03S8JA5HOGL0",
+   "statAchievement": "P3PM",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of three-pointers made recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-P3PM-FG-012578DQ0V6M1N0-RERD005-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-08T12:56:14.636Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PAST-FG-00U9F43G9BQ0MKO-BEAF001",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T06:07:40Z",
+  "marketOpenTimestamp": "2026-10-08T13:11:14.637Z",
+  "marketProductTypeId": "16953add-7354-5e98-adde-8ccdbf77f8cf",
+  "marketProductTypeName": "NBA-GTE-PAST",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00U9F43G9BQ0MKO",
+   "competitionName": "BKN Nets @ CHA Hornets",
+   "competitionStartTime": "2026-10-07T06:07:40Z",
+   "intakeEventId": "02HDLRPC49UK362J",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_0355HB9I1OL0",
+     "name": "Ben Saraf"
+    }
+   ]
+  },
+  "name": "Ben Saraf 0.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_0355HB9I1OL0",
+   "statAchievement": "PAST",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of assists recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PAST-FG-00U9F43G9BQ0MKO-BEAF001-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:22:22.469Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PASTOU-FG-012578DQ0V6M1N0-DARD021",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:37:22.479Z",
+  "marketProductTypeId": "79c48c70-598f-5988-aa5d-5d0893427fc5",
+  "marketProductTypeName": "NBA-GTE-PASTOU",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C3R4K3JHLQEKHS",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03S0RCTH6LG0",
+     "name": "Daniel Gafford"
+    }
+   ]
+  },
+  "name": "Daniel Gafford 0.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_03S0RCTH6LG0",
+   "statAchievement": "PASTOU",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of assists recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PASTOU-FG-012578DQ0V6M1N0-DARD021-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:23:06.689Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PBLK-FG-012578DQ0V6M1N0-DARD021",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:38:06.699Z",
+  "marketProductTypeId": "93f5e0a3-0e5d-5f55-96e8-5a7d2bcb958c",
+  "marketProductTypeName": "NBA-GTE-PBLK",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C09297RPLGCV9N",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03S0RCTH6LG0",
+     "name": "Daniel Gafford"
+    }
+   ]
+  },
+  "name": "Daniel Gafford 0.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_03S0RCTH6LG0",
+   "statAchievement": "PBLK",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of blocks recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PBLK-FG-012578DQ0V6M1N0-DARD021-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:19:51.979Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PPAS-FG-012578DQ0V6M1N0-AMON021",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:34:52.01Z",
+  "marketProductTypeId": "81fe4216-43fc-52fd-bd9c-ecca3f499ef4",
+  "marketProductTypeName": "NBA-GTE-PPAS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C3VTK00LLH4RJP",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03S4E25HDS50",
+     "name": "Amen Thompson"
+    }
+   ]
+  },
+  "name": "Amen Thompson 1.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_03S4E25HDS50",
+   "statAchievement": "PPAS",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of combined points and assists recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PPAS-FG-012578DQ0V6M1N0-AMON021-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-08T12:58:10.498Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PPRA-FG-00U9F43G9BQ0MKO-BEAF001",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T06:07:40Z",
+  "marketOpenTimestamp": "2026-10-08T13:13:10.509Z",
+  "marketProductTypeId": "4a6a0afb-77d1-5cf1-8fe3-61f5b5215045",
+  "marketProductTypeName": "NBA-GTE-PPRA",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00U9F43G9BQ0MKO",
+   "competitionName": "BKN Nets @ CHA Hornets",
+   "competitionStartTime": "2026-10-07T06:07:40Z",
+   "intakeEventId": "02H90QC4I9UNPKIH",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_0355HB9I1OL0",
+     "name": "Ben Saraf"
+    }
+   ]
+  },
+  "name": "Ben Saraf 1.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_0355HB9I1OL0",
+   "statAchievement": "PPRA",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of combined points, rebounds and assists recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PPRA-FG-00U9F43G9BQ0MKO-BEAF001-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:19:10.249Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PPRAOU-FG-012578DQ0V6M1N0-COGG002",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:34:10.284Z",
+  "marketProductTypeId": "0d133a1d-dc34-5606-a786-b6f3bf1b8703",
+  "marketProductTypeName": "NBA-GTE-PPRAOU",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01CBDQR68DLU8IAD",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_00R3QMBD7J8G",
+     "name": "Cooper Flagg"
+    }
+   ]
+  },
+  "name": "Cooper Flagg 26.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_00R3QMBD7J8G",
+   "statAchievement": "PPRAOU",
+   "strikePrice": "26.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of combined points, rebounds and assists recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PPRAOU-FG-012578DQ0V6M1N0-COGG002-GTE-P00265",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:19:01.869Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PPRB-FG-012578DQ0V6M1N0-ALUN009",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:34:01.919Z",
+  "marketProductTypeId": "11adaf8d-d27e-5335-ac93-6be4dde88f3c",
+  "marketProductTypeName": "NBA-GTE-PPRB",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C5CSRFRPLIQTJU",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03S7HHDHRAKG",
+     "name": "Alperen Sengun"
+    }
+   ]
+  },
+  "name": "Alperen Sengun 1.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_03S7HHDHRAKG",
+   "statAchievement": "PPRB",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of combined points and rebounds recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PPRB-FG-012578DQ0V6M1N0-ALUN009-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:18:21.398Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PPTS-FG-012578DQ0V6M1N0-KYNG010",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:33:21.409Z",
+  "marketProductTypeId": "407f170b-572e-5f72-86b2-4e729b385621",
+  "marketProductTypeName": "NBA-GTE-PPTS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C09GT6B1LGCUBE",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03S0Q4TH6NGG",
+     "name": "Kyrie Irving"
+    }
+   ]
+  },
+  "name": "Kyrie Irving 1.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_03S0Q4TH6NGG",
+   "statAchievement": "PPTS",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of points recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PPTS-FG-012578DQ0V6M1N0-KYNG010-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:18:26.749Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PPTSOU-FG-012578DQ0V6M1N0-COGG002",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:33:26.789Z",
+  "marketProductTypeId": "58abc908-1046-5684-914b-2fdfb590f955",
+  "marketProductTypeName": "NBA-GTE-PPTSOU",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01CBDEA8VDLU973S",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_00R3QMBD7J8G",
+     "name": "Cooper Flagg"
+    }
+   ]
+  },
+  "name": "Cooper Flagg 16.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_00R3QMBD7J8G",
+   "statAchievement": "PPTSOU",
+   "strikePrice": "16.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of points recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PPTSOU-FG-012578DQ0V6M1N0-COGG002-GTE-P00165",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:19:19.639Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PRAS-FG-012578DQ0V6M1N0-FRET004",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:34:19.669Z",
+  "marketProductTypeId": "35180d55-1168-5911-8057-f81e0b785463",
+  "marketProductTypeName": "NBA-GTE-PRAS",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "03KQ3UOTG41DLSB9",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_03SBBMDHHVC0",
+     "name": "Fred VanVleet"
+    }
+   ]
+  },
+  "name": "Fred VanVleet 0.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_03SBBMDHHVC0",
+   "statAchievement": "PRAS",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of combined rebounds and assists recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PRAS-FG-012578DQ0V6M1N0-FRET004-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-08T12:57:08.191Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PREB-FG-00U9F43G9BQ0MKO-BEAF001",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T06:07:40Z",
+  "marketOpenTimestamp": "2026-10-08T13:12:08.199Z",
+  "marketProductTypeId": "86d35e14-edd1-5a7f-9f39-ade48eda5d88",
+  "marketProductTypeName": "NBA-GTE-PREB",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00U9F43G9BQ0MKO",
+   "competitionName": "BKN Nets @ CHA Hornets",
+   "competitionStartTime": "2026-10-07T06:07:40Z",
+   "intakeEventId": "02H56H503DUV86FH",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_0355HB9I1OL0",
+     "name": "Ben Saraf"
+    }
+   ]
+  },
+  "name": "Ben Saraf 0.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_0355HB9I1OL0",
+   "statAchievement": "PREB",
+   "strikePrice": "0.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of rebounds recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PREB-FG-00U9F43G9BQ0MKO-BEAF001-GTE-P00005",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T10:19:57.148Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-PREBOU-FG-012578DQ0V6M1N0-COGG002",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-21T00:40:00Z",
+  "marketOpenTimestamp": "2026-10-07T10:34:57.153Z",
+  "marketProductTypeId": "f5d81ece-7af4-5036-9622-fb95f6cb3ffb",
+  "marketProductTypeName": "NBA-GTE-PREBOU",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "012578DQ0V6M1N0",
+   "competitionName": "DAL Mavericks @ HOU Rockets",
+   "competitionStartTime": "2026-10-22T00:40:00Z",
+   "intakeEventId": "01C3R1KI69LQFMI8",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKP_00R3QMBD7J8G",
+     "name": "Cooper Flagg"
+    }
+   ]
+  },
+  "name": "Cooper Flagg 5.5+",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKP_00R3QMBD7J8G",
+   "statAchievement": "PREBOU",
+   "strikePrice": "5.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBAENTITYSTAT",
+  "rules": {
+   "description": "This selection refers to the number of rebounds recorded by a player in this NBA game, including overtime. The selection resolves Yes if the player records the stated number or more on the Official Statistics; otherwise No. An Over may settle in play once the stated number is reached and confirmed at the next stoppage, quarter end or game end; the Under waits for the game to end. If the player does not appear in the official box score, the selection resolves to the last fair market price, as determined by the Exchange. Settlement uses the Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Statistics at the last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use declared Official Statistics without statistical credits unrelated to actual play. Statistics corrected by the Source Agency before Expiration are re-settled; corrections after Expiration do not affect settlement. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-PREBOU-FG-012578DQ0V6M1N0-COGG002-GTE-P00055",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-09-22T14:34:08.352Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-MOVY-FG-00U1Q5HT99MVDJ0",
+  "inventorySource": "draftkings",
+  "isLive": false,
+  "marketCloseTimestamp": "2026-11-30T02:10:00Z",
+  "marketOpenTimestamp": "2026-09-22T14:49:08.352Z",
+  "marketProductTypeId": "760410cb-3cba-4d76-aea6-c45a0ece0fb8",
+  "marketProductTypeName": "NBA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00U1Q5HT99MVDJ0",
+   "competitionName": "DEN Nuggets @ PHO Suns",
+   "competitionStartTime": "2026-10-31T02:10:00Z",
+   "intakeEventId": "01ND590MHS0OGBENQ4",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKT_02M5T7CUQUG4O",
+     "name": "DEN Nuggets",
+     "role": "away"
+    }
+   ]
+  },
+  "name": "DEN Nuggets - 1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_02M5T7CUQUG4O",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "FG"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBASPREAD",
+  "rules": {
+   "description": "This selection refers to the full game of this NBA game, including overtime. The selected team resolves Yes if its winning margin exceeds the stated line; otherwise No. An exact push on a whole-number line settles to fair market price. Settlement uses the Official Result / Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. If an interrupted game does not conclude within two calendar days (four for playoffs), it is deemed complete only with fewer than five regulation minutes remaining or after regulation ends; use the Official Result / last state of play. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use a declared Official Result without statistical credits unrelated to actual play. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-MOVY-FG-00U1Q5HT99MVDJ0-DETS002-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T21:22:57.008Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-MOVY-H1-00O040G2QSO3ILG",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T21:52:11.587Z",
+  "marketOpenTimestamp": "2026-10-07T21:37:57.021Z",
+  "marketProductTypeId": "07d660e0-3051-4944-91a2-e57af0c522dd",
+  "marketProductTypeName": "NBA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O040G2QSO3ILG",
+   "competitionName": "DET Pistons @ CLE Cavaliers",
+   "competitionStartTime": "2026-10-07T21:52:56Z",
+   "intakeEventId": "01N9TD062O0TOHP64C",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKT_01L56B97KDOU8",
+     "name": "CLE Cavaliers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CLE Cavaliers - 1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_01L56B97KDOU8",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "H1"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBASPREAD",
+  "rules": {
+   "description": "This selection refers to the 1st half of this NBA game, excluding overtime. The selected team resolves Yes if its winning margin exceeds the stated line; otherwise No. An exact push on a whole-number line settles to fair market price. Settlement uses the Official Result / Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. A completed period remains valid if the game is later interrupted or abandoned. An incomplete period cannot use the full-game near-complete threshold. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use a declared Official Result without statistical credits unrelated to actual play. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-MOVY-H1-00O040G2QSO3ILG-CLRS003-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T21:22:55.969Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-MOVY-H2-00O040G2QSO3ILG",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T21:52:11.587Z",
+  "marketOpenTimestamp": "2026-10-07T21:37:55.979Z",
+  "marketProductTypeId": "0b3dbb28-eb66-4c49-b990-dc438c207183",
+  "marketProductTypeName": "NBA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O040G2QSO3ILG",
+   "competitionName": "DET Pistons @ CLE Cavaliers",
+   "competitionStartTime": "2026-10-07T21:52:56Z",
+   "intakeEventId": "01N9TD06AS0TOHP6J8",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKT_01L56B97KDOU8",
+     "name": "CLE Cavaliers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CLE Cavaliers - 1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_01L56B97KDOU8",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "H2"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBASPREAD",
+  "rules": {
+   "description": "This selection refers to the 2nd half of this NBA game, including overtime. The selected team resolves Yes if its winning margin exceeds the stated line; otherwise No. An exact push on a whole-number line settles to fair market price. Settlement uses the Official Result / Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. A completed period remains valid if the game is later interrupted or abandoned. An incomplete period cannot use the full-game near-complete threshold. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use a declared Official Result without statistical credits unrelated to actual play. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-MOVY-H2-00O040G2QSO3ILG-CLRS003-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T21:23:11.852Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-MOVY-Q1-00O040G2QSO3ILG",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T21:52:11.587Z",
+  "marketOpenTimestamp": "2026-10-07T21:38:11.854Z",
+  "marketProductTypeId": "4a8ec80b-856c-4e1a-aa81-d49f3f622977",
+  "marketProductTypeName": "NBA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O040G2QSO3ILG",
+   "competitionName": "DET Pistons @ CLE Cavaliers",
+   "competitionStartTime": "2026-10-07T21:52:56Z",
+   "intakeEventId": "01N9TD069K0TOHP6HG",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKT_01L56B97KDOU8",
+     "name": "CLE Cavaliers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CLE Cavaliers - 1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_01L56B97KDOU8",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "Q1"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBASPREAD",
+  "rules": {
+   "description": "This selection refers to the 1st quarter of this NBA game, excluding overtime. The selected team resolves Yes if its winning margin exceeds the stated line; otherwise No. An exact push on a whole-number line settles to fair market price. Settlement uses the Official Result / Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. A completed period remains valid if the game is later interrupted or abandoned. An incomplete period cannot use the full-game near-complete threshold. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use a declared Official Result without statistical credits unrelated to actual play. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-MOVY-Q1-00O040G2QSO3ILG-CLRS003-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T21:23:23.888Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-MOVY-Q2-00O040G2QSO3ILG",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T21:52:11.587Z",
+  "marketOpenTimestamp": "2026-10-07T21:38:23.9Z",
+  "marketProductTypeId": "5e7810f6-6ea5-47d5-a72b-89da84737f0c",
+  "marketProductTypeName": "NBA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O040G2QSO3ILG",
+   "competitionName": "DET Pistons @ CLE Cavaliers",
+   "competitionStartTime": "2026-10-07T21:52:56Z",
+   "intakeEventId": "01N9TD06Q40TOHP6AO",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKT_01L56B97KDOU8",
+     "name": "CLE Cavaliers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CLE Cavaliers - 1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_01L56B97KDOU8",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "Q2"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBASPREAD",
+  "rules": {
+   "description": "This selection refers to the 2nd quarter of this NBA game, excluding overtime. The selected team resolves Yes if its winning margin exceeds the stated line; otherwise No. An exact push on a whole-number line settles to fair market price. Settlement uses the Official Result / Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. A completed period remains valid if the game is later interrupted or abandoned. An incomplete period cannot use the full-game near-complete threshold. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use a declared Official Result without statistical credits unrelated to actual play. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-MOVY-Q2-00O040G2QSO3ILG-CLRS003-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T21:23:20.398Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-MOVY-Q3-00O040G2QSO3ILG",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T21:52:11.587Z",
+  "marketOpenTimestamp": "2026-10-07T21:38:20.419Z",
+  "marketProductTypeId": "74ed90cd-d1a4-4648-88b6-cf762e13910c",
+  "marketProductTypeName": "NBA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O040G2QSO3ILG",
+   "competitionName": "DET Pistons @ CLE Cavaliers",
+   "competitionStartTime": "2026-10-07T21:52:56Z",
+   "intakeEventId": "01N9TD066K0TOHP6F8",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKT_01L56B97KDOU8",
+     "name": "CLE Cavaliers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CLE Cavaliers - 1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_01L56B97KDOU8",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "Q3"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBASPREAD",
+  "rules": {
+   "description": "This selection refers to the 3rd quarter of this NBA game, excluding overtime. The selected team resolves Yes if its winning margin exceeds the stated line; otherwise No. An exact push on a whole-number line settles to fair market price. Settlement uses the Official Result / Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. A completed period remains valid if the game is later interrupted or abandoned. An incomplete period cannot use the full-game near-complete threshold. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use a declared Official Result without statistical credits unrelated to actual play. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-MOVY-Q3-00O040G2QSO3ILG-CLRS003-GTE-P00015",
+  "topic": "Sports"
+ },
+ {
+  "canCloseEarly": true,
+  "createdAt": "2026-10-07T21:23:15.009Z",
+  "domainId": "00S0",
+  "eventTicker": "NBA-MOVY-Q4-00O040G2QSO3ILG",
+  "inventorySource": "draftkings",
+  "isLive": true,
+  "marketCloseTimestamp": "2026-11-06T21:52:11.587Z",
+  "marketOpenTimestamp": "2026-10-07T21:38:15.019Z",
+  "marketProductTypeId": "03d94a8f-6896-471f-9ae2-861c2c29c657",
+  "marketProductTypeName": "NBA-GTE-MOVY",
+  "maxPayoutAmount": "1.00",
+  "metadata": {
+   "competitionId": "00O040G2QSO3ILG",
+   "competitionName": "DET Pistons @ CLE Cavaliers",
+   "competitionStartTime": "2026-10-07T21:52:56Z",
+   "intakeEventId": "01N9TD06TC0TOHP65S",
+   "leagueId": "02BSMMT6H8",
+   "leagueName": "NBA",
+   "participants": [
+    {
+     "id": "DKT_01L56B97KDOU8",
+     "name": "CLE Cavaliers",
+     "role": "home"
+    }
+   ]
+  },
+  "name": "CLE Cavaliers - 1.5",
+  "parameters": {
+   "outcomeType": "GTE",
+   "participant": "DKT_01L56B97KDOU8",
+   "statAchievement": "MOVY",
+   "strikePrice": "1.5",
+   "timePeriod": "Q4"
+  },
+  "payoutType": "binary",
+  "priceLadder": {
+   "name": "whole_cent_all"
+  },
+  "productTicker": "NBASPREAD",
+  "rules": {
+   "description": "This selection refers to the 4th quarter of this NBA game, including overtime. The selected team resolves Yes if its winning margin exceeds the stated line; otherwise No. An exact push on a whole-number line settles to fair market price. Settlement uses the Official Result / Official Statistics from Stats Perform Box Score. If the game does not start within two calendar days of its scheduled time (four for playoffs), settlement is to fair market price. A completed period remains valid if the game is later interrupted or abandoned. An incomplete period cannot use the full-game near-complete threshold. Otherwise unresolved outcomes settle to fair market price unless unconditionally determined. Forfeits use a declared Official Result without statistical credits unrelated to actual play. Rule 7.1 applies to outcome review.",
+   "settlementSources": "Stats Perform Box Score",
+   "url": "https://railbirdexchange.com/resources/rulebook.pdf"
+  },
+  "speedbumpSeconds": 3,
+  "status": "active",
+  "subTopic": "NBA",
+  "ticker": "NBA-MOVY-Q4-00O040G2QSO3ILG-CLRS003-GTE-P00015",
+  "topic": "Sports"
+ }
+]

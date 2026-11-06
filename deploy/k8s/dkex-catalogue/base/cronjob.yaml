@@ -1,0 +1,74 @@
+# DKEX catalogue -> raw_ingestion_us.dkex_raw, every 15 min.
+#
+# The DKEX REST API is called from GKE, never from the mapping VM: this job runs
+# fetch.dkex (the whole live catalogue, typed fields, ~110k markets / ~2 min on
+# 2026-10-03) and appends it with BigQuery.load_dkex_raw as ONE load job, so the
+# rows of a snapshot share one insert_time. The VM pipeline's fetch.dkex_bq reads
+# the newest snapshot back into the run dir.
+#
+# NODE: dkex-pool (workload=dkex, taint dedicated=dkex; mm-infrastructure
+# dkex_node_pool.tf), the pool for everything that talks to DKEX. Its nodes are
+# private and GKE_METADATA, so the pod runs as mapping-control-plane via Workload
+# Identity and leaves through Cloud NAT. The REST host (Akamai) IS IP-allowlisted:
+# every path 403s from an unlisted address (checked 2026-10-05), so this pod's
+# egress must use the DKEX-allowlisted NAT addresses (mm-infrastructure
+# !1409/!1410), not the generic ones.
+#
+# Own image (deploy/dkex-catalogue.Dockerfile) and deploy jobs, separate from the
+# mapping-console deploy; runs as that app's mapping-control-plane KSA. The GSA
+# needs dataEditor on raw_ingestion_us.dkex_raw (mm-infrastructure
+# mapping_control_plane IAM).
+# GCP_PROJECT is set per env in the overlay.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: dkex-catalogue
+  labels:
+    app: dkex-catalogue
+    venue: dkex
+spec:
+  schedule: "4,19,34,49 * * * *"
+  timeZone: "Etc/UTC"
+  # A slow fetch must never stack a second one: skip the tick instead.
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 300
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      # The next tick is the retry.
+      backoffLimit: 0
+      activeDeadlineSeconds: 720
+      ttlSecondsAfterFinished: 3600
+      template:
+        metadata:
+          labels:
+            app: dkex-catalogue
+            venue: dkex
+        spec:
+          serviceAccountName: mapping-control-plane
+          restartPolicy: Never
+          terminationGracePeriodSeconds: 30
+          nodeSelector:
+            workload: dkex
+          tolerations:
+            - key: dedicated
+              operator: Equal
+              value: dkex
+              effect: NoSchedule
+          containers:
+            - name: dkex-catalogue
+              image: dkex-catalogue:DEPLOY-VIA-DEPLOY-SH
+              command: ["sh", "-c"]
+              args:
+                - >-
+                  set -e;
+                  python -m fetch.dkex --out-dir /tmp/dkex;
+                  python -m BigQuery.load_dkex_raw --markets /tmp/dkex/dkex_markets.jsonl
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 512Mi
+                limits:
+                  cpu: "1"
+                  memory: 1536Mi

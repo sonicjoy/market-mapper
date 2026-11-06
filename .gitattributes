@@ -1,0 +1,5 @@
+# Shell scripts run on Linux VMs — must use LF (CRLF breaks bash on deploy).
+infra/*.sh text eol=lf
+infra/crontab text eol=lf
+scripts/**/*.sh text eol=lf
+scripts/hooks/* text eol=lf

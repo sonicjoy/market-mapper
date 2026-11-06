@@ -1,0 +1,4177 @@
+{
+ "stx_captured_at": "2026-10-28T11:43:44+00:00",
+ "optic_captured_at": "2026-10-28T11:44:47Z",
+ "rule": "same Optic league set, |start delta|<=15 min, home AND away both match (exact normalised name, else exact abbreviation), orientation as given",
+ "events": [
+  {
+   "event_id": "11b5e581-9b65-4c00-8fd9-c6345a9b4eaa",
+   "competition": "NHL",
+   "event_start": "2026-10-09T23:00:00.000000Z",
+   "home": "Columbus Blue Jackets",
+   "home_abbr": "CBJ",
+   "away": "Pittsburgh Penguins",
+   "away_abbr": "PIT",
+   "espn_game_id": "401892467",
+   "candidates": [
+    {
+     "fixture_id": "202610092F1D4ADA",
+     "league": "nhl",
+     "start_date": "2026-10-09T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Columbus Blue Jackets",
+      "abbr": "CBJ",
+      "id": "B59FF9985C9C"
+     },
+     "optic_away": {
+      "name": "Pittsburgh Penguins",
+      "abbr": "PIT",
+      "id": "3B83B74A4BD7"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    },
+    {
+     "fixture_id": "202610108A5D128B",
+     "league": "nhl",
+     "start_date": "2026-10-10T23:00:00Z",
+     "delta_min": 1440.0,
+     "optic_home": {
+      "name": "Pittsburgh Penguins",
+      "abbr": "PIT",
+      "id": "3B83B74A4BD7"
+     },
+     "optic_away": {
+      "name": "Dallas Stars",
+      "abbr": "DAL",
+      "id": "B0F665858968"
+     },
+     "home_match": null,
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": "name",
+     "status": "completed"
+    },
+    {
+     "fixture_id": "20261010E8527F41",
+     "league": "nhl",
+     "start_date": "2026-10-10T23:00:00Z",
+     "delta_min": 1440.0,
+     "optic_home": {
+      "name": "St. Louis Blues",
+      "abbr": "STL",
+      "id": "BA767AF9883E"
+     },
+     "optic_away": {
+      "name": "Columbus Blue Jackets",
+      "abbr": "CBJ",
+      "id": "B59FF9985C9C"
+     },
+     "home_match": null,
+     "away_match": null,
+     "reversed_home": "name",
+     "reversed_away": null,
+     "status": "completed"
+    }
+   ],
+   "joined": [
+    "202610092F1D4ADA"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "7d198861-4925-455a-adfc-9614d2af31d5",
+   "competition": "NFL",
+   "event_start": "2026-10-11T17:00:00.000000Z",
+   "home": "Miami Dolphins",
+   "home_abbr": "MIA",
+   "away": "Cincinnati Bengals",
+   "away_abbr": "CIN",
+   "espn_game_id": "401872982",
+   "candidates": [
+    {
+     "fixture_id": "20261011087E6185",
+     "league": "nfl",
+     "start_date": "2026-10-11T17:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Miami Dolphins",
+      "abbr": "MIA",
+      "id": "8380A12E67FE"
+     },
+     "optic_away": {
+      "name": "Cincinnati Bengals",
+      "abbr": "CIN",
+      "id": "EB3A43FF026E"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    }
+   ],
+   "joined": [
+    "20261011087E6185"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "bbb5b524-bbb9-4139-b9a3-63039a72fe2a",
+   "competition": "NHL",
+   "event_start": "2026-10-17T02:00:00.000000Z",
+   "home": "Anaheim Ducks",
+   "home_abbr": "ANA",
+   "away": "Boston Bruins",
+   "away_abbr": "BOS",
+   "espn_game_id": "401892518",
+   "candidates": [
+    {
+     "fixture_id": "20261016DAF02BC4",
+     "league": "nhl",
+     "start_date": "2026-10-17T02:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Anaheim Ducks",
+      "abbr": "ANA",
+      "id": "013ABB6C1301"
+     },
+     "optic_away": {
+      "name": "Boston Bruins",
+      "abbr": "BOS",
+      "id": "E24CA44A7824"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    },
+    {
+     "fixture_id": "2026101767F485B7",
+     "league": "nhl",
+     "start_date": "2026-10-18T01:00:00Z",
+     "delta_min": 1380.0,
+     "optic_home": {
+      "name": "Los Angeles Kings",
+      "abbr": "LAK",
+      "id": "E0A34784A352"
+     },
+     "optic_away": {
+      "name": "Boston Bruins",
+      "abbr": "BOS",
+      "id": "E24CA44A7824"
+     },
+     "home_match": null,
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    }
+   ],
+   "joined": [
+    "20261016DAF02BC4"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "99ce5689-79af-4c5c-a83a-e9edb5da85a5",
+   "competition": "MLB",
+   "event_start": "2026-10-23T14:00:00.000000Z",
+   "home": "Argentina",
+   "home_abbr": "AGR",
+   "away": "Colombia",
+   "away_abbr": "COL",
+   "espn_game_id": null,
+   "candidates": [],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "f6625f6c-b01a-47c7-a4f7-fcfb1758e2c5",
+   "competition": "NCAAF",
+   "event_start": "2026-10-24T19:00:00.000000Z",
+   "home": "Illinois Fighting Illini",
+   "home_abbr": "ILL",
+   "away": "Oregon Ducks",
+   "away_abbr": "ORE",
+   "espn_game_id": "401858495",
+   "candidates": [
+    {
+     "fixture_id": "20261024AFD4BB6B",
+     "league": "ncaaf",
+     "start_date": "2026-10-24T19:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Illinois",
+      "abbr": "ILL",
+      "id": "6435059328DC"
+     },
+     "optic_away": {
+      "name": "Oregon",
+      "abbr": "ORE",
+      "id": "D836AC0A0496"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    }
+   ],
+   "joined": [
+    "20261024AFD4BB6B"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "a52dbd16-15c0-4cec-b5c4-251274bc9c70",
+   "competition": "NFL",
+   "event_start": "2026-10-25T17:00:00.000000Z",
+   "home": "Tennessee Titans",
+   "home_abbr": "TEN",
+   "away": "Cleveland Browns",
+   "away_abbr": "CLE",
+   "espn_game_id": "401873013",
+   "candidates": [
+    {
+     "fixture_id": "2026102515D90B76",
+     "league": "nfl",
+     "start_date": "2026-10-25T17:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Tennessee Titans",
+      "abbr": "TEN",
+      "id": "24988863B4CB"
+     },
+     "optic_away": {
+      "name": "Cleveland Browns",
+      "abbr": "CLE",
+      "id": "81A1B4413577"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    }
+   ],
+   "joined": [
+    "2026102515D90B76"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "e897c75c-4adb-4529-bf01-a30fb34dd413",
+   "competition": "AFC",
+   "event_start": "2026-10-28T12:15:00.000000Z",
+   "home": "The Cong-Viettel FC",
+   "home_abbr": "TCV",
+   "away": "FC Seoul",
+   "away_abbr": "SEO",
+   "espn_game_id": "401912784",
+   "candidates": [
+    {
+     "fixture_id": "20261028D3E18F89",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-28T12:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "The Cong - Viettel",
+      "abbr": "VIE",
+      "id": "C96176645A38B3E9"
+     },
+     "optic_away": {
+      "name": "FC Seoul",
+      "abbr": "SEO",
+      "id": "777D8E5E40ABC592"
+     },
+     "home_match": null,
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "610de470-84ee-41f8-aea5-673bcd0ccf80",
+   "competition": "AFC",
+   "event_start": "2026-10-28T12:15:00.000000Z",
+   "home": "Persib Bandung",
+   "home_abbr": "SIB",
+   "away": "Melbourne Victory",
+   "away_abbr": "MBV",
+   "espn_game_id": "401912785",
+   "candidates": [
+    {
+     "fixture_id": "202610283A7452CD",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-28T12:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Persib Bandung",
+      "abbr": "PBA",
+      "id": "E409F6CC27B5039B"
+     },
+     "optic_away": {
+      "name": "Melbourne Victory FC",
+      "abbr": "MVC",
+      "id": "2549012A0A5A0132"
+     },
+     "home_match": "name",
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "f84e06f1-d962-469d-90bd-fe170952a9f2",
+   "competition": "AFC",
+   "event_start": "2026-10-28T13:45:00.000000Z",
+   "home": "Gol Gohar Sirjan FC",
+   "home_abbr": "GGS",
+   "away": "Arkadag FK",
+   "away_abbr": "AFK",
+   "espn_game_id": "401912782",
+   "candidates": [
+    {
+     "fixture_id": "2026102814FECF57",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-28T13:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Gol Gohar Sirjan",
+      "abbr": "GGS",
+      "id": "35A27194BF4E5CE3"
+     },
+     "optic_away": {
+      "name": "Arkadag FK",
+      "abbr": "AFK",
+      "id": "CD0FF52201EA6A0C"
+     },
+     "home_match": "abbr",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102814FECF57"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "bc87471a-9cf6-41e8-acab-0ddfa47dabd8",
+   "competition": "AFC",
+   "event_start": "2026-10-28T13:45:00.000000Z",
+   "home": "FC Nasaf",
+   "home_abbr": "NAS",
+   "away": "Kuwait SC",
+   "away_abbr": "KSC",
+   "espn_game_id": "401912783",
+   "candidates": [
+    {
+     "fixture_id": "20261028A39EF380",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-28T13:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "FC Nasaf Qarshi",
+      "abbr": "NAS",
+      "id": "04539EAB025F9AD7"
+     },
+     "optic_away": {
+      "name": "Al-Kuwait",
+      "abbr": "KUW",
+      "id": "CCF345D0E20CBCE6"
+     },
+     "home_match": "abbr",
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "924de910-27b4-42ab-be94-bfe23023f67c",
+   "competition": "ISL",
+   "event_start": "2026-10-28T14:00:00.000000Z",
+   "home": "FC GOA",
+   "home_abbr": "FC Goa",
+   "away": "Sporting Club Delhi",
+   "away_abbr": "SCD",
+   "espn_game_id": "401925423",
+   "candidates": [
+    {
+     "fixture_id": "20261028231F8825",
+     "league": "india_-_super_league",
+     "start_date": "2026-10-28T14:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "FC Goa",
+      "abbr": "GOA",
+      "id": "1720D75EF3E6"
+     },
+     "optic_away": {
+      "name": "Sporting Club Delhi",
+      "abbr": "SCD",
+      "id": "DEE9E8883F4FD0DF"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028231F8825"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "a20314e4-f6f7-4c18-88e0-bdb4d5d51261",
+   "competition": "AFC",
+   "event_start": "2026-10-28T16:00:00.000000Z",
+   "home": "Al-Nahda Club",
+   "home_abbr": "ALN",
+   "away": "Al-Rayyan SC",
+   "away_abbr": "ALR",
+   "espn_game_id": "401912780",
+   "candidates": [
+    {
+     "fixture_id": "202610289283699E",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-28T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Al Nahda SC",
+      "abbr": "",
+      "id": "EDD811A1AB84DC6E"
+     },
+     "optic_away": {
+      "name": "Al Rayyan SC",
+      "abbr": "RAY",
+      "id": "038A62874EEA2E6B"
+     },
+     "home_match": null,
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "bf091b14-aea9-4aaf-b6cf-31cf6c71f06c",
+   "competition": "AFC",
+   "event_start": "2026-10-28T16:00:00.000000Z",
+   "home": "Al Jazira Club",
+   "home_abbr": "ALJ",
+   "away": "Al-Muharraq SC",
+   "away_abbr": "ALM",
+   "espn_game_id": "401912781",
+   "candidates": [],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "a37cdf93-1910-432b-b560-56945fd4f300",
+   "competition": "Serie A",
+   "event_start": "2026-10-28T17:30:00.000000Z",
+   "home": "Parma",
+   "home_abbr": "PAR",
+   "away": "Udinese",
+   "away_abbr": "UDI",
+   "espn_game_id": "401874965",
+   "candidates": [
+    {
+     "fixture_id": "20261028929A0B9A",
+     "league": "italy_-_serie_a",
+     "start_date": "2026-10-28T17:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Parma Calcio 1913",
+      "abbr": "PAR",
+      "id": "7FA287A79171"
+     },
+     "optic_away": {
+      "name": "Udinese Calcio",
+      "abbr": "UDI",
+      "id": "711B5179D186"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028929A0B9A"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "006fe8a9-a5c0-4a12-8dc2-5a55453daffa",
+   "competition": "Serie A",
+   "event_start": "2026-10-28T17:30:00.000000Z",
+   "home": "Venezia",
+   "home_abbr": "VEN",
+   "away": "Internazionale",
+   "away_abbr": "INT",
+   "espn_game_id": "401874773",
+   "candidates": [
+    {
+     "fixture_id": "20261028F0350FC3",
+     "league": "italy_-_serie_a",
+     "start_date": "2026-10-28T17:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Venezia FC",
+      "abbr": "VEN",
+      "id": "E32846E9682C"
+     },
+     "optic_away": {
+      "name": "FC Internazionale Milano",
+      "abbr": "INT",
+      "id": "996237D718F6"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028F0350FC3"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "cfac9fbe-a21d-4b0a-b694-74974ec55af7",
+   "competition": "Serie A",
+   "event_start": "2026-10-28T17:30:00.000000Z",
+   "home": "AC Milan",
+   "home_abbr": "MIL",
+   "away": "Bologna",
+   "away_abbr": "BOL",
+   "espn_game_id": "401874993",
+   "candidates": [
+    {
+     "fixture_id": "202610281EAA6A7C",
+     "league": "italy_-_serie_a",
+     "start_date": "2026-10-28T17:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "AC Milan",
+      "abbr": "MIL",
+      "id": "462901E3CB34"
+     },
+     "optic_away": {
+      "name": "Bologna FC 1909",
+      "abbr": "BOL",
+      "id": "1ABA84CDAB19"
+     },
+     "home_match": "name",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610281EAA6A7C"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "aa968c93-44ab-48ee-af15-92461900490c",
+   "competition": "AFC",
+   "event_start": "2026-10-28T18:15:00.000000Z",
+   "home": "Al-Faisaly SC",
+   "home_abbr": "ALF",
+   "away": "Al Taawoun",
+   "away_abbr": "TAA",
+   "espn_game_id": "401912778",
+   "candidates": [
+    {
+     "fixture_id": "20261028BCE6616C",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-28T18:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Al Faisaly SC",
+      "abbr": "FSY",
+      "id": "5FBC6513D6099303"
+     },
+     "optic_away": {
+      "name": "Al-Taawoun FC",
+      "abbr": "TAA",
+      "id": "F7A04BC9311EED39"
+     },
+     "home_match": "name",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028BCE6616C"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "2993226d-08d1-45b0-925f-67b921e45ee8",
+   "competition": "AFC",
+   "event_start": "2026-10-28T18:15:00.000000Z",
+   "home": "Al-Khaldiya SC",
+   "home_abbr": "ALK",
+   "away": "Al Wahda FC",
+   "away_abbr": "AWFC",
+   "espn_game_id": "401912779",
+   "candidates": [
+    {
+     "fixture_id": "202610286C011D03",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-28T18:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Al Khalidiyah",
+      "abbr": "KHA",
+      "id": "651B417F16C8C7F6"
+     },
+     "optic_away": {
+      "name": "Al-Wahda FC",
+      "abbr": "ALW",
+      "id": "8E0B75FCBDF700DB"
+     },
+     "home_match": null,
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "adfa73ca-459b-4ba1-beb0-05ecedac26a7",
+   "competition": "Serie A",
+   "event_start": "2026-10-28T19:45:00.000000Z",
+   "home": "Genoa",
+   "home_abbr": "GEN",
+   "away": "Juventus",
+   "away_abbr": "JUV",
+   "espn_game_id": "401874988",
+   "candidates": [
+    {
+     "fixture_id": "20261028CA3AB141",
+     "league": "italy_-_serie_a",
+     "start_date": "2026-10-28T19:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Genoa CFC",
+      "abbr": "GEN",
+      "id": "ED0D6C9DEFF9"
+     },
+     "optic_away": {
+      "name": "Juventus FC",
+      "abbr": "JUV",
+      "id": "D2B0BBE8CA1F"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028CA3AB141"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "7cfcf6d3-76d0-4265-87bf-31d7a6e38df8",
+   "competition": "Serie A",
+   "event_start": "2026-10-28T19:45:00.000000Z",
+   "home": "Monza",
+   "home_abbr": "MON",
+   "away": "Napoli",
+   "away_abbr": "NAP",
+   "espn_game_id": "401874799",
+   "candidates": [
+    {
+     "fixture_id": "20261028C1C0835D",
+     "league": "italy_-_serie_a",
+     "start_date": "2026-10-28T19:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "AC Monza",
+      "abbr": "MON",
+      "id": "E7387B29ADEA"
+     },
+     "optic_away": {
+      "name": "SSC Napoli",
+      "abbr": "NAP",
+      "id": "8A5F50CC9386"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028C1C0835D"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "127553d2-da92-4b5f-be3c-2f8c2519519b",
+   "competition": "NBA",
+   "event_start": "2026-10-28T23:00:00.000000Z",
+   "home": "Detroit Pistons",
+   "home_abbr": "DET",
+   "away": "Charlotte Hornets",
+   "away_abbr": "CHA",
+   "espn_game_id": "401909883",
+   "candidates": [
+    {
+     "fixture_id": "20261028960B9394",
+     "league": "nba",
+     "start_date": "2026-10-28T00:00:00Z",
+     "delta_min": -1380.0,
+     "optic_home": {
+      "name": "New York Knicks",
+      "abbr": "NYK",
+      "id": "6A36E386117E"
+     },
+     "optic_away": {
+      "name": "Detroit Pistons",
+      "abbr": "DET",
+      "id": "5988658C6B9B"
+     },
+     "home_match": null,
+     "away_match": null,
+     "reversed_home": "name",
+     "reversed_away": null,
+     "status": "completed"
+    },
+    {
+     "fixture_id": "2026102836D49185",
+     "league": "nba",
+     "start_date": "2026-10-28T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Detroit Pistons",
+      "abbr": "DET",
+      "id": "5988658C6B9B"
+     },
+     "optic_away": {
+      "name": "Charlotte Hornets",
+      "abbr": "CHA",
+      "id": "C65360931346"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102836D49185"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "d10ccd74-1d74-493a-95f3-ae4ea7b04bfe",
+   "competition": "NCAAF",
+   "event_start": "2026-10-28T23:00:00.000000Z",
+   "home": "Middle Tennessee Blue Raiders",
+   "home_abbr": "MTSU",
+   "away": "Kennesaw State Owls",
+   "away_abbr": "KENN",
+   "espn_game_id": "401871058",
+   "candidates": [
+    {
+     "fixture_id": "20261028E045E196",
+     "league": "ncaaf",
+     "start_date": "2026-10-28T04:00:00Z",
+     "delta_min": -1140.0,
+     "optic_home": {
+      "name": "Louisiana Tech",
+      "abbr": "LT",
+      "id": "79C6764311D5"
+     },
+     "optic_away": {
+      "name": "Kennesaw State",
+      "abbr": "KENN",
+      "id": "049CEAC378FB"
+     },
+     "home_match": null,
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "cancelled"
+    },
+    {
+     "fixture_id": "20261028BEAA4B86",
+     "league": "ncaaf",
+     "start_date": "2026-10-28T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Middle Tennessee",
+      "abbr": "MTSU",
+      "id": "42DF672DA39F"
+     },
+     "optic_away": {
+      "name": "Kennesaw State",
+      "abbr": "KENN",
+      "id": "049CEAC378FB"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028BEAA4B86"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "59af320d-485e-4f90-8439-1a3f66879470",
+   "competition": "NBA",
+   "event_start": "2026-10-28T23:00:00.000000Z",
+   "home": "Indiana Pacers",
+   "home_abbr": "IND",
+   "away": "Philadelphia 76ers",
+   "away_abbr": "PHI",
+   "espn_game_id": "401909884",
+   "candidates": [
+    {
+     "fixture_id": "20261028E3EFB39F",
+     "league": "nba",
+     "start_date": "2026-10-28T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Indiana Pacers",
+      "abbr": "IND",
+      "id": "F342C875E571"
+     },
+     "optic_away": {
+      "name": "Philadelphia 76ers",
+      "abbr": "PHI",
+      "id": "EDF03AD3C346"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028E3EFB39F"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "35a1d5c4-331b-430a-99a7-ac56cb2649b8",
+   "competition": "NBA",
+   "event_start": "2026-10-28T23:00:00.000000Z",
+   "home": "Atlanta Hawks",
+   "home_abbr": "ATL",
+   "away": "Miami Heat",
+   "away_abbr": "MIA",
+   "espn_game_id": "401909881",
+   "candidates": [
+    {
+     "fixture_id": "202610282B59BAE2",
+     "league": "nba",
+     "start_date": "2026-10-28T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Atlanta Hawks",
+      "abbr": "ATL",
+      "id": "B59C1C735494"
+     },
+     "optic_away": {
+      "name": "Miami Heat",
+      "abbr": "MIA",
+      "id": "26BB4DC5722F"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610282B59BAE2"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "268b972e-a230-45fc-b289-1f002f3c9d13",
+   "competition": "NBA",
+   "event_start": "2026-10-28T23:00:00.000000Z",
+   "home": "Cleveland Cavaliers",
+   "home_abbr": "CLE",
+   "away": "Washington Wizards",
+   "away_abbr": "WSH",
+   "espn_game_id": "401909882",
+   "candidates": [
+    {
+     "fixture_id": "20261028278A6EDB",
+     "league": "nba",
+     "start_date": "2026-10-28T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Cleveland Cavaliers",
+      "abbr": "CLE",
+      "id": "D5348BDFEBCC"
+     },
+     "optic_away": {
+      "name": "Washington Wizards",
+      "abbr": "WAS",
+      "id": "8F17F23FB753"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028278A6EDB"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "92d497f6-1236-4170-8203-711b9daf5d3e",
+   "competition": "NBA",
+   "event_start": "2026-10-28T23:30:00.000000Z",
+   "home": "Toronto Raptors",
+   "home_abbr": "TOR",
+   "away": "Orlando Magic",
+   "away_abbr": "ORL",
+   "espn_game_id": "401909885",
+   "candidates": [
+    {
+     "fixture_id": "2026102870AB1D55",
+     "league": "nba",
+     "start_date": "2026-10-28T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Toronto Raptors",
+      "abbr": "TOR",
+      "id": "417F4FFF4625"
+     },
+     "optic_away": {
+      "name": "Orlando Magic",
+      "abbr": "ORL",
+      "id": "CC72CD00EB95"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102870AB1D55"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "cafcaf26-2773-4ad0-a931-a849cb904ae6",
+   "competition": "NHL",
+   "event_start": "2026-10-28T23:30:00.000000Z",
+   "home": "Washington Capitals",
+   "home_abbr": "WSH",
+   "away": "Philadelphia Flyers",
+   "away_abbr": "PHI",
+   "espn_game_id": "401892596",
+   "candidates": [
+    {
+     "fixture_id": "20261028547A751D",
+     "league": "nhl",
+     "start_date": "2026-10-28T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Washington Capitals",
+      "abbr": "WSH",
+      "id": "EEB0E7F5C10F"
+     },
+     "optic_away": {
+      "name": "Philadelphia Flyers",
+      "abbr": "PHI",
+      "id": "4BF7B4862E12"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028547A751D"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "874c8a39-bbd7-4abc-92c8-0c2c299977a4",
+   "competition": "NBA",
+   "event_start": "2026-10-29T00:00:00.000000Z",
+   "home": "Chicago Bulls",
+   "home_abbr": "CHI",
+   "away": "New York Knicks",
+   "away_abbr": "NY",
+   "espn_game_id": "401909886",
+   "candidates": [
+    {
+     "fixture_id": "20261028960B9394",
+     "league": "nba",
+     "start_date": "2026-10-28T00:00:00Z",
+     "delta_min": -1440.0,
+     "optic_home": {
+      "name": "New York Knicks",
+      "abbr": "NYK",
+      "id": "6A36E386117E"
+     },
+     "optic_away": {
+      "name": "Detroit Pistons",
+      "abbr": "DET",
+      "id": "5988658C6B9B"
+     },
+     "home_match": null,
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": "name",
+     "status": "completed"
+    },
+    {
+     "fixture_id": "2026102914629F52",
+     "league": "nba",
+     "start_date": "2026-10-29T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Chicago Bulls",
+      "abbr": "CHI",
+      "id": "CA98E3A931AE"
+     },
+     "optic_away": {
+      "name": "New York Knicks",
+      "abbr": "NYK",
+      "id": "6A36E386117E"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102914629F52"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "fae6543b-6e4b-4e0e-8dec-9b4fa13a8406",
+   "competition": "NBA",
+   "event_start": "2026-10-29T00:00:00.000000Z",
+   "home": "New Orleans Pelicans",
+   "home_abbr": "NO",
+   "away": "Denver Nuggets",
+   "away_abbr": "DEN",
+   "espn_game_id": "401909889",
+   "candidates": [
+    {
+     "fixture_id": "2026102919FB7B46",
+     "league": "nba",
+     "start_date": "2026-10-29T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "New Orleans Pelicans",
+      "abbr": "NOP",
+      "id": "6C595835C85B"
+     },
+     "optic_away": {
+      "name": "Denver Nuggets",
+      "abbr": "DEN",
+      "id": "C0312DE08463"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    },
+    {
+     "fixture_id": "20261030C2BAA459",
+     "league": "nba",
+     "start_date": "2026-10-30T00:00:00Z",
+     "delta_min": 1440.0,
+     "optic_home": {
+      "name": "New Orleans Pelicans",
+      "abbr": "NOP",
+      "id": "6C595835C85B"
+     },
+     "optic_away": {
+      "name": "Sacramento Kings",
+      "abbr": "SAC",
+      "id": "04E36C744934"
+     },
+     "home_match": "name",
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102919FB7B46"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "a1df9907-e21b-4047-9067-8a3b702a1c60",
+   "competition": "NBA",
+   "event_start": "2026-10-29T00:00:00.000000Z",
+   "home": "Minnesota Timberwolves",
+   "home_abbr": "MIN",
+   "away": "Golden State Warriors",
+   "away_abbr": "GS",
+   "espn_game_id": "401909888",
+   "candidates": [
+    {
+     "fixture_id": "202610292B76C103",
+     "league": "nba",
+     "start_date": "2026-10-29T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Minnesota Timberwolves",
+      "abbr": "MIN",
+      "id": "FDAE71FA88C6"
+     },
+     "optic_away": {
+      "name": "Golden State Warriors",
+      "abbr": "GSW",
+      "id": "DFC9A735A4D7"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610292B76C103"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "871f0180-6027-48cd-8bfe-2d1eb004c549",
+   "competition": "NBA",
+   "event_start": "2026-10-29T00:00:00.000000Z",
+   "home": "Milwaukee Bucks",
+   "home_abbr": "MIL",
+   "away": "Houston Rockets",
+   "away_abbr": "HOU",
+   "espn_game_id": "401909887",
+   "candidates": [
+    {
+     "fixture_id": "2026102939703772",
+     "league": "nba",
+     "start_date": "2026-10-29T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Milwaukee Bucks",
+      "abbr": "MIL",
+      "id": "14682EF45C4D"
+     },
+     "optic_away": {
+      "name": "Houston Rockets",
+      "abbr": "HOU",
+      "id": "DF2D9E9E8E20"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102939703772"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "4c9d5f4a-1f5f-4ef1-8447-3021087b70cc",
+   "competition": "NCAAF",
+   "event_start": "2026-10-29T00:00:00.000000Z",
+   "home": "New Mexico State Aggies",
+   "home_abbr": "NMSU",
+   "away": "Jacksonville State Gamecocks",
+   "away_abbr": "JXST",
+   "espn_game_id": "401871057",
+   "candidates": [
+    {
+     "fixture_id": "2026102832B7EC9F",
+     "league": "ncaaf",
+     "start_date": "2026-10-29T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "New Mexico State",
+      "abbr": "NMSU",
+      "id": "1241D7617B2E"
+     },
+     "optic_away": {
+      "name": "Jacksonville State",
+      "abbr": "JVST",
+      "id": "9CB35232C2A0"
+     },
+     "home_match": "abbr",
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "1bb787c9-c51d-425d-a8ea-25cde1649aad",
+   "competition": "MLB",
+   "event_start": "2026-10-29T00:00:00.000000Z",
+   "home": "Tampa Bay Rays",
+   "home_abbr": "TB",
+   "away": "Milwaukee Brewers",
+   "away_abbr": "MIL",
+   "espn_game_id": "401908046",
+   "candidates": [
+    {
+     "fixture_id": "202610287BABC632",
+     "league": "mlb",
+     "start_date": "2026-10-28T00:00:00Z",
+     "delta_min": -1440.0,
+     "optic_home": {
+      "name": "Tampa Bay Rays",
+      "abbr": "TB",
+      "id": "FE07CF8C473A"
+     },
+     "optic_away": {
+      "name": "Milwaukee Brewers",
+      "abbr": "MIL",
+      "id": "2B194AFDDF3B"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    },
+    {
+     "fixture_id": "2026102966C84668",
+     "league": "mlb",
+     "start_date": "2026-10-29T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Tampa Bay Rays",
+      "abbr": "TB",
+      "id": "FE07CF8C473A"
+     },
+     "optic_away": {
+      "name": "Milwaukee Brewers",
+      "abbr": "MIL",
+      "id": "2B194AFDDF3B"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102966C84668"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "16fa4caf-cb3f-45f0-8709-a884317b9d95",
+   "competition": "NHL",
+   "event_start": "2026-10-29T00:30:00.000000Z",
+   "home": "Edmonton Oilers",
+   "home_abbr": "EDM",
+   "away": "Calgary Flames",
+   "away_abbr": "CGY",
+   "espn_game_id": "401892597",
+   "candidates": [
+    {
+     "fixture_id": "202610288C6A0C05",
+     "league": "nhl",
+     "start_date": "2026-10-29T00:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Edmonton Oilers",
+      "abbr": "EDM",
+      "id": "759AA8469413"
+     },
+     "optic_away": {
+      "name": "Calgary Flames",
+      "abbr": "CGY",
+      "id": "BDCDF0745CC4"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610288C6A0C05"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "c5a18cce-2561-4f74-874b-e596842d6dc0",
+   "competition": "NHL",
+   "event_start": "2026-10-29T01:00:00.000000Z",
+   "home": "Colorado Avalanche",
+   "home_abbr": "COL",
+   "away": "New Jersey Devils",
+   "away_abbr": "NJ",
+   "espn_game_id": "401892598",
+   "candidates": [
+    {
+     "fixture_id": "20261028993457E9",
+     "league": "nhl",
+     "start_date": "2026-10-29T01:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Colorado Avalanche",
+      "abbr": "COL",
+      "id": "7C307B636971"
+     },
+     "optic_away": {
+      "name": "New Jersey Devils",
+      "abbr": "NJD",
+      "id": "B382C1413F50"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261028993457E9"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "5c2eb125-2976-4ae9-90e7-e13680853354",
+   "competition": "NBA",
+   "event_start": "2026-10-29T01:00:00.000000Z",
+   "home": "Utah Jazz",
+   "home_abbr": "UTAH",
+   "away": "San Antonio Spurs",
+   "away_abbr": "SA",
+   "espn_game_id": "401909890",
+   "candidates": [
+    {
+     "fixture_id": "202610299D07B99B",
+     "league": "nba",
+     "start_date": "2026-10-29T01:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Utah Jazz",
+      "abbr": "UTA",
+      "id": "7C902BB2E272"
+     },
+     "optic_away": {
+      "name": "San Antonio Spurs",
+      "abbr": "SAS",
+      "id": "E89F51275352"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610299D07B99B"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "0d476d60-f822-44c6-9779-fcbf81e32b50",
+   "competition": "NBA",
+   "event_start": "2026-10-29T01:30:00.000000Z",
+   "home": "Dallas Mavericks",
+   "home_abbr": "DAL",
+   "away": "Oklahoma City Thunder",
+   "away_abbr": "OKC",
+   "espn_game_id": "401909891",
+   "candidates": [
+    {
+     "fixture_id": "20261029A52C8DC6",
+     "league": "nba",
+     "start_date": "2026-10-29T01:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Dallas Mavericks",
+      "abbr": "DAL",
+      "id": "7165DAB9CAE4"
+     },
+     "optic_away": {
+      "name": "Oklahoma City Thunder",
+      "abbr": "OKC",
+      "id": "D8EC6878976A"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261029A52C8DC6"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "003a8eb8-4b67-4b76-a417-3d81ba918345",
+   "competition": "NHL",
+   "event_start": "2026-10-29T02:00:00.000000Z",
+   "home": "Seattle Kraken",
+   "home_abbr": "SEA",
+   "away": "Toronto Maple Leafs",
+   "away_abbr": "TOR",
+   "espn_game_id": "401892599",
+   "candidates": [
+    {
+     "fixture_id": "202610288EE52C4B",
+     "league": "nhl",
+     "start_date": "2026-10-29T02:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Seattle Kraken",
+      "abbr": "SEA",
+      "id": "F86BAB6416CB"
+     },
+     "optic_away": {
+      "name": "Toronto Maple Leafs",
+      "abbr": "TOR",
+      "id": "2C06F9EEDB61"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610288EE52C4B"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "065a6af3-1d6a-4494-8a0a-d18641545968",
+   "competition": "NBA",
+   "event_start": "2026-10-29T02:30:00.000000Z",
+   "home": "LA Clippers",
+   "home_abbr": "LAC",
+   "away": "Los Angeles Lakers",
+   "away_abbr": "LAL",
+   "espn_game_id": "401909892",
+   "candidates": [
+    {
+     "fixture_id": "20261028594A30DF",
+     "league": "nba",
+     "start_date": "2026-10-28T03:00:00Z",
+     "delta_min": -1410.0,
+     "optic_home": {
+      "name": "Los Angeles Lakers",
+      "abbr": "LAL",
+      "id": "73AEB6743EC2"
+     },
+     "optic_away": {
+      "name": "Portland Trail Blazers",
+      "abbr": "POR",
+      "id": "0054C2679F77"
+     },
+     "home_match": null,
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": "name",
+     "status": "completed"
+    },
+    {
+     "fixture_id": "2026102973489D36",
+     "league": "nba",
+     "start_date": "2026-10-29T02:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Los Angeles Clippers",
+      "abbr": "LAC",
+      "id": "3E1EA77686B9"
+     },
+     "optic_away": {
+      "name": "Los Angeles Lakers",
+      "abbr": "LAL",
+      "id": "73AEB6743EC2"
+     },
+     "home_match": "abbr",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026102973489D36"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "890b34fd-8533-4bf3-b990-5b5670723cbb",
+   "competition": "AFC",
+   "event_start": "2026-10-29T07:45:00.000000Z",
+   "home": "Adelaide United FC",
+   "home_abbr": "ADL",
+   "away": "Lion City Sailors FC",
+   "away_abbr": "LCS",
+   "espn_game_id": "401912777",
+   "candidates": [
+    {
+     "fixture_id": "202610290190EFDF",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-29T07:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Adelaide United FC",
+      "abbr": "ADE",
+      "id": "BB4B39BB05F988ED"
+     },
+     "optic_away": {
+      "name": "Lion City Sailors FC",
+      "abbr": "LCS",
+      "id": "E68943A78970AA9B"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610290190EFDF"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "ef704e9d-a981-4e12-8da1-ce65b41a43fe",
+   "competition": "AFC",
+   "event_start": "2026-10-29T10:00:00.000000Z",
+   "home": "Tampines Rovers FC",
+   "home_abbr": "TAM",
+   "away": "Preah Khan Reach Svay Rieng FC",
+   "away_abbr": "PKR",
+   "espn_game_id": "401912776",
+   "candidates": [
+    {
+     "fixture_id": "20261029E8E5BB44",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-29T10:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Tampines Rovers",
+      "abbr": "TAM",
+      "id": "53E50E7BE10A40B6"
+     },
+     "optic_away": {
+      "name": "Svay Rieng FC",
+      "abbr": "",
+      "id": "378223D32C700BEC"
+     },
+     "home_match": "abbr",
+     "away_match": null,
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "c384fbc2-9a76-4ce8-9a9b-d41925b1dd33",
+   "competition": "AFC",
+   "event_start": "2026-10-29T10:00:00.000000Z",
+   "home": "Gangwon FC",
+   "home_abbr": "GAN",
+   "away": "Kuching City",
+   "away_abbr": "KUC",
+   "espn_game_id": "401912775",
+   "candidates": [
+    {
+     "fixture_id": "202610298FE47F2D",
+     "league": "afc_-_champions_league_2",
+     "start_date": "2026-10-29T10:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Gangwon FC",
+      "abbr": "GAN",
+      "id": "17752B2C289A9995"
+     },
+     "optic_away": {
+      "name": "Kuching City",
+      "abbr": "KUC",
+      "id": "867C6982F1FDEDD4"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610298FE47F2D"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "b9f331a2-bba3-481b-80ce-a395b0c2cdee",
+   "competition": "NCAAF",
+   "event_start": "2026-10-29T23:30:00.000000Z",
+   "home": "James Madison Dukes",
+   "home_abbr": "JMU",
+   "away": "Troy Trojans",
+   "away_abbr": "TROY",
+   "espn_game_id": "401869963",
+   "candidates": [
+    {
+     "fixture_id": "20261029AE9857AC",
+     "league": "ncaaf",
+     "start_date": "2026-10-29T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "James Madison",
+      "abbr": "JMU",
+      "id": "CF4AC4877CEA"
+     },
+     "optic_away": {
+      "name": "Troy",
+      "abbr": "TROY",
+      "id": "D8FB7EAE0459"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261029AE9857AC"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "8cff0b56-31d8-4f10-9446-c2c6eb004477",
+   "competition": "NCAAF",
+   "event_start": "2026-10-29T23:30:00.000000Z",
+   "home": "North Texas Mean Green",
+   "home_abbr": "UNT",
+   "away": "Florida Atlantic Owls",
+   "away_abbr": "FAU",
+   "espn_game_id": "401862812",
+   "candidates": [
+    {
+     "fixture_id": "202610291FB618ED",
+     "league": "ncaaf",
+     "start_date": "2026-10-29T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "North Texas",
+      "abbr": "UNT",
+      "id": "D46186911F02"
+     },
+     "optic_away": {
+      "name": "Florida Atlantic",
+      "abbr": "FAU",
+      "id": "AFA3F47A8E89"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610291FB618ED"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "63c2c44a-5f92-4e56-8b3e-08447f695ba3",
+   "competition": "NFL",
+   "event_start": "2026-10-30T00:15:00.000000Z",
+   "home": "Green Bay Packers",
+   "home_abbr": "GB",
+   "away": "Carolina Panthers",
+   "away_abbr": "CAR",
+   "espn_game_id": "401873023",
+   "candidates": [
+    {
+     "fixture_id": "20261030CB911D38",
+     "league": "nfl",
+     "start_date": "2026-10-30T00:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Green Bay Packers",
+      "abbr": "GB",
+      "id": "2C6CB429C60C"
+     },
+     "optic_away": {
+      "name": "Carolina Panthers",
+      "abbr": "CAR",
+      "id": "EB5E972AB475"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261030CB911D38"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "43e6834a-afb8-43ff-b66f-d5c048f68b61",
+   "competition": "NCAAF",
+   "event_start": "2026-10-30T23:00:00.000000Z",
+   "home": "Charlotte 49ers",
+   "home_abbr": "CLT",
+   "away": "Tulane Green Wave",
+   "away_abbr": "TULN",
+   "espn_game_id": "401862813",
+   "candidates": [
+    {
+     "fixture_id": "2026103087D1A682",
+     "league": "ncaaf",
+     "start_date": "2026-10-30T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Charlotte",
+      "abbr": "CLT",
+      "id": "B231A76C7CDF"
+     },
+     "optic_away": {
+      "name": "Tulane",
+      "abbr": "TULN",
+      "id": "E9656F1C2B64"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103087D1A682"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "eefcf1fe-861b-4975-8cba-f1a1e155e786",
+   "competition": "NCAAF",
+   "event_start": "2026-10-30T23:30:00.000000Z",
+   "home": "UCF Knights",
+   "home_abbr": "UCF",
+   "away": "Baylor Bears",
+   "away_abbr": "BAY",
+   "espn_game_id": "401856844",
+   "candidates": [
+    {
+     "fixture_id": "202610311EC2A041",
+     "league": "ncaaf",
+     "start_date": "2026-10-30T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "UCF",
+      "abbr": "UCF",
+      "id": "195D38581E9D"
+     },
+     "optic_away": {
+      "name": "Baylor",
+      "abbr": "BAY",
+      "id": "D2517553FE17"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610311EC2A041"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "218360a4-d061-41e7-b625-464e1f0d2493",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T02:30:00.000000Z",
+   "home": "Sacramento State Hornets",
+   "home_abbr": "SAC",
+   "away": "Kent State Golden Flashes",
+   "away_abbr": "KENT",
+   "espn_game_id": "401866451",
+   "candidates": [
+    {
+     "fixture_id": "2026103016B5822D",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T02:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Sacramento State",
+      "abbr": "SAC",
+      "id": "29A5D16FFEE7"
+     },
+     "optic_away": {
+      "name": "Kent State",
+      "abbr": "KENT",
+      "id": "7FF3738AF251"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103016B5822D"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "14dadd78-0232-4078-bea2-6ee1eea94830",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "Texas Tech Red Raiders",
+   "home_abbr": "TTU",
+   "away": "Arizona Wildcats",
+   "away_abbr": "ARIZ",
+   "espn_game_id": "401856842",
+   "candidates": [
+    {
+     "fixture_id": "2026103132A72E9E",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Texas Tech",
+      "abbr": "TTU",
+      "id": "1B38454E519E"
+     },
+     "optic_away": {
+      "name": "Arizona",
+      "abbr": "ARIZ",
+      "id": "D4D329E885F8"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103132A72E9E"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "8da67af0-d48c-40fb-8745-6614addcc388",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "NC State Wolfpack",
+   "home_abbr": "NCSU",
+   "away": "California Golden Bears",
+   "away_abbr": "CAL",
+   "espn_game_id": "401858277",
+   "candidates": [
+    {
+     "fixture_id": "202610301F2D9A49",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "North Carolina State",
+      "abbr": "NCSU",
+      "id": "F68617FF3A0A"
+     },
+     "optic_away": {
+      "name": "California",
+      "abbr": "CAL",
+      "id": "F1D6BC8C1A83"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610301F2D9A49"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "5be7190e-7d2b-458b-84b3-47ec11f13690",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "Duke Blue Devils",
+   "home_abbr": "DUKE",
+   "away": "Boston College Eagles",
+   "away_abbr": "BC",
+   "espn_game_id": "401858279",
+   "candidates": [
+    {
+     "fixture_id": "20261031DB931550",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Duke",
+      "abbr": "DUKE",
+      "id": "34C7C1D5B0B7"
+     },
+     "optic_away": {
+      "name": "Boston College",
+      "abbr": "BC",
+      "id": "465FDD28C7D2"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031DB931550"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "7fcc9a56-7f11-484f-847f-8805f39f087d",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "Iowa Hawkeyes",
+   "home_abbr": "IOWA",
+   "away": "Wisconsin Badgers",
+   "away_abbr": "WIS",
+   "espn_game_id": "401858502",
+   "candidates": [
+    {
+     "fixture_id": "20261031104ADFF9",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Iowa",
+      "abbr": "IOWA",
+      "id": "9F321A1DA403"
+     },
+     "optic_away": {
+      "name": "Wisconsin",
+      "abbr": "WIS",
+      "id": "F6A60D670A0D"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031104ADFF9"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "c9a0b676-2714-43fd-8f68-8b8a9f0f3e18",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "Maryland Terrapins",
+   "home_abbr": "MD",
+   "away": "Illinois Fighting Illini",
+   "away_abbr": "ILL",
+   "espn_game_id": "401858503",
+   "candidates": [
+    {
+     "fixture_id": "20261031A0F2A632",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Maryland",
+      "abbr": "MD",
+      "id": "2D589316FED5"
+     },
+     "optic_away": {
+      "name": "Illinois",
+      "abbr": "ILL",
+      "id": "6435059328DC"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031A0F2A632"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "f9f70c49-ceb2-45ff-8311-1e6e76c85246",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "South Florida Bulls",
+   "home_abbr": "USF",
+   "away": "UAB Blazers",
+   "away_abbr": "UAB",
+   "espn_game_id": "401862816",
+   "candidates": [
+    {
+     "fixture_id": "20261031A9C1F476",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "South Florida",
+      "abbr": "USF",
+      "id": "96FAD49A7BA2"
+     },
+     "optic_away": {
+      "name": "UAB",
+      "abbr": "UAB",
+      "id": "0AD964BA2FEC"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031A9C1F476"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "d963585f-f244-46ba-9b63-6a43ec1f23e2",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "Western Michigan Broncos",
+   "home_abbr": "WMU",
+   "away": "Bowling Green Falcons",
+   "away_abbr": "BGSU",
+   "espn_game_id": "401866452",
+   "candidates": [
+    {
+     "fixture_id": "20261031D7C0FF8F",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Western Michigan",
+      "abbr": "WMU",
+      "id": "CC80438545C7"
+     },
+     "optic_away": {
+      "name": "Bowling Green",
+      "abbr": "BGSU",
+      "id": "B61FCFA267E6"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031D7C0FF8F"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "3a4270e0-4c44-4b14-b193-a34afb43c093",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "Syracuse Orange",
+   "home_abbr": "SYR",
+   "away": "SMU Mustangs",
+   "away_abbr": "SMU",
+   "espn_game_id": "401858278",
+   "candidates": [
+    {
+     "fixture_id": "202610302B5084D4",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Syracuse",
+      "abbr": "SYR",
+      "id": "91E87AF12DE0"
+     },
+     "optic_away": {
+      "name": "SMU",
+      "abbr": "SMU",
+      "id": "AFF084D95AB6"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610302B5084D4"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "7efd533d-9437-4a8a-b64c-689804b25bc5",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:00:00.000000Z",
+   "home": "Navy Midshipmen",
+   "home_abbr": "NAVY",
+   "away": "Notre Dame Fighting Irish",
+   "away_abbr": "ND",
+   "espn_game_id": "401859185",
+   "candidates": [
+    {
+     "fixture_id": "202610312F495783",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Notre Dame",
+      "abbr": "ND",
+      "id": "7D4F46307D8C"
+     },
+     "optic_away": {
+      "name": "Navy",
+      "abbr": "NAVY",
+      "id": "A792180F188B"
+     },
+     "home_match": null,
+     "away_match": null,
+     "reversed_home": "abbr",
+     "reversed_away": "abbr",
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0",
+   "reversed_orientation_candidates": [
+    "202610312F495783"
+   ]
+  },
+  {
+   "event_id": "a0830ef4-ff50-428e-854e-081e1ed81cfa",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:30:00.000000Z",
+   "home": "Rutgers Scarlet Knights",
+   "home_abbr": "RUTG",
+   "away": "Michigan Wolverines",
+   "away_abbr": "MICH",
+   "espn_game_id": "401858507",
+   "candidates": [
+    {
+     "fixture_id": "20261031016E4EAF",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Rutgers",
+      "abbr": "RUTG",
+      "id": "AE586263C580"
+     },
+     "optic_away": {
+      "name": "Michigan",
+      "abbr": "MICH",
+      "id": "83E0960213F5"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031016E4EAF"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "fe0b3744-d74e-499c-8c77-30818722238d",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T16:45:00.000000Z",
+   "home": "Ole Miss Rebels",
+   "home_abbr": "MISS",
+   "away": "Auburn Tigers",
+   "away_abbr": "AUB",
+   "espn_game_id": "401856735",
+   "candidates": [
+    {
+     "fixture_id": "202610315167527B",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T16:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Ole Miss",
+      "abbr": "MISS",
+      "id": "FD8B7660E58B"
+     },
+     "optic_away": {
+      "name": "Auburn",
+      "abbr": "AUB",
+      "id": "917819DC2366"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610315167527B"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "f1f4a79a-907b-4641-ad4d-646adaa98f19",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T17:00:00.000000Z",
+   "home": "Old Dominion Monarchs",
+   "home_abbr": "ODU",
+   "away": "Marshall Thundering Herd",
+   "away_abbr": "MRSH",
+   "espn_game_id": "401871096",
+   "candidates": [
+    {
+     "fixture_id": "20261031231E0E4B",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T17:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Old Dominion",
+      "abbr": "ODU",
+      "id": "B0B463DB73F9"
+     },
+     "optic_away": {
+      "name": "Marshall",
+      "abbr": "MRSH",
+      "id": "367C3B057FBF"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031231E0E4B"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "4a746e2b-67d1-4601-b4e5-737b090eb70e",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T18:00:00.000000Z",
+   "home": "Colorado Buffaloes",
+   "home_abbr": "COLO",
+   "away": "Kansas State Wildcats",
+   "away_abbr": "KSU",
+   "espn_game_id": "401856846",
+   "candidates": [
+    {
+     "fixture_id": "202610319F5088E6",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Colorado",
+      "abbr": "COLO",
+      "id": "A11C2D43ED35"
+     },
+     "optic_away": {
+      "name": "Kansas State",
+      "abbr": "KSU",
+      "id": "D7CBAF5F03AE"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610319F5088E6"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "4d7d829a-4c53-4e02-9d72-0990c9ce1177",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T18:00:00.000000Z",
+   "home": "Georgia State Panthers",
+   "home_abbr": "GAST",
+   "away": "Coastal Carolina Chanticleers",
+   "away_abbr": "CCU",
+   "espn_game_id": "401869944",
+   "candidates": [
+    {
+     "fixture_id": "20261031475AC916",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Georgia State",
+      "abbr": "GAST",
+      "id": "996C9CD2D0B8"
+     },
+     "optic_away": {
+      "name": "Coastal Carolina",
+      "abbr": "CCU",
+      "id": "710544DCE554"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031475AC916"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "3f9080e1-e007-424c-8c3c-6d2d760254f8",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:00:00.000000Z",
+   "home": "Air Force Falcons",
+   "home_abbr": "AFA",
+   "away": "UConn Huskies",
+   "away_abbr": "CONN",
+   "espn_game_id": "401861966",
+   "candidates": [
+    {
+     "fixture_id": "20261031AF0A7959",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Air Force",
+      "abbr": "AFA",
+      "id": "7AE905D8467A"
+     },
+     "optic_away": {
+      "name": "Connecticut",
+      "abbr": "CONN",
+      "id": "A273A3133F39"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031AF0A7959"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "7d79f14a-2654-4e45-87a2-67328ccad9cc",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:00:00.000000Z",
+   "home": "East Carolina Pirates",
+   "home_abbr": "ECU",
+   "away": "Temple Owls",
+   "away_abbr": "TEM",
+   "espn_game_id": "401862815",
+   "candidates": [
+    {
+     "fixture_id": "202610314AEE369D",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "East Carolina",
+      "abbr": "ECU",
+      "id": "CF764042625A"
+     },
+     "optic_away": {
+      "name": "Temple",
+      "abbr": "TEM",
+      "id": "97A2438AD577"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610314AEE369D"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "ed8a2f00-e40e-4124-929f-0d3edc4c36ef",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:00:00.000000Z",
+   "home": "South Alabama Jaguars",
+   "home_abbr": "USA",
+   "away": "Louisiana Tech Bulldogs",
+   "away_abbr": "LT",
+   "espn_game_id": "401871097",
+   "candidates": [
+    {
+     "fixture_id": "2026103178D802EE",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "South Alabama",
+      "abbr": "USA",
+      "id": "DD58BC766EF9"
+     },
+     "optic_away": {
+      "name": "Louisiana Tech",
+      "abbr": "LT",
+      "id": "79C6764311D5"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103178D802EE"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "ddc3df7b-3f4d-4b63-9b45-df752d9798d2",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:15:00.000000Z",
+   "home": "Louisville Cardinals",
+   "home_abbr": "LOU",
+   "away": "Stanford Cardinal",
+   "away_abbr": "STAN",
+   "espn_game_id": "401858283",
+   "candidates": [
+    {
+     "fixture_id": "202610315BC05279",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Louisville",
+      "abbr": "LOU",
+      "id": "DF83441F8DF0"
+     },
+     "optic_away": {
+      "name": "Stanford",
+      "abbr": "STAN",
+      "id": "19CDC7E791AD"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610315BC05279"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "77a25efc-f7b3-4c7d-b5b0-af7cdc414ec3",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "Georgia Bulldogs",
+   "home_abbr": "UGA",
+   "away": "Florida Gators",
+   "away_abbr": "FLA",
+   "espn_game_id": "401856734",
+   "candidates": [
+    {
+     "fixture_id": "20261031E5917CA8",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Georgia",
+      "abbr": "UGA",
+      "id": "04C37B5D7034"
+     },
+     "optic_away": {
+      "name": "Florida",
+      "abbr": "FLA",
+      "id": "B5FE2526A2BF"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031E5917CA8"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "f4eb01f5-ca4d-44f0-89a5-7dff5db2c274",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "TCU Horned Frogs",
+   "home_abbr": "TCU",
+   "away": "Kansas Jayhawks",
+   "away_abbr": "KU",
+   "espn_game_id": "401856845",
+   "candidates": [
+    {
+     "fixture_id": "20261031F970612E",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "TCU",
+      "abbr": "TCU",
+      "id": "5CFBC52E970D"
+     },
+     "optic_away": {
+      "name": "Kansas",
+      "abbr": "KU",
+      "id": "CAC97D0AA1EE"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031F970612E"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "9dd3420e-05a9-4c97-8fc6-616bc577cfb4",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "BYU Cougars",
+   "home_abbr": "BYU",
+   "away": "Arizona State Sun Devils",
+   "away_abbr": "ASU",
+   "espn_game_id": "401856843",
+   "candidates": [
+    {
+     "fixture_id": "20261031CD2B05F6",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "BYU",
+      "abbr": "BYU",
+      "id": "8D2E0EC6D08C"
+     },
+     "optic_away": {
+      "name": "Arizona State",
+      "abbr": "ASU",
+      "id": "0976A1A897A0"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031CD2B05F6"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "9816f0b7-4e76-4bcd-b9e1-7bfcbb5e698d",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "Indiana Hoosiers",
+   "home_abbr": "IU",
+   "away": "Minnesota Golden Gophers",
+   "away_abbr": "MINN",
+   "espn_game_id": "401858501",
+   "candidates": [
+    {
+     "fixture_id": "2026103182BC9DFC",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Indiana",
+      "abbr": "IND",
+      "id": "FCDF1C894B1B"
+     },
+     "optic_away": {
+      "name": "Minnesota",
+      "abbr": "MINN",
+      "id": "2B4BF5A748BA"
+     },
+     "home_match": null,
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "56d5b1d7-ef3a-44ed-b674-0d39beea1182",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "UL Monroe Warhawks",
+   "home_abbr": "ULM",
+   "away": "Southern Miss Golden Eagles",
+   "away_abbr": "USM",
+   "espn_game_id": "401871095",
+   "candidates": [
+    {
+     "fixture_id": "20261031EC49552D",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "UL Monroe",
+      "abbr": "ULM",
+      "id": "A64EEB67E967"
+     },
+     "optic_away": {
+      "name": "Southern Mississippi",
+      "abbr": "USM",
+      "id": "826709E8B05C"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031EC49552D"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "ae567537-ab3f-4a3f-a80d-46c9c4f88514",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "Utah State Aggies",
+   "home_abbr": "USU",
+   "away": "Colorado State Rams",
+   "away_abbr": "CSU",
+   "espn_game_id": "401860910",
+   "candidates": [
+    {
+     "fixture_id": "2026103197168B1C",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Utah State",
+      "abbr": "USU",
+      "id": "F5C5604863E3"
+     },
+     "optic_away": {
+      "name": "Colorado State",
+      "abbr": "CSU",
+      "id": "39777B0660BA"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103197168B1C"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "ba1f218b-9aae-4685-94c0-54761b82a8f4",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "North Dakota State Bison",
+   "home_abbr": "NDSU",
+   "away": "UTEP Miners",
+   "away_abbr": "UTEP",
+   "espn_game_id": "401864531",
+   "candidates": [
+    {
+     "fixture_id": "2026103143F19999",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "North Dakota State",
+      "abbr": "NDSU",
+      "id": "283AD3A25745"
+     },
+     "optic_away": {
+      "name": "UTEP",
+      "abbr": "UTEP",
+      "id": "EF58CF147082"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103143F19999"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "9a95a9e0-de2b-4169-9c21-b8bc7cedde43",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "Liberty Flames",
+   "home_abbr": "LIB",
+   "away": "Florida International Panthers",
+   "away_abbr": "FIU",
+   "espn_game_id": "401871059",
+   "candidates": [
+    {
+     "fixture_id": "202610319C657622",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Liberty",
+      "abbr": "LIB",
+      "id": "638274B79CED"
+     },
+     "optic_away": {
+      "name": "Florida International",
+      "abbr": "FIU",
+      "id": "5BC6E20E98A5"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610319C657622"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "a745421e-f5e2-45af-8b20-af89dd6b7401",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:30:00.000000Z",
+   "home": "Oregon Ducks",
+   "home_abbr": "ORE",
+   "away": "Northwestern Wildcats",
+   "away_abbr": "NU",
+   "espn_game_id": "401858505",
+   "candidates": [
+    {
+     "fixture_id": "202610316786147C",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Oregon",
+      "abbr": "ORE",
+      "id": "D836AC0A0496"
+     },
+     "optic_away": {
+      "name": "Northwestern",
+      "abbr": "NU",
+      "id": "F3FE452047E3"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610316786147C"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "e652a8fb-5485-420a-b0d4-d93c77d1479b",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:45:00.000000Z",
+   "home": "Cincinnati Bearcats",
+   "home_abbr": "CIN",
+   "away": "Utah Utes",
+   "away_abbr": "UTAH",
+   "espn_game_id": "401856848",
+   "candidates": [
+    {
+     "fixture_id": "20261031886DC1F8",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Cincinnati",
+      "abbr": "CIN",
+      "id": "EE4B32FC0FB8"
+     },
+     "optic_away": {
+      "name": "Utah",
+      "abbr": "UTAH",
+      "id": "9DF884C46350"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031886DC1F8"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "b8934af6-5367-45ef-86c0-84ca51db3fe8",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T19:45:00.000000Z",
+   "home": "Wake Forest Demon Deacons",
+   "home_abbr": "WAKE",
+   "away": "Virginia Cavaliers",
+   "away_abbr": "UVA",
+   "espn_game_id": "401858284",
+   "candidates": [
+    {
+     "fixture_id": "20261031B19F2599",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T19:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Wake Forest",
+      "abbr": "WAKE",
+      "id": "F4E6B3B8807C"
+     },
+     "optic_away": {
+      "name": "Virginia",
+      "abbr": "UVA",
+      "id": "9F5958B05742"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031B19F2599"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "d66240f8-998f-4215-a6b5-a7a66d709e89",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T20:00:00.000000Z",
+   "home": "San Jos\u00e9 State Spartans",
+   "home_abbr": "SJSU",
+   "away": "New Mexico Lobos",
+   "away_abbr": "UNM",
+   "espn_game_id": "401864529",
+   "candidates": [
+    {
+     "fixture_id": "202610312C84EBC0",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T20:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "San Jose State",
+      "abbr": "SJSU",
+      "id": "BCBC3E2330D5"
+     },
+     "optic_away": {
+      "name": "New Mexico",
+      "abbr": "UNM",
+      "id": "3E9AECF16070"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610312C84EBC0"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "0a2a5e72-7d6f-4639-9ed3-3b2abb284b6a",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T20:15:00.000000Z",
+   "home": "Oklahoma Sooners",
+   "home_abbr": "OU",
+   "away": "South Carolina Gamecocks",
+   "away_abbr": "SC",
+   "espn_game_id": "401856736",
+   "candidates": [
+    {
+     "fixture_id": "2026103153A097D9",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T20:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Oklahoma",
+      "abbr": "OU",
+      "id": "EEEB0AC066A7"
+     },
+     "optic_away": {
+      "name": "South Carolina",
+      "abbr": "SC",
+      "id": "4A1B23884427"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103153A097D9"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "b95eab1f-dc2e-4da0-9fdf-00601935a5de",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T20:15:00.000000Z",
+   "home": "UCLA Bruins",
+   "home_abbr": "UCLA",
+   "away": "Nevada Wolf Pack",
+   "away_abbr": "NEV",
+   "espn_game_id": "401858508",
+   "candidates": [
+    {
+     "fixture_id": "20261031EAA8C357",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T20:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "UCLA",
+      "abbr": "UCLA",
+      "id": "A47558AF6BEC"
+     },
+     "optic_away": {
+      "name": "Nevada",
+      "abbr": "NEV",
+      "id": "527F9576AB57"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031EAA8C357"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "61f88a46-65b8-4250-8ab0-b2e68e198644",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T20:15:00.000000Z",
+   "home": "Penn State Nittany Lions",
+   "home_abbr": "PSU",
+   "away": "Purdue Boilermakers",
+   "away_abbr": "PUR",
+   "espn_game_id": "401858506",
+   "candidates": [
+    {
+     "fixture_id": "20261031FC39BFAD",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T20:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Penn State",
+      "abbr": "PSU",
+      "id": "3BF603A68A5F"
+     },
+     "optic_away": {
+      "name": "Purdue",
+      "abbr": "PUR",
+      "id": "F1F4D11CEC44"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031FC39BFAD"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "2087e3d4-e6f0-49ff-a9bd-ad73765a02be",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T22:30:00.000000Z",
+   "home": "Georgia Southern Eagles",
+   "home_abbr": "GASO",
+   "away": "App State Mountaineers",
+   "away_abbr": "APP",
+   "espn_game_id": "401869846",
+   "candidates": [
+    {
+     "fixture_id": "202610319E049DDA",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T22:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Georgia Southern",
+      "abbr": "GASO",
+      "id": "B74921896764"
+     },
+     "optic_away": {
+      "name": "Appalachian State",
+      "abbr": "APP",
+      "id": "A6418BE9B431"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610319E049DDA"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "792407de-763d-47dc-af9c-9416d49005dd",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:00:00.000000Z",
+   "home": "Iowa State Cyclones",
+   "home_abbr": "ISU",
+   "away": "Oklahoma State Cowboys",
+   "away_abbr": "OKST",
+   "espn_game_id": "401856847",
+   "candidates": [
+    {
+     "fixture_id": "202610314D21B4A6",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Iowa State",
+      "abbr": "ISU",
+      "id": "17125A5E5678"
+     },
+     "optic_away": {
+      "name": "Oklahoma State",
+      "abbr": "OKST",
+      "id": "666C6E0DDD96"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610314D21B4A6"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "9a3c6c7b-c71f-46d7-a1f3-e3a3d6e404b6",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:00:00.000000Z",
+   "home": "Florida State Seminoles",
+   "home_abbr": "FSU",
+   "away": "Clemson Tigers",
+   "away_abbr": "CLEM",
+   "espn_game_id": "401858280",
+   "candidates": [
+    {
+     "fixture_id": "20261031072F09FA",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Florida State",
+      "abbr": "FSU",
+      "id": "36D5C55CF7F1"
+     },
+     "optic_away": {
+      "name": "Clemson",
+      "abbr": "CLEM",
+      "id": "AB8D1BDC0E39"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031072F09FA"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "3722a12f-99bb-42e0-b077-baf35964be48",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:00:00.000000Z",
+   "home": "San Diego State Aztecs",
+   "home_abbr": "SDSU",
+   "away": "Washington State Cougars",
+   "away_abbr": "WSU",
+   "espn_game_id": "401860909",
+   "candidates": [
+    {
+     "fixture_id": "202610314B28435C",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "San Diego State",
+      "abbr": "SDSU",
+      "id": "B2C85637086C"
+     },
+     "optic_away": {
+      "name": "Washington State",
+      "abbr": "WSU",
+      "id": "F2B897726667"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610314B28435C"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "139f27e6-31eb-4699-b450-fbc35efeaf1e",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:30:00.000000Z",
+   "home": "USC Trojans",
+   "home_abbr": "USC",
+   "away": "Ohio State Buckeyes",
+   "away_abbr": "OSU",
+   "espn_game_id": "401858509",
+   "candidates": [
+    {
+     "fixture_id": "20261031D4002CC3",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "USC",
+      "abbr": "USC",
+      "id": "6414D2CB2EFE"
+     },
+     "optic_away": {
+      "name": "Ohio State",
+      "abbr": "OSU",
+      "id": "647B0C1D6483"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031D4002CC3"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "d0bc0d4b-fef6-4018-a034-25932fd0c4f2",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:30:00.000000Z",
+   "home": "Texas Longhorns",
+   "home_abbr": "TEX",
+   "away": "Mississippi State Bulldogs",
+   "away_abbr": "MSST",
+   "espn_game_id": "401856737",
+   "candidates": [
+    {
+     "fixture_id": "202610317B66C7AF",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Texas",
+      "abbr": "TEX",
+      "id": "7DBBEB676B16"
+     },
+     "optic_away": {
+      "name": "Mississippi State",
+      "abbr": "MSST",
+      "id": "16CAEA6D2A10"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610317B66C7AF"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "6c02ff15-f36a-4a69-b0f0-f8ed3fd29729",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:30:00.000000Z",
+   "home": "Pittsburgh Panthers",
+   "home_abbr": "PITT",
+   "away": "Georgia Tech Yellow Jackets",
+   "away_abbr": "GT",
+   "espn_game_id": "401858281",
+   "candidates": [
+    {
+     "fixture_id": "20261031A9F5F405",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Pittsburgh",
+      "abbr": "PITT",
+      "id": "CA4CAC3B1B45"
+     },
+     "optic_away": {
+      "name": "Georgia Tech",
+      "abbr": "GT",
+      "id": "534C685B8098"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031A9F5F405"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "934452cb-7d93-400c-820e-3a587d6ede02",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:30:00.000000Z",
+   "home": "North Carolina Tar Heels",
+   "home_abbr": "UNC",
+   "away": "Miami Hurricanes",
+   "away_abbr": "MIA",
+   "espn_game_id": "401858282",
+   "candidates": [
+    {
+     "fixture_id": "202610316029EC89",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "North Carolina",
+      "abbr": "UNC",
+      "id": "D8E9069D0DAD"
+     },
+     "optic_away": {
+      "name": "Miami Florida",
+      "abbr": "MIA",
+      "id": "412D810EA674"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610316029EC89"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "c734b97b-2202-4420-8e3b-5ca0c97ce369",
+   "competition": "NCAAF",
+   "event_start": "2026-10-31T23:45:00.000000Z",
+   "home": "Arkansas Razorbacks",
+   "home_abbr": "ARK",
+   "away": "Missouri Tigers",
+   "away_abbr": "MIZ",
+   "espn_game_id": "401856733",
+   "candidates": [
+    {
+     "fixture_id": "20261031E43B3499",
+     "league": "ncaaf",
+     "start_date": "2026-10-31T23:45:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Arkansas",
+      "abbr": "ARK",
+      "id": "9C218CAA480C"
+     },
+     "optic_away": {
+      "name": "Missouri",
+      "abbr": "MIZ",
+      "id": "11BE241A8FAF"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261031E43B3499"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "c582bc3b-3b5b-420e-b198-6643262e8568",
+   "competition": "NCAAF",
+   "event_start": "2026-11-01T00:00:00.000000Z",
+   "home": "Memphis Tigers",
+   "home_abbr": "MEM",
+   "away": "Army Black Knights",
+   "away_abbr": "ARMY",
+   "espn_game_id": "401862814",
+   "candidates": [
+    {
+     "fixture_id": "202610314DA77AED",
+     "league": "ncaaf",
+     "start_date": "2026-11-01T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Memphis",
+      "abbr": "MEM",
+      "id": "01FBDB1511E0"
+     },
+     "optic_away": {
+      "name": "Army",
+      "abbr": "ARMY",
+      "id": "E2AB7FF2E5A7"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610314DA77AED"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "38aaff7e-816a-466a-82bb-7f0e65a78ed9",
+   "competition": "NCAAF",
+   "event_start": "2026-11-01T00:00:00.000000Z",
+   "home": "Nebraska Cornhuskers",
+   "home_abbr": "NEB",
+   "away": "Washington Huskies",
+   "away_abbr": "WASH",
+   "espn_game_id": "401858504",
+   "candidates": [
+    {
+     "fixture_id": "2026103114CA70F4",
+     "league": "ncaaf",
+     "start_date": "2026-11-01T00:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Nebraska",
+      "abbr": "NEB",
+      "id": "F0653545EFEE"
+     },
+     "optic_away": {
+      "name": "Washington",
+      "abbr": "WASH",
+      "id": "63F0FB69A8FC"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "2026103114CA70F4"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "c9d06bcc-e64e-4a9e-9d51-f2e15310f6e2",
+   "competition": "NCAAF",
+   "event_start": "2026-11-01T02:00:00.000000Z",
+   "home": "Boise State Broncos",
+   "home_abbr": "BOIS",
+   "away": "Texas State Bobcats",
+   "away_abbr": "TXST",
+   "espn_game_id": "401860908",
+   "candidates": [
+    {
+     "fixture_id": "20261031474C54C9",
+     "league": "ncaaf",
+     "start_date": "2026-11-01T02:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Boise State",
+      "abbr": "BSU",
+      "id": "A78B7B92E8AB"
+     },
+     "optic_away": {
+      "name": "Texas State",
+      "abbr": "TXST",
+      "id": "805C0644E5B1"
+     },
+     "home_match": null,
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "14313dc3-b7cd-42c8-9fa3-744afef47079",
+   "competition": "NCAAF",
+   "event_start": "2026-11-01T02:30:00.000000Z",
+   "home": "UNLV Rebels",
+   "home_abbr": "UNLV",
+   "away": "Northern Illinois Huskies",
+   "away_abbr": "NIU",
+   "espn_game_id": "401864530",
+   "candidates": [
+    {
+     "fixture_id": "202610311A6AB466",
+     "league": "ncaaf",
+     "start_date": "2026-11-01T02:30:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "UNLV",
+      "abbr": "UNLV",
+      "id": "408CBE6B9C50"
+     },
+     "optic_away": {
+      "name": "Northern Illinois",
+      "abbr": "NIU",
+      "id": "593D1EFBB01D"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202610311A6AB466"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "832cb9f7-4086-43af-a703-534c917a833c",
+   "competition": "NCAAF",
+   "event_start": "2026-11-01T03:00:00.000000Z",
+   "home": "Fresno State Bulldogs",
+   "home_abbr": "FRES",
+   "away": "Oregon State Beavers",
+   "away_abbr": "ORST",
+   "espn_game_id": "401860924",
+   "candidates": [
+    {
+     "fixture_id": "20261030C2733818",
+     "league": "ncaaf",
+     "start_date": "2026-11-01T03:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Fresno State",
+      "abbr": "FRES",
+      "id": "D9D95D3B98AA"
+     },
+     "optic_away": {
+      "name": "Oregon State",
+      "abbr": "ORST",
+      "id": "243C16B6F3AB"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261030C2733818"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "84509817-b651-44ba-b9f7-ce1ee9fac815",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "Detroit Lions",
+   "home_abbr": "DET",
+   "away": "Minnesota Vikings",
+   "away_abbr": "MIN",
+   "espn_game_id": "401873030",
+   "candidates": [
+    {
+     "fixture_id": "202611011DCFAEE0",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Detroit Lions",
+      "abbr": "DET",
+      "id": "43412DC9CDCA"
+     },
+     "optic_away": {
+      "name": "Minnesota Vikings",
+      "abbr": "MIN",
+      "id": "24E4EA618C5E"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202611011DCFAEE0"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "e279df70-0b6b-4a89-ac5e-240af1570d60",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "Pittsburgh Steelers",
+   "home_abbr": "PIT",
+   "away": "Cleveland Browns",
+   "away_abbr": "CLE",
+   "espn_game_id": "401873027",
+   "candidates": [
+    {
+     "fixture_id": "202611014C3DB979",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Pittsburgh Steelers",
+      "abbr": "PIT",
+      "id": "727B3B3C78E8"
+     },
+     "optic_away": {
+      "name": "Cleveland Browns",
+      "abbr": "CLE",
+      "id": "81A1B4413577"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202611014C3DB979"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "f11efedd-51e8-491a-81b8-bc884357d733",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "Jacksonville Jaguars",
+   "home_abbr": "JAX",
+   "away": "Indianapolis Colts",
+   "away_abbr": "IND",
+   "espn_game_id": "401873028",
+   "candidates": [
+    {
+     "fixture_id": "202611012683EF5A",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Jacksonville Jaguars",
+      "abbr": "JAX",
+      "id": "9CCE4CA64CF2"
+     },
+     "optic_away": {
+      "name": "Indianapolis Colts",
+      "abbr": "IND",
+      "id": "28ABEAB98C11"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202611012683EF5A"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "49f26b73-30d8-4a2a-a681-7d6c14450ede",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "Buffalo Bills",
+   "home_abbr": "BUF",
+   "away": "Baltimore Ravens",
+   "away_abbr": "BAL",
+   "espn_game_id": "401873026",
+   "candidates": [
+    {
+     "fixture_id": "20261101FB751C07",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Buffalo Bills",
+      "abbr": "BUF",
+      "id": "0787D09E47B9"
+     },
+     "optic_away": {
+      "name": "Baltimore Ravens",
+      "abbr": "BAL",
+      "id": "766A226BC204"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261101FB751C07"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "0ca1f2e4-8a76-4e65-89c0-779f2436c033",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "New York Jets",
+   "home_abbr": "NYJ",
+   "away": "Las Vegas Raiders",
+   "away_abbr": "LV",
+   "espn_game_id": "401873029",
+   "candidates": [
+    {
+     "fixture_id": "202611014C641A57",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "New York Jets",
+      "abbr": "NYJ",
+      "id": "032D4F9C6C55"
+     },
+     "optic_away": {
+      "name": "Las Vegas Raiders",
+      "abbr": "LV",
+      "id": "A715F8199801"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202611014C641A57"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "076c9fa7-16fa-41af-971c-89b52c22a2c8",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "Cincinnati Bengals",
+   "home_abbr": "CIN",
+   "away": "Tennessee Titans",
+   "away_abbr": "TEN",
+   "espn_game_id": "401873031",
+   "candidates": [
+    {
+     "fixture_id": "20261101E675605C",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Cincinnati Bengals",
+      "abbr": "CIN",
+      "id": "EB3A43FF026E"
+     },
+     "optic_away": {
+      "name": "Tennessee Titans",
+      "abbr": "TEN",
+      "id": "24988863B4CB"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261101E675605C"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "e7622996-1c76-4bf1-8738-b1ea3e909805",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "Tampa Bay Buccaneers",
+   "home_abbr": "TB",
+   "away": "Atlanta Falcons",
+   "away_abbr": "ATL",
+   "espn_game_id": "401873025",
+   "candidates": [
+    {
+     "fixture_id": "20261101E215B119",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Tampa Bay Buccaneers",
+      "abbr": "TB",
+      "id": "4E7DB4C57393"
+     },
+     "optic_away": {
+      "name": "Atlanta Falcons",
+      "abbr": "ATL",
+      "id": "348C1EE88C42"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261101E215B119"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "56da3cb8-0c7b-4020-9c73-d800244df0cc",
+   "competition": "NFL",
+   "event_start": "2026-11-01T18:00:00.000000Z",
+   "home": "Dallas Cowboys",
+   "home_abbr": "DAL",
+   "away": "Arizona Cardinals",
+   "away_abbr": "ARI",
+   "espn_game_id": "401873024",
+   "candidates": [
+    {
+     "fixture_id": "202611019FE33AB8",
+     "league": "nfl",
+     "start_date": "2026-11-01T18:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Dallas Cowboys",
+      "abbr": "DAL",
+      "id": "0BDD5205ECCB"
+     },
+     "optic_away": {
+      "name": "Arizona Cardinals",
+      "abbr": "ARI",
+      "id": "AF456B375E7E"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202611019FE33AB8"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "c4c70564-dd15-4bf8-81f5-79049f34b46f",
+   "competition": "NFL",
+   "event_start": "2026-11-01T21:05:00.000000Z",
+   "home": "Los Angeles Rams",
+   "home_abbr": "LAR",
+   "away": "Los Angeles Chargers",
+   "away_abbr": "LAC",
+   "espn_game_id": "401873032",
+   "candidates": [
+    {
+     "fixture_id": "20261101F107D2CB",
+     "league": "nfl",
+     "start_date": "2026-11-01T21:05:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Los Angeles Rams",
+      "abbr": "LAR",
+      "id": "13AD4FDBEBA8"
+     },
+     "optic_away": {
+      "name": "Los Angeles Chargers",
+      "abbr": "LAC",
+      "id": "A283836CDF6E"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261101F107D2CB"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "836cfded-5091-45f1-abfb-bc26b6932da5",
+   "competition": "NFL",
+   "event_start": "2026-11-01T21:25:00.000000Z",
+   "home": "Miami Dolphins",
+   "home_abbr": "MIA",
+   "away": "New England Patriots",
+   "away_abbr": "NE",
+   "espn_game_id": "401873034",
+   "candidates": [
+    {
+     "fixture_id": "20261101211A7AB6",
+     "league": "nfl",
+     "start_date": "2026-11-01T21:25:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Miami Dolphins",
+      "abbr": "MIA",
+      "id": "8380A12E67FE"
+     },
+     "optic_away": {
+      "name": "New England Patriots",
+      "abbr": "NE",
+      "id": "04E3F3D69B89"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261101211A7AB6"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "e836f022-cb65-4138-b5ca-d87ece85ac8b",
+   "competition": "NFL",
+   "event_start": "2026-11-01T21:25:00.000000Z",
+   "home": "Denver Broncos",
+   "home_abbr": "DEN",
+   "away": "Kansas City Chiefs",
+   "away_abbr": "KC",
+   "espn_game_id": "401873033",
+   "candidates": [
+    {
+     "fixture_id": "20261101ACD99729",
+     "league": "nfl",
+     "start_date": "2026-11-01T21:25:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Denver Broncos",
+      "abbr": "DEN",
+      "id": "0DBD3AEC9A84"
+     },
+     "optic_away": {
+      "name": "Kansas City Chiefs",
+      "abbr": "KC",
+      "id": "2D71E5BA64A5"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "20261101ACD99729"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "dbcfbc6c-58f8-40cb-b6b7-b224047dbb62",
+   "competition": "NFL",
+   "event_start": "2026-11-02T01:20:00.000000Z",
+   "home": "Washington Commanders",
+   "home_abbr": "WSH",
+   "away": "Philadelphia Eagles",
+   "away_abbr": "PHI",
+   "espn_game_id": "401873035",
+   "candidates": [
+    {
+     "fixture_id": "202611021BFE7F70",
+     "league": "nfl",
+     "start_date": "2026-11-02T01:20:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Washington Commanders",
+      "abbr": "WSH",
+      "id": "C921828AB706"
+     },
+     "optic_away": {
+      "name": "Philadelphia Eagles",
+      "abbr": "PHI",
+      "id": "EDCC2866B795"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202611021BFE7F70"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "7213d591-cf94-44b7-b1b8-426047d7ae2d",
+   "competition": "NFL",
+   "event_start": "2026-11-03T01:15:00.000000Z",
+   "home": "Seattle Seahawks",
+   "home_abbr": "SEA",
+   "away": "Chicago Bears",
+   "away_abbr": "CHI",
+   "espn_game_id": "401873036",
+   "candidates": [
+    {
+     "fixture_id": "202611039D02E17D",
+     "league": "nfl",
+     "start_date": "2026-11-03T01:15:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Seattle Seahawks",
+      "abbr": "SEA",
+      "id": "EFED0277C4BD"
+     },
+     "optic_away": {
+      "name": "Chicago Bears",
+      "abbr": "CHI",
+      "id": "7108F48884ED"
+     },
+     "home_match": "name",
+     "away_match": "name",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "unplayed"
+    }
+   ],
+   "joined": [
+    "202611039D02E17D"
+   ],
+   "result": "1"
+  },
+  {
+   "event_id": "e284846e-e11f-4c22-8e40-67954532d21d",
+   "competition": "NCAAF",
+   "event_start": "2026-09-19T22:00:00.000000Z",
+   "home": "Florida Atlantic Owls",
+   "home_abbr": "FAU",
+   "away": "Florida International Panthers",
+   "away_abbr": "FIU",
+   "espn_game_id": "401862771",
+   "candidates": [],
+   "joined": [],
+   "result": "0"
+  },
+  {
+   "event_id": "77511d6a-da5b-4031-b09e-6a7294254084",
+   "competition": "NCAAF",
+   "event_start": "2026-10-24T21:00:00.000000Z",
+   "home": "Nevada Wolf Pack",
+   "home_abbr": "NEV",
+   "away": "San Jos\u00e9 State Spartans",
+   "away_abbr": "SJSU",
+   "espn_game_id": "401864528",
+   "candidates": [
+    {
+     "fixture_id": "2026102401027F0D",
+     "league": "ncaaf",
+     "start_date": "2026-10-24T21:00:00Z",
+     "delta_min": 0.0,
+     "optic_home": {
+      "name": "Nevada",
+      "abbr": "NEV",
+      "id": "527F9576AB57"
+     },
+     "optic_away": {
+      "name": "San Jose State",
+      "abbr": "SJSU",
+      "id": "BCBC3E2330D5"
+     },
+     "home_match": "abbr",
+     "away_match": "abbr",
+     "reversed_home": null,
+     "reversed_away": null,
+     "status": "completed"
+    }
+   ],
+   "joined": [
+    "2026102401027F0D"
+   ],
+   "result": "1"
+  }
+ ]
+}

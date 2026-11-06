@@ -1,0 +1,1501 @@
+{
+ "captured": "2026-10-29T00:54:02Z UDX GET /markets?series_ticker=UDXNHLFGS; Optic /fixtures/odds market=first_goal_scorer (mmmapper book batches), one odd per player",
+ "events": [
+  {
+   "fixture_id": "202610288EE52C4B",
+   "start_date": "2026-10-29T02:00:00Z",
+   "home_competitors": [
+    {
+     "id": "F86BAB6416CB",
+     "name": "Seattle Kraken",
+     "abbreviation": "SEA"
+    }
+   ],
+   "away_competitors": [
+    {
+     "id": "2C06F9EEDB61",
+     "name": "Toronto Maple Leafs",
+     "abbreviation": "TOR"
+    }
+   ],
+   "odds": [
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:frederick_gaudreau",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Frederick Gaudreau",
+     "selection": "Frederick Gaudreau",
+     "normalized_selection": "frederick_gaudreau",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "9E5C073D8291",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:josh_mahura",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Josh Mahura",
+     "selection": "Josh Mahura",
+     "normalized_selection": "josh_mahura",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "D83646927186",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:jake_mccabe",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Jake McCabe",
+     "selection": "Jake McCabe",
+     "normalized_selection": "jake_mccabe",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "9CF64CBF31A5",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:vince_dunn",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Vince Dunn",
+     "selection": "Vince Dunn",
+     "normalized_selection": "vince_dunn",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "750DFECEE9F6",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:mackie_samoskevich",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Mackie Samoskevich",
+     "selection": "Mackie Samoskevich",
+     "normalized_selection": "mackie_samoskevich",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "5090B266EF61",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:troy_stecher",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Troy Stecher",
+     "selection": "Troy Stecher",
+     "normalized_selection": "troy_stecher",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "B50E9687D114",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:vinni_lettieri",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Vinni Lettieri",
+     "selection": "Vinni Lettieri",
+     "normalized_selection": "vinni_lettieri",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "705A7B282D22",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:chandler_stephenson",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Chandler Stephenson",
+     "selection": "Chandler Stephenson",
+     "normalized_selection": "chandler_stephenson",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "5470C0E36696",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:easton_cowan",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Easton Cowan",
+     "selection": "Easton Cowan",
+     "normalized_selection": "easton_cowan",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "0FE925304366",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:auston_matthews",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Auston Matthews",
+     "selection": "Auston Matthews",
+     "normalized_selection": "auston_matthews",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "FF1B926A9CA3",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:matty_beniers",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Matty Beniers",
+     "selection": "Matty Beniers",
+     "normalized_selection": "matty_beniers",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "E695A65EF512",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:brandon_duhaime",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Brandon Duhaime",
+     "selection": "Brandon Duhaime",
+     "normalized_selection": "brandon_duhaime",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "5C0E83115EBE",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:jordan_eberle",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Jordan Eberle",
+     "selection": "Jordan Eberle",
+     "normalized_selection": "jordan_eberle",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "F4CF40A128A5",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:morgan_rielly",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Morgan Rielly",
+     "selection": "Morgan Rielly",
+     "normalized_selection": "morgan_rielly",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "02CD7EEC81E2",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:nicholas_paul",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Nicholas Paul",
+     "selection": "Nicholas Paul",
+     "normalized_selection": "nicholas_paul",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "2280553AA273",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:ryker_evans",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Ryker Evans",
+     "selection": "Ryker Evans",
+     "normalized_selection": "ryker_evans",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "3B1DF6A2919F",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:zack_macewen",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Zack MacEwen",
+     "selection": "Zack MacEwen",
+     "normalized_selection": "zack_macewen",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "747F40C321F5",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:ryan_winterton",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Ryan Winterton",
+     "selection": "Ryan Winterton",
+     "normalized_selection": "ryan_winterton",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "D04C4F1763E4",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:teddy_blueger",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Teddy Blueger",
+     "selection": "Teddy Blueger",
+     "normalized_selection": "teddy_blueger",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "64C6FD350991",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:adam_larsson",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Adam Larsson",
+     "selection": "Adam Larsson",
+     "normalized_selection": "adam_larsson",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "99B5163A3F0B",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:ben_meyers",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Ben Meyers",
+     "selection": "Ben Meyers",
+     "normalized_selection": "ben_meyers",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "1BAA5CDDBA6C",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:shane_wright",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Shane Wright",
+     "selection": "Shane Wright",
+     "normalized_selection": "shane_wright",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "0186571085EB",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:william_nylander",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "William Nylander",
+     "selection": "William Nylander",
+     "normalized_selection": "william_nylander",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "9745D2B4BCC3",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:brandon_montour",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Brandon Montour",
+     "selection": "Brandon Montour",
+     "normalized_selection": "brandon_montour",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "98A2845EE43D",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:jani_nyman",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Jani Nyman",
+     "selection": "Jani Nyman",
+     "normalized_selection": "jani_nyman",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "72F7486D1F92",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:ville_ottavainen",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Ville Ottavainen",
+     "selection": "Ville Ottavainen",
+     "normalized_selection": "ville_ottavainen",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "25EF6F749B47",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:colton_sissons",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Colton Sissons",
+     "selection": "Colton Sissons",
+     "normalized_selection": "colton_sissons",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "91BDCEEBFB53",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:darren_raddysh",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Darren Raddysh",
+     "selection": "Darren Raddysh",
+     "normalized_selection": "darren_raddysh",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "0970C4873297",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:berkly_catton",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Berkly Catton",
+     "selection": "Berkly Catton",
+     "normalized_selection": "berkly_catton",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "84141360EC0F",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:gavin_mckenna",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Gavin McKenna",
+     "selection": "Gavin McKenna",
+     "normalized_selection": "gavin_mckenna",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "4173B9477BE93E6F",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:dakota_mermis",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Dakota Mermis",
+     "selection": "Dakota Mermis",
+     "normalized_selection": "dakota_mermis",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "1A8167385376",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:cale_fleury",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Cale Fleury",
+     "selection": "Cale Fleury",
+     "normalized_selection": "cale_fleury",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "A2FBB77BEADA",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:jack_roslovic",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Jack Roslovic",
+     "selection": "Jack Roslovic",
+     "normalized_selection": "jack_roslovic",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "59E5EE8E85B1",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:bobby_mcmann",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Bobby McMann",
+     "selection": "Bobby McMann",
+     "normalized_selection": "bobby_mcmann",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "53D766D77478",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:oliver_ekman-larsson",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Oliver Ekman-Larsson",
+     "selection": "Oliver Ekman-Larsson",
+     "normalized_selection": "oliver_ekman-larsson",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "D4166AC75C97",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:kaapo_kakko",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Kaapo Kakko",
+     "selection": "Kaapo Kakko",
+     "normalized_selection": "kaapo_kakko",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "DC21066504EC",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:bo_groulx",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Bo Groulx",
+     "selection": "Bo Groulx",
+     "normalized_selection": "bo_groulx",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "9D62B0433EB3",
+     "grouping_key": "default"
+    },
+    {
+     "id": "18753-39029-2026-10-28:first_goal_scorer:kirill_marchenko",
+     "market": "First Goal Scorer",
+     "market_id": "first_goal_scorer",
+     "name": "Kirill Marchenko",
+     "selection": "Kirill Marchenko",
+     "normalized_selection": "kirill_marchenko",
+     "selection_line": null,
+     "points": null,
+     "team_id": null,
+     "player_id": "A13A97974C4A",
+     "grouping_key": "default"
+    }
+   ],
+   "rows": [
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Adam Larsson record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "99B5163A3F0B"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Adam Larsson during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAADALARSSO0.5",
+     "title": "Adam Larsson: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Ben Meyers record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "1BAA5CDDBA6C"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Ben Meyers during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEABENMEYERS0.5",
+     "title": "Ben Meyers: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Berkly Catton record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "84141360EC0F"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Berkly Catton during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEABERCATTON0.5",
+     "title": "Berkly Catton: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Bobby McMann record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "53D766D77478"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Bobby McMann during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEABOBMCMANN0.5",
+     "title": "Bobby McMann: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Brandon Montour record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "98A2845EE43D"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Brandon Montour during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEABRAMONTOU0.5",
+     "title": "Brandon Montour: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Chandler Stephenson record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "5470C0E36696"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Chandler Stephenson during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEACHASTEPHE0.5",
+     "title": "Chandler Stephenson: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Frederick Gaudreau record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "9E5C073D8291"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Frederick Gaudreau during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAFREGAUDRE0.5",
+     "title": "Frederick Gaudreau: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Jani Nyman record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "72F7486D1F92"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Jani Nyman during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAJANNYMAN0.5",
+     "title": "Jani Nyman: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Jordan Eberle record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "F4CF40A128A5"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Jordan Eberle during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAJOREBERLE0.5",
+     "title": "Jordan Eberle: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Josh Mahura record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "D83646927186"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T08:08:53.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Josh Mahura during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAJOSMAHURA0.5",
+     "title": "Josh Mahura: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Kaapo Kakko record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "DC21066504EC"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Kaapo Kakko during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAKAAKAKKO0.5",
+     "title": "Kaapo Kakko: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Mackie Samoskevich record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "5090B266EF61"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Mackie Samoskevich during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAMACSAMOSK0.5",
+     "title": "Mackie Samoskevich: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Matty Beniers record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "E695A65EF512"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Matty Beniers during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAMATBENIER0.5",
+     "title": "Matty Beniers: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Ryan Winterton record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "D04C4F1763E4"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Ryan Winterton during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEARYAWINTER0.5",
+     "title": "Ryan Winterton: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Ryker Evans record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "3B1DF6A2919F"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Ryker Evans during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEARYKEVANS0.5",
+     "title": "Ryker Evans: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Shane Wright record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "0186571085EB"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Shane Wright during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEASHAWRIGHT0.5",
+     "title": "Shane Wright: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Ville Ottavainen record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "25EF6F749B47"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T08:08:52.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Ville Ottavainen during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAVILOTTAVA0.5",
+     "title": "Ville Ottavainen: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Vince Dunn record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "750DFECEE9F6"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Vince Dunn during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_SEAVINDUNN0.5",
+     "title": "Vince Dunn: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Auston Matthews record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "FF1B926A9CA3"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Auston Matthews during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORAUSMATTHE0.5",
+     "title": "Auston Matthews: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Brandon Duhaime record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "5C0E83115EBE"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Brandon Duhaime during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORBRADUHAIM0.5",
+     "title": "Brandon Duhaime: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Colton Sissons record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "91BDCEEBFB53"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Colton Sissons during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORCOLSISSON0.5",
+     "title": "Colton Sissons: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Dakota Mermis record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "1A8167385376"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T08:23:52.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Dakota Mermis during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORDAKMERMIS0.5",
+     "title": "Dakota Mermis: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Darren Raddysh record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "0970C4873297"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Darren Raddysh during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORDARRADDYS0.5",
+     "title": "Darren Raddysh: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Easton Cowan record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "0FE925304366"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Easton Cowan during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TOREASCOWAN0.5",
+     "title": "Easton Cowan: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Gavin McKenna record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "4173B9477BE93E6F"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Gavin McKenna during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORGAVMCKENN0.5",
+     "title": "Gavin McKenna: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Jack Roslovic record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "59E5EE8E85B1"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Jack Roslovic during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORJACROSLOV0.5",
+     "title": "Jack Roslovic: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Jake McCabe record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "9CF64CBF31A5"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Jake McCabe during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORJAKMCCABE0.5",
+     "title": "Jake McCabe: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Morgan Rielly record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "02CD7EEC81E2"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Morgan Rielly during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORMORRIELLY0.5",
+     "title": "Morgan Rielly: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Nicholas Paul record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "2280553AA273"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Nicholas Paul during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORNICPAUL0.5",
+     "title": "Nicholas Paul: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Oliver Ekman-Larsson record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "D4166AC75C97"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Oliver Ekman-Larsson during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TOROLIEKMANL0.5",
+     "title": "Oliver Ekman-Larsson: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Teddy Blueger record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "64C6FD350991"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Teddy Blueger during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORTEDBLUEGE0.5",
+     "title": "Teddy Blueger: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Troy Stecher record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "B50E9687D114"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Troy Stecher during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORTROSTECHE0.5",
+     "title": "Troy Stecher: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Vinni Lettieri record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "705A7B282D22"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:44.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Vinni Lettieri during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORVINLETTIE0.5",
+     "title": "Vinni Lettieri: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL William Nylander record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "9745D2B4BCC3"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-27T23:23:45.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to William Nylander during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORWILNYLAND0.5",
+     "title": "William Nylander: Over 0.5 first goal?"
+    },
+    {
+     "contract_terms_url": "https://assets.ctfassets.net/g0w5vqsu9v5u/5vRSYLb4BjEvRsAcsH4Djl/90c08793eb1ac2377e2a971f15a473e9/Underdog_Exchange_NHLENTITYOUTCOME_40.2_d__-_DCM_Product_Submission_9-23-2026.pdf",
+     "description": "Will NHL Zack MacEwen record at least 0.5 first goal during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET?",
+     "event_ticker": "UDXNHLFGS_TORSEA26OCT28",
+     "expires_at": "2026-10-31T14:00:00.000000Z",
+     "external_ids": {
+      "optic_odds": {
+       "fixture_id": "202610288EE52C4B",
+       "market_id": "first_goal_scorer",
+       "player_id": "747F40C321F5"
+      }
+     },
+     "maximum_price": "0.999",
+     "minimum_price": "0.001",
+     "notional_value": "1",
+     "opens_at": "2026-10-28T08:23:52.000000Z",
+     "rules": "The Underlying is the final value of first goal officially attributed to Zack MacEwen during the entire game including overtime but excluding the shootout of Toronto Maple Leafs (away) at Seattle Kraken (home), originally scheduled for October 28, 2026 at 10:00pm ET by the Source Agency. Each permissible first goal, including any combination, uses only statistics from the exhaustive list in these terms. Only values from the specified time period count. Revisions published after Expiration do not affect the Expiration Value.",
+     "series_ticker": "UDXNHLFGS",
+     "status": "open",
+     "strike": {
+      "type": "greater",
+      "unit": "decimal",
+      "value": "0.5"
+     },
+     "tick_size": "0.001",
+     "ticker": "UDXNHLFGS_TORSEA26OCT28_TORZACMACEWE0.5",
+     "title": "Zack MacEwen: Over 0.5 first goal?"
+    }
+   ]
+  }
+ ]
+}

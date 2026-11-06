@@ -1,0 +1,102 @@
+[tools]
+python = "3.13"
+
+[tasks.test]
+run = "python -m pytest tests/"
+
+[tasks.check]
+run = "pyright ."
+
+[tasks.ci]
+description = "pytest + pyright (same as CI test stage)"
+run = '''
+export GCP_PROJECT="${GCP_PROJECT:-marketmaking-test}"
+python -m pytest tests/
+pyright .
+'''
+
+[tasks.quality]
+description = "Shared CI quality gate (size/bandit/pip-audit/interrogate/pytest+cov)"
+run = "bash scripts/run-quality.sh"
+
+[tasks.hooks-install]
+description = "Install pre-commit hook (quality gate + pyright)"
+run = "bash scripts/install-git-hooks.sh"
+
+[tasks.fetch]
+run = "python -m fetch --league nba ncaab epl --out-dir data"
+
+[tasks.smoke]
+run = "python scripts/smoke.py data/"
+
+[tasks.map]
+usage = """
+arg "<data_dir>"
+arg "[extra]" var=#true
+"""
+run = "python -m mappers.run ${usage_data_dir} ${usage_extra}"
+
+[tasks.write]
+usage = """
+arg "<data_dir>"
+"""
+run = "python -m mappers.run ${usage_data_dir} --write-mappings"
+
+[tasks.load]
+usage = """
+arg "<data_dir>"
+arg "[extra]" var=#true
+"""
+run = "python -m BigQuery.load_mappings ${usage_data_dir}/mappings.jsonl ${usage_extra}"
+
+[tasks.poly-bridge]
+description = "Rebuild the Polymarket position_id<->clob_token_id bridge to BigQuery"
+usage = """
+arg "[extra]" var=#true help="e.g. --cids-file legs.txt | --limit 200 --dry-run"
+"""
+run = "python -m BigQuery.load_polymarket_position_bridge ${usage_extra}"
+
+[tasks.poly-token-resolutions]
+description = "Scrape all Polymarket token final resolution prices to BigQuery"
+usage = """
+arg "[extra]" var=#true help="e.g. --since 2026-06-01T00:00:00Z | --start-offset 1300000 | --max-pages 5 --dry-run"
+"""
+run = "python -m BigQuery.load_polymarket_token_resolutions ${usage_extra}"
+
+[tasks.ai-validate]
+description = "AI-validate the Kalshi/Polymarket/crypto.com/Novig mappings (judged once ever per mapping)"
+usage = """
+arg "[extra]" var=#true help="e.g. --dry-run | --max-rows 50 | --sportsbook Kalshi | --revalidate"
+"""
+run = "python -m BigQuery.ai_validation ${usage_extra}"
+
+[tasks.check-gold]
+run = "python -m scripts.check_gold data/"
+
+[tasks.write-gold]
+usage = """
+flag "--league <key>" help="Limit to a single league (default: all leagues)"
+arg "<dirs>" var=#true help="Data dirs (or globs), e.g. data/2026-03-25/05_51"
+"""
+run = '''
+LEAGUE_FLAG=""
+[[ -n "${usage_league:-}" ]] && LEAGUE_FLAG="--league ${usage_league}"
+for d in ${usage_dirs?}; do
+  python -m mappers.run "$d" --gold $LEAGUE_FLAG
+done
+'''
+
+[tasks.copy-data]
+usage = """
+flag "--overwrite" help="Remove existing local dir before copying"
+arg "<vm>"
+arg "<data_dir>"
+"""
+run = '''
+[[ "${usage_overwrite:-false}" == "true" ]] && OPT="-f" || OPT=""
+python -m scripts.copy_data_dir $OPT "${usage_vm?}" "${usage_data_dir?}"
+'''
+
+[env]
+_.file = ".env"
+_.python.venv = { path = ".venv", create = true }

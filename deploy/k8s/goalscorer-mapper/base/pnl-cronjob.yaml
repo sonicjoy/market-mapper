@@ -1,0 +1,52 @@
+# Yesterday's goalscorer combo PnL → PDF in #goalscorer-alerts.
+# No retry — a rerun would upload the report twice.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: goalscorer-pnl
+  labels:
+    app: goalscorer-pnl
+spec:
+  # 09:00 UK time (BST in summer, GMT in winter).
+  schedule: "0 9 * * *"
+  timeZone: "Europe/London"
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 1800
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      activeDeadlineSeconds: 1800
+      backoffLimit: 0
+      template:
+        metadata:
+          labels:
+            app: goalscorer-pnl
+        spec:
+          serviceAccountName: goalscorer-mapper
+          restartPolicy: Never
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 10001
+          containers:
+            - name: pnl
+              image: goalscorer-mapper:DEPLOY-VIA-DEPLOY-SH
+              args: ["pnl"]
+              envFrom:
+                - configMapRef:
+                    name: goalscorer-mapper-config
+              # Slack tokens: prod ExternalSecret goalscorer-slack (absent in test).
+              env:
+                - name: SLACK_BOT_TOKEN
+                  valueFrom:
+                    secretKeyRef:
+                      name: goalscorer-slack
+                      key: SLACK_BOT_TOKEN
+                      optional: true
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 256Mi
+                limits:
+                  cpu: "1"
+                  memory: 512Mi

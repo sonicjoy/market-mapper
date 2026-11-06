@@ -1,0 +1,715 @@
+{
+ "_source": "Live public prod catalogue GET https://api.underdogexchange.com/markets?type=single_leg&status=open, 2026-09-29 ~10:45Z, verbatim rows trimmed to four fields: every market of one event per newly listed league (FIFA international friendly AND@LTU, ARGNAC ALL@MOR, BRASILA RBB@ATL, NHL BOS@MIN) plus the ANA@VGK NHL winners. SAUDIPRO had no open market at capture time. optic_fixtures: rs-marketmaking opticodds_us.opticodds_fixtures (latest row per id). Sentence order is away-first for FIFA/NHL and HOME-first for ARGNAC/BRASILA (like UNL), so the ticker blob order never picks a side.",
+ "markets": [
+  {
+   "ticker": "UDXFIFABTTS_ANDLTU26SEP301200_BTTS",
+   "description": "Resolves Yes if both teams score in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "both_teams_to_score"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFAGAMEWIN_ANDLTU26SEP301200_AND",
+   "description": "Resolves Yes if Andorra win the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "moneyline",
+     "team_id": "B69926145B54011A"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFAGAMEWIN_ANDLTU26SEP301200_DRAW",
+   "description": "Resolves Yes if the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026 ends in a draw.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "moneyline"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFAGAMEWIN_ANDLTU26SEP301200_LTU",
+   "description": "Resolves Yes if Lithuania win the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "moneyline",
+     "team_id": "19E63DE2CE75F57F"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFASPREAD_ANDLTU26SEP301200_AND1.5",
+   "description": "Resolves Yes if Andorra beat the Lithuania by at least 1.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "asian_handicap",
+     "team_id": "B69926145B54011A"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFASPREAD_ANDLTU26SEP301200_AND2.5",
+   "description": "Resolves Yes if Andorra beat the Lithuania by at least 2.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "asian_handicap",
+     "team_id": "B69926145B54011A"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFASPREAD_ANDLTU26SEP301200_LTU1.5",
+   "description": "Resolves Yes if Lithuania beat the Andorra by at least 1.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "asian_handicap",
+     "team_id": "19E63DE2CE75F57F"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFASPREAD_ANDLTU26SEP301200_LTU2.5",
+   "description": "Resolves Yes if Lithuania beat the Andorra by at least 2.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "asian_handicap",
+     "team_id": "19E63DE2CE75F57F"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFATOTAL_ANDLTU26SEP301200_0.5",
+   "description": "Resolves Yes if there are above 0.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFATOTAL_ANDLTU26SEP301200_1.5",
+   "description": "Resolves Yes if there are above 1.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFATOTAL_ANDLTU26SEP301200_2.5",
+   "description": "Resolves Yes if there are above 2.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFATOTAL_ANDLTU26SEP301200_3.5",
+   "description": "Resolves Yes if there are above 3.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFATOTAL_ANDLTU26SEP301200_4.5",
+   "description": "Resolves Yes if there are above 4.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXFIFATOTAL_ANDLTU26SEP301200_5.5",
+   "description": "Resolves Yes if there are above 5.5 goals in the International Friendly game between the Andorra and the Lithuania originally scheduled for 12:00pm ET on September 30, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20260930DD7C3764",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACBTTS_ALLMOR26OCT031400_BTTS",
+   "description": "Resolves Yes if both teams score in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "both_teams_to_score"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACGAMEWIN_ALLMOR26OCT031400_ALL",
+   "description": "Resolves Yes if CA All Boys win Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "moneyline",
+     "team_id": "03CA131E25F9"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACGAMEWIN_ALLMOR26OCT031400_DRAW",
+   "description": "Resolves Yes if Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026 ends in a draw.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "moneyline"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACGAMEWIN_ALLMOR26OCT031400_MOR",
+   "description": "Resolves Yes if CD Morón win Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "moneyline",
+     "team_id": "391C7905E0EE"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACSPREAD_ALLMOR26OCT031400_ALL0.5",
+   "description": "Resolves Yes if CA All Boys beat CD Morón by at least 0.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "asian_handicap",
+     "team_id": "03CA131E25F9"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACSPREAD_ALLMOR26OCT031400_MOR0.5",
+   "description": "Resolves Yes if CD Morón beat CA All Boys by at least 0.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "asian_handicap",
+     "team_id": "391C7905E0EE"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACSPREAD_ALLMOR26OCT031400_MOR1.5",
+   "description": "Resolves Yes if CD Morón beat CA All Boys by at least 1.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "asian_handicap",
+     "team_id": "391C7905E0EE"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACSPREAD_ALLMOR26OCT031400_MOR2.5",
+   "description": "Resolves Yes if CD Morón beat CA All Boys by at least 2.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "asian_handicap",
+     "team_id": "391C7905E0EE"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACTOTAL_ALLMOR26OCT031400_0.5",
+   "description": "Resolves Yes if there are above 0.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACTOTAL_ALLMOR26OCT031400_1.5",
+   "description": "Resolves Yes if there are above 1.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACTOTAL_ALLMOR26OCT031400_2.5",
+   "description": "Resolves Yes if there are above 2.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXARGNACTOTAL_ALLMOR26OCT031400_3.5",
+   "description": "Resolves Yes if there are above 3.5 goals in Primera Nacional match between CD Morón and CA All Boys originally scheduled for 2:00pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610038DAED30A",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILABTTS_RBBATL26OCT031730_BTTS",
+   "description": "Resolves Yes if both teams score in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "both_teams_to_score"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILAGAMEWIN_RBBATL26OCT031730_ATL",
+   "description": "Resolves Yes if Clube Atlético Mineiro win Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "moneyline",
+     "team_id": "7CABD1DE264B"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILAGAMEWIN_RBBATL26OCT031730_DRAW",
+   "description": "Resolves Yes if Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026 ends in a draw.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "moneyline"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILAGAMEWIN_RBBATL26OCT031730_RBB",
+   "description": "Resolves Yes if Red Bull Bragantino win Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "moneyline",
+     "team_id": "20A26A02D80B"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILASPREAD_RBBATL26OCT031730_ATL1.5",
+   "description": "Resolves Yes if Clube Atlético Mineiro beat Red Bull Bragantino by at least 1.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "asian_handicap",
+     "team_id": "7CABD1DE264B"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILASPREAD_RBBATL26OCT031730_ATL2.5",
+   "description": "Resolves Yes if Clube Atlético Mineiro beat Red Bull Bragantino by at least 2.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "asian_handicap",
+     "team_id": "7CABD1DE264B"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILASPREAD_RBBATL26OCT031730_RBB1.5",
+   "description": "Resolves Yes if Red Bull Bragantino beat Clube Atlético Mineiro by at least 1.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "asian_handicap",
+     "team_id": "20A26A02D80B"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILASPREAD_RBBATL26OCT031730_RBB2.5",
+   "description": "Resolves Yes if Red Bull Bragantino beat Clube Atlético Mineiro by at least 2.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "asian_handicap",
+     "team_id": "20A26A02D80B"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILATOTAL_RBBATL26OCT031730_0.5",
+   "description": "Resolves Yes if there are above 0.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILATOTAL_RBBATL26OCT031730_1.5",
+   "description": "Resolves Yes if there are above 1.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILATOTAL_RBBATL26OCT031730_2.5",
+   "description": "Resolves Yes if there are above 2.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILATOTAL_RBBATL26OCT031730_3.5",
+   "description": "Resolves Yes if there are above 3.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILATOTAL_RBBATL26OCT031730_4.5",
+   "description": "Resolves Yes if there are above 4.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXBRASILATOTAL_RBBATL26OCT031730_5.5",
+   "description": "Resolves Yes if there are above 5.5 goals in Brazil Série A match between Clube Atlético Mineiro and Red Bull Bragantino originally scheduled for 5:30pm ET on October 3, 2026.",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "20261003E924328F",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLGAMEWIN_BOSMIN26OCT032000_BOS",
+   "description": "Will NHL Boston Bruins score more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "moneyline",
+     "team_id": "E24CA44A7824"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLGAMEWIN_BOSMIN26OCT032000_MIN",
+   "description": "Will NHL Minnesota Wild score more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "moneyline",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLSPREAD_BOSMIN26OCT032000_MIN1.5",
+   "description": "Will NHL Minnesota Wild score above 1.5 more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "puck_line",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_BOS0.5",
+   "description": "Will NHL Boston Bruins record above 0.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "E24CA44A7824"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_BOS1.5",
+   "description": "Will NHL Boston Bruins record above 1.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "E24CA44A7824"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_BOS2.5",
+   "description": "Will NHL Boston Bruins record above 2.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "E24CA44A7824"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_BOS3.5",
+   "description": "Will NHL Boston Bruins record above 3.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "E24CA44A7824"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_BOS4.5",
+   "description": "Will NHL Boston Bruins record above 4.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "E24CA44A7824"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_BOS5.5",
+   "description": "Will NHL Boston Bruins record above 5.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "E24CA44A7824"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_MIN0.5",
+   "description": "Will NHL Minnesota Wild record above 0.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_MIN1.5",
+   "description": "Will NHL Minnesota Wild record above 1.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_MIN2.5",
+   "description": "Will NHL Minnesota Wild record above 2.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_MIN3.5",
+   "description": "Will NHL Minnesota Wild record above 3.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_MIN4.5",
+   "description": "Will NHL Minnesota Wild record above 4.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTEAMGOALS_BOSMIN26OCT032000_MIN5.5",
+   "description": "Will NHL Minnesota Wild record above 5.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "team_total",
+     "team_id": "8D53759CDE8E"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLTOTAL_BOSMIN26OCT032000_6.5",
+   "description": "Will NHL Boston Bruins (away) at Minnesota Wild (home), originally scheduled for October 3, 2026 at 8:00pm ET have above 6.5 goals during the entire game including regulation, all overtime periods actually played, and the official shootout result?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "202610045DD7AA1A",
+     "market_id": "total_goals"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLGAMEWIN_ANAVGK26OCT022200_ANA",
+   "description": "Will NHL Anaheim Ducks score more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Vegas Golden Knights (home), originally scheduled for October 2, 2026 at 10:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "2026100367B34DEF",
+     "market_id": "moneyline",
+     "team_id": "013ABB6C1301"
+    }
+   }
+  },
+  {
+   "ticker": "UDXNHLGAMEWIN_ANAVGK26OCT022200_VGK",
+   "description": "Will NHL Vegas Golden Knights score more goals during the entire game including regulation, all overtime periods actually played, and the official shootout result of Anaheim Ducks (away) at Vegas Golden Knights (home), originally scheduled for October 2, 2026 at 10:00pm ET?",
+   "status": "open",
+   "external_ids": {
+    "optic_odds": {
+     "fixture_id": "2026100367B34DEF",
+     "market_id": "moneyline",
+     "team_id": "11E615E70523"
+    }
+   }
+  }
+ ],
+ "optic_fixtures": [
+  {
+   "id": "20260930DD7C3764",
+   "league": "international_-_friendlies",
+   "start_date": "2026-09-30T16:00:00Z",
+   "home": "Lithuania",
+   "away": "Andorra"
+  },
+  {
+   "id": "202610038DAED30A",
+   "league": "argentina_-_primera_nacional",
+   "start_date": "2026-10-03T18:00:00Z",
+   "home": "CD Morón",
+   "away": "CA All Boys"
+  },
+  {
+   "id": "20261003E924328F",
+   "league": "brazil_-_serie_a",
+   "start_date": "2026-10-03T21:30:00Z",
+   "home": "Clube Atlético Mineiro",
+   "away": "Red Bull Bragantino"
+  },
+  {
+   "id": "202610045DD7AA1A",
+   "league": "nhl",
+   "start_date": "2026-10-04T00:00:00Z",
+   "home": "Minnesota Wild",
+   "away": "Boston Bruins"
+  },
+  {
+   "id": "2026100367B34DEF",
+   "league": "nhl",
+   "start_date": "2026-10-03T02:00:00Z",
+   "home": "Vegas Golden Knights",
+   "away": "Anaheim Ducks"
+  }
+ ]
+}

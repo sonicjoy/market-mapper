@@ -1,0 +1,48 @@
+# Suite A/B goldens for market_rules.
+- id: market_named_book_moneyline
+  message: map moneyline markets for atp on px
+  page: {}
+  expect:
+    path: skill:market_rules
+    outcome: ok
+    prefill_tab: market
+    ui_action_types: [navigate, switch_tab, prefill_form]
+
+- id: market_ignore_flip_still_asks
+  message: map spread markets for atp on px
+  page: {}
+  expect:
+    path: skill:market_rules
+    outcome: ask_slot
+    reply_contains: ignored
+
+- id: market_league_from_console_entry
+  message: add markets for px
+  page:
+    path: /entry
+    tab: league
+    entry:
+      league: epl
+      sport: soccer
+  expect:
+    path: skill:market_rules
+    slot_source: console
+
+- id: market_without_league_asks
+  message: add market rules on px
+  page: {}
+  expect:
+    path: skill:market_rules
+    outcome: ask_slot
+    reply_contains: Which league
+
+- id: market_poly_us_football_needs_code
+  message: >-
+    enable these markets for Poly US: moneyline player_passing_attempts
+    player_sacks
+  page: {}
+  expect:
+    path: skill:market_rules
+    outcome: needs_code
+    reply_contains: needs_code
+    must_not_ui: [cart_add, prefill_form]
